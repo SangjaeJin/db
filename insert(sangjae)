@@ -1,0 +1,202 @@
+INSERT INTO `RETAILER` (`Location`,`MgrName`,`MgrPhone`,`Phone`,`Ssn`,`OrderedTimes`) VALUES ("Seoul","Ivor B. Singleton","010-9568-5065","02-877-6046","12806430899",77);
+INSERT INTO `RETAILER` (`Location`,`MgrName`,`MgrPhone`,`Phone`,`Ssn`,`OrderedTimes`) VALUES ("Busan","Barry Y. Fulton","010-4651-6947","051-683-7721","40384067999",18);
+INSERT INTO `RETAILER` (`Location`,`MgrName`,`MgrPhone`,`Phone`,`Ssn`,`OrderedTimes`) VALUES ("Daegu","Genevieve N. Spears","010-4150-8810","053-717-0926","94618426099",93);
+INSERT INTO `RETAILER` (`Location`,`MgrName`,`MgrPhone`,`Phone`,`Ssn`,`OrderedTimes`) VALUES ("Incheon","Nayda R. Nieves","010-2449-2597","032-236-7362","97379568899",27);
+INSERT INTO `RETAILER` (`Location`,`MgrName`,`MgrPhone`,`Phone`,`Ssn`,`OrderedTimes`) VALUES ("Gwangju","Halee K. Bentley","010-2890-2247","062-883-7243","67749053799",18);
+INSERT INTO `RETAILER` (`Location`,`MgrName`,`MgrPhone`,`Phone`,`Ssn`,`OrderedTimes`) VALUES ("Daejeon","Arsenio O. Mcgowan","010-1074-3701","042-381-6636","50558947199",3);
+INSERT INTO `RETAILER` (`Location`,`MgrName`,`MgrPhone`,`Phone`,`Ssn`,`OrderedTimes`) VALUES ("Ulsan","Chancellor J. Drake","010-9568-9380","052-413-2376","18980651099",45);
+INSERT INTO `RETAILER` (`Location`,`MgrName`,`MgrPhone`,`Phone`,`Ssn`,`OrderedTimes`) VALUES ("Sejong","Erasmus C. Powers","010-9069-6724","044-024-4951","80692519199",60);
+INSERT INTO `RETAILER` (`Location`,`MgrName`,`MgrPhone`,`Phone`,`Ssn`,`OrderedTimes`) VALUES ("Gyeonggi","Colleen O. Trevino","010-8695-3537","031-919-7817","75491852999",5);
+INSERT INTO `RETAILER` (`Location`,`MgrName`,`MgrPhone`,`Phone`,`Ssn`,`OrderedTimes`) VALUES ("Gangwon","Kirsten N. Rodriguez","010-1422-5533","033-596-4999","54906025499",18);
+INSERT INTO `RETAILER` (`Location`,`MgrName`,`MgrPhone`,`Phone`,`Ssn`,`OrderedTimes`) VALUES ("Chungbuk","Malik O. Perkins","010-3748-3586","043-744-5709","55803246999",82);
+INSERT INTO `RETAILER` (`Location`,`MgrName`,`MgrPhone`,`Phone`,`Ssn`,`OrderedTimes`) VALUES ("Chungnam","Francesca C. Elliott","041-8813-5062","073-050-0698","66394747199",29);
+INSERT INTO `RETAILER` (`Location`,`MgrName`,`MgrPhone`,`Phone`,`Ssn`,`OrderedTimes`) VALUES ("Jeonbuk","Kimberley T. Blackburn","010-8359-8698","063-372-5871","61529385599",86);
+INSERT INTO `RETAILER` (`Location`,`MgrName`,`MgrPhone`,`Phone`,`Ssn`,`OrderedTimes`) VALUES ("Jeonnam","Cody W. Guzman","010-0447-8627","061-436-0018","15584709299",34);
+INSERT INTO `RETAILER` (`Location`,`MgrName`,`MgrPhone`,`Phone`,`Ssn`,`OrderedTimes`) VALUES ("Kyungpook","Iris S. Santana","010-4771-6676","054-236-8988","93741502099",7);
+INSERT INTO `RETAILER` (`Location`,`MgrName`,`MgrPhone`,`Phone`,`Ssn`,`OrderedTimes`) VALUES ("Kyungnam","Gretchen T. Sellers","010-3331-5270","055-565-6361","86408459699",69);
+INSERT INTO `RETAILER` (`Location`,`MgrName`,`MgrPhone`,`Phone`,`Ssn`,`OrderedTimes`) VALUES ("Jeju","Vance G. West","010-6066-0230","064-849-5809","61229223599",78);
+
+
+INSERT INTO `SHOPPINGBAG` (`Amount`,`C_id`) VALUES (10,"dictum.cursus@sitametmassa.co.uk");          /* 이 부분 5개는 customer 첫 블락 위에서 5개 */
+INSERT INTO `SHOPPINGBAG` (`Amount`,`C_id`) VALUES (10,"sem@CraspellentesqueSed.co.uk");
+INSERT INTO `SHOPPINGBAG` (`Amount`,`C_id`) VALUES (10,"id.ante.Nunc@arcu.org");
+INSERT INTO `SHOPPINGBAG` (`Amount`,`C_id`) VALUES (10,"dignissim.lacus.Aliquam@a.edu");
+INSERT INTO `SHOPPINGBAG` (`Amount`,`C_id`) VALUES (10,"eu.arcu.Morbi@sem.org");
+
+INSERT INTO `SHOPPINGBAG` (`Amount`,`C_id`) VALUES (1,"a.sollicitudin.orci@placeratCrasdictum.ca");   /*이 부분 10개는 커스터머 두번째 블락에서 10개*/
+INSERT INTO `SHOPPINGBAG` (`Amount`,`C_id`) VALUES (1,"Praesent.luctus.Curabitur@milacinia.org");
+INSERT INTO `SHOPPINGBAG` (`Amount`,`C_id`) VALUES (1,"luctus.et@ut.ca");
+INSERT INTO `SHOPPINGBAG` (`Amount`,`C_id`) VALUES (1,"imperdiet@elit.org");
+INSERT INTO `SHOPPINGBAG` (`Amount`,`C_id`) VALUES (1,"ullamcorper@metusIn.co.uk");
+INSERT INTO `SHOPPINGBAG` (`Amount`,`C_id`) VALUES (1,"nulla.ante@Vivamusnonlorem.ca");
+INSERT INTO `SHOPPINGBAG` (`Amount`,`C_id`) VALUES (1,"imperdiet.nec.leo@Ut.co.uk");
+INSERT INTO `SHOPPINGBAG` (`Amount`,`C_id`) VALUES (1,"interdum.feugiat@nisisem.com");
+INSERT INTO `SHOPPINGBAG` (`Amount`,`C_id`) VALUES (1,"gravida@liberoDonecconsectetuer.co.uk");
+INSERT INTO `SHOPPINGBAG` (`Amount`,`C_id`) VALUES (1,"velit.Aliquam@mieleifendegestas.com");
+
+INSERT INTO `SHOPPINGBAG` (`Amount`,`C_id`) VALUES (0,"vel.turpis@ipsumSuspendissenon.com");      /*여기서부터는 커스터머 두번째블락 11개째부터 */
+INSERT INTO `SHOPPINGBAG` (`Amount`,`C_id`) VALUES (0,"quam.Curabitur.vel@at.net");
+INSERT INTO `SHOPPINGBAG` (`Amount`,`C_id`) VALUES (0,"risus.Nunc@scelerisque.com");
+INSERT INTO `SHOPPINGBAG` (`Amount`,`C_id`) VALUES (0,"leo.elementum.sem@parturientmontes.co.uk");
+INSERT INTO `SHOPPINGBAG` (`Amount`,`C_id`) VALUES (0,"molestie@Phasellusfermentumconvallis.net");
+INSERT INTO `SHOPPINGBAG` (`Amount`,`C_id`) VALUES (0,"Suspendisse.ac.metus@nondapibus.org");
+INSERT INTO `SHOPPINGBAG` (`Amount`,`C_id`) VALUES (0,"nascetur.ridiculus@utquamvel.net");
+INSERT INTO `SHOPPINGBAG` (`Amount`,`C_id`) VALUES (0,"libero.Integer.in@id.org");
+INSERT INTO `SHOPPINGBAG` (`Amount`,`C_id`) VALUES (0,"ac.tellus@lobortis.net");
+INSERT INTO `SHOPPINGBAG` (`Amount`,`C_id`) VALUES (0,"at.pretium@adipiscingelitAliquam.ca");
+INSERT INTO `SHOPPINGBAG` (`Amount`,`C_id`) VALUES (0,"feugiat@euturpis.net");
+INSERT INTO `SHOPPINGBAG` (`Amount`,`C_id`) VALUES (0,"sit.amet@Quisque.org");
+INSERT INTO `SHOPPINGBAG` (`Amount`,`C_id`) VALUES (0,"ante.dictum.mi@hymenaeos.co.uk");
+INSERT INTO `SHOPPINGBAG` (`Amount`,`C_id`) VALUES (0,"fringilla.ornare@diamdictum.co.uk");
+INSERT INTO `SHOPPINGBAG` (`Amount`,`C_id`) VALUES (0,"elementum.at@euturpis.org");
+INSERT INTO `SHOPPINGBAG` (`Amount`,`C_id`) VALUES (0,"sed.leo@mifringillami.com");
+INSERT INTO `SHOPPINGBAG` (`Amount`,`C_id`) VALUES (0,"nunc@mi.com");
+INSERT INTO `SHOPPINGBAG` (`Amount`,`C_id`) VALUES (0,"eu.tellus.Phasellus@semvitae.org");
+INSERT INTO `SHOPPINGBAG` (`Amount`,`C_id`) VALUES (0,"ante@nonummyacfeugiat.edu");
+INSERT INTO `SHOPPINGBAG` (`Amount`,`C_id`) VALUES (0,"rhoncus@elit.org");
+INSERT INTO `SHOPPINGBAG` (`Amount`,`C_id`) VALUES (0,"pellentesque@velitdui.com");
+INSERT INTO `SHOPPINGBAG` (`Amount`,`C_id`) VALUES (0,"risus.a.ultricies@Proinvel.edu");
+INSERT INTO `SHOPPINGBAG` (`Amount`,`C_id`) VALUES (0,"neque.pellentesque.massa@tristiquealiquet.org");
+INSERT INTO `SHOPPINGBAG` (`Amount`,`C_id`) VALUES (0,"eu@nisidictum.edu");
+INSERT INTO `SHOPPINGBAG` (`Amount`,`C_id`) VALUES (0,"nisl.Quisque@Nullam.org");
+INSERT INTO `SHOPPINGBAG` (`Amount`,`C_id`) VALUES (0,"metus.In@Sedauctor.org");
+INSERT INTO `SHOPPINGBAG` (`Amount`,`C_id`) VALUES (0,"vulputate@egetmagna.org");
+INSERT INTO `SHOPPINGBAG` (`Amount`,`C_id`) VALUES (0,"arcu@sempererat.edu");
+INSERT INTO `SHOPPINGBAG` (`Amount`,`C_id`) VALUES (0,"fermentum.risus@liberoatauctor.com");
+INSERT INTO `SHOPPINGBAG` (`Amount`,`C_id`) VALUES (0,"dui.in.sodales@ac.com");
+
+
+
+INSERT INTO `CUSTOMER` (`Id`,`Password`,`Address`,`Phone`,'OrderedTimes') VALUES ("dictum.cursus@sitametmassa.co.uk","LJW22WGD8TQ","Seoul 4856 Nisi. Street","010-7479-9668",7);
+INSERT INTO `CUSTOMER` (`Id`,`Password`,`Address`,`Phone`,'OrderedTimes') VALUES ("sem@CraspellentesqueSed.co.uk","DER87MLB4MM","Seoul Ap #537-1676 Sit Rd.","010-3933-3484",8);
+INSERT INTO `CUSTOMER` (`Id`,`Password`,`Address`,`Phone`,'OrderedTimes') VALUES ("id.ante.Nunc@arcu.org","IVE88PCQ7DM","Kyungnam Ap #836-2350 Enim Rd.","010-0017-1954",7);
+INSERT INTO `CUSTOMER` (`Id`,`Password`,`Address`,`Phone`,'OrderedTimes') VALUES ("dignissim.lacus.Aliquam@a.edu","QWQ22LDU6AN","Busan Ap #329-1542 Eros. St.","010-5556-0473",9);
+INSERT INTO `CUSTOMER` (`Id`,`Password`,`Address`,`Phone`,'OrderedTimes') VALUES ("eu.arcu.Morbi@sem.org","XST71LPA0DC","Gwangju 2011 Eros Av.","010-0119-0731",10);
+INSERT INTO `CUSTOMER` (`Id`,`Password`,`Address`,`Phone`,'OrderedTimes') VALUES ("enim.mi@sagittisDuisgravida.edu","ZBJ18XHL3OI","Jeju 3145 Etiam Road","010-0703-0780",11);
+INSERT INTO `CUSTOMER` (`Id`,`Password`,`Address`,`Phone`,'OrderedTimes') VALUES ("justo@Ut.org","JLN32NOO1PZ","Busan P.O. Box 369, 6359 Phasellus Rd.","010-2373-6951",7);
+INSERT INTO `CUSTOMER` (`Id`,`Password`,`Address`,`Phone`,'OrderedTimes') VALUES ("Fusce.dolor@sitametmassa.co.uk","LTE00CGQ9ZY","Seoul 717 Eu Road","010-4668-4136",8);
+INSERT INTO `CUSTOMER` (`Id`,`Password`,`Address`,`Phone`,'OrderedTimes') VALUES ("natoque.penatibus.et@Nullamsuscipit.edu","GNY61MYG8WI","Seoul 270-7396 Tellus Road","010-8396-0347",9);
+INSERT INTO `CUSTOMER` (`Id`,`Password`,`Address`,`Phone`,'OrderedTimes') VALUES ("orci.Donec@nibhAliquam.org","RTZ82KRG1DS","Seoul Ap #481-5575 Vestibulum St.","010-5943-6842",7);
+
+INSERT INTO `CUSTOMER` (`Id`,`Password`,`Address`,`Phone`,`Sex`,`Age`,'OrderedTimes') VALUES ("a.sollicitudin.orci@placeratCrasdictum.ca","VOE55AGW1FC","Seoul 5237 Hendrerit Rd.","010-7146-6032","F",24,7);
+INSERT INTO `CUSTOMER` (`Id`,`Password`,`Address`,`Phone`,`Sex`,`Age`,'OrderedTimes') VALUES ("Praesent.luctus.Curabitur@milacinia.org","YEL52SIP6AJ","Seoul P.O. Box 738, 5527 Est. Rd.","010-1808-3925","F",20,9);
+INSERT INTO `CUSTOMER` (`Id`,`Password`,`Address`,`Phone`,`Sex`,`Age`,'OrderedTimes') VALUES ("luctus.et@ut.ca","OIY82CAA2YG","Seoul P.O. Box 615, 5664 Luctus, Avenue","010-1992-0962","F",40,11);
+INSERT INTO `CUSTOMER` (`Id`,`Password`,`Address`,`Phone`,`Sex`,`Age`,'OrderedTimes') VALUES ("imperdiet@elit.org","EFN55XJJ9TC","Seoul Ap #781-7348 Sodales. Av.","010-8298-4762","F",42,8);
+INSERT INTO `CUSTOMER` (`Id`,`Password`,`Address`,`Phone`,`Sex`,`Age`,'OrderedTimes') VALUES ("ullamcorper@metusIn.co.uk","IGQ76KKW5ON","Seoul 4053 Mauris, Av.","010-8949-6832","F",30,8);
+INSERT INTO `CUSTOMER` (`Id`,`Password`,`Address`,`Phone`,`Sex`,`Age`,'OrderedTimes') VALUES ("nulla.ante@Vivamusnonlorem.ca","ECB06AKQ4YN","Seoul 1112 Ante Avenue","010-3202-2162","M",35,1);
+INSERT INTO `CUSTOMER` (`Id`,`Password`,`Address`,`Phone`,`Sex`,`Age`,'OrderedTimes') VALUES ("imperdiet.nec.leo@Ut.co.uk","LQH12ZWX7AM","Seoul 3394 Eu St.","010-3764-6612","F",36,2);
+INSERT INTO `CUSTOMER` (`Id`,`Password`,`Address`,`Phone`,`Sex`,`Age`,'OrderedTimes') VALUES ("interdum.feugiat@nisisem.com","NPL90DSE3RW","Seoul P.O. Box 412, 6599 Dolor Rd.","010-8253-2435","M",31,3);
+INSERT INTO `CUSTOMER` (`Id`,`Password`,`Address`,`Phone`,`Sex`,`Age`,'OrderedTimes') VALUES ("gravida@liberoDonecconsectetuer.co.uk","DAK99OJR0AM","Seoul 438-6900 Nulla Av.","010-2141-3407","M",42,3);
+INSERT INTO `CUSTOMER` (`Id`,`Password`,`Address`,`Phone`,`Sex`,`Age`,'OrderedTimes') VALUES ("velit.Aliquam@mieleifendegestas.com","IQL25UQN9DN","Seoul P.O. Box 326, 9611 Leo. Road","010-1681-6313","F",47,3);
+INSERT INTO `CUSTOMER` (`Id`,`Password`,`Address`,`Phone`,`Sex`,`Age`,'OrderedTimes') VALUES ("vel.turpis@ipsumSuspendissenon.com","VNO55CEI1TS","Seoul P.O. Box 394, 5239 Sapien. St.","010-5581-7453","M",14,2);
+INSERT INTO `CUSTOMER` (`Id`,`Password`,`Address`,`Phone`,`Sex`,`Age`,'OrderedTimes') VALUES ("quam.Curabitur.vel@at.net","BPZ43CCY1MB","Seoul P.O. Box 491, 1098 Mauris Rd.","010-8324-1877","F",48,1);
+INSERT INTO `CUSTOMER` (`Id`,`Password`,`Address`,`Phone`,`Sex`,`Age`,'OrderedTimes') VALUES ("risus.Nunc@scelerisque.com","YFP34HUE8PA","Seoul Ap #122-2795 Sodales Avenue","010-3451-0896","M",2);
+INSERT INTO `CUSTOMER` (`Id`,`Password`,`Address`,`Phone`,`Sex`,`Age`,'OrderedTimes') VALUES ("leo.elementum.sem@parturientmontes.co.uk","PZZ98LOD5JV","Seoul 220-5853 Sed Road","010-6317-7846","M",35,4);
+INSERT INTO `CUSTOMER` (`Id`,`Password`,`Address`,`Phone`,`Sex`,`Age`,'OrderedTimes') VALUES ("molestie@Phasellusfermentumconvallis.net","UQR64GQH1VN","Seoul Ap #849-4955 Fusce Rd.","010-0320-7131","M",45,2);
+INSERT INTO `CUSTOMER` (`Id`,`Password`,`Address`,`Phone`,`Sex`,`Age`,'OrderedTimes') VALUES ("Suspendisse.ac.metus@nondapibus.org","GSZ85KUZ9VF","Seoul Ap #607-6637 Elit. Ave","010-5883-7929","F",12,1);
+INSERT INTO `CUSTOMER` (`Id`,`Password`,`Address`,`Phone`,`Sex`,`Age`,'OrderedTimes') VALUES ("nascetur.ridiculus@utquamvel.net","SCL02RIU0WN","Seoul Ap #207-7546 Ligula Road","010-2681-3079","F",20,3);
+INSERT INTO `CUSTOMER` (`Id`,`Password`,`Address`,`Phone`,`Sex`,`Age`,'OrderedTimes') VALUES ("libero.Integer.in@id.org","QDX24OQJ2JB","Jeju 1288 Eu, St.","010-9928-6103","F",40,5);
+INSERT INTO `CUSTOMER` (`Id`,`Password`,`Address`,`Phone`,`Sex`,`Age`,'OrderedTimes') VALUES ("ac.tellus@lobortis.net","WXR37NOH5HF","Chungnam P.O. Box 671, 6689 Elementum, Avenue","010-0354-9337","M",23,3);
+INSERT INTO `CUSTOMER` (`Id`,`Password`,`Address`,`Phone`,`Sex`,`Age`,'OrderedTimes') VALUES ("at.pretium@adipiscingelitAliquam.ca","ZOG18MLN3HU","Gwangju Ap #512-5756 Malesuada Rd.","010-3404-8474","F",22,1);
+INSERT INTO `CUSTOMER` (`Id`,`Password`,`Address`,`Phone`,`Sex`,`Age`,'OrderedTimes') VALUES ("feugiat@euturpis.net","USB16RFY7LO","Ulsan Ap #168-9386 Penatibus Street","010-1448-7381","M",20,4);
+INSERT INTO `CUSTOMER` (`Id`,`Password`,`Address`,`Phone`,`Sex`,`Age`,'OrderedTimes') VALUES ("sit.amet@Quisque.org","LGF08MHT6FE","Ulsan P.O. Box 932, 8204 Sapien. Rd.","010-5270-8776","F",22,2);
+INSERT INTO `CUSTOMER` (`Id`,`Password`,`Address`,`Phone`,`Sex`,`Age`,'OrderedTimes') VALUES ("ante.dictum.mi@hymenaeos.co.uk","BUC79JAA5DP","Busan 6419 Risus. Rd.","010-7422-6440","M",20,3);
+INSERT INTO `CUSTOMER` (`Id`,`Password`,`Address`,`Phone`,`Sex`,`Age`,'OrderedTimes') VALUES ("fringilla.ornare@diamdictum.co.uk","HQX00MBJ4WD","Ulsan P.O. Box 620, 2234 Non, Road","010-1279-4683","M",18,2);
+INSERT INTO `CUSTOMER` (`Id`,`Password`,`Address`,`Phone`,`Sex`,`Age`,'OrderedTimes') VALUES ("elementum.at@euturpis.org","NCE05NZG9WP","Kyungnam Ap #129-4749 Nostra, Rd.","010-7608-7462","F",17,3);
+INSERT INTO `CUSTOMER` (`Id`,`Password`,`Address`,`Phone`,`Sex`,'Age','OrderedTimes') VALUES ("sed.leo@mifringillami.com","CKM78KXY9QS","Incheon 6919 Egestas St.","010-3984-5358","F",36,3);
+INSERT INTO `CUSTOMER` (`Id`,`Password`,`Address`,`Phone`,`Sex`,`Age`,'OrderedTimes') VALUES ("nunc@mi.com","SPR12XDK9FE","Daegu 6321 Sollicitudin Rd.","010-6541-7177","M",44,4);
+INSERT INTO `CUSTOMER` (`Id`,`Password`,`Address`,`Phone`,`Sex`,`Age`,'OrderedTimes') VALUES ("eu.tellus.Phasellus@semvitae.org","Daegu QVL71CIS4YX","Ap #627-9662 Urna. Ave","010-5313-2852","F",26,4);
+INSERT INTO `CUSTOMER` (`Id`,`Password`,`Address`,`Phone`,`Sex`,`Age`,'OrderedTimes') VALUES ("ante@nonummyacfeugiat.edu","Daegu ALK15APS8YI","Ap #429-3248 Mi Rd.","010-1043-2882","F",13,2);
+INSERT INTO `CUSTOMER` (`Id`,`Password`,`Address`,`Phone`,`Sex`,`Age`,'OrderedTimes') VALUES ("rhoncus@elit.org","BEH08HJV7AB","Daegu 215-8142 Proin Rd.","010-0989-4482","M",24,5);
+
+INSERT INTO `CUSTOMER` (`Id`,`Password`,`Address`,`Phone`,`Sex`,`Age`,`Job`,'OrderedTimes') VALUES ("pellentesque@velitdui.com","ZCS37PJN5NP","Seoul 1508 Cursus St.","010-0615-8002”,”F”,23,"Computer Engineer",5);
+INSERT INTO `CUSTOMER` (`Id`,`Password`,`Address`,`Phone`,`Sex`,`Age`,`Job`,'OrderedTimes') VALUES ("risus.a.ultricies@Proinvel.edu","QSE42SMV2QU","Seoul P.O. Box 920, 5525 Ac Ave","010-0747-9350”,”M”,34,"Doctor",2);
+INSERT INTO `CUSTOMER` (`Id`,`Password`,`Address`,`Phone`,`Sex`,`Age`,`Job`,'OrderedTimes') VALUES ("neque.pellentesque.massa@tristiquealiquet.org","RUU01HAW5YW","Seoul 622-1041 Mauris Street","010-5973-6867”,”F”,43,"Teacher",2);
+INSERT INTO `CUSTOMER` (`Id`,`Password`,`Address`,`Phone`,`Sex`,`Age`,`Job`,'OrderedTimes') VALUES ("eu@nisidictum.edu","HZQ75MBH5HE","Seoul Ap #486-476 Lorem Rd.","010-0253-5887”,”M”,26,"Singer",2);
+INSERT INTO `CUSTOMER` (`Id`,`Password`,`Address`,`Phone`,`Sex`,`Age`,`Job`,'OrderedTimes') VALUES ("nisl.Quisque@Nullam.org","EQS18SRX8TY","Seoul 616-3162 Nunc Ave","010-1495-8975","M",47,"Actor",1);
+INSERT INTO `CUSTOMER` (`Id`,`Password`,`Address`,`Phone`,`Sex`,`Age`,`Job`,'OrderedTimes') VALUES ("metus.In@Sedauctor.org","YIC73SSL3FO","Seoul Ap #945-226 Enim. St.","010-1793-6323”,”F”,50,"Actress",1);
+INSERT INTO `CUSTOMER` (`Id`,`Password`,`Address`,`Phone`,`Sex`,`Age`,`Job`,'OrderedTimes') VALUES ("vulputate@egetmagna.org","DPX30JFX5GY","Seoul P.O. Box 176, 7265 Cubilia Av.","010-8289-8863”,”M”,35,"Student",2);
+INSERT INTO `CUSTOMER` (`Id`,`Password`,`Address`,`Phone`,`Sex`,`Age`,`Job`,'OrderedTimes') VALUES ("arcu@sempererat.edu","CKJ42ZGN3ES","Seoul 291-2365 Consectetuer Ave","010-6348-9258”,”M”,50,"Student",5);
+INSERT INTO `CUSTOMER` (`Id`,`Password`,`Address`,`Phone`,`Sex`,`Age`,`Job`,'OrderedTimes') VALUES ("fermentum.risus@liberoatauctor.com","QKG94NLM4DM","Seoul 1309 Donec Rd.","010-0330-0381”,”F”,24,"Professor",2);
+INSERT INTO `CUSTOMER` (`Id`,`Password`,`Address`,`Phone`,`Sex`,`Age`,`Job`,'OrderedTimes') VALUES ("dui.in.sodales@ac.com","MIV86UBM2LE","Daegu 399-3816 Ornare Rd.","010-7244-8765","M",24,"Teacher",2);
+INSERT INTO `CUSTOMER` (`Id`,`Password`,`Address`,`Phone`,`Sex`,`Age`,`Job`) VALUES ("Nullam@enimEtiam.ca","BMA56XUV7RW","Daegu P.O. Box 645, 2376 Dolor Avenue","010-1617-6542”,”F”,27,"Fireman");
+INSERT INTO `CUSTOMER` (`Id`,`Password`,`Address`,`Phone`,`Sex`,`Age`,`Job`) VALUES ("Duis.at.lacus@Phaselluselitpede.com","HKR53VKZ8AL","Daegu 5760 Sollicitudin Avenue","010-8935-5723”,”M”,16,"Cop");
+INSERT INTO `CUSTOMER` (`Id`,`Password`,`Address`,`Phone`,`Sex`,`Age`,`Job`) VALUES ("Integer.mollis@penatibus.org","TIW09YMM5IF","Daegu Ap #919-9536 Eu Avenue","010-5651-6476”,”M”,13,"Nurse");
+INSERT INTO `CUSTOMER` (`Id`,`Password`,`Address`,`Phone`,`Sex`,`Age`,`Job`) VALUES ("vulputate.posuere@elitpretium.com","KIE65BOC7VR","Daegu 407-5657 Enim. Rd.","010-8462-7854","F",34,"Writter");
+INSERT INTO `CUSTOMER` (`Id`,`Password`,`Address`,`Phone`,`Sex`,`Age`,`Job`) VALUES ("Phasellus@molestie.com","PPD98SAQ6HW","Daegu 333-3724 Suspendisse Rd.","010-1227-8401”,”F”,46,"Movie director");
+
+
+INSERT INTO `IS_IN` (`I_ssn`,`S_c_id`) VALUES ("1000017646641","dictum.cursus@sitametmassa.co.uk");
+INSERT INTO `IS_IN` (`I_ssn`,`S_c_id`) VALUES ("1000018349957","dictum.cursus@sitametmassa.co.uk");
+INSERT INTO `IS_IN` (`I_ssn`,`S_c_id`) VALUES ("1000028309028","dictum.cursus@sitametmassa.co.uk");
+INSERT INTO `IS_IN` (`I_ssn`,`S_c_id`) VALUES ("1000028160226","dictum.cursus@sitametmassa.co.uk");
+INSERT INTO `IS_IN` (`I_ssn`,`S_c_id`) VALUES ("1000027953165","dictum.cursus@sitametmassa.co.uk");
+INSERT INTO `IS_IN` (`I_ssn`,`S_c_id`) VALUES ("1000028764714”,"dictum.cursus@sitametmassa.co.uk");
+INSERT INTO `IS_IN` (`I_ssn`,`S_c_id`) VALUES ("1000028266381","dictum.cursus@sitametmassa.co.uk");
+INSERT INTO `IS_IN` (`I_ssn`,`S_c_id`) VALUES ("1000020939463","dictum.cursus@sitametmassa.co.uk");
+INSERT INTO `IS_IN` (`I_ssn`,`S_c_id`) VALUES ("1000029724878","dictum.cursus@sitametmassa.co.uk");
+INSERT INTO `IS_IN` (`I_ssn`,`S_c_id`) VALUES ("1000029714198","dictum.cursus@sitametmassa.co.uk");
+
+INSERT INTO `IS_IN` (`I_ssn`,`S_c_id`) VALUES ("1000018568863”,"sem@CraspellentesqueSed.co.uk");
+INSERT INTO `IS_IN` (`I_ssn`,`S_c_id`) VALUES ("1000021060172”,"sem@CraspellentesqueSed.co.uk");
+INSERT INTO `IS_IN` (`I_ssn`,`S_c_id`) VALUES ("1000005553945”,"sem@CraspellentesqueSed.co.uk");
+INSERT INTO `IS_IN` (`I_ssn`,`S_c_id`) VALUES ("1000029471555”,"sem@CraspellentesqueSed.co.uk");
+INSERT INTO `IS_IN` (`I_ssn`,`S_c_id`) VALUES ("1000029266828”,"sem@CraspellentesqueSed.co.uk");
+INSERT INTO `IS_IN` (`I_ssn`,`S_c_id`) VALUES ("0000005410098”,"sem@CraspellentesqueSed.co.uk");
+INSERT INTO `IS_IN` (`I_ssn`,`S_c_id`) VALUES ("1000023093627”,"sem@CraspellentesqueSed.co.uk");
+INSERT INTO `IS_IN` (`I_ssn`,`S_c_id`) VALUES ("1000028935441”,"sem@CraspellentesqueSed.co.uk");
+INSERT INTO `IS_IN` (`I_ssn`,`S_c_id`) VALUES ("1000027532832”,"sem@CraspellentesqueSed.co.uk");
+INSERT INTO `IS_IN` (`I_ssn`,`S_c_id`) VALUES ("1000025032666”,"sem@CraspellentesqueSed.co.uk");
+
+INSERT INTO `IS_IN` (`I_ssn`,`S_c_id`) VALUES ("1000029127113”,"id.ante.Nunc@arcu.org");
+INSERT INTO `IS_IN` (`I_ssn`,`S_c_id`) VALUES ("1000025881970”,"id.ante.Nunc@arcu.org");
+INSERT INTO `IS_IN` (`I_ssn`,`S_c_id`) VALUES ("1000029004078”,"id.ante.Nunc@arcu.org");
+INSERT INTO `IS_IN` (`I_ssn`,`S_c_id`) VALUES ("0000007691302”,"id.ante.Nunc@arcu.org");
+INSERT INTO `IS_IN` (`I_ssn`,`S_c_id`) VALUES ("1000028286599”,"id.ante.Nunc@arcu.org");
+INSERT INTO `IS_IN` (`I_ssn`,`S_c_id`) VALUES ("1000025197143”,"id.ante.Nunc@arcu.org");
+INSERT INTO `IS_IN` (`I_ssn`,`S_c_id`) VALUES ("1000025031926”,"id.ante.Nunc@arcu.org");
+INSERT INTO `IS_IN` (`I_ssn`,`S_c_id`) VALUES ("0000010626950”,"id.ante.Nunc@arcu.org");
+INSERT INTO `IS_IN` (`I_ssn`,`S_c_id`) VALUES ("0000010626624”,"id.ante.Nunc@arcu.org");
+INSERT INTO `IS_IN` (`I_ssn`,`S_c_id`) VALUES ("1000025450109”,"id.ante.Nunc@arcu.org");
+
+INSERT INTO `IS_IN` (`I_ssn`,`S_c_id`) VALUES ("1000013038780”,"dignissim.lacus.Aliquam@a.edu");
+INSERT INTO `IS_IN` (`I_ssn`,`S_c_id`) VALUES ("1000025804909”,"dignissim.lacus.Aliquam@a.edu");
+INSERT INTO `IS_IN` (`I_ssn`,`S_c_id`) VALUES ("1000028974483”,"dignissim.lacus.Aliquam@a.edu");
+INSERT INTO `IS_IN` (`I_ssn`,`S_c_id`) VALUES ("1000029573621”,"dignissim.lacus.Aliquam@a.edu");
+INSERT INTO `IS_IN` (`I_ssn`,`S_c_id`) VALUES ("1000029496997”,"dignissim.lacus.Aliquam@a.edu");
+INSERT INTO `IS_IN` (`I_ssn`,`S_c_id`) VALUES ("100002829177”,"dignissim.lacus.Aliquam@a.edu");
+INSERT INTO `IS_IN` (`I_ssn`,`S_c_id`) VALUES ("1000029105357”,"dignissim.lacus.Aliquam@a.edu");
+INSERT INTO `IS_IN` (`I_ssn`,`S_c_id`) VALUES ("1000029105352”,"dignissim.lacus.Aliquam@a.edu");
+INSERT INTO `IS_IN` (`I_ssn`,`S_c_id`) VALUES ("1000028950139”,"dignissim.lacus.Aliquam@a.edu");
+INSERT INTO `IS_IN` (`I_ssn`,`S_c_id`) VALUES ("1000028699843”,"dignissim.lacus.Aliquam@a.edu");
+
+INSERT INTO `IS_IN` (`I_ssn`,`S_c_id`) VALUES ("1000029105032”,"eu.arcu.Morbi@sem.org");
+INSERT INTO `IS_IN` (`I_ssn`,`S_c_id`) VALUES ("1000029105024”,"eu.arcu.Morbi@sem.org");
+INSERT INTO `IS_IN` (`I_ssn`,`S_c_id`) VALUES ("1000021416651”,"eu.arcu.Morbi@sem.org");
+INSERT INTO `IS_IN` (`I_ssn`,`S_c_id`) VALUES ("1000029105034”,"eu.arcu.Morbi@sem.org");
+INSERT INTO `IS_IN` (`I_ssn`,`S_c_id`) VALUES ("1000028037662”,"eu.arcu.Morbi@sem.org");
+INSERT INTO `IS_IN` (`I_ssn`,`S_c_id`) VALUES ("1000017646641","eu.arcu.Morbi@sem.org");
+INSERT INTO `IS_IN` (`I_ssn`,`S_c_id`) VALUES ("1000018349957","eu.arcu.Morbi@sem.org");
+INSERT INTO `IS_IN` (`I_ssn`,`S_c_id`) VALUES ("1000028309028","eu.arcu.Morbi@sem.org");
+INSERT INTO `IS_IN` (`I_ssn`,`S_c_id`) VALUES ("1000028160226","eu.arcu.Morbi@sem.org");
+INSERT INTO `IS_IN` (`I_ssn`,`S_c_id`) VALUES ("1000027953165","eu.arcu.Morbi@sem.org");
+
+INSERT INTO `IS_IN` ('I_ssn',`S_c_id`) VALUES ("1000017646641","a.sollicitudin.orci@placeratCrasdictum.ca");   
+INSERT INTO `IS_IN` ('I_ssn',`S_c_id`) VALUES ("1000017646641","Praesent.luctus.Curabitur@milacinia.org");
+INSERT INTO `IS_IN` ('I_ssn',`S_c_id`) VALUES ("1000017646641","luctus.et@ut.ca");
+INSERT INTO `IS_IN` ('I_ssn',`S_c_id`) VALUES ("1000017646641","imperdiet@elit.org");
+INSERT INTO `IS_IN` ('I_ssn',`S_c_id`) VALUES ("1000017646641","ullamcorper@metusIn.co.uk");
+INSERT INTO `IS_IN` ('I_ssn',`S_c_id`) VALUES ("1000017646641","nulla.ante@Vivamusnonlorem.ca");
+INSERT INTO `IS_IN` ('I_ssn',`S_c_id`) VALUES ("1000017646641","imperdiet.nec.leo@Ut.co.uk");
+INSERT INTO `IS_IN` ('I_ssn',`S_c_id`) VALUES ("1000017646641","interdum.feugiat@nisisem.com");
+INSERT INTO `IS_IN` ('I_ssn',`S_c_id`) VALUES ("1000017646641","gravida@liberoDonecconsectetuer.co.uk");
+INSERT INTO `IS_IN` ('I_ssn',`S_c_id`) VALUES ("1000017646641","velit.Aliquam@mieleifendegestas.com");
+
+INSERT INTO 'CATEGORY' ('Class','SubClass','Amount') VALUES ( "과일/견과", "키위/참다래", 5);
+INSERT INTO 'CATEGORY' ('Class','SubClass','Amount') VALUES ( "과일/견과" ,"바나나/오렌지/외국과일", 5);
+INSERT INTO 'CATEGORY' ('Class','SubClass','Amount') VALUES ( "과일/견과" ,"감귤/한라봉", 5);
+INSERT INTO 'CATEGORY' ('Class','SubClass','Amount') VALUES ( "정육/계란류","소고기", 5);
+INSERT INTO 'CATEGORY' ('Class','SubClass','Amount') VALUES ("정육/계란류" ,"돼지고기", 5);
+INSERT INTO 'CATEGORY' ('Class','SubClass','Amount') VALUES ("정육/계란류" ,"수입육", 5);
+INSERT INTO 'CATEGORY' ('Class','SubClass','Amount') VALUES ("수산물/해산물/건어물" ,"오징어/낙지", 5);
+INSERT INTO 'CATEGORY' ('Class','SubClass','Amount') VALUES ("수산물/해산물/건어물" ,"전복/굴/조개류", 5);
