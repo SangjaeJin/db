@@ -1,4 +1,4 @@
-alter table ITEM add constraint fk_Cat_sub FOREIGN KEY(C_sub) references CATEGORY(subClass) on delete CASCADE;
+alter table ITEM add constraint fk_Cat_sub FOREIGN KEY(Cat_sub) references CATEGORY(subClass) on delete cascade;
 
 alter table ITEM add constraint fk_P_ssn FOREIGN KEY(P_ssn) references PRODUCER(Ssn) on delete CASCADE;
 
