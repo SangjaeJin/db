@@ -1,0 +1,1152 @@
+INSERT INTO `ITEM` (`Amount`,`Importer`,`Made_date`,`Ssn`,`Price`,`Made_place`,`Maker`,`Name`,`Cat_sub`,`P_ssn`) VALUES (0,”KKMC","Oct 9, 2018","1000017646641",19900,”NewZealand”,”KKMC","제스프리 골드키위","키위/참다래","1672072628799");
+INSERT INTO `ITEM` (`Amount`,`Importer`,`Made_date`,`Ssn`,`Price`,`Made_place`,`Maker`,`Name`,`Cat_sub`,`P_ssn`) VALUES (0,”제스프리인터내셔널코리아","Jul 31, 2018","1000018349957",13900,"NewZealand","KKMC","뉴질랜드 그린키위 점보 개별 118g내외 20개","키위/참다래”,”1658042114399");
+INSERT INTO `ITEM` (`Amount`,`Importer`,`Made_date`,`Ssn`,`Price`,`Made_place`,`Maker`,`Name`,`Cat_sub`,`P_ssn`) VALUES (0,”(주)수일통상","Apr 30, 2018","1000028309028",12900,”NewZealand”,”제스프리","제스프리 그린키위 16개입(98g 내외)”,”키위/참다래”,”1679050166899");
+INSERT INTO `ITEM` (`Amount`,`Importer`,`Made_date`,`Ssn`,`Price`,`Made_place`,`Maker`,`Name`,`Cat_sub`,`P_ssn`) VALUES (0,”진원무역","May 13, 2018","1000028160226",12800,”NewZealand”,”온누리팜","그린키위 15개입”,”키위/참다래”,”1683112632799");
+
+INSERT INTO `ITEM` (`Amount`,`Importer`,`Made_date`,`Ssn`,`Price`,`Made_place`,`Maker`,`Name`,`Cat_sub`,`P_ssn`) VALUES (17,”제스프리","Jul 12, 2018","1000027953165",48900,”NewZealand”,”한국참다래유통사업단","제스프리 썬 골드키위 48개입 5.6kg”,”키위/참다래”,”1675021626499");
+INSERT INTO `ITEM` (`Amount`,`Importer`,`Made_date`,`Ssn`,`Price`,`Made_place`,`Maker`,`Name`,`Cat_sub`,`P_ssn`) VALUES (17,”신세계 푸드","Jul 28, 2018","1000028764714”,2980”,”Ecuador”,”신세계 푸드","바나밸리 바나나 1봉 / 1.3 kg 내외","바나나/오렌지/외국과일","1623102481799");
+INSERT INTO `ITEM` (`Amount`,`Importer`,`Made_date`,`Ssn`,`Price`,`Made_place`,`Maker`,`Name`,`Cat_sub`,`P_ssn`) VALUES (17,”스미후루코리아","Aug 31, 2018","1000028266381",12400,”Philippines”,”스미후루코리아”,”스위트마운틴 바나나 2팩 2kg","바나나/오렌지/외국과일","1679102930299");
+INSERT INTO `ITEM` (`Amount`,`Importer`,`Made_date`,`Ssn`,`Price`,`Made_place`,`Maker`,`Name`,`Cat_sub`,`P_ssn`) VALUES (17,”(주)썬자이","May 10, 2018","1000020939463",13900,”Thailand”,”AROY FARM CO LTD","태국망고 2개입 600g내외","바나나/오렌지/외국과일","1639110432399");
+INSERT INTO `ITEM` (`Amount`,`Importer`,`Made_date`,`Ssn`,`Price`,`Made_place`,`Maker`,`Name`,`Cat_sub`,`P_ssn`) VALUES (17,”글로벌통상 (주)","Sep 4, 2018","1000029724878",11900,”Republic of South Afreeca”,”ONIBASE PTY LTD","남아공산 자몽 7입 2.1kg내외","바나나/오렌지/외국과일","1615090776999");
+INSERT INTO `ITEM` (`Amount`,`Importer`,`Made_date`,`Ssn`,`Price`,`Made_place`,`Maker`,`Name`,`Cat_sub`,`P_ssn`) VALUES (17,”수일통상(주)","Sep 28, 2018","1000029714198",19900,”USA”,”MISSION PRODUCE INC","미국 아보카도 5개입 1kg 내외","바나나/오렌지/외국과일","1677053024699");
+INSERT INTO `ITEM` (`Amount`,`Importer`,`Made_date`,`Ssn`,`Price`,`Made_place`,`Maker`,`Name`,`Cat_sub`,`P_ssn`) VALUES (17,null,”May 24, 2018","1000018568863”,59900,”Korea”,”영농조합법인 미담","제주 서귀포 황금향 5kg 21-26과","감귤/한라봉","1601102702899");
+INSERT INTO `ITEM` (`Amount`,`Importer`,`Made_date`,`Ssn`,`Price`,`Made_place`,`Maker`,`Name`,`Cat_sub`,`P_ssn`) VALUES (17,null,"May 20, 2018","1000021060172”,22900,”Korea”,”증원에프엔디”,”프리미엄 제주 불로초 고급감귤 1.5kg 내외 1박스","감귤/한라봉","1688052140599");
+INSERT INTO `ITEM` (`Amount`,`Importer`,`Made_date`,`Ssn`,`Price`,`Made_place`,`Maker`,`Name`,`Cat_sub`,`P_ssn`) VALUES (17,null,"Feb 21, 2018","1000005553945”,26900,”Korea”,”위미농협","문주왕 하우스감귤 3kg","감귤/한라봉","1640112016799");
+INSERT INTO `ITEM` (`Amount`,`Importer`,`Made_date`,`Ssn`,`Price`,`Made_place`,`Maker`,`Name`,`Cat_sub`,`P_ssn`) VALUES (17,null,"Jul 20, 2018","1000029471555”,25900,”Korea”,”농업회사법인주식회사 참","제주 황금향 2kg ","감귤/한라봉","1675110238599");
+
+INSERT INTO `ITEM` (`Amount`,`Importer`,`Made_date`,`Ssn`,`Price`,`Made_place`,`Maker`,`Name`,`Cat_sub`,`P_ssn`) VALUES (1700,null,"Jun 26, 2018","1000029266828”,23800,”Korea”,”한라농원","한라농원 제주 황금향 1.5kg 중과","감귤/한라봉","1615010351699");
+INSERT INTO `ITEM` (`Amount`,`Importer`,`Made_date`,`Ssn`,`Price`,`Made_place`,`Maker`,`Name`,`Cat_sub`,`P_ssn`) VALUES (1700,null,”Jan 19, 2018","0000005410098”,128000,”Korea”,”㈜명품횡성청정한우","명품 횡성한우 정성가득 정육세트 1호","소고기","1649031420499");
+INSERT INTO `ITEM` (`Amount`,`Importer`,`Made_date`,`Ssn`,`Price`,`Made_place`,`Maker`,`Name`,`Cat_sub`,`P_ssn`) VALUES (1700,null,”Jul 23, 2018","1000023093627”,159000,”Korea”,”㈜명품횡성청정한우","명품 횡성한우 정성가득 정육세트 2호","소고기","1629052853199");
+INSERT INTO `ITEM` (`Amount`,`Importer`,`Made_date`,`Ssn`,`Price`,`Made_place`,`Maker`,`Name`,`Cat_sub`,`P_ssn`) VALUES (1700,null,”Feb 20, 2018","1000028935441”,26400,”Korea”,”(주)태우그린푸드","한우 1등급 불고기 200g ","소고기","1627010914499");
+INSERT INTO `ITEM` (`Amount`,`Importer`,`Made_date`,`Ssn`,`Price`,`Made_place`,`Maker`,`Name`,`Cat_sub`,`P_ssn`) VALUES (1700,null,”Sep 13, 2018","1000027532832”,21900,”Korea”,”설성푸드 주식회사","무항생제 한우 부채살 200g","소고기","1689070116599");
+INSERT INTO `ITEM` (`Amount`,`Importer`,`Made_date`,`Ssn`,`Price`,`Made_place`,`Maker`,`Name`,`Cat_sub`,`P_ssn`) VALUES (1700,null,”Jan 3, 2018","1000025032666”,23900,”Korea”,”설성푸드 주식회사","무항생제 친환경 한우 차돌박이 300g","소고기","1696031443599");
+
+INSERT INTO `ITEM` (`Amount`,`Importer`,`Made_date`,`Ssn`,`Price`,`Made_place`,`Maker`,`Name`,`Cat_sub`,`P_ssn`) VALUES (1700,null,”Feb 25, 2018","1000029127113”,18800,”Korea”,”(주)보담","냉장칼집목심구이용600g","돼지고기","1619032313599");
+INSERT INTO `ITEM` (`Amount`,`Importer`,`Made_date`,`Ssn`,`Price`,`Made_place`,`Maker`,`Name`,`Cat_sub`,`P_ssn`) VALUES (1700,null,”Jun 28, 2018","1000025881970”,11000,”Korea”,”(주)태흥한돈","냉장 오겹살 구이 (500g)","돼지고기","1694111480099");
+INSERT INTO `ITEM` (`Amount`,`Importer`,`Made_date`,`Ssn`,`Price`,`Made_place`,`Maker`,`Name`,`Cat_sub`,`P_ssn`) VALUES (1700,null,”Jul 8, 2018","1000029004078”,6900,”Korea”,”(주)도드람푸드","냉장 도깨비살 400g","돼지고기","1601052880699");
+INSERT INTO `ITEM` (`Amount`,`Importer`,`Made_date`,`Ssn`,`Price`,`Made_place`,`Maker`,`Name`,`Cat_sub`,`P_ssn`) VALUES (1700,null,”Jun 16, 2018","0000007691302”,7900,”Korea”,”(주)도드람푸드","국내산 갈비찜용 600g","돼지고기","1665022765499");
+INSERT INTO `ITEM` (`Amount`,`Importer`,`Made_date`,`Ssn`,`Price`,`Made_place`,`Maker`,`Name`,`Cat_sub`,`P_ssn`) VALUES (1700,null,”Sep 20, 2018","1000028286599”,13900,”Korea”,”(주)도드람푸드","숯불구이용 칼집 목심/삼겹살 500g”,”돼지고기”,”1665123094999");
+
+INSERT INTO `ITEM` (`Amount`,`Importer`,`Made_date`,`Ssn`,`Price`,`Made_place`,`Maker`,`Name`,`Cat_sub`,`P_ssn`) VALUES (1700,”㈜국제식품진천공장”,”Aug 16, 2018","1000025197143”,9900,”USA”,”㈜국제식품진천공장","La갈비 선물세트 2kg 초이스급","수입육","1625040783599");
+INSERT INTO `ITEM` (`Amount`,`Importer`,`Made_date`,`Ssn`,`Price`,`Made_place`,`Maker`,`Name`,`Cat_sub`,`P_ssn`) VALUES (1700,"(주)하이랜드푸드","Aug 26, 2018","1000025031926”,4900,”Spain”,”(주)웰본","냉동 벌집삼겹살 숯불구이용(절단)","수입육","1620042438999");
+INSERT INTO `ITEM` (`Amount`,`Importer`,`Made_date`,`Ssn`,`Price`,`Made_place`,`Maker`,`Name`,`Cat_sub`,`P_ssn`) VALUES (1700,"(주)세경상역","Jan 24, 2018","0000010626950”,21500,”Austrailia”,”(주)보담","호주산 냉동우육불고기 1kg","수입육","1683052686999");
+INSERT INTO `ITEM` (`Amount`,`Importer`,`Made_date`,`Ssn`,`Price`,`Made_place`,`Maker`,`Name`,`Cat_sub`,`P_ssn`) VALUES (1700,"(주)세경상역","Feb 16, 2018","0000010626624”,21500,”Austrailia”,”(주)보담","호주산 냉동우육 국거리 덩어리1kg","수입육","1653060908099");
+INSERT INTO `ITEM` (`Amount`,`Importer`,`Made_date`,`Ssn`,`Price`,`Made_place`,`Maker`,`Name`,`Cat_sub`,`P_ssn`) VALUES (1700,"(주)하이랜드푸드","Jul 14, 2018","1000025450109”,3500,”Spain”,”(주)웰본","냉동 돼지 다짐육 1kg","수입육","1645092157499");
+
+INSERT INTO `ITEM` (`Amount`,`Importer`,`Made_date`,`Ssn`,`Price`,`Made_place`,`Maker`,`Name`,`Cat_sub`,`P_ssn`) VALUES (1700,null,”Sep 16, 2018","1000013038780”,135000,”Korea”,”굴비나무","법성포 굴비세트 명품 5호","고등어/갈치/조기/장어","1646100957799");
+INSERT INTO `ITEM` (`Amount`,`Importer`,`Made_date`,`Ssn`,`Price`,`Made_place`,`Maker`,`Name`,`Cat_sub`,`P_ssn`) VALUES (1700,”관우물산”,”Mar 25, 2018","1000025804909”,79000,”China”,”굴비나무","영광 법성포 보리굴비세트 특선","고등어/갈치/조기/장어","1666061040699");
+INSERT INTO `ITEM` (`Amount`,`Importer`,`Made_date`,`Ssn`,`Price`,`Made_place`,`Maker`,`Name`,`Cat_sub`,`P_ssn`) VALUES (1700,null,”Sep 4, 2018","1000028974483”,43900,”Korea”,”(주)안동간고등어","안동 간고등어 실속 선물 세트 ","고등어/갈치/조기/장어","1677051380999");
+INSERT INTO `ITEM` (`Amount`,`Importer`,`Made_date`,`Ssn`,`Price`,`Made_place`,`Maker`,`Name`,`Cat_sub`,`P_ssn`) VALUES (1700,null,”Sep 27, 2018","1000029573621”,18900,”Korea”,”착한어부","제주도 은갈치 240g내외 x 1팩/총 4토막","고등어/갈치/조기/장어","1631010341899");
+INSERT INTO `ITEM` (`Amount`,`Importer`,`Made_date`,`Ssn`,`Price`,`Made_place`,`Maker`,`Name`,`Cat_sub`,`P_ssn`) VALUES (1700,"흰누리","May 29, 2018","1000029496997”,13900,”Norway”,”흰누리","흰누리 노르웨이 순살 고등어 2kg ","고등어/갈치/조기/장어","1681102893199");
+
+INSERT INTO `ITEM` (`Amount`,`Importer`,`Made_date`,`Ssn`,`Price`,`Made_place`,`Maker`,`Name`,`Cat_sub`,`P_ssn`) VALUES (1700,null,”May 27, 2018","100002829177”,41000,”Korea”,”청정해”,”제주 자숙 돌문어 1kg”,”오징어/낙지","1657041482199");
+INSERT INTO `ITEM` (`Amount`,`Importer`,`Made_date`,`Ssn`,`Price`,`Made_place`,`Maker`,`Name`,`Cat_sub`,`P_ssn`) VALUES (1700,null,”Mar 7, 2018","1000029105357”,42900,”Korea”,”덕이네수산","문어 1kg","오징어/낙지","1623042835799");
+INSERT INTO `ITEM` (`Amount`,`Importer`,`Made_date`,`Ssn`,`Price`,`Made_place`,`Maker`,`Name`,`Cat_sub`,`P_ssn`) VALUES (1700,null,”Jun 27, 2018","1000029105352”,25900,”Korea”,”덕이네수산","자숙문어 300g","오징어/낙지","1625110171199");
+INSERT INTO `ITEM` (`Amount`,`Importer`,`Made_date`,`Ssn`,`Price`,`Made_place`,`Maker`,`Name`,`Cat_sub`,`P_ssn`) VALUES (1700,"(주)하하물산","Apr 9, 2018","1000028950139”,6900,”Vietnam”,”씨엔오션","절단낙지 L 500g","오징어/낙지","1622081296399");
+INSERT INTO `ITEM` (`Amount`,`Importer`,`Made_date`,`Ssn`,`Price`,`Made_place`,`Maker`,`Name`,`Cat_sub`,`P_ssn`) VALUES (1700,”화남인터내셔날”,”Mar 23, 2018","1000028699843”,26900,”Philippines”,”화남인터내셔날","쫄깃한 자숙문어 900g-1.2kg","오징어/낙지","1696010550899");
+INSERT INTO `ITEM` (`Amount`,`Importer`,`Made_date`,`Ssn`,`Price`,`Made_place`,`Maker`,`Name`,`Cat_sub`,`P_ssn`) VALUES (1700,null,”Mar 18, 2018","1000029105032”,10900,”Korea”,”덕이네수산","왕 바지락 1kg","전복/굴/조개류","1654052341799");
+INSERT INTO `ITEM` (`Amount`,`Importer`,`Made_date`,`Ssn`,`Price`,`Made_place`,`Maker`,`Name`,`Cat_sub`,`P_ssn`) VALUES (1700,null,”Aug 30, 2018","1000029105024”,15900,”Korea”,”덕이네수산","전복 3미","전복/굴/조개류","1663121366099");
+INSERT INTO `ITEM` (`Amount`,`Importer`,`Made_date`,`Ssn`,`Price`,`Made_place`,`Maker`,`Name`,`Cat_sub`,`P_ssn`) VALUES (1700,null,”Jul 25, 2018","1000021416651”,38800,”Korea”,”청산바다","자연산 뿔소라 3kg","전복/굴/조개류","1676070197799");
+INSERT INTO `ITEM` (`Amount`,`Importer`,`Made_date`,`Ssn`,`Price`,`Made_place`,`Maker`,`Name`,`Cat_sub`,`P_ssn`) VALUES (1700,null,”Feb 2, 2018","1000029105034”,22900,”Korea”,”덕이네수산","대합 1kg","전복/굴/조개류","1683020494099");
+INSERT INTO `ITEM` (`Amount`,`Importer`,`Made_date`,`Ssn`,`Price`,`Made_place`,`Maker`,`Name`,`Cat_sub`,`P_ssn`) VALUES (1700,null,”Jul 9, 2018","1000028037662”,8500,”Korea”,”대해수산","통영굴(냉동) 1kg","전복/굴/조개류","1653082377399");
+
+INSERT INTO `EXISTS_IN` (`I_ssn`,`R_ssn`,`Amount`) VALUES ("1000017646641","12806430899",0);
+INSERT INTO `EXISTS_IN` (`I_ssn`,`R_ssn`,`Amount`) VALUES ("1000018349957","12806430899",0);
+INSERT INTO `EXISTS_IN` (`I_ssn`,`R_ssn`,`Amount`) VALUES ("1000028309028","12806430899",0);
+INSERT INTO `EXISTS_IN` (`I_ssn`,`R_ssn`,`Amount`) VALUES ("1000028160226","12806430899",0);
+
+INSERT INTO `EXISTS_IN` (`I_ssn`,`R_ssn`,`Amount`) VALUES ("1000027953165","12806430899”,1);
+INSERT INTO `EXISTS_IN` (`I_ssn`,`R_ssn`,`Amount`) VALUES ("1000028764714","12806430899”,1);
+INSERT INTO `EXISTS_IN` (`I_ssn`,`R_ssn`,`Amount`) VALUES ("1000028266381","12806430899”,1);
+INSERT INTO `EXISTS_IN` (`I_ssn`,`R_ssn`,`Amount`) VALUES ("1000020939463","12806430899",1);
+INSERT INTO `EXISTS_IN` (`I_ssn`,`R_ssn`,`Amount`) VALUES ("1000029724878","12806430899”,1);
+INSERT INTO `EXISTS_IN` (`I_ssn`,`R_ssn`,`Amount`) VALUES ("1000029714198","12806430899”,1);
+INSERT INTO `EXISTS_IN` (`I_ssn`,`R_ssn`,`Amount`) VALUES ("1000018568863","12806430899”,1);
+INSERT INTO `EXISTS_IN` (`I_ssn`,`R_ssn`,`Amount`) VALUES ("1000021060172","12806430899",1);
+INSERT INTO `EXISTS_IN` (`I_ssn`,`R_ssn`,`Amount`) VALUES ("1000005553945","12806430899",1);
+INSERT INTO `EXISTS_IN` (`I_ssn`,`R_ssn`,`Amount`) VALUES ("1000029471555","12806430899”,1);
+
+INSERT INTO `EXISTS_IN` (`I_ssn`,`R_ssn`,`Amount`) VALUES ("1000029266828","12806430899”,100);
+INSERT INTO `EXISTS_IN` (`I_ssn`,`R_ssn`,`Amount`) VALUES ("0000005410098","12806430899",100);
+INSERT INTO `EXISTS_IN` (`I_ssn`,`R_ssn`,`Amount`) VALUES ("1000023093627","12806430899”,100);
+INSERT INTO `EXISTS_IN` (`I_ssn`,`R_ssn`,`Amount`) VALUES ("1000028935441","12806430899",100);
+INSERT INTO `EXISTS_IN` (`I_ssn`,`R_ssn`,`Amount`) VALUES ("1000027532832","12806430899",100);
+INSERT INTO `EXISTS_IN` (`I_ssn`,`R_ssn`,`Amount`) VALUES ("1000025032666","12806430899",100);
+INSERT INTO `EXISTS_IN` (`I_ssn`,`R_ssn`,`Amount`) VALUES ("1000029127113","12806430899",100);
+INSERT INTO `EXISTS_IN` (`I_ssn`,`R_ssn`,`Amount`) VALUES ("1000025881970","12806430899",100);
+INSERT INTO `EXISTS_IN` (`I_ssn`,`R_ssn`,`Amount`) VALUES ("1000029004078","12806430899",100);
+INSERT INTO `EXISTS_IN` (`I_ssn`,`R_ssn`,`Amount`) VALUES ("0000007691302","12806430899",100);
+
+INSERT INTO `EXISTS_IN` (`I_ssn`,`R_ssn`,`Amount`) VALUES ("1000028286599","12806430899",100);
+INSERT INTO `EXISTS_IN` (`I_ssn`,`R_ssn`,`Amount`) VALUES ("1000025197143","12806430899",100);
+INSERT INTO `EXISTS_IN` (`I_ssn`,`R_ssn`,`Amount`) VALUES ("1000025031926","12806430899",100);
+INSERT INTO `EXISTS_IN` (`I_ssn`,`R_ssn`,`Amount`) VALUES ("0000010626950","12806430899",100);
+INSERT INTO `EXISTS_IN` (`I_ssn`,`R_ssn`,`Amount`) VALUES ("0000010626624","12806430899",100);
+INSERT INTO `EXISTS_IN` (`I_ssn`,`R_ssn`,`Amount`) VALUES ("1000025450109","12806430899",100);
+INSERT INTO `EXISTS_IN` (`I_ssn`,`R_ssn`,`Amount`) VALUES ("1000013038780","12806430899",100);
+INSERT INTO `EXISTS_IN` (`I_ssn`,`R_ssn`,`Amount`) VALUES ("1000025804909","12806430899",100);
+INSERT INTO `EXISTS_IN` (`I_ssn`,`R_ssn`,`Amount`) VALUES ("1000028974483","12806430899",100);
+INSERT INTO `EXISTS_IN` (`I_ssn`,`R_ssn`,`Amount`) VALUES ("1000029573621","12806430899",100);
+INSERT INTO `EXISTS_IN` (`I_ssn`,`R_ssn`,`Amount`) VALUES ("1000029496997","12806430899",100);
+INSERT INTO `EXISTS_IN` (`I_ssn`,`R_ssn`,`Amount`) VALUES ("100002829177","12806430899",100);
+INSERT INTO `EXISTS_IN` (`I_ssn`,`R_ssn`,`Amount`) VALUES ("1000029105357","12806430899",100);
+INSERT INTO `EXISTS_IN` (`I_ssn`,`R_ssn`,`Amount`) VALUES ("1000029105352","12806430899",100);
+INSERT INTO `EXISTS_IN` (`I_ssn`,`R_ssn`,`Amount`) VALUES ("1000028950139","12806430899",100);
+INSERT INTO `EXISTS_IN` (`I_ssn`,`R_ssn`,`Amount`) VALUES ("1000028699843","12806430899",100);
+INSERT INTO `EXISTS_IN` (`I_ssn`,`R_ssn`,`Amount`) VALUES ("1000029105032","12806430899",100);
+INSERT INTO `EXISTS_IN` (`I_ssn`,`R_ssn`,`Amount`) VALUES ("1000029105024","12806430899",100);
+INSERT INTO `EXISTS_IN` (`I_ssn`,`R_ssn`,`Amount`) VALUES ("1000021416651","12806430899",100);
+INSERT INTO `EXISTS_IN` (`I_ssn`,`R_ssn`,`Amount`) VALUES ("1000029105034","12806430899",100);
+INSERT INTO `EXISTS_IN` (`I_ssn`,`R_ssn`,`Amount`) VALUES ("1000028037662","12806430899",100);
+
+INSERT INTO `EXISTS_IN` (`I_ssn`,`R_ssn`,`Amount`) VALUES ("1000017646641","40384067999",0);
+INSERT INTO `EXISTS_IN` (`I_ssn`,`R_ssn`,`Amount`) VALUES ("1000018349957","40384067999",0);
+INSERT INTO `EXISTS_IN` (`I_ssn`,`R_ssn`,`Amount`) VALUES ("1000028309028","40384067999",0);
+INSERT INTO `EXISTS_IN` (`I_ssn`,`R_ssn`,`Amount`) VALUES ("1000028160226","40384067999",0);
+
+INSERT INTO `EXISTS_IN` (`I_ssn`,`R_ssn`,`Amount`) VALUES ("1000027953165","40384067999”,1);
+INSERT INTO `EXISTS_IN` (`I_ssn`,`R_ssn`,`Amount`) VALUES ("1000028764714","40384067999”,1);
+INSERT INTO `EXISTS_IN` (`I_ssn`,`R_ssn`,`Amount`) VALUES ("1000028266381","40384067999”,1);
+INSERT INTO `EXISTS_IN` (`I_ssn`,`R_ssn`,`Amount`) VALUES ("1000020939463","40384067999",1);
+INSERT INTO `EXISTS_IN` (`I_ssn`,`R_ssn`,`Amount`) VALUES ("1000029724878","40384067999”,1);
+INSERT INTO `EXISTS_IN` (`I_ssn`,`R_ssn`,`Amount`) VALUES ("1000029714198","40384067999”,1);
+INSERT INTO `EXISTS_IN` (`I_ssn`,`R_ssn`,`Amount`) VALUES ("1000018568863","40384067999”,1);
+INSERT INTO `EXISTS_IN` (`I_ssn`,`R_ssn`,`Amount`) VALUES ("1000021060172","40384067999",1);
+INSERT INTO `EXISTS_IN` (`I_ssn`,`R_ssn`,`Amount`) VALUES ("1000005553945","40384067999",1);
+INSERT INTO `EXISTS_IN` (`I_ssn`,`R_ssn`,`Amount`) VALUES ("1000029471555","40384067999”,1);
+
+INSERT INTO `EXISTS_IN` (`I_ssn`,`R_ssn`,`Amount`) VALUES ("1000029266828","40384067999",100);
+INSERT INTO `EXISTS_IN` (`I_ssn`,`R_ssn`,`Amount`) VALUES ("0000005410098","40384067999",100);
+INSERT INTO `EXISTS_IN` (`I_ssn`,`R_ssn`,`Amount`) VALUES ("1000023093627","40384067999",100);
+INSERT INTO `EXISTS_IN` (`I_ssn`,`R_ssn`,`Amount`) VALUES ("1000028935441","40384067999",100);
+INSERT INTO `EXISTS_IN` (`I_ssn`,`R_ssn`,`Amount`) VALUES ("1000027532832","40384067999",100);
+INSERT INTO `EXISTS_IN` (`I_ssn`,`R_ssn`,`Amount`) VALUES ("1000025032666","40384067999",100);
+INSERT INTO `EXISTS_IN` (`I_ssn`,`R_ssn`,`Amount`) VALUES ("1000029127113","40384067999",100);
+INSERT INTO `EXISTS_IN` (`I_ssn`,`R_ssn`,`Amount`) VALUES ("1000025881970","40384067999",100);
+INSERT INTO `EXISTS_IN` (`I_ssn`,`R_ssn`,`Amount`) VALUES ("1000029004078","40384067999",100);
+INSERT INTO `EXISTS_IN` (`I_ssn`,`R_ssn`,`Amount`) VALUES ("0000007691302","40384067999",100);
+
+INSERT INTO `EXISTS_IN` (`I_ssn`,`R_ssn`,`Amount`) VALUES ("1000028286599","40384067999",100);
+INSERT INTO `EXISTS_IN` (`I_ssn`,`R_ssn`,`Amount`) VALUES ("1000025197143","40384067999",100);
+INSERT INTO `EXISTS_IN` (`I_ssn`,`R_ssn`,`Amount`) VALUES ("1000025031926","40384067999",100);
+INSERT INTO `EXISTS_IN` (`I_ssn`,`R_ssn`,`Amount`) VALUES ("0000010626950","40384067999",100);
+INSERT INTO `EXISTS_IN` (`I_ssn`,`R_ssn`,`Amount`) VALUES ("0000010626624","40384067999",100);
+INSERT INTO `EXISTS_IN` (`I_ssn`,`R_ssn`,`Amount`) VALUES ("1000025450109","40384067999",100);
+INSERT INTO `EXISTS_IN` (`I_ssn`,`R_ssn`,`Amount`) VALUES ("1000013038780","40384067999",100);
+INSERT INTO `EXISTS_IN` (`I_ssn`,`R_ssn`,`Amount`) VALUES ("1000025804909","40384067999",100);
+INSERT INTO `EXISTS_IN` (`I_ssn`,`R_ssn`,`Amount`) VALUES ("1000028974483","40384067999",100);
+INSERT INTO `EXISTS_IN` (`I_ssn`,`R_ssn`,`Amount`) VALUES ("1000029573621","40384067999",100);
+INSERT INTO `EXISTS_IN` (`I_ssn`,`R_ssn`,`Amount`) VALUES ("1000029496997","40384067999",100);
+INSERT INTO `EXISTS_IN` (`I_ssn`,`R_ssn`,`Amount`) VALUES ("100002829177","40384067999",100);
+INSERT INTO `EXISTS_IN` (`I_ssn`,`R_ssn`,`Amount`) VALUES ("1000029105357","40384067999",100);
+INSERT INTO `EXISTS_IN` (`I_ssn`,`R_ssn`,`Amount`) VALUES ("1000029105352","40384067999",100);
+INSERT INTO `EXISTS_IN` (`I_ssn`,`R_ssn`,`Amount`) VALUES ("1000028950139","40384067999",100);
+INSERT INTO `EXISTS_IN` (`I_ssn`,`R_ssn`,`Amount`) VALUES ("1000028699843","40384067999",100);
+INSERT INTO `EXISTS_IN` (`I_ssn`,`R_ssn`,`Amount`) VALUES ("1000029105032","40384067999",100);
+INSERT INTO `EXISTS_IN` (`I_ssn`,`R_ssn`,`Amount`) VALUES ("1000029105024","40384067999",100);
+INSERT INTO `EXISTS_IN` (`I_ssn`,`R_ssn`,`Amount`) VALUES ("1000021416651","40384067999",100);
+INSERT INTO `EXISTS_IN` (`I_ssn`,`R_ssn`,`Amount`) VALUES ("1000029105034","40384067999",100);
+INSERT INTO `EXISTS_IN` (`I_ssn`,`R_ssn`,`Amount`) VALUES ("1000028037662","40384067999",100);
+
+INSERT INTO `EXISTS_IN` (`I_ssn`,`R_ssn`,`Amount`) VALUES ("1000017646641","94618426099",0);
+INSERT INTO `EXISTS_IN` (`I_ssn`,`R_ssn`,`Amount`) VALUES ("1000018349957","94618426099",0);
+INSERT INTO `EXISTS_IN` (`I_ssn`,`R_ssn`,`Amount`) VALUES ("1000028309028","94618426099",0);
+INSERT INTO `EXISTS_IN` (`I_ssn`,`R_ssn`,`Amount`) VALUES ("1000028160226","94618426099",0);
+
+INSERT INTO `EXISTS_IN` (`I_ssn`,`R_ssn`,`Amount`) VALUES ("1000027953165","94618426099”,1);
+INSERT INTO `EXISTS_IN` (`I_ssn`,`R_ssn`,`Amount`) VALUES ("1000028764714","94618426099”,1);
+INSERT INTO `EXISTS_IN` (`I_ssn`,`R_ssn`,`Amount`) VALUES ("1000028266381","94618426099”,1);
+INSERT INTO `EXISTS_IN` (`I_ssn`,`R_ssn`,`Amount`) VALUES ("1000020939463","94618426099",1);
+INSERT INTO `EXISTS_IN` (`I_ssn`,`R_ssn`,`Amount`) VALUES ("1000029724878","94618426099”,1);
+INSERT INTO `EXISTS_IN` (`I_ssn`,`R_ssn`,`Amount`) VALUES ("1000029714198","94618426099”,1);
+INSERT INTO `EXISTS_IN` (`I_ssn`,`R_ssn`,`Amount`) VALUES ("1000018568863","94618426099”,1);
+INSERT INTO `EXISTS_IN` (`I_ssn`,`R_ssn`,`Amount`) VALUES ("1000021060172","94618426099",1);
+INSERT INTO `EXISTS_IN` (`I_ssn`,`R_ssn`,`Amount`) VALUES ("1000005553945","94618426099",1);
+INSERT INTO `EXISTS_IN` (`I_ssn`,`R_ssn`,`Amount`) VALUES ("1000029471555","94618426099”,1);
+
+INSERT INTO `EXISTS_IN` (`I_ssn`,`R_ssn`,`Amount`) VALUES ("1000029266828","94618426099",100);
+INSERT INTO `EXISTS_IN` (`I_ssn`,`R_ssn`,`Amount`) VALUES ("0000005410098","94618426099",100);
+INSERT INTO `EXISTS_IN` (`I_ssn`,`R_ssn`,`Amount`) VALUES ("1000023093627","94618426099",100);
+INSERT INTO `EXISTS_IN` (`I_ssn`,`R_ssn`,`Amount`) VALUES ("1000028935441","94618426099",100);
+INSERT INTO `EXISTS_IN` (`I_ssn`,`R_ssn`,`Amount`) VALUES ("1000027532832","94618426099",100);
+INSERT INTO `EXISTS_IN` (`I_ssn`,`R_ssn`,`Amount`) VALUES ("1000025032666","94618426099",100);
+INSERT INTO `EXISTS_IN` (`I_ssn`,`R_ssn`,`Amount`) VALUES ("1000029127113","94618426099",100);
+INSERT INTO `EXISTS_IN` (`I_ssn`,`R_ssn`,`Amount`) VALUES ("1000025881970","94618426099",100);
+INSERT INTO `EXISTS_IN` (`I_ssn`,`R_ssn`,`Amount`) VALUES ("1000029004078","94618426099",100);
+INSERT INTO `EXISTS_IN` (`I_ssn`,`R_ssn`,`Amount`) VALUES ("0000007691302","94618426099",100);
+
+INSERT INTO `EXISTS_IN` (`I_ssn`,`R_ssn`,`Amount`) VALUES ("1000028286599","94618426099",100);
+INSERT INTO `EXISTS_IN` (`I_ssn`,`R_ssn`,`Amount`) VALUES ("1000025197143","94618426099",100);
+INSERT INTO `EXISTS_IN` (`I_ssn`,`R_ssn`,`Amount`) VALUES ("1000025031926","94618426099",100);
+INSERT INTO `EXISTS_IN` (`I_ssn`,`R_ssn`,`Amount`) VALUES ("0000010626950","94618426099",100);
+INSERT INTO `EXISTS_IN` (`I_ssn`,`R_ssn`,`Amount`) VALUES ("0000010626624","94618426099",100);
+INSERT INTO `EXISTS_IN` (`I_ssn`,`R_ssn`,`Amount`) VALUES ("1000025450109","94618426099",100);
+INSERT INTO `EXISTS_IN` (`I_ssn`,`R_ssn`,`Amount`) VALUES ("1000013038780","94618426099",100);
+INSERT INTO `EXISTS_IN` (`I_ssn`,`R_ssn`,`Amount`) VALUES ("1000025804909","94618426099",100);
+INSERT INTO `EXISTS_IN` (`I_ssn`,`R_ssn`,`Amount`) VALUES ("1000028974483","94618426099",100);
+INSERT INTO `EXISTS_IN` (`I_ssn`,`R_ssn`,`Amount`) VALUES ("1000029573621","94618426099",100);
+INSERT INTO `EXISTS_IN` (`I_ssn`,`R_ssn`,`Amount`) VALUES ("1000029496997","94618426099",100);
+INSERT INTO `EXISTS_IN` (`I_ssn`,`R_ssn`,`Amount`) VALUES ("100002829177","94618426099",100);
+INSERT INTO `EXISTS_IN` (`I_ssn`,`R_ssn`,`Amount`) VALUES ("1000029105357","94618426099",100);
+INSERT INTO `EXISTS_IN` (`I_ssn`,`R_ssn`,`Amount`) VALUES ("1000029105352","94618426099",100);
+INSERT INTO `EXISTS_IN` (`I_ssn`,`R_ssn`,`Amount`) VALUES ("1000028950139","94618426099",100);
+INSERT INTO `EXISTS_IN` (`I_ssn`,`R_ssn`,`Amount`) VALUES ("1000028699843","94618426099",100);
+INSERT INTO `EXISTS_IN` (`I_ssn`,`R_ssn`,`Amount`) VALUES ("1000029105032","94618426099",100);
+INSERT INTO `EXISTS_IN` (`I_ssn`,`R_ssn`,`Amount`) VALUES ("1000029105024","94618426099",100);
+INSERT INTO `EXISTS_IN` (`I_ssn`,`R_ssn`,`Amount`) VALUES ("1000021416651","94618426099",100);
+INSERT INTO `EXISTS_IN` (`I_ssn`,`R_ssn`,`Amount`) VALUES ("1000029105034","94618426099",100);
+INSERT INTO `EXISTS_IN` (`I_ssn`,`R_ssn`,`Amount`) VALUES ("1000028037662","94618426099",100);
+
+INSERT INTO `EXISTS_IN` (`I_ssn`,`R_ssn`,`Amount`) VALUES ("1000017646641","97379568899",0);
+INSERT INTO `EXISTS_IN` (`I_ssn`,`R_ssn`,`Amount`) VALUES ("1000018349957","97379568899",0);
+INSERT INTO `EXISTS_IN` (`I_ssn`,`R_ssn`,`Amount`) VALUES ("1000028309028","97379568899",0);
+INSERT INTO `EXISTS_IN` (`I_ssn`,`R_ssn`,`Amount`) VALUES ("1000028160226","97379568899",0);
+
+INSERT INTO `EXISTS_IN` (`I_ssn`,`R_ssn`,`Amount`) VALUES ("1000027953165","97379568899”,1);
+INSERT INTO `EXISTS_IN` (`I_ssn`,`R_ssn`,`Amount`) VALUES ("1000028764714","97379568899”,1);
+INSERT INTO `EXISTS_IN` (`I_ssn`,`R_ssn`,`Amount`) VALUES ("1000028266381","97379568899”,1);
+INSERT INTO `EXISTS_IN` (`I_ssn`,`R_ssn`,`Amount`) VALUES ("1000020939463","97379568899",1);
+INSERT INTO `EXISTS_IN` (`I_ssn`,`R_ssn`,`Amount`) VALUES ("1000029724878","97379568899”,1);
+INSERT INTO `EXISTS_IN` (`I_ssn`,`R_ssn`,`Amount`) VALUES ("1000029714198","97379568899”,1);
+INSERT INTO `EXISTS_IN` (`I_ssn`,`R_ssn`,`Amount`) VALUES ("1000018568863","97379568899”,1);
+INSERT INTO `EXISTS_IN` (`I_ssn`,`R_ssn`,`Amount`) VALUES ("1000021060172","97379568899",1);
+INSERT INTO `EXISTS_IN` (`I_ssn`,`R_ssn`,`Amount`) VALUES ("1000005553945","97379568899",1);
+INSERT INTO `EXISTS_IN` (`I_ssn`,`R_ssn`,`Amount`) VALUES ("1000029471555","97379568899”,1);
+
+INSERT INTO `EXISTS_IN` (`I_ssn`,`R_ssn`,`Amount`) VALUES ("1000029266828","97379568899",100);
+INSERT INTO `EXISTS_IN` (`I_ssn`,`R_ssn`,`Amount`) VALUES ("0000005410098","97379568899",100);
+INSERT INTO `EXISTS_IN` (`I_ssn`,`R_ssn`,`Amount`) VALUES ("1000023093627","97379568899",100);
+INSERT INTO `EXISTS_IN` (`I_ssn`,`R_ssn`,`Amount`) VALUES ("1000028935441","97379568899",100);
+INSERT INTO `EXISTS_IN` (`I_ssn`,`R_ssn`,`Amount`) VALUES ("1000027532832","97379568899",100);
+INSERT INTO `EXISTS_IN` (`I_ssn`,`R_ssn`,`Amount`) VALUES ("1000025032666","97379568899",100);
+INSERT INTO `EXISTS_IN` (`I_ssn`,`R_ssn`,`Amount`) VALUES ("1000029127113","97379568899",100);
+INSERT INTO `EXISTS_IN` (`I_ssn`,`R_ssn`,`Amount`) VALUES ("1000025881970","97379568899",100);
+INSERT INTO `EXISTS_IN` (`I_ssn`,`R_ssn`,`Amount`) VALUES ("1000029004078","97379568899",100);
+INSERT INTO `EXISTS_IN` (`I_ssn`,`R_ssn`,`Amount`) VALUES ("0000007691302","97379568899",100);
+
+INSERT INTO `EXISTS_IN` (`I_ssn`,`R_ssn`,`Amount`) VALUES ("1000028286599","97379568899",100);
+INSERT INTO `EXISTS_IN` (`I_ssn`,`R_ssn`,`Amount`) VALUES ("1000025197143","97379568899",100);
+INSERT INTO `EXISTS_IN` (`I_ssn`,`R_ssn`,`Amount`) VALUES ("1000025031926","97379568899",100);
+INSERT INTO `EXISTS_IN` (`I_ssn`,`R_ssn`,`Amount`) VALUES ("0000010626950","97379568899",100);
+INSERT INTO `EXISTS_IN` (`I_ssn`,`R_ssn`,`Amount`) VALUES ("0000010626624","97379568899",100);
+INSERT INTO `EXISTS_IN` (`I_ssn`,`R_ssn`,`Amount`) VALUES ("1000025450109","97379568899",100);
+INSERT INTO `EXISTS_IN` (`I_ssn`,`R_ssn`,`Amount`) VALUES ("1000013038780","97379568899",100);
+INSERT INTO `EXISTS_IN` (`I_ssn`,`R_ssn`,`Amount`) VALUES ("1000025804909","97379568899",100);
+INSERT INTO `EXISTS_IN` (`I_ssn`,`R_ssn`,`Amount`) VALUES ("1000028974483","97379568899",100);
+INSERT INTO `EXISTS_IN` (`I_ssn`,`R_ssn`,`Amount`) VALUES ("1000029573621","97379568899",100);
+INSERT INTO `EXISTS_IN` (`I_ssn`,`R_ssn`,`Amount`) VALUES ("1000029496997","97379568899",100);
+INSERT INTO `EXISTS_IN` (`I_ssn`,`R_ssn`,`Amount`) VALUES ("100002829177","97379568899",100);
+INSERT INTO `EXISTS_IN` (`I_ssn`,`R_ssn`,`Amount`) VALUES ("1000029105357","97379568899",100);
+INSERT INTO `EXISTS_IN` (`I_ssn`,`R_ssn`,`Amount`) VALUES ("1000029105352","97379568899",100);
+INSERT INTO `EXISTS_IN` (`I_ssn`,`R_ssn`,`Amount`) VALUES ("1000028950139","97379568899",100);
+INSERT INTO `EXISTS_IN` (`I_ssn`,`R_ssn`,`Amount`) VALUES ("1000028699843","97379568899",100);
+INSERT INTO `EXISTS_IN` (`I_ssn`,`R_ssn`,`Amount`) VALUES ("1000029105032","97379568899",100);
+INSERT INTO `EXISTS_IN` (`I_ssn`,`R_ssn`,`Amount`) VALUES ("1000029105024","97379568899",100);
+INSERT INTO `EXISTS_IN` (`I_ssn`,`R_ssn`,`Amount`) VALUES ("1000021416651","97379568899",100);
+INSERT INTO `EXISTS_IN` (`I_ssn`,`R_ssn`,`Amount`) VALUES ("1000029105034","97379568899",100);
+INSERT INTO `EXISTS_IN` (`I_ssn`,`R_ssn`,`Amount`) VALUES ("1000028037662","97379568899",100);
+
+INSERT INTO `EXISTS_IN` (`I_ssn`,`R_ssn`,`Amount`) VALUES ("1000017646641","67749053799",0);
+INSERT INTO `EXISTS_IN` (`I_ssn`,`R_ssn`,`Amount`) VALUES ("1000018349957","67749053799",0);
+INSERT INTO `EXISTS_IN` (`I_ssn`,`R_ssn`,`Amount`) VALUES ("1000028309028","67749053799",0);
+INSERT INTO `EXISTS_IN` (`I_ssn`,`R_ssn`,`Amount`) VALUES ("1000028160226","67749053799",0);
+
+INSERT INTO `EXISTS_IN` (`I_ssn`,`R_ssn`,`Amount`) VALUES ("1000027953165","67749053799”,1);
+INSERT INTO `EXISTS_IN` (`I_ssn`,`R_ssn`,`Amount`) VALUES ("1000028764714","67749053799”,1);
+INSERT INTO `EXISTS_IN` (`I_ssn`,`R_ssn`,`Amount`) VALUES ("1000028266381","67749053799”,1);
+INSERT INTO `EXISTS_IN` (`I_ssn`,`R_ssn`,`Amount`) VALUES ("1000020939463","67749053799",1);
+INSERT INTO `EXISTS_IN` (`I_ssn`,`R_ssn`,`Amount`) VALUES ("1000029724878","67749053799”,1);
+INSERT INTO `EXISTS_IN` (`I_ssn`,`R_ssn`,`Amount`) VALUES ("1000029714198","67749053799”,1);
+INSERT INTO `EXISTS_IN` (`I_ssn`,`R_ssn`,`Amount`) VALUES ("1000018568863","67749053799”,1);
+INSERT INTO `EXISTS_IN` (`I_ssn`,`R_ssn`,`Amount`) VALUES ("1000021060172","67749053799",1);
+INSERT INTO `EXISTS_IN` (`I_ssn`,`R_ssn`,`Amount`) VALUES ("1000005553945","67749053799",1);
+INSERT INTO `EXISTS_IN` (`I_ssn`,`R_ssn`,`Amount`) VALUES ("1000029471555","67749053799”,1);
+
+INSERT INTO `EXISTS_IN` (`I_ssn`,`R_ssn`,`Amount`) VALUES ("1000029266828","67749053799",100);
+INSERT INTO `EXISTS_IN` (`I_ssn`,`R_ssn`,`Amount`) VALUES ("0000005410098","67749053799",100);
+INSERT INTO `EXISTS_IN` (`I_ssn`,`R_ssn`,`Amount`) VALUES ("1000023093627","67749053799",100);
+INSERT INTO `EXISTS_IN` (`I_ssn`,`R_ssn`,`Amount`) VALUES ("1000028935441","67749053799",100);
+INSERT INTO `EXISTS_IN` (`I_ssn`,`R_ssn`,`Amount`) VALUES ("1000027532832","67749053799",100);
+INSERT INTO `EXISTS_IN` (`I_ssn`,`R_ssn`,`Amount`) VALUES ("1000025032666","67749053799",100);
+INSERT INTO `EXISTS_IN` (`I_ssn`,`R_ssn`,`Amount`) VALUES ("1000029127113","67749053799",100);
+INSERT INTO `EXISTS_IN` (`I_ssn`,`R_ssn`,`Amount`) VALUES ("1000025881970","67749053799",100);
+INSERT INTO `EXISTS_IN` (`I_ssn`,`R_ssn`,`Amount`) VALUES ("1000029004078","67749053799",100);
+INSERT INTO `EXISTS_IN` (`I_ssn`,`R_ssn`,`Amount`) VALUES ("0000007691302","67749053799",100);
+
+INSERT INTO `EXISTS_IN` (`I_ssn`,`R_ssn`,`Amount`) VALUES ("1000028286599","67749053799",100);
+INSERT INTO `EXISTS_IN` (`I_ssn`,`R_ssn`,`Amount`) VALUES ("1000025197143","67749053799",100);
+INSERT INTO `EXISTS_IN` (`I_ssn`,`R_ssn`,`Amount`) VALUES ("1000025031926","67749053799",100);
+INSERT INTO `EXISTS_IN` (`I_ssn`,`R_ssn`,`Amount`) VALUES ("0000010626950","67749053799",100);
+INSERT INTO `EXISTS_IN` (`I_ssn`,`R_ssn`,`Amount`) VALUES ("0000010626624","67749053799",100);
+INSERT INTO `EXISTS_IN` (`I_ssn`,`R_ssn`,`Amount`) VALUES ("1000025450109","67749053799",100);
+INSERT INTO `EXISTS_IN` (`I_ssn`,`R_ssn`,`Amount`) VALUES ("1000013038780","67749053799",100);
+INSERT INTO `EXISTS_IN` (`I_ssn`,`R_ssn`,`Amount`) VALUES ("1000025804909","67749053799",100);
+INSERT INTO `EXISTS_IN` (`I_ssn`,`R_ssn`,`Amount`) VALUES ("1000028974483","67749053799",100);
+INSERT INTO `EXISTS_IN` (`I_ssn`,`R_ssn`,`Amount`) VALUES ("1000029573621","67749053799",100);
+INSERT INTO `EXISTS_IN` (`I_ssn`,`R_ssn`,`Amount`) VALUES ("1000029496997","67749053799",100);
+INSERT INTO `EXISTS_IN` (`I_ssn`,`R_ssn`,`Amount`) VALUES ("100002829177","67749053799",100);
+INSERT INTO `EXISTS_IN` (`I_ssn`,`R_ssn`,`Amount`) VALUES ("1000029105357","67749053799",100);
+INSERT INTO `EXISTS_IN` (`I_ssn`,`R_ssn`,`Amount`) VALUES ("1000029105352","67749053799",100);
+INSERT INTO `EXISTS_IN` (`I_ssn`,`R_ssn`,`Amount`) VALUES ("1000028950139","67749053799",100);
+INSERT INTO `EXISTS_IN` (`I_ssn`,`R_ssn`,`Amount`) VALUES ("1000028699843","67749053799",100);
+INSERT INTO `EXISTS_IN` (`I_ssn`,`R_ssn`,`Amount`) VALUES ("1000029105032","67749053799",100);
+INSERT INTO `EXISTS_IN` (`I_ssn`,`R_ssn`,`Amount`) VALUES ("1000029105024","67749053799",100);
+INSERT INTO `EXISTS_IN` (`I_ssn`,`R_ssn`,`Amount`) VALUES ("1000021416651","67749053799",100);
+INSERT INTO `EXISTS_IN` (`I_ssn`,`R_ssn`,`Amount`) VALUES ("1000029105034","67749053799",100);
+INSERT INTO `EXISTS_IN` (`I_ssn`,`R_ssn`,`Amount`) VALUES ("1000028037662","67749053799",100);
+
+INSERT INTO `EXISTS_IN` (`I_ssn`,`R_ssn`,`Amount`) VALUES ("1000017646641","50558947199",0);
+INSERT INTO `EXISTS_IN` (`I_ssn`,`R_ssn`,`Amount`) VALUES ("1000018349957","50558947199",0);
+INSERT INTO `EXISTS_IN` (`I_ssn`,`R_ssn`,`Amount`) VALUES ("1000028309028","50558947199",0);
+INSERT INTO `EXISTS_IN` (`I_ssn`,`R_ssn`,`Amount`) VALUES ("1000028160226","50558947199",0);
+
+INSERT INTO `EXISTS_IN` (`I_ssn`,`R_ssn`,`Amount`) VALUES ("1000027953165","50558947199”,1);
+INSERT INTO `EXISTS_IN` (`I_ssn`,`R_ssn`,`Amount`) VALUES ("1000028764714","50558947199”,1);
+INSERT INTO `EXISTS_IN` (`I_ssn`,`R_ssn`,`Amount`) VALUES ("1000028266381","50558947199”,1);
+INSERT INTO `EXISTS_IN` (`I_ssn`,`R_ssn`,`Amount`) VALUES ("1000020939463","50558947199",1);
+INSERT INTO `EXISTS_IN` (`I_ssn`,`R_ssn`,`Amount`) VALUES ("1000029724878","50558947199”,1);
+INSERT INTO `EXISTS_IN` (`I_ssn`,`R_ssn`,`Amount`) VALUES ("1000029714198","50558947199”,1);
+INSERT INTO `EXISTS_IN` (`I_ssn`,`R_ssn`,`Amount`) VALUES ("1000018568863","50558947199”,1);
+INSERT INTO `EXISTS_IN` (`I_ssn`,`R_ssn`,`Amount`) VALUES ("1000021060172","50558947199",1);
+INSERT INTO `EXISTS_IN` (`I_ssn`,`R_ssn`,`Amount`) VALUES ("1000005553945","50558947199",1);
+INSERT INTO `EXISTS_IN` (`I_ssn`,`R_ssn`,`Amount`) VALUES ("1000029471555","50558947199”,1);
+
+INSERT INTO `EXISTS_IN` (`I_ssn`,`R_ssn`,`Amount`) VALUES ("1000029266828","50558947199",100);
+INSERT INTO `EXISTS_IN` (`I_ssn`,`R_ssn`,`Amount`) VALUES ("0000005410098","50558947199",100);
+INSERT INTO `EXISTS_IN` (`I_ssn`,`R_ssn`,`Amount`) VALUES ("1000023093627","50558947199",100);
+INSERT INTO `EXISTS_IN` (`I_ssn`,`R_ssn`,`Amount`) VALUES ("1000028935441","50558947199",100);
+INSERT INTO `EXISTS_IN` (`I_ssn`,`R_ssn`,`Amount`) VALUES ("1000027532832","50558947199",100);
+INSERT INTO `EXISTS_IN` (`I_ssn`,`R_ssn`,`Amount`) VALUES ("1000025032666","50558947199",100);
+INSERT INTO `EXISTS_IN` (`I_ssn`,`R_ssn`,`Amount`) VALUES ("1000029127113","50558947199",100);
+INSERT INTO `EXISTS_IN` (`I_ssn`,`R_ssn`,`Amount`) VALUES ("1000025881970","50558947199",100);
+INSERT INTO `EXISTS_IN` (`I_ssn`,`R_ssn`,`Amount`) VALUES ("1000029004078","50558947199",100);
+INSERT INTO `EXISTS_IN` (`I_ssn`,`R_ssn`,`Amount`) VALUES ("0000007691302","50558947199",100);
+
+INSERT INTO `EXISTS_IN` (`I_ssn`,`R_ssn`,`Amount`) VALUES ("1000028286599","50558947199",100);
+INSERT INTO `EXISTS_IN` (`I_ssn`,`R_ssn`,`Amount`) VALUES ("1000025197143","50558947199",100);
+INSERT INTO `EXISTS_IN` (`I_ssn`,`R_ssn`,`Amount`) VALUES ("1000025031926","50558947199",100);
+INSERT INTO `EXISTS_IN` (`I_ssn`,`R_ssn`,`Amount`) VALUES ("0000010626950","50558947199",100);
+INSERT INTO `EXISTS_IN` (`I_ssn`,`R_ssn`,`Amount`) VALUES ("0000010626624","50558947199",100);
+INSERT INTO `EXISTS_IN` (`I_ssn`,`R_ssn`,`Amount`) VALUES ("1000025450109","50558947199",100);
+INSERT INTO `EXISTS_IN` (`I_ssn`,`R_ssn`,`Amount`) VALUES ("1000013038780","50558947199",100);
+INSERT INTO `EXISTS_IN` (`I_ssn`,`R_ssn`,`Amount`) VALUES ("1000025804909","50558947199",100);
+INSERT INTO `EXISTS_IN` (`I_ssn`,`R_ssn`,`Amount`) VALUES ("1000028974483","50558947199",100);
+INSERT INTO `EXISTS_IN` (`I_ssn`,`R_ssn`,`Amount`) VALUES ("1000029573621","50558947199",100);
+INSERT INTO `EXISTS_IN` (`I_ssn`,`R_ssn`,`Amount`) VALUES ("1000029496997","50558947199",100);
+INSERT INTO `EXISTS_IN` (`I_ssn`,`R_ssn`,`Amount`) VALUES ("100002829177","50558947199",100);
+INSERT INTO `EXISTS_IN` (`I_ssn`,`R_ssn`,`Amount`) VALUES ("1000029105357","50558947199",100);
+INSERT INTO `EXISTS_IN` (`I_ssn`,`R_ssn`,`Amount`) VALUES ("1000029105352","50558947199",100);
+INSERT INTO `EXISTS_IN` (`I_ssn`,`R_ssn`,`Amount`) VALUES ("1000028950139","50558947199",100);
+INSERT INTO `EXISTS_IN` (`I_ssn`,`R_ssn`,`Amount`) VALUES ("1000028699843","50558947199",100);
+INSERT INTO `EXISTS_IN` (`I_ssn`,`R_ssn`,`Amount`) VALUES ("1000029105032","50558947199",100);
+INSERT INTO `EXISTS_IN` (`I_ssn`,`R_ssn`,`Amount`) VALUES ("1000029105024","50558947199",100);
+INSERT INTO `EXISTS_IN` (`I_ssn`,`R_ssn`,`Amount`) VALUES ("1000021416651","50558947199",100);
+INSERT INTO `EXISTS_IN` (`I_ssn`,`R_ssn`,`Amount`) VALUES ("1000029105034","50558947199",100);
+INSERT INTO `EXISTS_IN` (`I_ssn`,`R_ssn`,`Amount`) VALUES ("1000028037662","50558947199",100);
+
+INSERT INTO `EXISTS_IN` (`I_ssn`,`R_ssn`,`Amount`) VALUES ("1000017646641","18980651099",0);
+INSERT INTO `EXISTS_IN` (`I_ssn`,`R_ssn`,`Amount`) VALUES ("1000018349957","18980651099",0);
+INSERT INTO `EXISTS_IN` (`I_ssn`,`R_ssn`,`Amount`) VALUES ("1000028309028","18980651099",0);
+INSERT INTO `EXISTS_IN` (`I_ssn`,`R_ssn`,`Amount`) VALUES ("1000028160226","18980651099",0);
+
+INSERT INTO `EXISTS_IN` (`I_ssn`,`R_ssn`,`Amount`) VALUES ("1000027953165","18980651099”,1);
+INSERT INTO `EXISTS_IN` (`I_ssn`,`R_ssn`,`Amount`) VALUES ("1000028764714","18980651099”,1);
+INSERT INTO `EXISTS_IN` (`I_ssn`,`R_ssn`,`Amount`) VALUES ("1000028266381","18980651099”,1);
+INSERT INTO `EXISTS_IN` (`I_ssn`,`R_ssn`,`Amount`) VALUES ("1000020939463","18980651099",1);
+INSERT INTO `EXISTS_IN` (`I_ssn`,`R_ssn`,`Amount`) VALUES ("1000029724878","18980651099”,1);
+INSERT INTO `EXISTS_IN` (`I_ssn`,`R_ssn`,`Amount`) VALUES ("1000029714198","18980651099”,1);
+INSERT INTO `EXISTS_IN` (`I_ssn`,`R_ssn`,`Amount`) VALUES ("1000018568863","18980651099”,1);
+INSERT INTO `EXISTS_IN` (`I_ssn`,`R_ssn`,`Amount`) VALUES ("1000021060172","18980651099",1);
+INSERT INTO `EXISTS_IN` (`I_ssn`,`R_ssn`,`Amount`) VALUES ("1000005553945","18980651099",1);
+INSERT INTO `EXISTS_IN` (`I_ssn`,`R_ssn`,`Amount`) VALUES ("1000029471555","18980651099”,1);
+
+INSERT INTO `EXISTS_IN` (`I_ssn`,`R_ssn`,`Amount`) VALUES ("1000029266828","18980651099",100);
+INSERT INTO `EXISTS_IN` (`I_ssn`,`R_ssn`,`Amount`) VALUES ("0000005410098","18980651099",100);
+INSERT INTO `EXISTS_IN` (`I_ssn`,`R_ssn`,`Amount`) VALUES ("1000023093627","18980651099",100);
+INSERT INTO `EXISTS_IN` (`I_ssn`,`R_ssn`,`Amount`) VALUES ("1000028935441","18980651099",100);
+INSERT INTO `EXISTS_IN` (`I_ssn`,`R_ssn`,`Amount`) VALUES ("1000027532832","18980651099",100);
+INSERT INTO `EXISTS_IN` (`I_ssn`,`R_ssn`,`Amount`) VALUES ("1000025032666","18980651099",100);
+INSERT INTO `EXISTS_IN` (`I_ssn`,`R_ssn`,`Amount`) VALUES ("1000029127113","18980651099",100);
+INSERT INTO `EXISTS_IN` (`I_ssn`,`R_ssn`,`Amount`) VALUES ("1000025881970","18980651099",100);
+INSERT INTO `EXISTS_IN` (`I_ssn`,`R_ssn`,`Amount`) VALUES ("1000029004078","18980651099",100);
+INSERT INTO `EXISTS_IN` (`I_ssn`,`R_ssn`,`Amount`) VALUES ("0000007691302","18980651099",100);
+
+INSERT INTO `EXISTS_IN` (`I_ssn`,`R_ssn`,`Amount`) VALUES ("1000028286599","18980651099",100);
+INSERT INTO `EXISTS_IN` (`I_ssn`,`R_ssn`,`Amount`) VALUES ("1000025197143","18980651099",100);
+INSERT INTO `EXISTS_IN` (`I_ssn`,`R_ssn`,`Amount`) VALUES ("1000025031926","18980651099",100);
+INSERT INTO `EXISTS_IN` (`I_ssn`,`R_ssn`,`Amount`) VALUES ("0000010626950","18980651099",100);
+INSERT INTO `EXISTS_IN` (`I_ssn`,`R_ssn`,`Amount`) VALUES ("0000010626624","18980651099",100);
+INSERT INTO `EXISTS_IN` (`I_ssn`,`R_ssn`,`Amount`) VALUES ("1000025450109","18980651099",100);
+INSERT INTO `EXISTS_IN` (`I_ssn`,`R_ssn`,`Amount`) VALUES ("1000013038780","18980651099",100);
+INSERT INTO `EXISTS_IN` (`I_ssn`,`R_ssn`,`Amount`) VALUES ("1000025804909","18980651099",100);
+INSERT INTO `EXISTS_IN` (`I_ssn`,`R_ssn`,`Amount`) VALUES ("1000028974483","18980651099",100);
+INSERT INTO `EXISTS_IN` (`I_ssn`,`R_ssn`,`Amount`) VALUES ("1000029573621","18980651099",100);
+INSERT INTO `EXISTS_IN` (`I_ssn`,`R_ssn`,`Amount`) VALUES ("1000029496997","18980651099",100);
+INSERT INTO `EXISTS_IN` (`I_ssn`,`R_ssn`,`Amount`) VALUES ("100002829177","18980651099",100);
+INSERT INTO `EXISTS_IN` (`I_ssn`,`R_ssn`,`Amount`) VALUES ("1000029105357","18980651099",100);
+INSERT INTO `EXISTS_IN` (`I_ssn`,`R_ssn`,`Amount`) VALUES ("1000029105352","18980651099",100);
+INSERT INTO `EXISTS_IN` (`I_ssn`,`R_ssn`,`Amount`) VALUES ("1000028950139","18980651099",100);
+INSERT INTO `EXISTS_IN` (`I_ssn`,`R_ssn`,`Amount`) VALUES ("1000028699843","18980651099",100);
+INSERT INTO `EXISTS_IN` (`I_ssn`,`R_ssn`,`Amount`) VALUES ("1000029105032","18980651099",100);
+INSERT INTO `EXISTS_IN` (`I_ssn`,`R_ssn`,`Amount`) VALUES ("1000029105024","18980651099",100);
+INSERT INTO `EXISTS_IN` (`I_ssn`,`R_ssn`,`Amount`) VALUES ("1000021416651","18980651099",100);
+INSERT INTO `EXISTS_IN` (`I_ssn`,`R_ssn`,`Amount`) VALUES ("1000029105034","18980651099",100);
+INSERT INTO `EXISTS_IN` (`I_ssn`,`R_ssn`,`Amount`) VALUES ("1000028037662","18980651099",100);
+
+INSERT INTO `EXISTS_IN` (`I_ssn`,`R_ssn`,`Amount`) VALUES ("1000017646641","80692519199",0);
+INSERT INTO `EXISTS_IN` (`I_ssn`,`R_ssn`,`Amount`) VALUES ("1000018349957","80692519199",0);
+INSERT INTO `EXISTS_IN` (`I_ssn`,`R_ssn`,`Amount`) VALUES ("1000028309028","80692519199",0);
+INSERT INTO `EXISTS_IN` (`I_ssn`,`R_ssn`,`Amount`) VALUES ("1000028160226","80692519199",0);
+
+INSERT INTO `EXISTS_IN` (`I_ssn`,`R_ssn`,`Amount`) VALUES ("1000027953165","80692519199”,1);
+INSERT INTO `EXISTS_IN` (`I_ssn`,`R_ssn`,`Amount`) VALUES ("1000028764714","80692519199”,1);
+INSERT INTO `EXISTS_IN` (`I_ssn`,`R_ssn`,`Amount`) VALUES ("1000028266381","80692519199”,1);
+INSERT INTO `EXISTS_IN` (`I_ssn`,`R_ssn`,`Amount`) VALUES ("1000020939463","80692519199",1);
+INSERT INTO `EXISTS_IN` (`I_ssn`,`R_ssn`,`Amount`) VALUES ("1000029724878","80692519199”,1);
+INSERT INTO `EXISTS_IN` (`I_ssn`,`R_ssn`,`Amount`) VALUES ("1000029714198","80692519199”,1);
+INSERT INTO `EXISTS_IN` (`I_ssn`,`R_ssn`,`Amount`) VALUES ("1000018568863","80692519199”,1);
+INSERT INTO `EXISTS_IN` (`I_ssn`,`R_ssn`,`Amount`) VALUES ("1000021060172","80692519199",1);
+INSERT INTO `EXISTS_IN` (`I_ssn`,`R_ssn`,`Amount`) VALUES ("1000005553945","80692519199",1);
+INSERT INTO `EXISTS_IN` (`I_ssn`,`R_ssn`,`Amount`) VALUES ("1000029471555","80692519199”,1);
+
+INSERT INTO `EXISTS_IN` (`I_ssn`,`R_ssn`,`Amount`) VALUES ("1000029266828","80692519199",100);
+INSERT INTO `EXISTS_IN` (`I_ssn`,`R_ssn`,`Amount`) VALUES ("0000005410098","80692519199",100);
+INSERT INTO `EXISTS_IN` (`I_ssn`,`R_ssn`,`Amount`) VALUES ("1000023093627","80692519199",100);
+INSERT INTO `EXISTS_IN` (`I_ssn`,`R_ssn`,`Amount`) VALUES ("1000028935441","80692519199",100);
+INSERT INTO `EXISTS_IN` (`I_ssn`,`R_ssn`,`Amount`) VALUES ("1000027532832","80692519199",100);
+INSERT INTO `EXISTS_IN` (`I_ssn`,`R_ssn`,`Amount`) VALUES ("1000025032666","80692519199",100);
+INSERT INTO `EXISTS_IN` (`I_ssn`,`R_ssn`,`Amount`) VALUES ("1000029127113","80692519199",100);
+INSERT INTO `EXISTS_IN` (`I_ssn`,`R_ssn`,`Amount`) VALUES ("1000025881970","80692519199",100);
+INSERT INTO `EXISTS_IN` (`I_ssn`,`R_ssn`,`Amount`) VALUES ("1000029004078","80692519199",100);
+INSERT INTO `EXISTS_IN` (`I_ssn`,`R_ssn`,`Amount`) VALUES ("0000007691302","80692519199",100);
+
+INSERT INTO `EXISTS_IN` (`I_ssn`,`R_ssn`,`Amount`) VALUES ("1000028286599","80692519199",100);
+INSERT INTO `EXISTS_IN` (`I_ssn`,`R_ssn`,`Amount`) VALUES ("1000025197143","80692519199",100);
+INSERT INTO `EXISTS_IN` (`I_ssn`,`R_ssn`,`Amount`) VALUES ("1000025031926","80692519199",100);
+INSERT INTO `EXISTS_IN` (`I_ssn`,`R_ssn`,`Amount`) VALUES ("0000010626950","80692519199",100);
+INSERT INTO `EXISTS_IN` (`I_ssn`,`R_ssn`,`Amount`) VALUES ("0000010626624","80692519199",100);
+INSERT INTO `EXISTS_IN` (`I_ssn`,`R_ssn`,`Amount`) VALUES ("1000025450109","80692519199",100);
+INSERT INTO `EXISTS_IN` (`I_ssn`,`R_ssn`,`Amount`) VALUES ("1000013038780","80692519199",100);
+INSERT INTO `EXISTS_IN` (`I_ssn`,`R_ssn`,`Amount`) VALUES ("1000025804909","80692519199",100);
+INSERT INTO `EXISTS_IN` (`I_ssn`,`R_ssn`,`Amount`) VALUES ("1000028974483","80692519199",100);
+INSERT INTO `EXISTS_IN` (`I_ssn`,`R_ssn`,`Amount`) VALUES ("1000029573621","80692519199",100);
+INSERT INTO `EXISTS_IN` (`I_ssn`,`R_ssn`,`Amount`) VALUES ("1000029496997","80692519199",100);
+INSERT INTO `EXISTS_IN` (`I_ssn`,`R_ssn`,`Amount`) VALUES ("100002829177","80692519199",100);
+INSERT INTO `EXISTS_IN` (`I_ssn`,`R_ssn`,`Amount`) VALUES ("1000029105357","80692519199",100);
+INSERT INTO `EXISTS_IN` (`I_ssn`,`R_ssn`,`Amount`) VALUES ("1000029105352","80692519199",100);
+INSERT INTO `EXISTS_IN` (`I_ssn`,`R_ssn`,`Amount`) VALUES ("1000028950139","80692519199",100);
+INSERT INTO `EXISTS_IN` (`I_ssn`,`R_ssn`,`Amount`) VALUES ("1000028699843","80692519199",100);
+INSERT INTO `EXISTS_IN` (`I_ssn`,`R_ssn`,`Amount`) VALUES ("1000029105032","80692519199",100);
+INSERT INTO `EXISTS_IN` (`I_ssn`,`R_ssn`,`Amount`) VALUES ("1000029105024","80692519199",100);
+INSERT INTO `EXISTS_IN` (`I_ssn`,`R_ssn`,`Amount`) VALUES ("1000021416651","80692519199",100);
+INSERT INTO `EXISTS_IN` (`I_ssn`,`R_ssn`,`Amount`) VALUES ("1000029105034","80692519199",100);
+INSERT INTO `EXISTS_IN` (`I_ssn`,`R_ssn`,`Amount`) VALUES ("1000028037662","80692519199",100);
+
+INSERT INTO `EXISTS_IN` (`I_ssn`,`R_ssn`,`Amount`) VALUES ("1000017646641","75491852999",0);
+INSERT INTO `EXISTS_IN` (`I_ssn`,`R_ssn`,`Amount`) VALUES ("1000018349957","75491852999",0);
+INSERT INTO `EXISTS_IN` (`I_ssn`,`R_ssn`,`Amount`) VALUES ("1000028309028","75491852999",0);
+INSERT INTO `EXISTS_IN` (`I_ssn`,`R_ssn`,`Amount`) VALUES ("1000028160226","75491852999",0);
+
+INSERT INTO `EXISTS_IN` (`I_ssn`,`R_ssn`,`Amount`) VALUES ("1000027953165","75491852999”,1);
+INSERT INTO `EXISTS_IN` (`I_ssn`,`R_ssn`,`Amount`) VALUES ("1000028764714","75491852999”,1);
+INSERT INTO `EXISTS_IN` (`I_ssn`,`R_ssn`,`Amount`) VALUES ("1000028266381","75491852999”,1);
+INSERT INTO `EXISTS_IN` (`I_ssn`,`R_ssn`,`Amount`) VALUES ("1000020939463","75491852999",1);
+INSERT INTO `EXISTS_IN` (`I_ssn`,`R_ssn`,`Amount`) VALUES ("1000029724878","75491852999”,1);
+INSERT INTO `EXISTS_IN` (`I_ssn`,`R_ssn`,`Amount`) VALUES ("1000029714198","75491852999”,1);
+INSERT INTO `EXISTS_IN` (`I_ssn`,`R_ssn`,`Amount`) VALUES ("1000018568863","75491852999”,1);
+INSERT INTO `EXISTS_IN` (`I_ssn`,`R_ssn`,`Amount`) VALUES ("1000021060172","75491852999",1);
+INSERT INTO `EXISTS_IN` (`I_ssn`,`R_ssn`,`Amount`) VALUES ("1000005553945","75491852999",1);
+INSERT INTO `EXISTS_IN` (`I_ssn`,`R_ssn`,`Amount`) VALUES ("1000029471555","75491852999”,1);
+
+INSERT INTO `EXISTS_IN` (`I_ssn`,`R_ssn`,`Amount`) VALUES ("1000029266828","75491852999",100);
+INSERT INTO `EXISTS_IN` (`I_ssn`,`R_ssn`,`Amount`) VALUES ("0000005410098","75491852999",100);
+INSERT INTO `EXISTS_IN` (`I_ssn`,`R_ssn`,`Amount`) VALUES ("1000023093627","75491852999",100);
+INSERT INTO `EXISTS_IN` (`I_ssn`,`R_ssn`,`Amount`) VALUES ("1000028935441","75491852999",100);
+INSERT INTO `EXISTS_IN` (`I_ssn`,`R_ssn`,`Amount`) VALUES ("1000027532832","75491852999",100);
+INSERT INTO `EXISTS_IN` (`I_ssn`,`R_ssn`,`Amount`) VALUES ("1000025032666","75491852999",100);
+INSERT INTO `EXISTS_IN` (`I_ssn`,`R_ssn`,`Amount`) VALUES ("1000029127113","75491852999",100);
+INSERT INTO `EXISTS_IN` (`I_ssn`,`R_ssn`,`Amount`) VALUES ("1000025881970","75491852999",100);
+INSERT INTO `EXISTS_IN` (`I_ssn`,`R_ssn`,`Amount`) VALUES ("1000029004078","75491852999",100);
+INSERT INTO `EXISTS_IN` (`I_ssn`,`R_ssn`,`Amount`) VALUES ("0000007691302","75491852999",100);
+
+INSERT INTO `EXISTS_IN` (`I_ssn`,`R_ssn`,`Amount`) VALUES ("1000028286599","75491852999",100);
+INSERT INTO `EXISTS_IN` (`I_ssn`,`R_ssn`,`Amount`) VALUES ("1000025197143","75491852999",100);
+INSERT INTO `EXISTS_IN` (`I_ssn`,`R_ssn`,`Amount`) VALUES ("1000025031926","75491852999",100);
+INSERT INTO `EXISTS_IN` (`I_ssn`,`R_ssn`,`Amount`) VALUES ("0000010626950","75491852999",100);
+INSERT INTO `EXISTS_IN` (`I_ssn`,`R_ssn`,`Amount`) VALUES ("0000010626624","75491852999",100);
+INSERT INTO `EXISTS_IN` (`I_ssn`,`R_ssn`,`Amount`) VALUES ("1000025450109","75491852999",100);
+INSERT INTO `EXISTS_IN` (`I_ssn`,`R_ssn`,`Amount`) VALUES ("1000013038780","75491852999",100);
+INSERT INTO `EXISTS_IN` (`I_ssn`,`R_ssn`,`Amount`) VALUES ("1000025804909","75491852999",100);
+INSERT INTO `EXISTS_IN` (`I_ssn`,`R_ssn`,`Amount`) VALUES ("1000028974483","75491852999",100);
+INSERT INTO `EXISTS_IN` (`I_ssn`,`R_ssn`,`Amount`) VALUES ("1000029573621","75491852999",100);
+INSERT INTO `EXISTS_IN` (`I_ssn`,`R_ssn`,`Amount`) VALUES ("1000029496997","75491852999",100);
+INSERT INTO `EXISTS_IN` (`I_ssn`,`R_ssn`,`Amount`) VALUES ("100002829177","75491852999",100);
+INSERT INTO `EXISTS_IN` (`I_ssn`,`R_ssn`,`Amount`) VALUES ("1000029105357","75491852999",100);
+INSERT INTO `EXISTS_IN` (`I_ssn`,`R_ssn`,`Amount`) VALUES ("1000029105352","75491852999",100);
+INSERT INTO `EXISTS_IN` (`I_ssn`,`R_ssn`,`Amount`) VALUES ("1000028950139","75491852999",100);
+INSERT INTO `EXISTS_IN` (`I_ssn`,`R_ssn`,`Amount`) VALUES ("1000028699843","75491852999",100);
+INSERT INTO `EXISTS_IN` (`I_ssn`,`R_ssn`,`Amount`) VALUES ("1000029105032","75491852999",100);
+INSERT INTO `EXISTS_IN` (`I_ssn`,`R_ssn`,`Amount`) VALUES ("1000029105024","75491852999",100);
+INSERT INTO `EXISTS_IN` (`I_ssn`,`R_ssn`,`Amount`) VALUES ("1000021416651","75491852999",100);
+INSERT INTO `EXISTS_IN` (`I_ssn`,`R_ssn`,`Amount`) VALUES ("1000029105034","75491852999",100);
+INSERT INTO `EXISTS_IN` (`I_ssn`,`R_ssn`,`Amount`) VALUES ("1000028037662","75491852999",100);
+
+INSERT INTO `EXISTS_IN` (`I_ssn`,`R_ssn`,`Amount`) VALUES ("1000017646641","54906025499",0);
+INSERT INTO `EXISTS_IN` (`I_ssn`,`R_ssn`,`Amount`) VALUES ("1000018349957","54906025499",0);
+INSERT INTO `EXISTS_IN` (`I_ssn`,`R_ssn`,`Amount`) VALUES ("1000028309028","54906025499",0);
+INSERT INTO `EXISTS_IN` (`I_ssn`,`R_ssn`,`Amount`) VALUES ("1000028160226","54906025499",0);
+
+INSERT INTO `EXISTS_IN` (`I_ssn`,`R_ssn`,`Amount`) VALUES ("1000027953165","54906025499”,1);
+INSERT INTO `EXISTS_IN` (`I_ssn`,`R_ssn`,`Amount`) VALUES ("1000028764714","54906025499”,1);
+INSERT INTO `EXISTS_IN` (`I_ssn`,`R_ssn`,`Amount`) VALUES ("1000028266381","54906025499”,1);
+INSERT INTO `EXISTS_IN` (`I_ssn`,`R_ssn`,`Amount`) VALUES ("1000020939463","54906025499",1);
+INSERT INTO `EXISTS_IN` (`I_ssn`,`R_ssn`,`Amount`) VALUES ("1000029724878","54906025499”,1);
+INSERT INTO `EXISTS_IN` (`I_ssn`,`R_ssn`,`Amount`) VALUES ("1000029714198","54906025499”,1);
+INSERT INTO `EXISTS_IN` (`I_ssn`,`R_ssn`,`Amount`) VALUES ("1000018568863","54906025499”,1);
+INSERT INTO `EXISTS_IN` (`I_ssn`,`R_ssn`,`Amount`) VALUES ("1000021060172","54906025499",1);
+INSERT INTO `EXISTS_IN` (`I_ssn`,`R_ssn`,`Amount`) VALUES ("1000005553945","54906025499",1);
+INSERT INTO `EXISTS_IN` (`I_ssn`,`R_ssn`,`Amount`) VALUES ("1000029471555","54906025499”,1);
+
+INSERT INTO `EXISTS_IN` (`I_ssn`,`R_ssn`,`Amount`) VALUES ("1000029266828","54906025499",100);
+INSERT INTO `EXISTS_IN` (`I_ssn`,`R_ssn`,`Amount`) VALUES ("0000005410098","54906025499",100);
+INSERT INTO `EXISTS_IN` (`I_ssn`,`R_ssn`,`Amount`) VALUES ("1000023093627","54906025499",100);
+INSERT INTO `EXISTS_IN` (`I_ssn`,`R_ssn`,`Amount`) VALUES ("1000028935441","54906025499",100);
+INSERT INTO `EXISTS_IN` (`I_ssn`,`R_ssn`,`Amount`) VALUES ("1000027532832","54906025499",100);
+INSERT INTO `EXISTS_IN` (`I_ssn`,`R_ssn`,`Amount`) VALUES ("1000025032666","54906025499",100);
+INSERT INTO `EXISTS_IN` (`I_ssn`,`R_ssn`,`Amount`) VALUES ("1000029127113","54906025499",100);
+INSERT INTO `EXISTS_IN` (`I_ssn`,`R_ssn`,`Amount`) VALUES ("1000025881970","54906025499",100);
+INSERT INTO `EXISTS_IN` (`I_ssn`,`R_ssn`,`Amount`) VALUES ("1000029004078","54906025499",100);
+INSERT INTO `EXISTS_IN` (`I_ssn`,`R_ssn`,`Amount`) VALUES ("0000007691302","54906025499",100);
+
+INSERT INTO `EXISTS_IN` (`I_ssn`,`R_ssn`,`Amount`) VALUES ("1000028286599","54906025499",100);
+INSERT INTO `EXISTS_IN` (`I_ssn`,`R_ssn`,`Amount`) VALUES ("1000025197143","54906025499",100);
+INSERT INTO `EXISTS_IN` (`I_ssn`,`R_ssn`,`Amount`) VALUES ("1000025031926","54906025499",100);
+INSERT INTO `EXISTS_IN` (`I_ssn`,`R_ssn`,`Amount`) VALUES ("0000010626950","54906025499",100);
+INSERT INTO `EXISTS_IN` (`I_ssn`,`R_ssn`,`Amount`) VALUES ("0000010626624","54906025499",100);
+INSERT INTO `EXISTS_IN` (`I_ssn`,`R_ssn`,`Amount`) VALUES ("1000025450109","54906025499",100);
+INSERT INTO `EXISTS_IN` (`I_ssn`,`R_ssn`,`Amount`) VALUES ("1000013038780","54906025499",100);
+INSERT INTO `EXISTS_IN` (`I_ssn`,`R_ssn`,`Amount`) VALUES ("1000025804909","54906025499",100);
+INSERT INTO `EXISTS_IN` (`I_ssn`,`R_ssn`,`Amount`) VALUES ("1000028974483","54906025499",100);
+INSERT INTO `EXISTS_IN` (`I_ssn`,`R_ssn`,`Amount`) VALUES ("1000029573621","54906025499",100);
+INSERT INTO `EXISTS_IN` (`I_ssn`,`R_ssn`,`Amount`) VALUES ("1000029496997","54906025499",100);
+INSERT INTO `EXISTS_IN` (`I_ssn`,`R_ssn`,`Amount`) VALUES ("100002829177","54906025499",100);
+INSERT INTO `EXISTS_IN` (`I_ssn`,`R_ssn`,`Amount`) VALUES ("1000029105357","54906025499",100);
+INSERT INTO `EXISTS_IN` (`I_ssn`,`R_ssn`,`Amount`) VALUES ("1000029105352","54906025499",100);
+INSERT INTO `EXISTS_IN` (`I_ssn`,`R_ssn`,`Amount`) VALUES ("1000028950139","54906025499",100);
+INSERT INTO `EXISTS_IN` (`I_ssn`,`R_ssn`,`Amount`) VALUES ("1000028699843","54906025499",100);
+INSERT INTO `EXISTS_IN` (`I_ssn`,`R_ssn`,`Amount`) VALUES ("1000029105032","54906025499",100);
+INSERT INTO `EXISTS_IN` (`I_ssn`,`R_ssn`,`Amount`) VALUES ("1000029105024","54906025499",100);
+INSERT INTO `EXISTS_IN` (`I_ssn`,`R_ssn`,`Amount`) VALUES ("1000021416651","54906025499",100);
+INSERT INTO `EXISTS_IN` (`I_ssn`,`R_ssn`,`Amount`) VALUES ("1000029105034","54906025499",100);
+INSERT INTO `EXISTS_IN` (`I_ssn`,`R_ssn`,`Amount`) VALUES ("1000028037662","54906025499",100);
+
+INSERT INTO `EXISTS_IN` (`I_ssn`,`R_ssn`,`Amount`) VALUES ("1000017646641","55803246999",0);
+INSERT INTO `EXISTS_IN` (`I_ssn`,`R_ssn`,`Amount`) VALUES ("1000018349957","55803246999",0);
+INSERT INTO `EXISTS_IN` (`I_ssn`,`R_ssn`,`Amount`) VALUES ("1000028309028","55803246999",0);
+INSERT INTO `EXISTS_IN` (`I_ssn`,`R_ssn`,`Amount`) VALUES ("1000028160226","55803246999",0);
+
+INSERT INTO `EXISTS_IN` (`I_ssn`,`R_ssn`,`Amount`) VALUES ("1000027953165","55803246999”,1);
+INSERT INTO `EXISTS_IN` (`I_ssn`,`R_ssn`,`Amount`) VALUES ("1000028764714","55803246999”,1);
+INSERT INTO `EXISTS_IN` (`I_ssn`,`R_ssn`,`Amount`) VALUES ("1000028266381","55803246999”,1);
+INSERT INTO `EXISTS_IN` (`I_ssn`,`R_ssn`,`Amount`) VALUES ("1000020939463","55803246999",1);
+INSERT INTO `EXISTS_IN` (`I_ssn`,`R_ssn`,`Amount`) VALUES ("1000029724878","55803246999”,1);
+INSERT INTO `EXISTS_IN` (`I_ssn`,`R_ssn`,`Amount`) VALUES ("1000029714198","55803246999”,1);
+INSERT INTO `EXISTS_IN` (`I_ssn`,`R_ssn`,`Amount`) VALUES ("1000018568863","55803246999”,1);
+INSERT INTO `EXISTS_IN` (`I_ssn`,`R_ssn`,`Amount`) VALUES ("1000021060172","55803246999",1);
+INSERT INTO `EXISTS_IN` (`I_ssn`,`R_ssn`,`Amount`) VALUES ("1000005553945","55803246999",1);
+INSERT INTO `EXISTS_IN` (`I_ssn`,`R_ssn`,`Amount`) VALUES ("1000029471555","55803246999”,1);
+
+INSERT INTO `EXISTS_IN` (`I_ssn`,`R_ssn`,`Amount`) VALUES ("1000029266828","55803246999",100);
+INSERT INTO `EXISTS_IN` (`I_ssn`,`R_ssn`,`Amount`) VALUES ("0000005410098","55803246999",100);
+INSERT INTO `EXISTS_IN` (`I_ssn`,`R_ssn`,`Amount`) VALUES ("1000023093627","55803246999",100);
+INSERT INTO `EXISTS_IN` (`I_ssn`,`R_ssn`,`Amount`) VALUES ("1000028935441","55803246999",100);
+INSERT INTO `EXISTS_IN` (`I_ssn`,`R_ssn`,`Amount`) VALUES ("1000027532832","55803246999",100);
+INSERT INTO `EXISTS_IN` (`I_ssn`,`R_ssn`,`Amount`) VALUES ("1000025032666","55803246999",100);
+INSERT INTO `EXISTS_IN` (`I_ssn`,`R_ssn`,`Amount`) VALUES ("1000029127113","55803246999",100);
+INSERT INTO `EXISTS_IN` (`I_ssn`,`R_ssn`,`Amount`) VALUES ("1000025881970","55803246999",100);
+INSERT INTO `EXISTS_IN` (`I_ssn`,`R_ssn`,`Amount`) VALUES ("1000029004078","55803246999",100);
+INSERT INTO `EXISTS_IN` (`I_ssn`,`R_ssn`,`Amount`) VALUES ("0000007691302","55803246999",100);
+
+INSERT INTO `EXISTS_IN` (`I_ssn`,`R_ssn`,`Amount`) VALUES ("1000028286599","55803246999",100);
+INSERT INTO `EXISTS_IN` (`I_ssn`,`R_ssn`,`Amount`) VALUES ("1000025197143","55803246999",100);
+INSERT INTO `EXISTS_IN` (`I_ssn`,`R_ssn`,`Amount`) VALUES ("1000025031926","55803246999",100);
+INSERT INTO `EXISTS_IN` (`I_ssn`,`R_ssn`,`Amount`) VALUES ("0000010626950","55803246999",100);
+INSERT INTO `EXISTS_IN` (`I_ssn`,`R_ssn`,`Amount`) VALUES ("0000010626624","55803246999",100);
+INSERT INTO `EXISTS_IN` (`I_ssn`,`R_ssn`,`Amount`) VALUES ("1000025450109","55803246999",100);
+INSERT INTO `EXISTS_IN` (`I_ssn`,`R_ssn`,`Amount`) VALUES ("1000013038780","55803246999",100);
+INSERT INTO `EXISTS_IN` (`I_ssn`,`R_ssn`,`Amount`) VALUES ("1000025804909","55803246999",100);
+INSERT INTO `EXISTS_IN` (`I_ssn`,`R_ssn`,`Amount`) VALUES ("1000028974483","55803246999",100);
+INSERT INTO `EXISTS_IN` (`I_ssn`,`R_ssn`,`Amount`) VALUES ("1000029573621","55803246999",100);
+INSERT INTO `EXISTS_IN` (`I_ssn`,`R_ssn`,`Amount`) VALUES ("1000029496997","55803246999",100);
+INSERT INTO `EXISTS_IN` (`I_ssn`,`R_ssn`,`Amount`) VALUES ("100002829177","55803246999",100);
+INSERT INTO `EXISTS_IN` (`I_ssn`,`R_ssn`,`Amount`) VALUES ("1000029105357","55803246999",100);
+INSERT INTO `EXISTS_IN` (`I_ssn`,`R_ssn`,`Amount`) VALUES ("1000029105352","55803246999",100);
+INSERT INTO `EXISTS_IN` (`I_ssn`,`R_ssn`,`Amount`) VALUES ("1000028950139","55803246999",100);
+INSERT INTO `EXISTS_IN` (`I_ssn`,`R_ssn`,`Amount`) VALUES ("1000028699843","55803246999",100);
+INSERT INTO `EXISTS_IN` (`I_ssn`,`R_ssn`,`Amount`) VALUES ("1000029105032","55803246999",100);
+INSERT INTO `EXISTS_IN` (`I_ssn`,`R_ssn`,`Amount`) VALUES ("1000029105024","55803246999",100);
+INSERT INTO `EXISTS_IN` (`I_ssn`,`R_ssn`,`Amount`) VALUES ("1000021416651","55803246999",100);
+INSERT INTO `EXISTS_IN` (`I_ssn`,`R_ssn`,`Amount`) VALUES ("1000029105034","55803246999",100);
+INSERT INTO `EXISTS_IN` (`I_ssn`,`R_ssn`,`Amount`) VALUES ("1000028037662","55803246999",100);
+
+INSERT INTO `EXISTS_IN` (`I_ssn`,`R_ssn`,`Amount`) VALUES ("1000017646641","66394747199",0);
+INSERT INTO `EXISTS_IN` (`I_ssn`,`R_ssn`,`Amount`) VALUES ("1000018349957","66394747199",0);
+INSERT INTO `EXISTS_IN` (`I_ssn`,`R_ssn`,`Amount`) VALUES ("1000028309028","66394747199",0);
+INSERT INTO `EXISTS_IN` (`I_ssn`,`R_ssn`,`Amount`) VALUES ("1000028160226","66394747199",0);
+
+INSERT INTO `EXISTS_IN` (`I_ssn`,`R_ssn`,`Amount`) VALUES ("1000027953165","66394747199”,1);
+INSERT INTO `EXISTS_IN` (`I_ssn`,`R_ssn`,`Amount`) VALUES ("1000028764714","66394747199”,1);
+INSERT INTO `EXISTS_IN` (`I_ssn`,`R_ssn`,`Amount`) VALUES ("1000028266381","66394747199”,1);
+INSERT INTO `EXISTS_IN` (`I_ssn`,`R_ssn`,`Amount`) VALUES ("1000020939463","66394747199",1);
+INSERT INTO `EXISTS_IN` (`I_ssn`,`R_ssn`,`Amount`) VALUES ("1000029724878","66394747199”,1);
+INSERT INTO `EXISTS_IN` (`I_ssn`,`R_ssn`,`Amount`) VALUES ("1000029714198","66394747199”,1);
+INSERT INTO `EXISTS_IN` (`I_ssn`,`R_ssn`,`Amount`) VALUES ("1000018568863","66394747199”,1);
+INSERT INTO `EXISTS_IN` (`I_ssn`,`R_ssn`,`Amount`) VALUES ("1000021060172","66394747199",1);
+INSERT INTO `EXISTS_IN` (`I_ssn`,`R_ssn`,`Amount`) VALUES ("1000005553945","66394747199",1);
+INSERT INTO `EXISTS_IN` (`I_ssn`,`R_ssn`,`Amount`) VALUES ("1000029471555","66394747199”,1);
+
+INSERT INTO `EXISTS_IN` (`I_ssn`,`R_ssn`,`Amount`) VALUES ("1000029266828","66394747199",100);
+INSERT INTO `EXISTS_IN` (`I_ssn`,`R_ssn`,`Amount`) VALUES ("0000005410098","66394747199",100);
+INSERT INTO `EXISTS_IN` (`I_ssn`,`R_ssn`,`Amount`) VALUES ("1000023093627","66394747199",100);
+INSERT INTO `EXISTS_IN` (`I_ssn`,`R_ssn`,`Amount`) VALUES ("1000028935441","66394747199",100);
+INSERT INTO `EXISTS_IN` (`I_ssn`,`R_ssn`,`Amount`) VALUES ("1000027532832","66394747199",100);
+INSERT INTO `EXISTS_IN` (`I_ssn`,`R_ssn`,`Amount`) VALUES ("1000025032666","66394747199",100);
+INSERT INTO `EXISTS_IN` (`I_ssn`,`R_ssn`,`Amount`) VALUES ("1000029127113","66394747199",100);
+INSERT INTO `EXISTS_IN` (`I_ssn`,`R_ssn`,`Amount`) VALUES ("1000025881970","66394747199",100);
+INSERT INTO `EXISTS_IN` (`I_ssn`,`R_ssn`,`Amount`) VALUES ("1000029004078","66394747199",100);
+INSERT INTO `EXISTS_IN` (`I_ssn`,`R_ssn`,`Amount`) VALUES ("0000007691302","66394747199",100);
+
+INSERT INTO `EXISTS_IN` (`I_ssn`,`R_ssn`,`Amount`) VALUES ("1000028286599","66394747199",100);
+INSERT INTO `EXISTS_IN` (`I_ssn`,`R_ssn`,`Amount`) VALUES ("1000025197143","66394747199",100);
+INSERT INTO `EXISTS_IN` (`I_ssn`,`R_ssn`,`Amount`) VALUES ("1000025031926","66394747199",100);
+INSERT INTO `EXISTS_IN` (`I_ssn`,`R_ssn`,`Amount`) VALUES ("0000010626950","66394747199",100);
+INSERT INTO `EXISTS_IN` (`I_ssn`,`R_ssn`,`Amount`) VALUES ("0000010626624","66394747199",100);
+INSERT INTO `EXISTS_IN` (`I_ssn`,`R_ssn`,`Amount`) VALUES ("1000025450109","66394747199",100);
+INSERT INTO `EXISTS_IN` (`I_ssn`,`R_ssn`,`Amount`) VALUES ("1000013038780","66394747199",100);
+INSERT INTO `EXISTS_IN` (`I_ssn`,`R_ssn`,`Amount`) VALUES ("1000025804909","66394747199",100);
+INSERT INTO `EXISTS_IN` (`I_ssn`,`R_ssn`,`Amount`) VALUES ("1000028974483","66394747199",100);
+INSERT INTO `EXISTS_IN` (`I_ssn`,`R_ssn`,`Amount`) VALUES ("1000029573621","66394747199",100);
+INSERT INTO `EXISTS_IN` (`I_ssn`,`R_ssn`,`Amount`) VALUES ("1000029496997","66394747199",100);
+INSERT INTO `EXISTS_IN` (`I_ssn`,`R_ssn`,`Amount`) VALUES ("100002829177","66394747199",100);
+INSERT INTO `EXISTS_IN` (`I_ssn`,`R_ssn`,`Amount`) VALUES ("1000029105357","66394747199",100);
+INSERT INTO `EXISTS_IN` (`I_ssn`,`R_ssn`,`Amount`) VALUES ("1000029105352","66394747199",100);
+INSERT INTO `EXISTS_IN` (`I_ssn`,`R_ssn`,`Amount`) VALUES ("1000028950139","66394747199",100);
+INSERT INTO `EXISTS_IN` (`I_ssn`,`R_ssn`,`Amount`) VALUES ("1000028699843","66394747199",100);
+INSERT INTO `EXISTS_IN` (`I_ssn`,`R_ssn`,`Amount`) VALUES ("1000029105032","66394747199",100);
+INSERT INTO `EXISTS_IN` (`I_ssn`,`R_ssn`,`Amount`) VALUES ("1000029105024","66394747199",100);
+INSERT INTO `EXISTS_IN` (`I_ssn`,`R_ssn`,`Amount`) VALUES ("1000021416651","66394747199",100);
+INSERT INTO `EXISTS_IN` (`I_ssn`,`R_ssn`,`Amount`) VALUES ("1000029105034","66394747199",100);
+INSERT INTO `EXISTS_IN` (`I_ssn`,`R_ssn`,`Amount`) VALUES ("1000028037662","66394747199",100);
+
+INSERT INTO `EXISTS_IN` (`I_ssn`,`R_ssn`,`Amount`) VALUES ("1000017646641","61529385599",0);
+INSERT INTO `EXISTS_IN` (`I_ssn`,`R_ssn`,`Amount`) VALUES ("1000018349957","61529385599",0);
+INSERT INTO `EXISTS_IN` (`I_ssn`,`R_ssn`,`Amount`) VALUES ("1000028309028","61529385599",0);
+INSERT INTO `EXISTS_IN` (`I_ssn`,`R_ssn`,`Amount`) VALUES ("1000028160226","61529385599",0);
+
+INSERT INTO `EXISTS_IN` (`I_ssn`,`R_ssn`,`Amount`) VALUES ("1000027953165","61529385599”,1);
+INSERT INTO `EXISTS_IN` (`I_ssn`,`R_ssn`,`Amount`) VALUES ("1000028764714","61529385599”,1);
+INSERT INTO `EXISTS_IN` (`I_ssn`,`R_ssn`,`Amount`) VALUES ("1000028266381","61529385599”,1);
+INSERT INTO `EXISTS_IN` (`I_ssn`,`R_ssn`,`Amount`) VALUES ("1000020939463","61529385599",1);
+INSERT INTO `EXISTS_IN` (`I_ssn`,`R_ssn`,`Amount`) VALUES ("1000029724878","61529385599”,1);
+INSERT INTO `EXISTS_IN` (`I_ssn`,`R_ssn`,`Amount`) VALUES ("1000029714198","61529385599”,1);
+INSERT INTO `EXISTS_IN` (`I_ssn`,`R_ssn`,`Amount`) VALUES ("1000018568863","61529385599”,1);
+INSERT INTO `EXISTS_IN` (`I_ssn`,`R_ssn`,`Amount`) VALUES ("1000021060172","61529385599",1);
+INSERT INTO `EXISTS_IN` (`I_ssn`,`R_ssn`,`Amount`) VALUES ("1000005553945","61529385599",1);
+INSERT INTO `EXISTS_IN` (`I_ssn`,`R_ssn`,`Amount`) VALUES ("1000029471555","61529385599”,1);
+
+INSERT INTO `EXISTS_IN` (`I_ssn`,`R_ssn`,`Amount`) VALUES ("1000029266828","61529385599",100);
+INSERT INTO `EXISTS_IN` (`I_ssn`,`R_ssn`,`Amount`) VALUES ("0000005410098","61529385599",100);
+INSERT INTO `EXISTS_IN` (`I_ssn`,`R_ssn`,`Amount`) VALUES ("1000023093627","61529385599",100);
+INSERT INTO `EXISTS_IN` (`I_ssn`,`R_ssn`,`Amount`) VALUES ("1000028935441","61529385599",100);
+INSERT INTO `EXISTS_IN` (`I_ssn`,`R_ssn`,`Amount`) VALUES ("1000027532832","61529385599",100);
+INSERT INTO `EXISTS_IN` (`I_ssn`,`R_ssn`,`Amount`) VALUES ("1000025032666","61529385599",100);
+INSERT INTO `EXISTS_IN` (`I_ssn`,`R_ssn`,`Amount`) VALUES ("1000029127113","61529385599",100);
+INSERT INTO `EXISTS_IN` (`I_ssn`,`R_ssn`,`Amount`) VALUES ("1000025881970","61529385599",100);
+INSERT INTO `EXISTS_IN` (`I_ssn`,`R_ssn`,`Amount`) VALUES ("1000029004078","61529385599",100);
+INSERT INTO `EXISTS_IN` (`I_ssn`,`R_ssn`,`Amount`) VALUES ("0000007691302","61529385599",100);
+
+INSERT INTO `EXISTS_IN` (`I_ssn`,`R_ssn`,`Amount`) VALUES ("1000028286599","61529385599",100);
+INSERT INTO `EXISTS_IN` (`I_ssn`,`R_ssn`,`Amount`) VALUES ("1000025197143","61529385599",100);
+INSERT INTO `EXISTS_IN` (`I_ssn`,`R_ssn`,`Amount`) VALUES ("1000025031926","61529385599",100);
+INSERT INTO `EXISTS_IN` (`I_ssn`,`R_ssn`,`Amount`) VALUES ("0000010626950","61529385599",100);
+INSERT INTO `EXISTS_IN` (`I_ssn`,`R_ssn`,`Amount`) VALUES ("0000010626624","61529385599",100);
+INSERT INTO `EXISTS_IN` (`I_ssn`,`R_ssn`,`Amount`) VALUES ("1000025450109","61529385599",100);
+INSERT INTO `EXISTS_IN` (`I_ssn`,`R_ssn`,`Amount`) VALUES ("1000013038780","61529385599",100);
+INSERT INTO `EXISTS_IN` (`I_ssn`,`R_ssn`,`Amount`) VALUES ("1000025804909","61529385599",100);
+INSERT INTO `EXISTS_IN` (`I_ssn`,`R_ssn`,`Amount`) VALUES ("1000028974483","61529385599",100);
+INSERT INTO `EXISTS_IN` (`I_ssn`,`R_ssn`,`Amount`) VALUES ("1000029573621","61529385599",100);
+INSERT INTO `EXISTS_IN` (`I_ssn`,`R_ssn`,`Amount`) VALUES ("1000029496997","61529385599",100);
+INSERT INTO `EXISTS_IN` (`I_ssn`,`R_ssn`,`Amount`) VALUES ("100002829177","61529385599",100);
+INSERT INTO `EXISTS_IN` (`I_ssn`,`R_ssn`,`Amount`) VALUES ("1000029105357","61529385599",100);
+INSERT INTO `EXISTS_IN` (`I_ssn`,`R_ssn`,`Amount`) VALUES ("1000029105352","61529385599",100);
+INSERT INTO `EXISTS_IN` (`I_ssn`,`R_ssn`,`Amount`) VALUES ("1000028950139","61529385599",100);
+INSERT INTO `EXISTS_IN` (`I_ssn`,`R_ssn`,`Amount`) VALUES ("1000028699843","61529385599",100);
+INSERT INTO `EXISTS_IN` (`I_ssn`,`R_ssn`,`Amount`) VALUES ("1000029105032","61529385599",100);
+INSERT INTO `EXISTS_IN` (`I_ssn`,`R_ssn`,`Amount`) VALUES ("1000029105024","61529385599",100);
+INSERT INTO `EXISTS_IN` (`I_ssn`,`R_ssn`,`Amount`) VALUES ("1000021416651","61529385599",100);
+INSERT INTO `EXISTS_IN` (`I_ssn`,`R_ssn`,`Amount`) VALUES ("1000029105034","61529385599",100);
+INSERT INTO `EXISTS_IN` (`I_ssn`,`R_ssn`,`Amount`) VALUES ("1000028037662","61529385599",100);
+
+INSERT INTO `EXISTS_IN` (`I_ssn`,`R_ssn`,`Amount`) VALUES ("1000017646641","15584709299",0);
+INSERT INTO `EXISTS_IN` (`I_ssn`,`R_ssn`,`Amount`) VALUES ("1000018349957","15584709299",0);
+INSERT INTO `EXISTS_IN` (`I_ssn`,`R_ssn`,`Amount`) VALUES ("1000028309028","15584709299",0);
+INSERT INTO `EXISTS_IN` (`I_ssn`,`R_ssn`,`Amount`) VALUES ("1000028160226","15584709299",0);
+
+INSERT INTO `EXISTS_IN` (`I_ssn`,`R_ssn`,`Amount`) VALUES ("1000027953165","15584709299”,1);
+INSERT INTO `EXISTS_IN` (`I_ssn`,`R_ssn`,`Amount`) VALUES ("1000028764714","15584709299”,1);
+INSERT INTO `EXISTS_IN` (`I_ssn`,`R_ssn`,`Amount`) VALUES ("1000028266381","15584709299”,1);
+INSERT INTO `EXISTS_IN` (`I_ssn`,`R_ssn`,`Amount`) VALUES ("1000020939463","15584709299",1);
+INSERT INTO `EXISTS_IN` (`I_ssn`,`R_ssn`,`Amount`) VALUES ("1000029724878","15584709299”,1);
+INSERT INTO `EXISTS_IN` (`I_ssn`,`R_ssn`,`Amount`) VALUES ("1000029714198","15584709299”,1);
+INSERT INTO `EXISTS_IN` (`I_ssn`,`R_ssn`,`Amount`) VALUES ("1000018568863","15584709299”,1);
+INSERT INTO `EXISTS_IN` (`I_ssn`,`R_ssn`,`Amount`) VALUES ("1000021060172","15584709299",1);
+INSERT INTO `EXISTS_IN` (`I_ssn`,`R_ssn`,`Amount`) VALUES ("1000005553945","15584709299",1);
+INSERT INTO `EXISTS_IN` (`I_ssn`,`R_ssn`,`Amount`) VALUES ("1000029471555","15584709299”,1);
+
+INSERT INTO `EXISTS_IN` (`I_ssn`,`R_ssn`,`Amount`) VALUES ("1000029266828","15584709299",100);
+INSERT INTO `EXISTS_IN` (`I_ssn`,`R_ssn`,`Amount`) VALUES ("0000005410098","15584709299",100);
+INSERT INTO `EXISTS_IN` (`I_ssn`,`R_ssn`,`Amount`) VALUES ("1000023093627","15584709299",100);
+INSERT INTO `EXISTS_IN` (`I_ssn`,`R_ssn`,`Amount`) VALUES ("1000028935441","15584709299",100);
+INSERT INTO `EXISTS_IN` (`I_ssn`,`R_ssn`,`Amount`) VALUES ("1000027532832","15584709299",100);
+INSERT INTO `EXISTS_IN` (`I_ssn`,`R_ssn`,`Amount`) VALUES ("1000025032666","15584709299",100);
+INSERT INTO `EXISTS_IN` (`I_ssn`,`R_ssn`,`Amount`) VALUES ("1000029127113","15584709299",100);
+INSERT INTO `EXISTS_IN` (`I_ssn`,`R_ssn`,`Amount`) VALUES ("1000025881970","15584709299",100);
+INSERT INTO `EXISTS_IN` (`I_ssn`,`R_ssn`,`Amount`) VALUES ("1000029004078","15584709299",100);
+INSERT INTO `EXISTS_IN` (`I_ssn`,`R_ssn`,`Amount`) VALUES ("0000007691302","15584709299",100);
+
+INSERT INTO `EXISTS_IN` (`I_ssn`,`R_ssn`,`Amount`) VALUES ("1000028286599","15584709299",100);
+INSERT INTO `EXISTS_IN` (`I_ssn`,`R_ssn`,`Amount`) VALUES ("1000025197143","15584709299",100);
+INSERT INTO `EXISTS_IN` (`I_ssn`,`R_ssn`,`Amount`) VALUES ("1000025031926","15584709299",100);
+INSERT INTO `EXISTS_IN` (`I_ssn`,`R_ssn`,`Amount`) VALUES ("0000010626950","15584709299",100);
+INSERT INTO `EXISTS_IN` (`I_ssn`,`R_ssn`,`Amount`) VALUES ("0000010626624","15584709299",100);
+INSERT INTO `EXISTS_IN` (`I_ssn`,`R_ssn`,`Amount`) VALUES ("1000025450109","15584709299",100);
+INSERT INTO `EXISTS_IN` (`I_ssn`,`R_ssn`,`Amount`) VALUES ("1000013038780","15584709299",100);
+INSERT INTO `EXISTS_IN` (`I_ssn`,`R_ssn`,`Amount`) VALUES ("1000025804909","15584709299",100);
+INSERT INTO `EXISTS_IN` (`I_ssn`,`R_ssn`,`Amount`) VALUES ("1000028974483","15584709299",100);
+INSERT INTO `EXISTS_IN` (`I_ssn`,`R_ssn`,`Amount`) VALUES ("1000029573621","15584709299",100);
+INSERT INTO `EXISTS_IN` (`I_ssn`,`R_ssn`,`Amount`) VALUES ("1000029496997","15584709299",100);
+INSERT INTO `EXISTS_IN` (`I_ssn`,`R_ssn`,`Amount`) VALUES ("100002829177","15584709299",100);
+INSERT INTO `EXISTS_IN` (`I_ssn`,`R_ssn`,`Amount`) VALUES ("1000029105357","15584709299",100);
+INSERT INTO `EXISTS_IN` (`I_ssn`,`R_ssn`,`Amount`) VALUES ("1000029105352","15584709299",100);
+INSERT INTO `EXISTS_IN` (`I_ssn`,`R_ssn`,`Amount`) VALUES ("1000028950139","15584709299",100);
+INSERT INTO `EXISTS_IN` (`I_ssn`,`R_ssn`,`Amount`) VALUES ("1000028699843","15584709299",100);
+INSERT INTO `EXISTS_IN` (`I_ssn`,`R_ssn`,`Amount`) VALUES ("1000029105032","15584709299",100);
+INSERT INTO `EXISTS_IN` (`I_ssn`,`R_ssn`,`Amount`) VALUES ("1000029105024","15584709299",100);
+INSERT INTO `EXISTS_IN` (`I_ssn`,`R_ssn`,`Amount`) VALUES ("1000021416651","15584709299",100);
+INSERT INTO `EXISTS_IN` (`I_ssn`,`R_ssn`,`Amount`) VALUES ("1000029105034","15584709299",100);
+INSERT INTO `EXISTS_IN` (`I_ssn`,`R_ssn`,`Amount`) VALUES ("1000028037662","15584709299",100);
+
+INSERT INTO `EXISTS_IN` (`I_ssn`,`R_ssn`,`Amount`) VALUES ("1000017646641","93741502099",0);
+INSERT INTO `EXISTS_IN` (`I_ssn`,`R_ssn`,`Amount`) VALUES ("1000018349957","93741502099",0);
+INSERT INTO `EXISTS_IN` (`I_ssn`,`R_ssn`,`Amount`) VALUES ("1000028309028","93741502099",0);
+INSERT INTO `EXISTS_IN` (`I_ssn`,`R_ssn`,`Amount`) VALUES ("1000028160226","93741502099",0);
+
+INSERT INTO `EXISTS_IN` (`I_ssn`,`R_ssn`,`Amount`) VALUES ("1000027953165","93741502099”,1);
+INSERT INTO `EXISTS_IN` (`I_ssn`,`R_ssn`,`Amount`) VALUES ("1000028764714","93741502099”,1);
+INSERT INTO `EXISTS_IN` (`I_ssn`,`R_ssn`,`Amount`) VALUES ("1000028266381","93741502099”,1);
+INSERT INTO `EXISTS_IN` (`I_ssn`,`R_ssn`,`Amount`) VALUES ("1000020939463","93741502099",1);
+INSERT INTO `EXISTS_IN` (`I_ssn`,`R_ssn`,`Amount`) VALUES ("1000029724878","93741502099”,1);
+INSERT INTO `EXISTS_IN` (`I_ssn`,`R_ssn`,`Amount`) VALUES ("1000029714198","93741502099”,1);
+INSERT INTO `EXISTS_IN` (`I_ssn`,`R_ssn`,`Amount`) VALUES ("1000018568863","93741502099”,1);
+INSERT INTO `EXISTS_IN` (`I_ssn`,`R_ssn`,`Amount`) VALUES ("1000021060172","93741502099",1);
+INSERT INTO `EXISTS_IN` (`I_ssn`,`R_ssn`,`Amount`) VALUES ("1000005553945","93741502099",1);
+INSERT INTO `EXISTS_IN` (`I_ssn`,`R_ssn`,`Amount`) VALUES ("1000029471555","93741502099”,1);
+
+INSERT INTO `EXISTS_IN` (`I_ssn`,`R_ssn`,`Amount`) VALUES ("1000029266828","93741502099",100);
+INSERT INTO `EXISTS_IN` (`I_ssn`,`R_ssn`,`Amount`) VALUES ("0000005410098","93741502099",100);
+INSERT INTO `EXISTS_IN` (`I_ssn`,`R_ssn`,`Amount`) VALUES ("1000023093627","93741502099",100);
+INSERT INTO `EXISTS_IN` (`I_ssn`,`R_ssn`,`Amount`) VALUES ("1000028935441","93741502099",100);
+INSERT INTO `EXISTS_IN` (`I_ssn`,`R_ssn`,`Amount`) VALUES ("1000027532832","93741502099",100);
+INSERT INTO `EXISTS_IN` (`I_ssn`,`R_ssn`,`Amount`) VALUES ("1000025032666","93741502099",100);
+INSERT INTO `EXISTS_IN` (`I_ssn`,`R_ssn`,`Amount`) VALUES ("1000029127113","93741502099",100);
+INSERT INTO `EXISTS_IN` (`I_ssn`,`R_ssn`,`Amount`) VALUES ("1000025881970","93741502099",100);
+INSERT INTO `EXISTS_IN` (`I_ssn`,`R_ssn`,`Amount`) VALUES ("1000029004078","93741502099",100);
+INSERT INTO `EXISTS_IN` (`I_ssn`,`R_ssn`,`Amount`) VALUES ("0000007691302","93741502099",100);
+
+INSERT INTO `EXISTS_IN` (`I_ssn`,`R_ssn`,`Amount`) VALUES ("1000028286599","93741502099",100);
+INSERT INTO `EXISTS_IN` (`I_ssn`,`R_ssn`,`Amount`) VALUES ("1000025197143","93741502099",100);
+INSERT INTO `EXISTS_IN` (`I_ssn`,`R_ssn`,`Amount`) VALUES ("1000025031926","93741502099",100);
+INSERT INTO `EXISTS_IN` (`I_ssn`,`R_ssn`,`Amount`) VALUES ("0000010626950","93741502099",100);
+INSERT INTO `EXISTS_IN` (`I_ssn`,`R_ssn`,`Amount`) VALUES ("0000010626624","93741502099",100);
+INSERT INTO `EXISTS_IN` (`I_ssn`,`R_ssn`,`Amount`) VALUES ("1000025450109","93741502099",100);
+INSERT INTO `EXISTS_IN` (`I_ssn`,`R_ssn`,`Amount`) VALUES ("1000013038780","93741502099",100);
+INSERT INTO `EXISTS_IN` (`I_ssn`,`R_ssn`,`Amount`) VALUES ("1000025804909","93741502099",100);
+INSERT INTO `EXISTS_IN` (`I_ssn`,`R_ssn`,`Amount`) VALUES ("1000028974483","93741502099",100);
+INSERT INTO `EXISTS_IN` (`I_ssn`,`R_ssn`,`Amount`) VALUES ("1000029573621","93741502099",100);
+INSERT INTO `EXISTS_IN` (`I_ssn`,`R_ssn`,`Amount`) VALUES ("1000029496997","93741502099",100);
+INSERT INTO `EXISTS_IN` (`I_ssn`,`R_ssn`,`Amount`) VALUES ("100002829177","93741502099",100);
+INSERT INTO `EXISTS_IN` (`I_ssn`,`R_ssn`,`Amount`) VALUES ("1000029105357","93741502099",100);
+INSERT INTO `EXISTS_IN` (`I_ssn`,`R_ssn`,`Amount`) VALUES ("1000029105352","93741502099",100);
+INSERT INTO `EXISTS_IN` (`I_ssn`,`R_ssn`,`Amount`) VALUES ("1000028950139","93741502099",100);
+INSERT INTO `EXISTS_IN` (`I_ssn`,`R_ssn`,`Amount`) VALUES ("1000028699843","93741502099",100);
+INSERT INTO `EXISTS_IN` (`I_ssn`,`R_ssn`,`Amount`) VALUES ("1000029105032","93741502099",100);
+INSERT INTO `EXISTS_IN` (`I_ssn`,`R_ssn`,`Amount`) VALUES ("1000029105024","93741502099",100);
+INSERT INTO `EXISTS_IN` (`I_ssn`,`R_ssn`,`Amount`) VALUES ("1000021416651","93741502099",100);
+INSERT INTO `EXISTS_IN` (`I_ssn`,`R_ssn`,`Amount`) VALUES ("1000029105034","93741502099",100);
+INSERT INTO `EXISTS_IN` (`I_ssn`,`R_ssn`,`Amount`) VALUES ("1000028037662","93741502099",100);
+
+INSERT INTO `EXISTS_IN` (`I_ssn`,`R_ssn`,`Amount`) VALUES ("1000017646641","86408459699",0);
+INSERT INTO `EXISTS_IN` (`I_ssn`,`R_ssn`,`Amount`) VALUES ("1000018349957","86408459699",0);
+INSERT INTO `EXISTS_IN` (`I_ssn`,`R_ssn`,`Amount`) VALUES ("1000028309028","86408459699",0);
+INSERT INTO `EXISTS_IN` (`I_ssn`,`R_ssn`,`Amount`) VALUES ("1000028160226","86408459699",0);
+
+INSERT INTO `EXISTS_IN` (`I_ssn`,`R_ssn`,`Amount`) VALUES ("1000027953165","86408459699”,1);
+INSERT INTO `EXISTS_IN` (`I_ssn`,`R_ssn`,`Amount`) VALUES ("1000028764714","86408459699”,1);
+INSERT INTO `EXISTS_IN` (`I_ssn`,`R_ssn`,`Amount`) VALUES ("1000028266381","86408459699”,1);
+INSERT INTO `EXISTS_IN` (`I_ssn`,`R_ssn`,`Amount`) VALUES ("1000020939463","86408459699",1);
+INSERT INTO `EXISTS_IN` (`I_ssn`,`R_ssn`,`Amount`) VALUES ("1000029724878","86408459699”,1);
+INSERT INTO `EXISTS_IN` (`I_ssn`,`R_ssn`,`Amount`) VALUES ("1000029714198","86408459699”,1);
+INSERT INTO `EXISTS_IN` (`I_ssn`,`R_ssn`,`Amount`) VALUES ("1000018568863","86408459699”,1);
+INSERT INTO `EXISTS_IN` (`I_ssn`,`R_ssn`,`Amount`) VALUES ("1000021060172","86408459699",1);
+INSERT INTO `EXISTS_IN` (`I_ssn`,`R_ssn`,`Amount`) VALUES ("1000005553945","86408459699",1);
+INSERT INTO `EXISTS_IN` (`I_ssn`,`R_ssn`,`Amount`) VALUES ("1000029471555","86408459699”,1);
+
+INSERT INTO `EXISTS_IN` (`I_ssn`,`R_ssn`,`Amount`) VALUES ("1000029266828","86408459699",100);
+INSERT INTO `EXISTS_IN` (`I_ssn`,`R_ssn`,`Amount`) VALUES ("0000005410098","86408459699",100);
+INSERT INTO `EXISTS_IN` (`I_ssn`,`R_ssn`,`Amount`) VALUES ("1000023093627","86408459699",100);
+INSERT INTO `EXISTS_IN` (`I_ssn`,`R_ssn`,`Amount`) VALUES ("1000028935441","86408459699",100);
+INSERT INTO `EXISTS_IN` (`I_ssn`,`R_ssn`,`Amount`) VALUES ("1000027532832","86408459699",100);
+INSERT INTO `EXISTS_IN` (`I_ssn`,`R_ssn`,`Amount`) VALUES ("1000025032666","86408459699",100);
+INSERT INTO `EXISTS_IN` (`I_ssn`,`R_ssn`,`Amount`) VALUES ("1000029127113","86408459699",100);
+INSERT INTO `EXISTS_IN` (`I_ssn`,`R_ssn`,`Amount`) VALUES ("1000025881970","86408459699",100);
+INSERT INTO `EXISTS_IN` (`I_ssn`,`R_ssn`,`Amount`) VALUES ("1000029004078","86408459699",100);
+INSERT INTO `EXISTS_IN` (`I_ssn`,`R_ssn`,`Amount`) VALUES ("0000007691302","86408459699",100);
+
+INSERT INTO `EXISTS_IN` (`I_ssn`,`R_ssn`,`Amount`) VALUES ("1000028286599","86408459699",100);
+INSERT INTO `EXISTS_IN` (`I_ssn`,`R_ssn`,`Amount`) VALUES ("1000025197143","86408459699",100);
+INSERT INTO `EXISTS_IN` (`I_ssn`,`R_ssn`,`Amount`) VALUES ("1000025031926","86408459699",100);
+INSERT INTO `EXISTS_IN` (`I_ssn`,`R_ssn`,`Amount`) VALUES ("0000010626950","86408459699",100);
+INSERT INTO `EXISTS_IN` (`I_ssn`,`R_ssn`,`Amount`) VALUES ("0000010626624","86408459699",100);
+INSERT INTO `EXISTS_IN` (`I_ssn`,`R_ssn`,`Amount`) VALUES ("1000025450109","86408459699",100);
+INSERT INTO `EXISTS_IN` (`I_ssn`,`R_ssn`,`Amount`) VALUES ("1000013038780","86408459699",100);
+INSERT INTO `EXISTS_IN` (`I_ssn`,`R_ssn`,`Amount`) VALUES ("1000025804909","86408459699",100);
+INSERT INTO `EXISTS_IN` (`I_ssn`,`R_ssn`,`Amount`) VALUES ("1000028974483","86408459699",100);
+INSERT INTO `EXISTS_IN` (`I_ssn`,`R_ssn`,`Amount`) VALUES ("1000029573621","86408459699",100);
+INSERT INTO `EXISTS_IN` (`I_ssn`,`R_ssn`,`Amount`) VALUES ("1000029496997","86408459699",100);
+INSERT INTO `EXISTS_IN` (`I_ssn`,`R_ssn`,`Amount`) VALUES ("100002829177","86408459699",100);
+INSERT INTO `EXISTS_IN` (`I_ssn`,`R_ssn`,`Amount`) VALUES ("1000029105357","86408459699",100);
+INSERT INTO `EXISTS_IN` (`I_ssn`,`R_ssn`,`Amount`) VALUES ("1000029105352","86408459699",100);
+INSERT INTO `EXISTS_IN` (`I_ssn`,`R_ssn`,`Amount`) VALUES ("1000028950139","86408459699",100);
+INSERT INTO `EXISTS_IN` (`I_ssn`,`R_ssn`,`Amount`) VALUES ("1000028699843","86408459699",100);
+INSERT INTO `EXISTS_IN` (`I_ssn`,`R_ssn`,`Amount`) VALUES ("1000029105032","86408459699",100);
+INSERT INTO `EXISTS_IN` (`I_ssn`,`R_ssn`,`Amount`) VALUES ("1000029105024","86408459699",100);
+INSERT INTO `EXISTS_IN` (`I_ssn`,`R_ssn`,`Amount`) VALUES ("1000021416651","86408459699",100);
+INSERT INTO `EXISTS_IN` (`I_ssn`,`R_ssn`,`Amount`) VALUES ("1000029105034","86408459699",100);
+INSERT INTO `EXISTS_IN` (`I_ssn`,`R_ssn`,`Amount`) VALUES ("1000028037662","86408459699",100);
+
+INSERT INTO `EXISTS_IN` (`I_ssn`,`R_ssn`,`Amount`) VALUES ("1000017646641","61229223599",0);
+INSERT INTO `EXISTS_IN` (`I_ssn`,`R_ssn`,`Amount`) VALUES ("1000018349957","61229223599",0);
+INSERT INTO `EXISTS_IN` (`I_ssn`,`R_ssn`,`Amount`) VALUES ("1000028309028","61229223599",0);
+INSERT INTO `EXISTS_IN` (`I_ssn`,`R_ssn`,`Amount`) VALUES ("1000028160226","61229223599",0);
+
+INSERT INTO `EXISTS_IN` (`I_ssn`,`R_ssn`,`Amount`) VALUES ("1000027953165","61229223599”,1);
+INSERT INTO `EXISTS_IN` (`I_ssn`,`R_ssn`,`Amount`) VALUES ("1000028764714","61229223599”,1);
+INSERT INTO `EXISTS_IN` (`I_ssn`,`R_ssn`,`Amount`) VALUES ("1000028266381","61229223599”,1);
+INSERT INTO `EXISTS_IN` (`I_ssn`,`R_ssn`,`Amount`) VALUES ("1000020939463","61229223599",1);
+INSERT INTO `EXISTS_IN` (`I_ssn`,`R_ssn`,`Amount`) VALUES ("1000029724878","61229223599”,1);
+INSERT INTO `EXISTS_IN` (`I_ssn`,`R_ssn`,`Amount`) VALUES ("1000029714198","61229223599”,1);
+INSERT INTO `EXISTS_IN` (`I_ssn`,`R_ssn`,`Amount`) VALUES ("1000018568863","61229223599”,1);
+INSERT INTO `EXISTS_IN` (`I_ssn`,`R_ssn`,`Amount`) VALUES ("1000021060172","61229223599”,1);
+INSERT INTO `EXISTS_IN` (`I_ssn`,`R_ssn`,`Amount`) VALUES ("1000005553945","61229223599",1);
+INSERT INTO `EXISTS_IN` (`I_ssn`,`R_ssn`,`Amount`) VALUES ("1000029471555","61229223599”,1);
+
+INSERT INTO `EXISTS_IN` (`I_ssn`,`R_ssn`,`Amount`) VALUES ("1000029266828","61229223599",100);
+INSERT INTO `EXISTS_IN` (`I_ssn`,`R_ssn`,`Amount`) VALUES ("0000005410098","61229223599",100);
+INSERT INTO `EXISTS_IN` (`I_ssn`,`R_ssn`,`Amount`) VALUES ("1000023093627","61229223599",100);
+INSERT INTO `EXISTS_IN` (`I_ssn`,`R_ssn`,`Amount`) VALUES ("1000028935441","61229223599",100);
+INSERT INTO `EXISTS_IN` (`I_ssn`,`R_ssn`,`Amount`) VALUES ("1000027532832","61229223599",100);
+INSERT INTO `EXISTS_IN` (`I_ssn`,`R_ssn`,`Amount`) VALUES ("1000025032666","61229223599",100);
+INSERT INTO `EXISTS_IN` (`I_ssn`,`R_ssn`,`Amount`) VALUES ("1000029127113","61229223599",100);
+INSERT INTO `EXISTS_IN` (`I_ssn`,`R_ssn`,`Amount`) VALUES ("1000025881970","61229223599",100);
+INSERT INTO `EXISTS_IN` (`I_ssn`,`R_ssn`,`Amount`) VALUES ("1000029004078","61229223599",100);
+INSERT INTO `EXISTS_IN` (`I_ssn`,`R_ssn`,`Amount`) VALUES ("0000007691302","61229223599",100);
+
+INSERT INTO `EXISTS_IN` (`I_ssn`,`R_ssn`,`Amount`) VALUES ("1000028286599","61229223599",100);
+INSERT INTO `EXISTS_IN` (`I_ssn`,`R_ssn`,`Amount`) VALUES ("1000025197143","61229223599",100);
+INSERT INTO `EXISTS_IN` (`I_ssn`,`R_ssn`,`Amount`) VALUES ("1000025031926","61229223599",100);
+INSERT INTO `EXISTS_IN` (`I_ssn`,`R_ssn`,`Amount`) VALUES ("0000010626950","61229223599",100);
+INSERT INTO `EXISTS_IN` (`I_ssn`,`R_ssn`,`Amount`) VALUES ("0000010626624","61229223599",100);
+INSERT INTO `EXISTS_IN` (`I_ssn`,`R_ssn`,`Amount`) VALUES ("1000025450109","61229223599",100);
+INSERT INTO `EXISTS_IN` (`I_ssn`,`R_ssn`,`Amount`) VALUES ("1000013038780","61229223599",100);
+INSERT INTO `EXISTS_IN` (`I_ssn`,`R_ssn`,`Amount`) VALUES ("1000025804909","61229223599",100);
+INSERT INTO `EXISTS_IN` (`I_ssn`,`R_ssn`,`Amount`) VALUES ("1000028974483","61229223599",100);
+INSERT INTO `EXISTS_IN` (`I_ssn`,`R_ssn`,`Amount`) VALUES ("1000029573621","61229223599",100);
+INSERT INTO `EXISTS_IN` (`I_ssn`,`R_ssn`,`Amount`) VALUES ("1000029496997","61229223599",100);
+INSERT INTO `EXISTS_IN` (`I_ssn`,`R_ssn`,`Amount`) VALUES ("100002829177","61229223599",100);
+INSERT INTO `EXISTS_IN` (`I_ssn`,`R_ssn`,`Amount`) VALUES ("1000029105357","61229223599",100);
+INSERT INTO `EXISTS_IN` (`I_ssn`,`R_ssn`,`Amount`) VALUES ("1000029105352","61229223599",100);
+INSERT INTO `EXISTS_IN` (`I_ssn`,`R_ssn`,`Amount`) VALUES ("1000028950139","61229223599",100);
+INSERT INTO `EXISTS_IN` (`I_ssn`,`R_ssn`,`Amount`) VALUES ("1000028699843","61229223599",100);
+INSERT INTO `EXISTS_IN` (`I_ssn`,`R_ssn`,`Amount`) VALUES ("1000029105032","61229223599",100);
+INSERT INTO `EXISTS_IN` (`I_ssn`,`R_ssn`,`Amount`) VALUES ("1000029105024","61229223599",100);
+INSERT INTO `EXISTS_IN` (`I_ssn`,`R_ssn`,`Amount`) VALUES ("1000021416651","61229223599",100);
+INSERT INTO `EXISTS_IN` (`I_ssn`,`R_ssn`,`Amount`) VALUES ("1000029105034","61229223599",100);
+INSERT INTO `EXISTS_IN` (`I_ssn`,`R_ssn`,`Amount`) VALUES ("1000028037662","61229223599",100);
+
+INSERT INTO `ORDERS` (`C_id`,`I_ssn`,`OrderAmount`,`BuyTime`) VALUES ("dictum.cursus@sitametmassa.co.uk","1653101725399",1,"Jan 31, 2017");
+INSERT INTO `ORDERS` (`C_id`,`I_ssn`,`OrderAmount`,`BuyTime`) VALUES ("dictum.cursus@sitametmassa.co.uk","1679102304499",1,"Oct 12, 2017");
+INSERT INTO `ORDERS` (`C_id`,`I_ssn`,`OrderAmount`,`BuyTime`) VALUES ("dictum.cursus@sitametmassa.co.uk","1633041500999",10,"Jul 6, 2017”);
+INSERT INTO `ORDERS` (`C_id`,`I_ssn`,`OrderAmount`,`BuyTime`) VALUES ("dictum.cursus@sitametmassa.co.uk","1605051136299”,8,”Nov 6, 2016");
+INSERT INTO `ORDERS` (`C_id`,`I_ssn`,`OrderAmount`,`BuyTime`) VALUES ("dictum.cursus@sitametmassa.co.uk","1626021959899",7,"Sep 20, 2016”);
+INSERT INTO `ORDERS` (`C_id`,`I_ssn`,`OrderAmount`,`BuyTime`) VALUES ("dictum.cursus@sitametmassa.co.uk","1619021580299",2,"Nov 16, 2016”);
+INSERT INTO `ORDERS` (`C_id`,`I_ssn`,`OrderAmount`,`BuyTime`) VALUES ("dictum.cursus@sitametmassa.co.uk","1697082107399",1,"Sep 16, 2017");
+
+INSERT INTO `ORDERS` (`C_id`,`I_ssn`,`OrderAmount`,`BuyTime`) VALUES ("sem@CraspellentesqueSed.co.uk","1626021648799",5,"Feb 14, 2017");
+INSERT INTO `ORDERS` (`C_id`,`I_ssn`,`OrderAmount`,`BuyTime`) VALUES ("sem@CraspellentesqueSed.co.uk","1674021087599",7,"Sep 27, 2016”);
+INSERT INTO `ORDERS` (`C_id`,`I_ssn`,`OrderAmount`,`BuyTime`) VALUES ("sem@CraspellentesqueSed.co.uk","1615111074599",1,"Nov 19, 2017”);
+INSERT INTO `ORDERS` (`C_id`,`I_ssn`,`OrderAmount`,`BuyTime`) VALUES ("sem@CraspellentesqueSed.co.uk","1661022590699",8,"Jan 24, 2017");
+INSERT INTO `ORDERS` (`C_id`,`I_ssn`,`OrderAmount`,`BuyTime`) VALUES ("sem@CraspellentesqueSed.co.uk","1633062433399",1,"Nov 24, 2017”);
+INSERT INTO `ORDERS` (`C_id`,`I_ssn`,`OrderAmount`,`BuyTime`) VALUES ("sem@CraspellentesqueSed.co.uk","1611060874999",3,"Dec 25, 2017");
+INSERT INTO `ORDERS` (`C_id`,`I_ssn`,`OrderAmount`,`BuyTime`) VALUES ("sem@CraspellentesqueSed.co.uk","1656032711299",6,"May 1, 2018");
+INSERT INTO `ORDERS` (`C_id`,`I_ssn`,`OrderAmount`,`BuyTime`) VALUES ("sem@CraspellentesqueSed.co.uk","1688011059999",3,"Apr 15, 2018”);
+
+INSERT INTO `ORDERS` (`C_id`,`I_ssn`,`OrderAmount`,`BuyTime`) VALUES ("id.ante.Nunc@arcu.org","1667022287799",9,"May 21, 2017");
+INSERT INTO `ORDERS` (`C_id`,`I_ssn`,`OrderAmount`,`BuyTime`) VALUES ("id.ante.Nunc@arcu.org","1634050768299",5,"Nov 1, 2017”);
+INSERT INTO `ORDERS` (`C_id`,`I_ssn`,`OrderAmount`,`BuyTime`) VALUES ("id.ante.Nunc@arcu.org","1676092101699",4,"Jan 20, 2018");
+INSERT INTO `ORDERS` (`C_id`,`I_ssn`,`OrderAmount`,`BuyTime`) VALUES ("id.ante.Nunc@arcu.org","1627052940499",10,"Nov 14, 2016");
+INSERT INTO `ORDERS` (`C_id`,`I_ssn`,`OrderAmount`,`BuyTime`) VALUES ("id.ante.Nunc@arcu.org","1675030946199",3,"Feb 21, 2017");
+INSERT INTO `ORDERS` (`C_id`,`I_ssn`,`OrderAmount`,`BuyTime`) VALUES ("id.ante.Nunc@arcu.org","1613010895299",2,"Feb 22, 2017”);
+INSERT INTO `ORDERS` (`C_id`,`I_ssn`,`OrderAmount`,`BuyTime`) VALUES ("id.ante.Nunc@arcu.org","1647121609399",5,"May 3, 2018");
+
+INSERT INTO `ORDERS` (`C_id`,`I_ssn`,`OrderAmount`,`BuyTime`) VALUES ("dignissim.lacus.Aliquam@a.edu","1652072780199",8,"Nov 8, 2017”);
+INSERT INTO `ORDERS` (`C_id`,`I_ssn`,`OrderAmount`,`BuyTime`) VALUES ("dignissim.lacus.Aliquam@a.edu","1601060708999",9,"Aug 18, 2017");
+INSERT INTO `ORDERS` (`C_id`,`I_ssn`,`OrderAmount`,`BuyTime`) VALUES ("dignissim.lacus.Aliquam@a.edu","1647111041199",3,"Feb 9, 2018");
+INSERT INTO `ORDERS` (`C_id`,`I_ssn`,`OrderAmount`,`BuyTime`) VALUES ("dignissim.lacus.Aliquam@a.edu","1695082065399",3,"May 4, 2018");
+INSERT INTO `ORDERS` (`C_id`,`I_ssn`,`OrderAmount`,`BuyTime`) VALUES ("dignissim.lacus.Aliquam@a.edu","1622011400199",5,"May 14, 2017”);
+INSERT INTO `ORDERS` (`C_id`,`I_ssn`,`OrderAmount`,`BuyTime`) VALUES ("dignissim.lacus.Aliquam@a.edu","1668060200099",8,"May 16, 2017”);
+INSERT INTO `ORDERS` (`C_id`,`I_ssn`,`OrderAmount`,`BuyTime`) VALUES ("dignissim.lacus.Aliquam@a.edu","1671021504199",8,"Jan 31, 2018");
+INSERT INTO `ORDERS` (`C_id`,`I_ssn`,`OrderAmount`,`BuyTime`) VALUES ("dignissim.lacus.Aliquam@a.edu","1665051524799",2,"Jun 25, 2017”);
+INSERT INTO `ORDERS` (`C_id`,`I_ssn`,`OrderAmount`,`BuyTime`) VALUES ("dignissim.lacus.Aliquam@a.edu","1642050799099",3,"Jan 19, 2017”);
+
+INSERT INTO `ORDERS` (`C_id`,`I_ssn`,`OrderAmount`,`BuyTime`) VALUES ("eu.arcu.Morbi@sem.org","1698010552999",9,"Apr 4, 2018");
+INSERT INTO `ORDERS` (`C_id`,`I_ssn`,`OrderAmount`,`BuyTime`) VALUES ("eu.arcu.Morbi@sem.org","1650092531299",10,"Jun 6, 2017”);
+INSERT INTO `ORDERS` (`C_id`,`I_ssn`,`OrderAmount`,`BuyTime`) VALUES ("eu.arcu.Morbi@sem.org","1612052531499",10,"Nov 29, 2016”);
+INSERT INTO `ORDERS` (`C_id`,`I_ssn`,`OrderAmount`,`BuyTime`) VALUES ("eu.arcu.Morbi@sem.org","1608100919399",4,"Jan 2, 2018");
+INSERT INTO `ORDERS` (`C_id`,`I_ssn`,`OrderAmount`,`BuyTime`) VALUES ("eu.arcu.Morbi@sem.org","1645041885799",2,"Jul 10, 2018");
+INSERT INTO `ORDERS` (`C_id`,`I_ssn`,`OrderAmount`,`BuyTime`) VALUES ("eu.arcu.Morbi@sem.org","1681010173699",9,"Nov 16, 2016”);
+INSERT INTO `ORDERS` (`C_id`,`I_ssn`,`OrderAmount`,`BuyTime`) VALUES ("eu.arcu.Morbi@sem.org","1649092550699",2,"Oct 24, 2016");
+INSERT INTO `ORDERS` (`C_id`,`I_ssn`,`OrderAmount`,`BuyTime`) VALUES ("eu.arcu.Morbi@sem.org","1623011638499",9,"Jan 3, 2018");
+INSERT INTO `ORDERS` (`C_id`,`I_ssn`,`OrderAmount`,`BuyTime`) VALUES ("eu.arcu.Morbi@sem.org","1685100256499",10,"Aug 17, 2018");
+INSERT INTO `ORDERS` (`C_id`,`I_ssn`,`OrderAmount`,`BuyTime`) VALUES ("eu.arcu.Morbi@sem.org","1674092420499",2,"Jul 1, 2018");
+
+INSERT INTO `ORDERS` (`C_id`,`I_ssn`,`OrderAmount`,`BuyTime`) VALUES ("enim.mi@sagittisDuisgravida.edu","1613122978299",8,"Oct 5, 2017");
+INSERT INTO `ORDERS` (`C_id`,`I_ssn`,`OrderAmount`,`BuyTime`) VALUES ("enim.mi@sagittisDuisgravida.edu","1686080876699",6,"Mar 14, 2017");
+INSERT INTO `ORDERS` (`C_id`,`I_ssn`,`OrderAmount`,`BuyTime`) VALUES ("enim.mi@sagittisDuisgravida.edu","1676120733799",6,"Mar 31, 2018");
+INSERT INTO `ORDERS` (`C_id`,`I_ssn`,`OrderAmount`,`BuyTime`) VALUES ("enim.mi@sagittisDuisgravida.edu","1697051548199",2,"Aug 16, 2017”);
+INSERT INTO `ORDERS` (`C_id`,`I_ssn`,`OrderAmount`,`BuyTime`) VALUES ("enim.mi@sagittisDuisgravida.edu","1671080165499",9,"Apr 10, 2017”);
+INSERT INTO `ORDERS` (`C_id`,`I_ssn`,`OrderAmount`,`BuyTime`) VALUES ("enim.mi@sagittisDuisgravida.edu","1630101424499",2,"Jan 12, 2017”);
+INSERT INTO `ORDERS` (`C_id`,`I_ssn`,`OrderAmount`,`BuyTime`) VALUES ("enim.mi@sagittisDuisgravida.edu","1613032755199",2,"May 5, 2018");
+INSERT INTO `ORDERS` (`C_id`,`I_ssn`,`OrderAmount`,`BuyTime`) VALUES ("enim.mi@sagittisDuisgravida.edu","1653112113599",1,"Nov 10, 2017");
+INSERT INTO `ORDERS` (`C_id`,`I_ssn`,`OrderAmount`,`BuyTime`) VALUES ("enim.mi@sagittisDuisgravida.edu","1669041253199",4,"Mar 21, 2017");
+INSERT INTO `ORDERS` (`C_id`,`I_ssn`,`OrderAmount`,`BuyTime`) VALUES ("enim.mi@sagittisDuisgravida.edu","1658032823499",1,"Oct 24, 2016");
+INSERT INTO `ORDERS` (`C_id`,`I_ssn`,`OrderAmount`,`BuyTime`) VALUES ("enim.mi@sagittisDuisgravida.edu","1660081535599",7,"May 9, 2017");
+
+INSERT INTO `ORDERS` (`C_id`,`I_ssn`,`OrderAmount`,`BuyTime`) VALUES ("justo@Ut.org","1660112798399",5,"Nov 21, 2017”);
+INSERT INTO `ORDERS` (`C_id`,`I_ssn`,`OrderAmount`,`BuyTime`) VALUES ("justo@Ut.org","1608103036699",8,"Apr 19, 2017”);
+INSERT INTO `ORDERS` (`C_id`,`I_ssn`,`OrderAmount`,`BuyTime`) VALUES ("justo@Ut.org","1647082661299",8,"May 25, 2018");
+INSERT INTO `ORDERS` (`C_id`,`I_ssn`,`OrderAmount`,`BuyTime`) VALUES ("justo@Ut.org","1677092166499",2,"Mar 17, 2018");
+INSERT INTO `ORDERS` (`C_id`,`I_ssn`,`OrderAmount`,`BuyTime`) VALUES ("justo@Ut.org","1658052459199",5,"Jul 11, 2017");
+INSERT INTO `ORDERS` (`C_id`,`I_ssn`,`OrderAmount`,`BuyTime`) VALUES ("justo@Ut.org","1649050209799",1,"Jul 23, 2018”);
+INSERT INTO `ORDERS` (`C_id`,`I_ssn`,`OrderAmount`,`BuyTime`) VALUES ("justo@Ut.org","1658090530799",1,"Jun 25, 2017”);
+
+INSERT INTO `ORDERS` (`C_id`,`I_ssn`,`OrderAmount`,`BuyTime`) VALUES ("Fusce.dolor@sitametmassa.co.uk","1647051532899",7,"Apr 11, 2017”);
+INSERT INTO `ORDERS` (`C_id`,`I_ssn`,`OrderAmount`,`BuyTime`) VALUES ("Fusce.dolor@sitametmassa.co.uk","1684060974499",4,"May 8, 2017");
+INSERT INTO `ORDERS` (`C_id`,`I_ssn`,`OrderAmount`,`BuyTime`) VALUES ("Fusce.dolor@sitametmassa.co.uk","1619020403399",7,"Jan 17, 2018");
+INSERT INTO `ORDERS` (`C_id`,`I_ssn`,`OrderAmount`,`BuyTime`) VALUES ("Fusce.dolor@sitametmassa.co.uk","1671112498499",7,"Jun 1, 2017");
+INSERT INTO `ORDERS` (`C_id`,`I_ssn`,`OrderAmount`,`BuyTime`) VALUES ("Fusce.dolor@sitametmassa.co.uk","1682090761099",4,"Nov 26, 2017”);
+INSERT INTO `ORDERS` (`C_id`,`I_ssn`,`OrderAmount`,`BuyTime`) VALUES ("Fusce.dolor@sitametmassa.co.uk","1622040172999",7,"May 4, 2018”);
+INSERT INTO `ORDERS` (`C_id`,`I_ssn`,`OrderAmount`,`BuyTime`) VALUES ("Fusce.dolor@sitametmassa.co.uk","1662010961599",10,"Jul 3, 2018");
+INSERT INTO `ORDERS` (`C_id`,`I_ssn`,`OrderAmount`,`BuyTime`) VALUES ("Fusce.dolor@sitametmassa.co.uk","1638031776899",2,"Oct 24, 2017");
+
+INSERT INTO `ORDERS` (`C_id`,`I_ssn`,`OrderAmount`,`BuyTime`) VALUES ("natoque.penatibus.et@Nullamsuscipit.edu","1678112213599",3,"Aug 11, 2017");
+INSERT INTO `ORDERS` (`C_id`,`I_ssn`,`OrderAmount`,`BuyTime`) VALUES ("natoque.penatibus.et@Nullamsuscipit.edu","1648071405999",8,"Apr 5, 2017");
+INSERT INTO `ORDERS` (`C_id`,`I_ssn`,`OrderAmount`,`BuyTime`) VALUES ("natoque.penatibus.et@Nullamsuscipit.edu","1637121510599",8,"Dec 9, 2018");
+INSERT INTO `ORDERS` (`C_id`,`I_ssn`,`OrderAmount`,`BuyTime`) VALUES ("natoque.penatibus.et@Nullamsuscipit.edu","1623022552399",9,"Nov 13, 2017");
+INSERT INTO `ORDERS` (`C_id`,`I_ssn`,`OrderAmount`,`BuyTime`) VALUES ("natoque.penatibus.et@Nullamsuscipit.edu","1600060330099",7,"May 27, 2017");
+INSERT INTO `ORDERS` (`C_id`,`I_ssn`,`OrderAmount`,`BuyTime`) VALUES ("natoque.penatibus.et@Nullamsuscipit.edu","1680110863099",4,"Jan 22, 2018");
+INSERT INTO `ORDERS` (`C_id`,`I_ssn`,`OrderAmount`,`BuyTime`) VALUES ("natoque.penatibus.et@Nullamsuscipit.edu","1623101502899",3,"Oct 3, 2017");
+INSERT INTO `ORDERS` (`C_id`,`I_ssn`,`OrderAmount`,`BuyTime`) VALUES ("natoque.penatibus.et@Nullamsuscipit.edu","1632011477699",3,"Jun 16, 2017");
+INSERT INTO `ORDERS` (`C_id`,`I_ssn`,`OrderAmount`,`BuyTime`) VALUES ("natoque.penatibus.et@Nullamsuscipit.edu","1630010969999",6,"May 13, 2017");
+
+INSERT INTO `ORDERS` (`C_id`,`I_ssn`,`OrderAmount`,`BuyTime`) VALUES ("orci.Donec@nibhAliquam.org","1662040980899",6,"Nov 17, 2017");
+INSERT INTO `ORDERS` (`C_id`,`I_ssn`,`OrderAmount`,`BuyTime`) VALUES ("orci.Donec@nibhAliquam.org","1687071982199",1,"Jul 14, 2018”);
+INSERT INTO `ORDERS` (`C_id`,`I_ssn`,`OrderAmount`,`BuyTime`) VALUES ("orci.Donec@nibhAliquam.org","1655111572199",8,"Jul 11, 2017”);
+INSERT INTO `ORDERS` (`C_id`,`I_ssn`,`OrderAmount`,`BuyTime`) VALUES ("orci.Donec@nibhAliquam.org","1618100535899",4,"Jan 31, 2017");
+INSERT INTO `ORDERS` (`C_id`,`I_ssn`,`OrderAmount`,`BuyTime`) VALUES ("orci.Donec@nibhAliquam.org","1603061068299",2,"Feb 26, 2018”);
+INSERT INTO `ORDERS` (`C_id`,`I_ssn`,`OrderAmount`,`BuyTime`) VALUES ("orci.Donec@nibhAliquam.org","1688010155499",4,"Jun 18, 2018”);
+INSERT INTO `ORDERS` (`C_id`,`I_ssn`,`OrderAmount`,`BuyTime`) VALUES ("orci.Donec@nibhAliquam.org","1671110922799",5,"Aug 30, 2017”);
+
+INSERT INTO `ORDERS` (`C_id`,`I_ssn`,`OrderAmount`,`BuyTime`) VALUES ("a.sollicitudin.orci@placeratCrasdictum.ca","1697072916699",10,"Dec 12, 2017");
+INSERT INTO `ORDERS` (`C_id`,`I_ssn`,`OrderAmount`,`BuyTime`) VALUES ("a.sollicitudin.orci@placeratCrasdictum.ca","1669082821799",6,"Oct 20, 2017”);
+INSERT INTO `ORDERS` (`C_id`,`I_ssn`,`OrderAmount`,`BuyTime`) VALUES ("a.sollicitudin.orci@placeratCrasdictum.ca","1625060476299",2,"Jun 25, 2018");
+INSERT INTO `ORDERS` (`C_id`,`I_ssn`,`OrderAmount`,`BuyTime`) VALUES ("a.sollicitudin.orci@placeratCrasdictum.ca","1696010962499",10,"May 16, 2017");
+INSERT INTO `ORDERS` (`C_id`,`I_ssn`,`OrderAmount`,`BuyTime`) VALUES ("a.sollicitudin.orci@placeratCrasdictum.ca","1661081739599",4,"Jul 1, 2017");
+INSERT INTO `ORDERS` (`C_id`,`I_ssn`,`OrderAmount`,`BuyTime`) VALUES ("a.sollicitudin.orci@placeratCrasdictum.ca","1688101463999",4,"Aug 27, 2017”);
+INSERT INTO `ORDERS` (`C_id`,`I_ssn`,`OrderAmount`,`BuyTime`) VALUES ("a.sollicitudin.orci@placeratCrasdictum.ca","1678090723499",3,"Jun 12, 2017”);
+
+INSERT INTO `ORDERS` (`C_id`,`I_ssn`,`OrderAmount`,`BuyTime`) VALUES ("Praesent.luctus.Curabitur@milacinia.org","1670080993999",1,"Feb 23, 2018");
+INSERT INTO `ORDERS` (`C_id`,`I_ssn`,`OrderAmount`,`BuyTime`) VALUES ("Praesent.luctus.Curabitur@milacinia.org","1659090752599",6,"May 11, 2018");
+INSERT INTO `ORDERS` (`C_id`,`I_ssn`,`OrderAmount`,`BuyTime`) VALUES ("Praesent.luctus.Curabitur@milacinia.org","1681122048499",9,"Jun 21, 2018");
+INSERT INTO `ORDERS` (`C_id`,`I_ssn`,`OrderAmount`,`BuyTime`) VALUES ("Praesent.luctus.Curabitur@milacinia.org","1658033086299",7,"May 19, 2017”);
+INSERT INTO `ORDERS` (`C_id`,`I_ssn`,`OrderAmount`,`BuyTime`) VALUES ("Praesent.luctus.Curabitur@milacinia.org","1684062908199",9,"Nov 10, 2017”);
+INSERT INTO `ORDERS` (`C_id`,`I_ssn`,`OrderAmount`,`BuyTime`) VALUES ("Praesent.luctus.Curabitur@milacinia.org","1628112350999",7,"Sep 8, 2017");
+INSERT INTO `ORDERS` (`C_id`,`I_ssn`,`OrderAmount`,`BuyTime`) VALUES ("Praesent.luctus.Curabitur@milacinia.org","1694092500899",5,"May 16, 2017");
+INSERT INTO `ORDERS` (`C_id`,`I_ssn`,`OrderAmount`,`BuyTime`) VALUES ("Praesent.luctus.Curabitur@milacinia.org","1645021277599",7,"Dec 16, 2017");
+INSERT INTO `ORDERS` (`C_id`,`I_ssn`,`OrderAmount`,`BuyTime`) VALUES ("Praesent.luctus.Curabitur@milacinia.org","1642112510799",7,"Feb 25, 2018”);
+
+INSERT INTO `ORDERS` (`C_id`,`I_ssn`,`OrderAmount`,`BuyTime`) VALUES ("luctus.et@ut.ca","1641050186299",4,"Apr 11, 2017");
+INSERT INTO `ORDERS` (`C_id`,`I_ssn`,`OrderAmount`,`BuyTime`) VALUES ("luctus.et@ut.ca","1654021536199",1,"Jun 27, 2017”);
+INSERT INTO `ORDERS` (`C_id`,`I_ssn`,`OrderAmount`,`BuyTime`) VALUES ("luctus.et@ut.ca","1637042272699",5,"Apr 30, 2018");
+INSERT INTO `ORDERS` (`C_id`,`I_ssn`,`OrderAmount`,`BuyTime`) VALUES ("luctus.et@ut.ca","1610100460199",9,"Aug 3, 2017”);
+INSERT INTO `ORDERS` (`C_id`,`I_ssn`,`OrderAmount`,`BuyTime`) VALUES ("luctus.et@ut.ca","1613082803899",4,"Jan 8, 2017”);
+INSERT INTO `ORDERS` (`C_id`,`I_ssn`,`OrderAmount`,`BuyTime`) VALUES ("luctus.et@ut.ca","1646071643599",8,"Jul 16, 2017”);
+INSERT INTO `ORDERS` (`C_id`,`I_ssn`,`OrderAmount`,`BuyTime`) VALUES ("luctus.et@ut.ca","1640011115899",2,"Aug 2, 2017”);
+INSERT INTO `ORDERS` (`C_id`,`I_ssn`,`OrderAmount`,`BuyTime`) VALUES ("luctus.et@ut.ca","1622071995999",7,"Jun 5, 2018");
+INSERT INTO `ORDERS` (`C_id`,`I_ssn`,`OrderAmount`,`BuyTime`) VALUES ("luctus.et@ut.ca","1688062449899",4,"Aug 18, 2017”);
+INSERT INTO `ORDERS` (`C_id`,`I_ssn`,`OrderAmount`,`BuyTime`) VALUES ("luctus.et@ut.ca","1699010790399",6,"Jun 16, 2018");
+INSERT INTO `ORDERS` (`C_id`,`I_ssn`,`OrderAmount`,`BuyTime`) VALUES ("luctus.et@ut.ca","1639091838599",8,"Jun 14, 2018");
+
+INSERT INTO `ORDERS` (`C_id`,`I_ssn`,`OrderAmount`,`BuyTime`) VALUES ("imperdiet@elit.org","1642031356599",6,"Mar 17, 2017");
+INSERT INTO `ORDERS` (`C_id`,`I_ssn`,`OrderAmount`,`BuyTime`) VALUES ("imperdiet@elit.org","1618060945599",5,"Dec 20, 2017");
+INSERT INTO `ORDERS` (`C_id`,`I_ssn`,`OrderAmount`,`BuyTime`) VALUES ("imperdiet@elit.org","1601072310399",1,"Jun 21, 2018");
+INSERT INTO `ORDERS` (`C_id`,`I_ssn`,`OrderAmount`,`BuyTime`) VALUES ("imperdiet@elit.org","1626071508799",2,"Jan 4, 2017");
+INSERT INTO `ORDERS` (`C_id`,`I_ssn`,`OrderAmount`,`BuyTime`) VALUES ("imperdiet@elit.org","1626072871399",3,"Dec 6, 2017");
+INSERT INTO `ORDERS` (`C_id`,`I_ssn`,`OrderAmount`,`BuyTime`) VALUES ("imperdiet@elit.org","1643122365599",7,"Sep 23, 2017");
+INSERT INTO `ORDERS` (`C_id`,`I_ssn`,`OrderAmount`,`BuyTime`) VALUES ("imperdiet@elit.org","1684061905699",1,"Feb 7, 2018");
+INSERT INTO `ORDERS` (`C_id`,`I_ssn`,`OrderAmount`,`BuyTime`) VALUES ("imperdiet@elit.org","1676061886299",4,"Aug 16, 2017");
+
+INSERT INTO `ORDERS` (`C_id`,`I_ssn`,`OrderAmount`,`BuyTime`) VALUES ("ullamcorper@metusIn.co.uk","1649091290999",4,"Jun 14, 2018");
+INSERT INTO `ORDERS` (`C_id`,`I_ssn`,`OrderAmount`,`BuyTime`) VALUES ("ullamcorper@metusIn.co.uk","1692020131399",5,"Jul 23, 2017");
+INSERT INTO `ORDERS` (`C_id`,`I_ssn`,`OrderAmount`,`BuyTime`) VALUES ("ullamcorper@metusIn.co.uk","1649010852299",1,"Apr 7, 2018");
+INSERT INTO `ORDERS` (`C_id`,`I_ssn`,`OrderAmount`,`BuyTime`) VALUES ("ullamcorper@metusIn.co.uk","1668110940499",7,"Jun 30, 2017");
+INSERT INTO `ORDERS` (`C_id`,`I_ssn`,`OrderAmount`,`BuyTime`) VALUES ("ullamcorper@metusIn.co.uk","1685052810799",2,"Aug 15, 2017”);
+INSERT INTO `ORDERS` (`C_id`,`I_ssn`,`OrderAmount`,`BuyTime`) VALUES ("ullamcorper@metusIn.co.uk","1637122506399",1,"Dec 7, 2017");
+INSERT INTO `ORDERS` (`C_id`,`I_ssn`,`OrderAmount`,`BuyTime`) VALUES ("ullamcorper@metusIn.co.uk","1604121711599",7,"Apr 15, 2017");
+INSERT INTO `ORDERS` (`C_id`,`I_ssn`,`OrderAmount`,`BuyTime`) VALUES ("ullamcorper@metusIn.co.uk","1667053034499",2,"Dec 25, 2017");
+
+INSERT INTO `ORDERS` (`C_id`,`I_ssn`,`OrderAmount`,`BuyTime`) VALUES ("nulla.ante@Vivamusnonlorem.ca","1657123027299",4,"Apr 26, 2018”);
+
+INSERT INTO `ORDERS` (`C_id`,`I_ssn`,`OrderAmount`,`BuyTime`) VALUES ("imperdiet.nec.leo@Ut.co.uk","1601091814899",2,"Jun 3, 2017");
+INSERT INTO `ORDERS` (`C_id`,`I_ssn`,`OrderAmount`,`BuyTime`) VALUES ("imperdiet.nec.leo@Ut.co.uk","1689052101799",8,"Nov 8, 2016");
+
+INSERT INTO `ORDERS` (`C_id`,`I_ssn`,`OrderAmount`,`BuyTime`) VALUES ("interdum.feugiat@nisisem.com","1604061152799",5,"Jun 8, 2018");
+INSERT INTO `ORDERS` (`C_id`,`I_ssn`,`OrderAmount`,`BuyTime`) VALUES ("interdum.feugiat@nisisem.com","1654081937299",6,"Feb 19, 2017");
+INSERT INTO `ORDERS` (`C_id`,`I_ssn`,`OrderAmount`,`BuyTime`) VALUES ("interdum.feugiat@nisisem.com","1640101531899",5,"Aug 18, 2017");
+
+INSERT INTO `ORDERS` (`C_id`,`I_ssn`,`OrderAmount`,`BuyTime`) VALUES ("gravida@liberoDonecconsectetuer.co.uk","1620030571499",8,"Oct 19, 2016");
+INSERT INTO `ORDERS` (`C_id`,`I_ssn`,`OrderAmount`,`BuyTime`) VALUES ("gravida@liberoDonecconsectetuer.co.uk","1684050915899",4,"Apr 11, 2018");
+INSERT INTO `ORDERS` (`C_id`,`I_ssn`,`OrderAmount`,`BuyTime`) VALUES ("gravida@liberoDonecconsectetuer.co.uk","1605081004099",4,"Sep 2, 2017”);
+
+INSERT INTO `ORDERS` (`C_id`,`I_ssn`,`OrderAmount`,`BuyTime`) VALUES ("velit.Aliquam@mieleifendegestas.com","1655061536499",10,"Aug 17, 2017");
+INSERT INTO `ORDERS` (`C_id`,`I_ssn`,`OrderAmount`,`BuyTime`) VALUES ("velit.Aliquam@mieleifendegestas.com","1665072378799",10,"Sep 3, 2017");
+INSERT INTO `ORDERS` (`C_id`,`I_ssn`,`OrderAmount`,`BuyTime`) VALUES ("velit.Aliquam@mieleifendegestas.com","1627072490499",1,"Aug 28, 2018");
+
+INSERT INTO `ORDERS` (`C_id`,`I_ssn`,`OrderAmount`,`BuyTime`) VALUES ("vel.turpis@ipsumSuspendissenon.com","1605051136299”,4,”May 21, 2018");
+INSERT INTO `ORDERS` (`C_id`,`I_ssn`,`OrderAmount`,`BuyTime`) VALUES ("vel.turpis@ipsumSuspendissenon.com","1605051136299”,6,”Jan 29, 2017”);
+
+INSERT INTO `ORDERS` (`C_id`,`I_ssn`,`OrderAmount`,`BuyTime`) VALUES ("quam.Curabitur.vel@at.net","1684011892999",10,"Jul 26, 2017”);
+
+INSERT INTO `ORDERS` (`C_id`,`I_ssn`,`OrderAmount`,`BuyTime`) VALUES ("risus.Nunc@scelerisque.com","1603041056499",2,"Oct 21, 2017”);
+INSERT INTO `ORDERS` (`C_id`,`I_ssn`,`OrderAmount`,`BuyTime`) VALUES ("risus.Nunc@scelerisque.com","1641070958499",3,"Jun 4, 2018");
+
+INSERT INTO `ORDERS` (`C_id`,`I_ssn`,`OrderAmount`,`BuyTime`) VALUES ("leo.elementum.sem@parturientmontes.co.uk","1640110477399",6,"Sep 26, 2017”);
+INSERT INTO `ORDERS` (`C_id`,`I_ssn`,`OrderAmount`,`BuyTime`) VALUES ("leo.elementum.sem@parturientmontes.co.uk","1618021004799",2,"Nov 17, 2017");
+INSERT INTO `ORDERS` (`C_id`,`I_ssn`,`OrderAmount`,`BuyTime`) VALUES ("leo.elementum.sem@parturientmontes.co.uk","1661022359799",1,"Dec 30, 2017");
+INSERT INTO `ORDERS` (`C_id`,`I_ssn`,`OrderAmount`,`BuyTime`) VALUES ("leo.elementum.sem@parturientmontes.co.uk","1679011426899",3,"Mar 5, 2017");
+
+INSERT INTO `ORDERS` (`C_id`,`I_ssn`,`OrderAmount`,`BuyTime`) VALUES ("molestie@Phasellusfermentumconvallis.net","1641050510999",4,"Dec 4, 2016");
+INSERT INTO `ORDERS` (`C_id`,`I_ssn`,`OrderAmount`,`BuyTime`) VALUES ("molestie@Phasellusfermentumconvallis.net","1662050720199",8,"Jan 16, 2017”);
+
+INSERT INTO `ORDERS` (`C_id`,`I_ssn`,`OrderAmount`,`BuyTime`) VALUES ("Suspendisse.ac.metus@nondapibus.org","1616070989499",3,"Sep 6, 2017”);
+
+INSERT INTO `ORDERS` (`C_id`,`I_ssn`,`OrderAmount`,`BuyTime`) VALUES ("nascetur.ridiculus@utquamvel.net","1677020874699",8,"Jun 30, 2018");
+INSERT INTO `ORDERS` (`C_id`,`I_ssn`,`OrderAmount`,`BuyTime`) VALUES ("nascetur.ridiculus@utquamvel.net","1681061033199",4,"Aug 11, 2017”);
+INSERT INTO `ORDERS` (`C_id`,`I_ssn`,`OrderAmount`,`BuyTime`) VALUES ("nascetur.ridiculus@utquamvel.net","1624080714599",3,"Jul 30, 2018");
+
+INSERT INTO `ORDERS` (`C_id`,`I_ssn`,`OrderAmount`,`BuyTime`) VALUES ("libero.Integer.in@id.org","1664102945499",7,"May 20, 2018");
+INSERT INTO `ORDERS` (`C_id`,`I_ssn`,`OrderAmount`,`BuyTime`) VALUES ("libero.Integer.in@id.org","1677070998399",6,"Dec 17, 2016”);
+INSERT INTO `ORDERS` (`C_id`,`I_ssn`,`OrderAmount`,`BuyTime`) VALUES ("libero.Integer.in@id.org","1617060753299",4,"Jun 1, 2017”);
+INSERT INTO `ORDERS` (`C_id`,`I_ssn`,`OrderAmount`,`BuyTime`) VALUES ("libero.Integer.in@id.org","1639071488599",6,"Oct 28, 2017");
+INSERT INTO `ORDERS` (`C_id`,`I_ssn`,`OrderAmount`,`BuyTime`) VALUES ("libero.Integer.in@id.org","1673042403699",2,"Dec 7, 2017”);
+
+INSERT INTO `ORDERS` (`C_id`,`I_ssn`,`OrderAmount`,`BuyTime`) VALUES ("ac.tellus@lobortis.net","1671031135499",9,"Nov 15, 2017”);
+INSERT INTO `ORDERS` (`C_id`,`I_ssn`,`OrderAmount`,`BuyTime`) VALUES ("ac.tellus@lobortis.net","1605060279599",5,"Oct 16, 2017”);
+INSERT INTO `ORDERS` (`C_id`,`I_ssn`,`OrderAmount`,`BuyTime`) VALUES ("ac.tellus@lobortis.net","1641041802499",8,"Nov 3, 2016");
+
+INSERT INTO `ORDERS` (`C_id`,`I_ssn`,`OrderAmount`,`BuyTime`) VALUES ("at.pretium@adipiscingelitAliquam.ca","1647032916899",7,"Nov 7, 2017”);
+
+INSERT INTO `ORDERS` (`C_id`,`I_ssn`,`OrderAmount`,`BuyTime`) VALUES ("feugiat@euturpis.net","1669112385399",4,"Oct 1, 2017”);
+INSERT INTO `ORDERS` (`C_id`,`I_ssn`,`OrderAmount`,`BuyTime`) VALUES ("feugiat@euturpis.net","1683120947199",3,"Jan 28, 2018");
+INSERT INTO `ORDERS` (`C_id`,`I_ssn`,`OrderAmount`,`BuyTime`) VALUES ("feugiat@euturpis.net","1655061140099",10,"Sep 14, 2017");
+INSERT INTO `ORDERS` (`C_id`,`I_ssn`,`OrderAmount`,`BuyTime`) VALUES ("feugiat@euturpis.net","1617110458999",7,"Nov 7, 2017");
+
+INSERT INTO `ORDERS` (`C_id`,`I_ssn`,`OrderAmount`,`BuyTime`) VALUES ("sit.amet@Quisque.org","1629060894699",9,"Sep 5, 2017”);
+INSERT INTO `ORDERS` (`C_id`,`I_ssn`,`OrderAmount`,`BuyTime`) VALUES ("sit.amet@Quisque.org","1658062922399",2,"Dec 11, 2017");
+
+INSERT INTO `ORDERS` (`C_id`,`I_ssn`,`OrderAmount`,`BuyTime`) VALUES ("ante.dictum.mi@hymenaeos.co.uk","1660011626899",3,"Apr 12, 2017");
+INSERT INTO `ORDERS` (`C_id`,`I_ssn`,`OrderAmount`,`BuyTime`) VALUES ("ante.dictum.mi@hymenaeos.co.uk","1669032892799",5,"Nov 8, 2016");
+INSERT INTO `ORDERS` (`C_id`,`I_ssn`,`OrderAmount`,`BuyTime`) VALUES ("ante.dictum.mi@hymenaeos.co.uk","1687121765599",7,"Feb 16, 2018”);
+
+INSERT INTO `ORDERS` (`C_id`,`I_ssn`,`OrderAmount`,`BuyTime`) VALUES ("fringilla.ornare@diamdictum.co.uk","1605082373599",9,"Sep 3, 2017");
+INSERT INTO `ORDERS` (`C_id`,`I_ssn`,`OrderAmount`,`BuyTime`) VALUES ("fringilla.ornare@diamdictum.co.uk","1613052596099",8,"Apr 19, 2017");
+
+INSERT INTO `ORDERS` (`C_id`,`I_ssn`,`OrderAmount`,`BuyTime`) VALUES ("elementum.at@euturpis.org","1688061534599",7,"Nov 19, 2018");
+INSERT INTO `ORDERS` (`C_id`,`I_ssn`,`OrderAmount`,`BuyTime`) VALUES ("elementum.at@euturpis.org","1679112151799",5,"Oct 23, 2017");
+INSERT INTO `ORDERS` (`C_id`,`I_ssn`,`OrderAmount`,`BuyTime`) VALUES ("elementum.at@euturpis.org","1622062653799",6,"Jan 1, 2017");
+
+INSERT INTO `ORDERS` (`C_id`,`I_ssn`,`OrderAmount`,`BuyTime`) VALUES ("sed.leo@mifringillami.com","1603040534599",5,"Jan 25, 2018”);
+INSERT INTO `ORDERS` (`C_id`,`I_ssn`,`OrderAmount`,`BuyTime`) VALUES ("sed.leo@mifringillami.com","1669110334499",10,"Mar 28, 2018”);
+INSERT INTO `ORDERS` (`C_id`,`I_ssn`,`OrderAmount`,`BuyTime`) VALUES ("sed.leo@mifringillami.com","1679071045299",5,"Jul 30, 2018");
+
+INSERT INTO `ORDERS` (`C_id`,`I_ssn`,`OrderAmount`,`BuyTime`) VALUES ("nunc@mi.com","1644101314199",4,"Jun 13, 2017");
+INSERT INTO `ORDERS` (`C_id`,`I_ssn`,`OrderAmount`,`BuyTime`) VALUES ("nunc@mi.com","1667042268199",6,"May 23, 2017");
+INSERT INTO `ORDERS` (`C_id`,`I_ssn`,`OrderAmount`,`BuyTime`) VALUES ("nunc@mi.com","1672033005899",10,"Mar 8, 2017");
+INSERT INTO `ORDERS` (`C_id`,`I_ssn`,`OrderAmount`,`BuyTime`) VALUES ("nunc@mi.com","1628092272399",8,"Apr 3, 2018");
+
+INSERT INTO `ORDERS` (`C_id`,`I_ssn`,`OrderAmount`,`BuyTime`) VALUES ("eu.tellus.Phasellus@semvitae.org","1697092351899",10,"Jul 9, 2018”);
+INSERT INTO `ORDERS` (`C_id`,`I_ssn`,`OrderAmount`,`BuyTime`) VALUES ("eu.tellus.Phasellus@semvitae.org","1605011337599",9,"Mar 4, 2018");
+INSERT INTO `ORDERS` (`C_id`,`I_ssn`,`OrderAmount`,`BuyTime`) VALUES ("eu.tellus.Phasellus@semvitae.org","1634032843299",6,"Jan 30, 2017");
+INSERT INTO `ORDERS` (`C_id`,`I_ssn`,`OrderAmount`,`BuyTime`) VALUES ("eu.tellus.Phasellus@semvitae.org","1617052646599",7,"Jul 3, 2017”);
+
+INSERT INTO `ORDERS` (`C_id`,`I_ssn`,`OrderAmount`,`BuyTime`) VALUES ("ante@nonummyacfeugiat.edu","1619110585099",2,"Feb 13, 2017");
+INSERT INTO `ORDERS` (`C_id`,`I_ssn`,`OrderAmount`,`BuyTime`) VALUES ("ante@nonummyacfeugiat.edu","1688010330799",7,"Aug 24, 2018");
+
+INSERT INTO `ORDERS` (`C_id`,`I_ssn`,`OrderAmount`,`BuyTime`) VALUES ("rhoncus@elit.org","1606082147999",6,"Jul 8, 2017”);
+INSERT INTO `ORDERS` (`C_id`,`I_ssn`,`OrderAmount`,`BuyTime`) VALUES ("rhoncus@elit.org","1608081187499",8,"Feb 25, 2018");
+INSERT INTO `ORDERS` (`C_id`,`I_ssn`,`OrderAmount`,`BuyTime`) VALUES ("rhoncus@elit.org","1683120523899",5,"Apr 11, 2018");
+INSERT INTO `ORDERS` (`C_id`,`I_ssn`,`OrderAmount`,`BuyTime`) VALUES ("rhoncus@elit.org","1672120146099",10,"Jun 9, 2018");
+INSERT INTO `ORDERS` (`C_id`,`I_ssn`,`OrderAmount`,`BuyTime`) VALUES ("rhoncus@elit.org","1606062163899",9,"Mar 12, 2017");
+
+INSERT INTO `ORDERS` (`C_id`,`I_ssn`,`OrderAmount`,`BuyTime`) VALUES ("pellentesque@velitdui.com","1684070790299",1,"Sep 28, 2017");
+INSERT INTO `ORDERS` (`C_id`,`I_ssn`,`OrderAmount`,`BuyTime`) VALUES ("pellentesque@velitdui.com","1608011884199",10,"Apr 6, 2018");
+INSERT INTO `ORDERS` (`C_id`,`I_ssn`,`OrderAmount`,`BuyTime`) VALUES ("pellentesque@velitdui.com","1677080890199",2,"Dec 11, 2017");
+INSERT INTO `ORDERS` (`C_id`,`I_ssn`,`OrderAmount`,`BuyTime`) VALUES ("pellentesque@velitdui.com","1600090548599",3,"Jun 29, 2017”);
+INSERT INTO `ORDERS` (`C_id`,`I_ssn`,`OrderAmount`,`BuyTime`) VALUES ("pellentesque@velitdui.com","1626011144899",5,"Jun 20, 2017");
+
+INSERT INTO `ORDERS` (`C_id`,`I_ssn`,`OrderAmount`,`BuyTime`) VALUES ("risus.a.ultricies@Proinvel.edu","1683061308199",2,"Sep 11, 2017”);
+INSERT INTO `ORDERS` (`C_id`,`I_ssn`,`OrderAmount`,`BuyTime`) VALUES ("risus.a.ultricies@Proinvel.edu","1689052494199",6,"Nov 11, 2017");
+
+INSERT INTO `ORDERS` (`C_id`,`I_ssn`,`OrderAmount`,`BuyTime`) VALUES ("neque.pellentesque.massa@tristiquealiquet.org","1641122598799",4,"Sep 30, 2017”);
+INSERT INTO `ORDERS` (`C_id`,`I_ssn`,`OrderAmount`,`BuyTime`) VALUES ("neque.pellentesque.massa@tristiquealiquet.org","1676022493899",7,"Oct 19, 2016");
+
+INSERT INTO `ORDERS` (`C_id`,`I_ssn`,`OrderAmount`,`BuyTime`) VALUES ("eu@nisidictum.edu","1600052854399",3,"May 3, 2017”);
+INSERT INTO `ORDERS` (`C_id`,`I_ssn`,`OrderAmount`,`BuyTime`) VALUES ("eu@nisidictum.edu","1695070432999",9,"Feb 7, 2018");
+
+INSERT INTO `ORDERS` (`C_id`,`I_ssn`,`OrderAmount`,`BuyTime`) VALUES ("nisl.Quisque@Nullam.org","1630020714099",5,"Sep 17, 2017”);
+
+INSERT INTO `ORDERS` (`C_id`,`I_ssn`,`OrderAmount`,`BuyTime`) VALUES ("metus.In@Sedauctor.org","1627111765099",8,"Jul 17, 2017”);
+
+INSERT INTO `ORDERS` (`C_id`,`I_ssn`,`OrderAmount`,`BuyTime`) VALUES ("vulputate@egetmagna.org","1651123097399",8,"Dec 25, 2017");
+INSERT INTO `ORDERS` (`C_id`,`I_ssn`,`OrderAmount`,`BuyTime`) VALUES ("vulputate@egetmagna.org","1693070999499",2,"May 21, 2018");
+
+INSERT INTO `ORDERS` (`C_id`,`I_ssn`,`OrderAmount`,`BuyTime`) VALUES ("arcu@sempererat.edu","1699031306199",8,"Apr 6, 2018");
+INSERT INTO `ORDERS` (`C_id`,`I_ssn`,`OrderAmount`,`BuyTime`) VALUES ("arcu@sempererat.edu","1611041046599",3,"Apr 18, 2017");
+INSERT INTO `ORDERS` (`C_id`,`I_ssn`,`OrderAmount`,`BuyTime`) VALUES ("arcu@sempererat.edu","1684061840599",2,"Dec 1, 2017");
+INSERT INTO `ORDERS` (`C_id`,`I_ssn`,`OrderAmount`,`BuyTime`) VALUES ("arcu@sempererat.edu","1622100803299",4,"Oct 8, 2017");
+INSERT INTO `ORDERS` (`C_id`,`I_ssn`,`OrderAmount`,`BuyTime`) VALUES ("arcu@sempererat.edu","1627040172099",6,"Dec 30, 2016");
+
+INSERT INTO `ORDERS` (`C_id`,`I_ssn`,`OrderAmount`,`BuyTime`) VALUES ("fermentum.risus@liberoatauctor.com","1686042251299",7,"Apr 4, 2018");
+INSERT INTO `ORDERS` (`C_id`,`I_ssn`,`OrderAmount`,`BuyTime`) VALUES ("fermentum.risus@liberoatauctor.com","1671111150299",1,"Jul 12, 2017”);
+
+INSERT INTO `ORDERS` (`C_id`,`I_ssn`,`OrderAmount`,`BuyTime`) VALUES ("dui.in.sodales@ac.com","1669062567399",9,"Oct 8, 2017”);
+INSERT INTO `ORDERS` (`C_id`,`I_ssn`,`OrderAmount`,`BuyTime`) VALUES ("dui.in.sodales@ac.com","1651071672799",9,"Apr 20, 2017");
