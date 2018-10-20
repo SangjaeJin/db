@@ -192,11 +192,11 @@ INSERT INTO `IS_IN` ('I_ssn',`S_c_id`) VALUES ("1000017646641","interdum.feugiat
 INSERT INTO `IS_IN` ('I_ssn',`S_c_id`) VALUES ("1000017646641","gravida@liberoDonecconsectetuer.co.uk");
 INSERT INTO `IS_IN` ('I_ssn',`S_c_id`) VALUES ("1000017646641","velit.Aliquam@mieleifendegestas.com");
 
-INSERT INTO 'CATEGORY' ('Class','SubClass','Amount') VALUES ( "과일/견과", "키위/참다래", 5);
-INSERT INTO 'CATEGORY' ('Class','SubClass','Amount') VALUES ( "과일/견과" ,"바나나/오렌지/외국과일", 5);
-INSERT INTO 'CATEGORY' ('Class','SubClass','Amount') VALUES ( "과일/견과" ,"감귤/한라봉", 5);
-INSERT INTO 'CATEGORY' ('Class','SubClass','Amount') VALUES ( "정육/계란류","소고기", 5);
-INSERT INTO 'CATEGORY' ('Class','SubClass','Amount') VALUES ("정육/계란류" ,"돼지고기", 5);
-INSERT INTO 'CATEGORY' ('Class','SubClass','Amount') VALUES ("정육/계란류" ,"수입육", 5);
-INSERT INTO 'CATEGORY' ('Class','SubClass','Amount') VALUES ("수산물/해산물/건어물" ,"오징어/낙지", 5);
-INSERT INTO 'CATEGORY' ('Class','SubClass','Amount') VALUES ("수산물/해산물/건어물" ,"전복/굴/조개류", 5);
+INSERT INTO 'CATEGORY' ('Class','SubClass','Amount') VALUES ( "과일/견과", "키위/참다래", 17);
+INSERT INTO 'CATEGORY' ('Class','SubClass','Amount') VALUES ( "과일/견과" ,"바나나/오렌지/외국과일", 85);
+INSERT INTO 'CATEGORY' ('Class','SubClass','Amount') VALUES ( "과일/견과" ,"감귤/한라봉", 1768);
+INSERT INTO 'CATEGORY' ('Class','SubClass','Amount') VALUES ( "정육/계란류","소고기", 8500);
+INSERT INTO 'CATEGORY' ('Class','SubClass','Amount') VALUES ("정육/계란류" ,"돼지고기", 8500);
+INSERT INTO 'CATEGORY' ('Class','SubClass','Amount') VALUES ("정육/계란류" ,"수입육", 8500);
+INSERT INTO 'CATEGORY' ('Class','SubClass','Amount') VALUES ("수산물/해산물/건어물" ,"오징어/낙지", 8500);
+INSERT INTO 'CATEGORY' ('Class','SubClass','Amount') VALUES ("수산물/해산물/건어물" ,"전복/굴/조개류", 8500);
