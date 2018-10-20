@@ -1,0 +1,18 @@
+alter table ITEM add constraint fk_Cat_sub FOREIGN KEY(C_sub) references CATEGORY(subClass) on delete CASCADE;
+
+alter table ITEM add constraint fk_P_ssn FOREIGN KEY(P_ssn) references PRODUCER(Ssn) on delete CASCADE;
+
+alter table SHOPPINGBAG add constraint fk_C_id FOREIGN KEY(C_id) references CUSTOMER(Id) on delete CASCADE;
+
+alter table ORDERS add constraint fk_C_id FOREIGN KEY(C_id) references CUSTOMER(Id) on delete CASCADE;
+
+alter table ORDERS add constraint fk_I_Ssn FOREIGN KEY(I_Ssn) references ITEM(Ssn) on delete CASCADE;
+
+alter table EXISTS_IN add constraint fk_I_Ssn FOREIGN KEY(I_ssn) references ITEM(Ssn) on delete CASCADE;
+
+alter table EXISTS_IN add constraint fk_R_Ssn FOREIGN KEY(R_ssn) references RETAILER(Ssn) on delete CASCADE;
+
+alter table IS_IN add constraint fk_I_Ssn FOREIGN KEY(I_ssn) references ITEM(Ssn) on delete CASCADE;
+
+alter table IS_IN add constraint fk_S_c_id FOREIGN KEY(S_c_id) references SHOPPINGBAG(C_id) on delete CASCADE;
+
