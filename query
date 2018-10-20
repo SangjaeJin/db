@@ -1,0 +1,54 @@
+1번
+SELECT COUNT(*)
+FROM ITEM
+WEHRE AMOUNT <=20 
+
+2번
+SELECT COUNT(*)
+FROM CUSTOMER
+
+3번
+SELECT Name
+FROM CUSTOMER
+WEHRE Ordertimes>=7
+
+4번
+SELECT COUNT(*) as number
+FROM ORDERS O, EXISTS_IN E, RETAILER R
+WHERE  O.BuyTime < 현재시간 AND O.BuyTime>6개월 전 AND O.I_ssn=E.I_ssn AND
+E.R_ssn = R.Ssn 
+GROUP BY R.Ssn
+(이러면 각 매장별로 주문받은 횟수가 쭉 나열됨. 여기서 상위 3개만 고르면됨)
+
+5번
+SELECT i.Name  , MAX(COUNT (*) as number)
+FROM CUSTOMER C , ORDERS O , ITEM i
+WEHRE C.Ordertimes >=7 AND O.C_id=C.Id AND O.I_ssn=i.Ssn
+GROUP BY i.Name
+(->이러면 7번이상 주문한 고객들이 주문한 아이템들이 모두 나옴 .
+MAX가 가리키는 아이템 엔터티의 name만 출력하면 됨.)
+
+6번
+SELECT i.Price , COUNT(*) as number
+FROM ITEM i , CUSTOMER C, SHOPPINGBACK S ,ORDERS O
+WHERE S.AMOUNT =0 AND S.C_id =C.Id AND O.C_id =C.Id AND O.I_ssn=i.Ssn
+GROUP BY i.Name
+(->이러면 장바구니에 상품이 하나도 없는 고객들이 산 아이템들의
+이름이 쭉 나옴. 여기서 각 상품의 주문받은횟수 * 가격을 계산해  상위5개를 가려내면됨)
+
+
+7번
+SELECT ca.Class ca.subClass ,Max(COUNT(*) as number)
+FROM ITEM i, CUSTOMER C, ORDERS O,CATEGORY ca
+WHERE C.Sex='M' AND O.C_id=C.Id AND O.I_ssn=i.Ssn AND i.Cat_sub=ca.subClass
+GROUP BY ca.subClass
+(이것도 5번과 마찬가지임 max가 가리키는 엔터티의 ca.Class,ca.subClass의 값만 출력하면댐)
+
+8번
+SELECT i.Name
+FROM
+
+
+9번 
+SELECT i.Name
+FROM ITEM i ,SHOPPINGBAG S,  
