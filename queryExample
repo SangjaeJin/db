@@ -7,3 +7,9 @@ WHERE  price=(SELECT MAX(price) FROM shop);
 +---------+--------+-------+
 |    0004 | D      | 19.95 |
 +---------+--------+-------+
+
+
+SELECT article, dealer, price
+FROM shop
+ORDER BY price DESC
+LIMIT 1;
