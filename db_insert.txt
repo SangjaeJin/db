@@ -930,269 +930,269 @@ INSERT INTO `EXISTS_IN` (`I_ssn`,`R_ssn`,`Amount`) VALUES ("1000029105034","6122
 INSERT INTO `EXISTS_IN` (`I_ssn`,`R_ssn`,`Amount`) VALUES ("1000028037662","61229223599",100);
 
 
-INSERT INTO `ORDERS` (`C_id`,`I_ssn`,`OrderAmount`,`BuyTime`) VALUES ("dictum.cursus@sitametmassa.co.uk","1653101725399",1,"2016-10-23 17:31:07");
-INSERT INTO `ORDERS` (`C_id`,`I_ssn`,`OrderAmount`,`BuyTime`) VALUES ("dictum.cursus@sitametmassa.co.uk","1679102304499",1,"2018-04-30 22:35:26");
-INSERT INTO `ORDERS` (`C_id`,`I_ssn`,`OrderAmount`,`BuyTime`) VALUES ("dictum.cursus@sitametmassa.co.uk","1633041500999",10,"2017-07-09 08:58:17");
-INSERT INTO `ORDERS` (`C_id`,`I_ssn`,`OrderAmount`,`BuyTime`) VALUES ("dictum.cursus@sitametmassa.co.uk","1605051136299",8,"2016-12-04 15:32:16");
-INSERT INTO `ORDERS` (`C_id`,`I_ssn`,`OrderAmount`,`BuyTime`) VALUES ("dictum.cursus@sitametmassa.co.uk","1626021959899",7,"2016-04-29 23:04:26");
-INSERT INTO `ORDERS` (`C_id`,`I_ssn`,`OrderAmount`,`BuyTime`) VALUES ("dictum.cursus@sitametmassa.co.uk","1619021580299",2,"2017-04-12 00:54:48");
-INSERT INTO `ORDERS` (`C_id`,`I_ssn`,`OrderAmount`,`BuyTime`) VALUES ("dictum.cursus@sitametmassa.co.uk","1697082107399",1,"2016-10-20 22:59:07");
+INSERT INTO `ORDERS` (`C_id`,`I_ssn`,`OrderAmount`,`BuyTime`) VALUES ("dictum.cursus@sitametmassa.co.uk","1000029105034",1,"2016-10-23 17:31:07");
+INSERT INTO `ORDERS` (`C_id`,`I_ssn`,`OrderAmount`,`BuyTime`) VALUES ("dictum.cursus@sitametmassa.co.uk","1000028764714",1,"2018-04-30 22:35:26");
+INSERT INTO `ORDERS` (`C_id`,`I_ssn`,`OrderAmount`,`BuyTime`) VALUES ("dictum.cursus@sitametmassa.co.uk","1000028266381",10,"2017-07-09 08:58:17");
+INSERT INTO `ORDERS` (`C_id`,`I_ssn`,`OrderAmount`,`BuyTime`) VALUES ("dictum.cursus@sitametmassa.co.uk","1000020939463",8,"2016-12-04 15:32:16");
+INSERT INTO `ORDERS` (`C_id`,`I_ssn`,`OrderAmount`,`BuyTime`) VALUES ("dictum.cursus@sitametmassa.co.uk","1000029724878",7,"2016-04-29 23:04:26");
+INSERT INTO `ORDERS` (`C_id`,`I_ssn`,`OrderAmount`,`BuyTime`) VALUES ("dictum.cursus@sitametmassa.co.uk","1000018568863",2,"2017-04-12 00:54:48");
+INSERT INTO `ORDERS` (`C_id`,`I_ssn`,`OrderAmount`,`BuyTime`) VALUES ("dictum.cursus@sitametmassa.co.uk","1000021060172",1,"2016-10-20 22:59:07");
 
-INSERT INTO `ORDERS` (`C_id`,`I_ssn`,`OrderAmount`,`BuyTime`) VALUES ("sem@CraspellentesqueSed.co.uk","1626021648799",5,"2017-03-06 17:59:46");
-INSERT INTO `ORDERS` (`C_id`,`I_ssn`,`OrderAmount`,`BuyTime`) VALUES ("sem@CraspellentesqueSed.co.uk","1674021087599",7,"2016-02-07 15:04:41");
-INSERT INTO `ORDERS` (`C_id`,`I_ssn`,`OrderAmount`,`BuyTime`) VALUES ("sem@CraspellentesqueSed.co.uk","1615111074599",1,"2016-12-08 16:11:54");
-INSERT INTO `ORDERS` (`C_id`,`I_ssn`,`OrderAmount`,`BuyTime`) VALUES ("sem@CraspellentesqueSed.co.uk","1661022590699",8,"2018-03-24 22:57:16");
-INSERT INTO `ORDERS` (`C_id`,`I_ssn`,`OrderAmount`,`BuyTime`) VALUES ("sem@CraspellentesqueSed.co.uk","1633062433399",1,"2017-09-07 00:56:35");
-INSERT INTO `ORDERS` (`C_id`,`I_ssn`,`OrderAmount`,`BuyTime`) VALUES ("sem@CraspellentesqueSed.co.uk","1611060874999",3,"2016-06-03 20:55:53");
-INSERT INTO `ORDERS` (`C_id`,`I_ssn`,`OrderAmount`,`BuyTime`) VALUES ("sem@CraspellentesqueSed.co.uk","1656032711299",6,"2016-05-21 02:35:01");
-INSERT INTO `ORDERS` (`C_id`,`I_ssn`,`OrderAmount`,`BuyTime`) VALUES ("sem@CraspellentesqueSed.co.uk","1688011059999",3,"2017-10-10 22:36:16");
+INSERT INTO `ORDERS` (`C_id`,`I_ssn`,`OrderAmount`,`BuyTime`) VALUES ("sem@CraspellentesqueSed.co.uk","1000028037662",5,"2017-03-06 17:59:46");
+INSERT INTO `ORDERS` (`C_id`,`I_ssn`,`OrderAmount`,`BuyTime`) VALUES ("sem@CraspellentesqueSed.co.uk","1000028764714",7,"2016-02-07 15:04:41");
+INSERT INTO `ORDERS` (`C_id`,`I_ssn`,`OrderAmount`,`BuyTime`) VALUES ("sem@CraspellentesqueSed.co.uk","1000028266381",1,"2016-12-08 16:11:54");
+INSERT INTO `ORDERS` (`C_id`,`I_ssn`,`OrderAmount`,`BuyTime`) VALUES ("sem@CraspellentesqueSed.co.uk","1000020939463",8,"2018-03-24 22:57:16");
+INSERT INTO `ORDERS` (`C_id`,`I_ssn`,`OrderAmount`,`BuyTime`) VALUES ("sem@CraspellentesqueSed.co.uk","1000029724878",1,"2017-09-07 00:56:35");
+INSERT INTO `ORDERS` (`C_id`,`I_ssn`,`OrderAmount`,`BuyTime`) VALUES ("sem@CraspellentesqueSed.co.uk","1000018568863",3,"2016-06-03 20:55:53");
+INSERT INTO `ORDERS` (`C_id`,`I_ssn`,`OrderAmount`,`BuyTime`) VALUES ("sem@CraspellentesqueSed.co.uk","1000021060172",6,"2016-05-21 02:35:01");
+INSERT INTO `ORDERS` (`C_id`,`I_ssn`,`OrderAmount`,`BuyTime`) VALUES ("sem@CraspellentesqueSed.co.uk","1000005553945",3,"2017-10-10 22:36:16");
 
-INSERT INTO `ORDERS` (`C_id`,`I_ssn`,`OrderAmount`,`BuyTime`) VALUES ("id.ante.Nunc@arcu.org","1667022287799",9,"2017-10-25 23:00:18");
-INSERT INTO `ORDERS` (`C_id`,`I_ssn`,`OrderAmount`,`BuyTime`) VALUES ("id.ante.Nunc@arcu.org","1634050768299",5,"2016-09-29 04:37:18");
-INSERT INTO `ORDERS` (`C_id`,`I_ssn`,`OrderAmount`,`BuyTime`) VALUES ("id.ante.Nunc@arcu.org","1676092101699",4,"2016-05-08 17:59:14");
-INSERT INTO `ORDERS` (`C_id`,`I_ssn`,`OrderAmount`,`BuyTime`) VALUES ("id.ante.Nunc@arcu.org","1627052940499",10,"2016-01-14 23:29:52");
-INSERT INTO `ORDERS` (`C_id`,`I_ssn`,`OrderAmount`,`BuyTime`) VALUES ("id.ante.Nunc@arcu.org","1675030946199",3,"2017-03-12 20:24:05");
-INSERT INTO `ORDERS` (`C_id`,`I_ssn`,`OrderAmount`,`BuyTime`) VALUES ("id.ante.Nunc@arcu.org","1613010895299",2,"2016-06-10 21:20:57");
-INSERT INTO `ORDERS` (`C_id`,`I_ssn`,`OrderAmount`,`BuyTime`) VALUES ("id.ante.Nunc@arcu.org","1647121609399",5,"2016-10-07 23:41:01");
+INSERT INTO `ORDERS` (`C_id`,`I_ssn`,`OrderAmount`,`BuyTime`) VALUES ("id.ante.Nunc@arcu.org","1000028037662",9,"2017-10-25 23:00:18");
+INSERT INTO `ORDERS` (`C_id`,`I_ssn`,`OrderAmount`,`BuyTime`) VALUES ("id.ante.Nunc@arcu.org","1000028764714",5,"2016-09-29 04:37:18");
+INSERT INTO `ORDERS` (`C_id`,`I_ssn`,`OrderAmount`,`BuyTime`) VALUES ("id.ante.Nunc@arcu.org","1000028266381",4,"2016-05-08 17:59:14");
+INSERT INTO `ORDERS` (`C_id`,`I_ssn`,`OrderAmount`,`BuyTime`) VALUES ("id.ante.Nunc@arcu.org","1000020939463",10,"2016-01-14 23:29:52");
+INSERT INTO `ORDERS` (`C_id`,`I_ssn`,`OrderAmount`,`BuyTime`) VALUES ("id.ante.Nunc@arcu.org","1000029724878",3,"2017-03-12 20:24:05");
+INSERT INTO `ORDERS` (`C_id`,`I_ssn`,`OrderAmount`,`BuyTime`) VALUES ("id.ante.Nunc@arcu.org","1000018568863",2,"2016-06-10 21:20:57");
+INSERT INTO `ORDERS` (`C_id`,`I_ssn`,`OrderAmount`,`BuyTime`) VALUES ("id.ante.Nunc@arcu.org","1000021060172",5,"2016-10-07 23:41:01");
 
-INSERT INTO `ORDERS` (`C_id`,`I_ssn`,`OrderAmount`,`BuyTime`) VALUES ("dignissim.lacus.Aliquam@a.edu","1652072780199",8,"2018-09-26 05:47:14");
-INSERT INTO `ORDERS` (`C_id`,`I_ssn`,`OrderAmount`,`BuyTime`) VALUES ("dignissim.lacus.Aliquam@a.edu","1601060708999",9,"2016-06-02 21:35:33");
-INSERT INTO `ORDERS` (`C_id`,`I_ssn`,`OrderAmount`,`BuyTime`) VALUES ("dignissim.lacus.Aliquam@a.edu","1647111041199",3,"2017-11-29 11:55:26");
-INSERT INTO `ORDERS` (`C_id`,`I_ssn`,`OrderAmount`,`BuyTime`) VALUES ("dignissim.lacus.Aliquam@a.edu","1695082065399",3,"2018-06-10 16:32:00");
-INSERT INTO `ORDERS` (`C_id`,`I_ssn`,`OrderAmount`,`BuyTime`) VALUES ("dignissim.lacus.Aliquam@a.edu","1622011400199",5,"2016-03-18 20:07:59");
-INSERT INTO `ORDERS` (`C_id`,`I_ssn`,`OrderAmount`,`BuyTime`) VALUES ("dignissim.lacus.Aliquam@a.edu","1668060200099",8,"2017-03-25 02:51:44");
-INSERT INTO `ORDERS` (`C_id`,`I_ssn`,`OrderAmount`,`BuyTime`) VALUES ("dignissim.lacus.Aliquam@a.edu","1671021504199",8,"2017-07-26 12:09:39");
-INSERT INTO `ORDERS` (`C_id`,`I_ssn`,`OrderAmount`,`BuyTime`) VALUES ("dignissim.lacus.Aliquam@a.edu","1665051524799",2,"2017-09-25 20:02:22");
-INSERT INTO `ORDERS` (`C_id`,`I_ssn`,`OrderAmount`,`BuyTime`) VALUES ("dignissim.lacus.Aliquam@a.edu","1642050799099",3,"2016-09-24 09:17:33");
+INSERT INTO `ORDERS` (`C_id`,`I_ssn`,`OrderAmount`,`BuyTime`) VALUES ("dignissim.lacus.Aliquam@a.edu","1000028037662",8,"2018-09-26 05:47:14");
+INSERT INTO `ORDERS` (`C_id`,`I_ssn`,`OrderAmount`,`BuyTime`) VALUES ("dignissim.lacus.Aliquam@a.edu","1000028266381",9,"2016-06-02 21:35:33");
+INSERT INTO `ORDERS` (`C_id`,`I_ssn`,`OrderAmount`,`BuyTime`) VALUES ("dignissim.lacus.Aliquam@a.edu","1000020939463",3,"2017-11-29 11:55:26");
+INSERT INTO `ORDERS` (`C_id`,`I_ssn`,`OrderAmount`,`BuyTime`) VALUES ("dignissim.lacus.Aliquam@a.edu","1000028764714",3,"2018-06-10 16:32:00");
+INSERT INTO `ORDERS` (`C_id`,`I_ssn`,`OrderAmount`,`BuyTime`) VALUES ("dignissim.lacus.Aliquam@a.edu","1000018568863",5,"2016-03-18 20:07:59");
+INSERT INTO `ORDERS` (`C_id`,`I_ssn`,`OrderAmount`,`BuyTime`) VALUES ("dignissim.lacus.Aliquam@a.edu","1000025031926",8,"2017-03-25 02:51:44");
+INSERT INTO `ORDERS` (`C_id`,`I_ssn`,`OrderAmount`,`BuyTime`) VALUES ("dignissim.lacus.Aliquam@a.edu","1000005553945",8,"2017-07-26 12:09:39");
+INSERT INTO `ORDERS` (`C_id`,`I_ssn`,`OrderAmount`,`BuyTime`) VALUES ("dignissim.lacus.Aliquam@a.edu","0000010626950",2,"2017-09-25 20:02:22");
+INSERT INTO `ORDERS` (`C_id`,`I_ssn`,`OrderAmount`,`BuyTime`) VALUES ("dignissim.lacus.Aliquam@a.edu","1000021060172",3,"2016-09-24 09:17:33");
 
-INSERT INTO `ORDERS` (`C_id`,`I_ssn`,`OrderAmount`,`BuyTime`) VALUES ("eu.arcu.Morbi@sem.org","1698010552999",9,"2016-05-07 01:27:31");
-INSERT INTO `ORDERS` (`C_id`,`I_ssn`,`OrderAmount`,`BuyTime`) VALUES ("eu.arcu.Morbi@sem.org","1650092531299",10,"2017-01-01 03:26:54");
-INSERT INTO `ORDERS` (`C_id`,`I_ssn`,`OrderAmount`,`BuyTime`) VALUES ("eu.arcu.Morbi@sem.org","1612052531499",10,"2018-02-06 19:01:06");
-INSERT INTO `ORDERS` (`C_id`,`I_ssn`,`OrderAmount`,`BuyTime`) VALUES ("eu.arcu.Morbi@sem.org","1608100919399",4,"2018-02-01 22:09:06");
-INSERT INTO `ORDERS` (`C_id`,`I_ssn`,`OrderAmount`,`BuyTime`) VALUES ("eu.arcu.Morbi@sem.org","1645041885799",2,"2017-05-15 05:18:46");
-INSERT INTO `ORDERS` (`C_id`,`I_ssn`,`OrderAmount`,`BuyTime`) VALUES ("eu.arcu.Morbi@sem.org","1681010173699",9,"2016-01-12 11:46:43");
-INSERT INTO `ORDERS` (`C_id`,`I_ssn`,`OrderAmount`,`BuyTime`) VALUES ("eu.arcu.Morbi@sem.org","1649092550699",2,"2017-01-10 08:01:18");
-INSERT INTO `ORDERS` (`C_id`,`I_ssn`,`OrderAmount`,`BuyTime`) VALUES ("eu.arcu.Morbi@sem.org","1623011638499",9,"2018-09-20 15:05:55");
-INSERT INTO `ORDERS` (`C_id`,`I_ssn`,`OrderAmount`,`BuyTime`) VALUES ("eu.arcu.Morbi@sem.org","1685100256499",10,"2016-12-05 13:44:20");
-INSERT INTO `ORDERS` (`C_id`,`I_ssn`,`OrderAmount`,`BuyTime`) VALUES ("eu.arcu.Morbi@sem.org","1674092420499",2,"2018-04-17 09:05:48");
+INSERT INTO `ORDERS` (`C_id`,`I_ssn`,`OrderAmount`,`BuyTime`) VALUES ("eu.arcu.Morbi@sem.org","1000027953165",9,"2016-05-07 01:27:31");
+INSERT INTO `ORDERS` (`C_id`,`I_ssn`,`OrderAmount`,`BuyTime`) VALUES ("eu.arcu.Morbi@sem.org","1000028764714",10,"2017-01-01 03:26:54");
+INSERT INTO `ORDERS` (`C_id`,`I_ssn`,`OrderAmount`,`BuyTime`) VALUES ("eu.arcu.Morbi@sem.org","1000028266381",10,"2018-02-06 19:01:06");
+INSERT INTO `ORDERS` (`C_id`,`I_ssn`,`OrderAmount`,`BuyTime`) VALUES ("eu.arcu.Morbi@sem.org","1000029724878",4,"2018-02-01 22:09:06");
+INSERT INTO `ORDERS` (`C_id`,`I_ssn`,`OrderAmount`,`BuyTime`) VALUES ("eu.arcu.Morbi@sem.org","1000018568863",2,"2017-05-15 05:18:46");
+INSERT INTO `ORDERS` (`C_id`,`I_ssn`,`OrderAmount`,`BuyTime`) VALUES ("eu.arcu.Morbi@sem.org","1000021060172",9,"2016-01-12 11:46:43");
+INSERT INTO `ORDERS` (`C_id`,`I_ssn`,`OrderAmount`,`BuyTime`) VALUES ("eu.arcu.Morbi@sem.org","1000005553945",2,"2017-01-10 08:01:18");
+INSERT INTO `ORDERS` (`C_id`,`I_ssn`,`OrderAmount`,`BuyTime`) VALUES ("eu.arcu.Morbi@sem.org","1000025031926",9,"2018-09-20 15:05:55");
+INSERT INTO `ORDERS` (`C_id`,`I_ssn`,`OrderAmount`,`BuyTime`) VALUES ("eu.arcu.Morbi@sem.org","0000010626950",10,"2016-12-05 13:44:20");
+INSERT INTO `ORDERS` (`C_id`,`I_ssn`,`OrderAmount`,`BuyTime`) VALUES ("eu.arcu.Morbi@sem.org","0000010626624",2,"2018-04-17 09:05:48");
 
-INSERT INTO `ORDERS` (`C_id`,`I_ssn`,`OrderAmount`,`BuyTime`) VALUES ("enim.mi@sagittisDuisgravida.edu","1613122978299",8,"2017-12-10 18:30:38");
-INSERT INTO `ORDERS` (`C_id`,`I_ssn`,`OrderAmount`,`BuyTime`) VALUES ("enim.mi@sagittisDuisgravida.edu","1686080876699",6,"2016-04-22 20:08:21");
-INSERT INTO `ORDERS` (`C_id`,`I_ssn`,`OrderAmount`,`BuyTime`) VALUES ("enim.mi@sagittisDuisgravida.edu","1676120733799",6,"2018-07-08 04:07:14");
-INSERT INTO `ORDERS` (`C_id`,`I_ssn`,`OrderAmount`,`BuyTime`) VALUES ("enim.mi@sagittisDuisgravida.edu","1697051548199",2,"2018-04-14 03:51:38");
-INSERT INTO `ORDERS` (`C_id`,`I_ssn`,`OrderAmount`,`BuyTime`) VALUES ("enim.mi@sagittisDuisgravida.edu","1671080165499",9,"2018-08-14 09:09:18");
-INSERT INTO `ORDERS` (`C_id`,`I_ssn`,`OrderAmount`,`BuyTime`) VALUES ("enim.mi@sagittisDuisgravida.edu","1630101424499",2,"2016-04-08 01:06:18");
-INSERT INTO `ORDERS` (`C_id`,`I_ssn`,`OrderAmount`,`BuyTime`) VALUES ("enim.mi@sagittisDuisgravida.edu","1613032755199",2,"2016-10-14 16:07:04");
-INSERT INTO `ORDERS` (`C_id`,`I_ssn`,`OrderAmount`,`BuyTime`) VALUES ("enim.mi@sagittisDuisgravida.edu","1653112113599",1,"2016-06-17 08:13:21");
-INSERT INTO `ORDERS` (`C_id`,`I_ssn`,`OrderAmount`,`BuyTime`) VALUES ("enim.mi@sagittisDuisgravida.edu","1669041253199",4,"2017-01-05 17:30:17");
-INSERT INTO `ORDERS` (`C_id`,`I_ssn`,`OrderAmount`,`BuyTime`) VALUES ("enim.mi@sagittisDuisgravida.edu","1658032823499",1,"2018-05-10 22:22:34");
-INSERT INTO `ORDERS` (`C_id`,`I_ssn`,`OrderAmount`,`BuyTime`) VALUES ("enim.mi@sagittisDuisgravida.edu","1660081535599",7,"2016-05-11 21:40:30");
+INSERT INTO `ORDERS` (`C_id`,`I_ssn`,`OrderAmount`,`BuyTime`) VALUES ("enim.mi@sagittisDuisgravida.edu","1000027953165",8,"2017-12-10 18:30:38");
+INSERT INTO `ORDERS` (`C_id`,`I_ssn`,`OrderAmount`,`BuyTime`) VALUES ("enim.mi@sagittisDuisgravida.edu","1000028764714",6,"2016-04-22 20:08:21");
+INSERT INTO `ORDERS` (`C_id`,`I_ssn`,`OrderAmount`,`BuyTime`) VALUES ("enim.mi@sagittisDuisgravida.edu","1000028266381",6,"2018-07-08 04:07:14");
+INSERT INTO `ORDERS` (`C_id`,`I_ssn`,`OrderAmount`,`BuyTime`) VALUES ("enim.mi@sagittisDuisgravida.edu","1000029724878",2,"2018-04-14 03:51:38");
+INSERT INTO `ORDERS` (`C_id`,`I_ssn`,`OrderAmount`,`BuyTime`) VALUES ("enim.mi@sagittisDuisgravida.edu","1000005553945",9,"2018-08-14 09:09:18");
+INSERT INTO `ORDERS` (`C_id`,`I_ssn`,`OrderAmount`,`BuyTime`) VALUES ("enim.mi@sagittisDuisgravida.edu","1000021060172",2,"2016-04-08 01:06:18");
+INSERT INTO `ORDERS` (`C_id`,`I_ssn`,`OrderAmount`,`BuyTime`) VALUES ("enim.mi@sagittisDuisgravida.edu","0000010626950",2,"2016-10-14 16:07:04");
+INSERT INTO `ORDERS` (`C_id`,`I_ssn`,`OrderAmount`,`BuyTime`) VALUES ("enim.mi@sagittisDuisgravida.edu","0000010626624",1,"2016-06-17 08:13:21");
+INSERT INTO `ORDERS` (`C_id`,`I_ssn`,`OrderAmount`,`BuyTime`) VALUES ("enim.mi@sagittisDuisgravida.edu","1000025450109",4,"2017-01-05 17:30:17");
+INSERT INTO `ORDERS` (`C_id`,`I_ssn`,`OrderAmount`,`BuyTime`) VALUES ("enim.mi@sagittisDuisgravida.edu","1000025804909",1,"2018-05-10 22:22:34");
+INSERT INTO `ORDERS` (`C_id`,`I_ssn`,`OrderAmount`,`BuyTime`) VALUES ("enim.mi@sagittisDuisgravida.edu","1000028974483",7,"2016-05-11 21:40:30");
 
-INSERT INTO `ORDERS` (`C_id`,`I_ssn`,`OrderAmount`,`BuyTime`) VALUES ("justo@Ut.org","1660112798399",5,"2017-05-10 01:25:57");
-INSERT INTO `ORDERS` (`C_id`,`I_ssn`,`OrderAmount`,`BuyTime`) VALUES ("justo@Ut.org","1608103036699",8,"2017-04-01 14:40:44");
-INSERT INTO `ORDERS` (`C_id`,`I_ssn`,`OrderAmount`,`BuyTime`) VALUES ("justo@Ut.org","1647082661299",8,"2017-08-07 17:15:58");
-INSERT INTO `ORDERS` (`C_id`,`I_ssn`,`OrderAmount`,`BuyTime`) VALUES ("justo@Ut.org","1677092166499",2,"2016-08-17 09:19:28");
-INSERT INTO `ORDERS` (`C_id`,`I_ssn`,`OrderAmount`,`BuyTime`) VALUES ("justo@Ut.org","1658052459199",5,"2016-01-15 15:16:31");
-INSERT INTO `ORDERS` (`C_id`,`I_ssn`,`OrderAmount`,`BuyTime`) VALUES ("justo@Ut.org","1649050209799",1,"2018-06-15 19:52:23");
-INSERT INTO `ORDERS` (`C_id`,`I_ssn`,`OrderAmount`,`BuyTime`) VALUES ("justo@Ut.org","1658090530799",1,"2018-08-03 16:52:52");
+INSERT INTO `ORDERS` (`C_id`,`I_ssn`,`OrderAmount`,`BuyTime`) VALUES ("justo@Ut.org","1000027953165",5,"2017-05-10 01:25:57");
+INSERT INTO `ORDERS` (`C_id`,`I_ssn`,`OrderAmount`,`BuyTime`) VALUES ("justo@Ut.org","1000028764714",8,"2017-04-01 14:40:44");
+INSERT INTO `ORDERS` (`C_id`,`I_ssn`,`OrderAmount`,`BuyTime`) VALUES ("justo@Ut.org","1000028266381",8,"2017-08-07 17:15:58");
+INSERT INTO `ORDERS` (`C_id`,`I_ssn`,`OrderAmount`,`BuyTime`) VALUES ("justo@Ut.org","1000021060172",2,"2016-08-17 09:19:28");
+INSERT INTO `ORDERS` (`C_id`,`I_ssn`,`OrderAmount`,`BuyTime`) VALUES ("justo@Ut.org","1000005553945",5,"2016-01-15 15:16:31");
+INSERT INTO `ORDERS` (`C_id`,`I_ssn`,`OrderAmount`,`BuyTime`) VALUES ("justo@Ut.org","1000025450109",1,"2018-06-15 19:52:23");
+INSERT INTO `ORDERS` (`C_id`,`I_ssn`,`OrderAmount`,`BuyTime`) VALUES ("justo@Ut.org","1000013038780",1,"2018-08-03 16:52:52");
 
-INSERT INTO `ORDERS` (`C_id`,`I_ssn`,`OrderAmount`,`BuyTime`) VALUES ("Fusce.dolor@sitametmassa.co.uk","1647051532899",7,"2016-05-20 10:38:03");
-INSERT INTO `ORDERS` (`C_id`,`I_ssn`,`OrderAmount`,`BuyTime`) VALUES ("Fusce.dolor@sitametmassa.co.uk","1684060974499",4,"2016-08-23 06:05:02");
-INSERT INTO `ORDERS` (`C_id`,`I_ssn`,`OrderAmount`,`BuyTime`) VALUES ("Fusce.dolor@sitametmassa.co.uk","1619020403399",7,"2016-01-15 20:43:52");
-INSERT INTO `ORDERS` (`C_id`,`I_ssn`,`OrderAmount`,`BuyTime`) VALUES ("Fusce.dolor@sitametmassa.co.uk","1671112498499",7,"2018-01-26 04:50:38");
-INSERT INTO `ORDERS` (`C_id`,`I_ssn`,`OrderAmount`,`BuyTime`) VALUES ("Fusce.dolor@sitametmassa.co.uk","1682090761099",4,"2016-08-29 14:07:48");
-INSERT INTO `ORDERS` (`C_id`,`I_ssn`,`OrderAmount`,`BuyTime`) VALUES ("Fusce.dolor@sitametmassa.co.uk","1622040172999",7,"2016-10-20 03:56:32");
-INSERT INTO `ORDERS` (`C_id`,`I_ssn`,`OrderAmount`,`BuyTime`) VALUES ("Fusce.dolor@sitametmassa.co.uk","1662010961599",10,"2017-11-19 11:38:52");
-INSERT INTO `ORDERS` (`C_id`,`I_ssn`,`OrderAmount`,`BuyTime`) VALUES ("Fusce.dolor@sitametmassa.co.uk","1638031776899",2,"2018-04-19 06:33:41");
+INSERT INTO `ORDERS` (`C_id`,`I_ssn`,`OrderAmount`,`BuyTime`) VALUES ("Fusce.dolor@sitametmassa.co.uk","1000027953165",7,"2016-05-20 10:38:03");
+INSERT INTO `ORDERS` (`C_id`,`I_ssn`,`OrderAmount`,`BuyTime`) VALUES ("Fusce.dolor@sitametmassa.co.uk","1000028764714",4,"2016-08-23 06:05:02");
+INSERT INTO `ORDERS` (`C_id`,`I_ssn`,`OrderAmount`,`BuyTime`) VALUES ("Fusce.dolor@sitametmassa.co.uk","1000028266381",7,"2016-01-15 20:43:52");
+INSERT INTO `ORDERS` (`C_id`,`I_ssn`,`OrderAmount`,`BuyTime`) VALUES ("Fusce.dolor@sitametmassa.co.uk","1000021060172",7,"2018-01-26 04:50:38");
+INSERT INTO `ORDERS` (`C_id`,`I_ssn`,`OrderAmount`,`BuyTime`) VALUES ("Fusce.dolor@sitametmassa.co.uk","1000005553945",4,"2016-08-29 14:07:48");
+INSERT INTO `ORDERS` (`C_id`,`I_ssn`,`OrderAmount`,`BuyTime`) VALUES ("Fusce.dolor@sitametmassa.co.uk","1000025450109",7,"2016-10-20 03:56:32");
+INSERT INTO `ORDERS` (`C_id`,`I_ssn`,`OrderAmount`,`BuyTime`) VALUES ("Fusce.dolor@sitametmassa.co.uk","1000029573621",10,"2017-11-19 11:38:52");
+INSERT INTO `ORDERS` (`C_id`,`I_ssn`,`OrderAmount`,`BuyTime`) VALUES ("Fusce.dolor@sitametmassa.co.uk","1000028974483",2,"2018-04-19 06:33:41");
 
-INSERT INTO `ORDERS` (`C_id`,`I_ssn`,`OrderAmount`,`BuyTime`) VALUES ("natoque.penatibus.et@Nullamsuscipit.edu","1678112213599",3,"2017-07-07 01:33:11");
-INSERT INTO `ORDERS` (`C_id`,`I_ssn`,`OrderAmount`,`BuyTime`) VALUES ("natoque.penatibus.et@Nullamsuscipit.edu","1648071405999",8,"2016-11-06 19:47:48");
-INSERT INTO `ORDERS` (`C_id`,`I_ssn`,`OrderAmount`,`BuyTime`) VALUES ("natoque.penatibus.et@Nullamsuscipit.edu","1637121510599",8,"2017-02-20 23:51:05");
-INSERT INTO `ORDERS` (`C_id`,`I_ssn`,`OrderAmount`,`BuyTime`) VALUES ("natoque.penatibus.et@Nullamsuscipit.edu","1623022552399",9,"2016-03-27 18:59:41");
-INSERT INTO `ORDERS` (`C_id`,`I_ssn`,`OrderAmount`,`BuyTime`) VALUES ("natoque.penatibus.et@Nullamsuscipit.edu","1600060330099",7,"2018-01-25 07:21:19");
-INSERT INTO `ORDERS` (`C_id`,`I_ssn`,`OrderAmount`,`BuyTime`) VALUES ("natoque.penatibus.et@Nullamsuscipit.edu","1680110863099",4,"2017-09-28 22:03:19");
-INSERT INTO `ORDERS` (`C_id`,`I_ssn`,`OrderAmount`,`BuyTime`) VALUES ("natoque.penatibus.et@Nullamsuscipit.edu","1623101502899",3,"2017-10-20 23:48:46");
-INSERT INTO `ORDERS` (`C_id`,`I_ssn`,`OrderAmount`,`BuyTime`) VALUES ("natoque.penatibus.et@Nullamsuscipit.edu","1632011477699",3,"2017-07-04 07:38:10");
-INSERT INTO `ORDERS` (`C_id`,`I_ssn`,`OrderAmount`,`BuyTime`) VALUES ("natoque.penatibus.et@Nullamsuscipit.edu","1630010969999",6,"2018-02-15 03:20:46");
+INSERT INTO `ORDERS` (`C_id`,`I_ssn`,`OrderAmount`,`BuyTime`) VALUES ("natoque.penatibus.et@Nullamsuscipit.edu","1000027953165",3,"2017-07-07 01:33:11");
+INSERT INTO `ORDERS` (`C_id`,`I_ssn`,`OrderAmount`,`BuyTime`) VALUES ("natoque.penatibus.et@Nullamsuscipit.edu","1000028764714",8,"2016-11-06 19:47:48");
+INSERT INTO `ORDERS` (`C_id`,`I_ssn`,`OrderAmount`,`BuyTime`) VALUES ("natoque.penatibus.et@Nullamsuscipit.edu","1000028266381",8,"2017-02-20 23:51:05");
+INSERT INTO `ORDERS` (`C_id`,`I_ssn`,`OrderAmount`,`BuyTime`) VALUES ("natoque.penatibus.et@Nullamsuscipit.edu","1000021060172",9,"2016-03-27 18:59:41");
+INSERT INTO `ORDERS` (`C_id`,`I_ssn`,`OrderAmount`,`BuyTime`) VALUES ("natoque.penatibus.et@Nullamsuscipit.edu","1000005553945",7,"2018-01-25 07:21:19");
+INSERT INTO `ORDERS` (`C_id`,`I_ssn`,`OrderAmount`,`BuyTime`) VALUES ("natoque.penatibus.et@Nullamsuscipit.edu","100002829177",4,"2017-09-28 22:03:19");
+INSERT INTO `ORDERS` (`C_id`,`I_ssn`,`OrderAmount`,`BuyTime`) VALUES ("natoque.penatibus.et@Nullamsuscipit.edu","1000029496997",3,"2017-10-20 23:48:46");
+INSERT INTO `ORDERS` (`C_id`,`I_ssn`,`OrderAmount`,`BuyTime`) VALUES ("natoque.penatibus.et@Nullamsuscipit.edu","1000029105357",3,"2017-07-04 07:38:10");
+INSERT INTO `ORDERS` (`C_id`,`I_ssn`,`OrderAmount`,`BuyTime`) VALUES ("natoque.penatibus.et@Nullamsuscipit.edu","1000029105352",6,"2018-02-15 03:20:46");
 
-INSERT INTO `ORDERS` (`C_id`,`I_ssn`,`OrderAmount`,`BuyTime`) VALUES ("orci.Donec@nibhAliquam.org","1662040980899",6,"2016-01-11 02:58:57");
-INSERT INTO `ORDERS` (`C_id`,`I_ssn`,`OrderAmount`,`BuyTime`) VALUES ("orci.Donec@nibhAliquam.org","1687071982199",1,"2016-09-21 00:08:46");
-INSERT INTO `ORDERS` (`C_id`,`I_ssn`,`OrderAmount`,`BuyTime`) VALUES ("orci.Donec@nibhAliquam.org","1655111572199",8,"2016-08-09 08:37:46");
-INSERT INTO `ORDERS` (`C_id`,`I_ssn`,`OrderAmount`,`BuyTime`) VALUES ("orci.Donec@nibhAliquam.org","1618100535899",4,"2018-01-13 12:32:01");
-INSERT INTO `ORDERS` (`C_id`,`I_ssn`,`OrderAmount`,`BuyTime`) VALUES ("orci.Donec@nibhAliquam.org","1603061068299",2,"2017-07-10 07:03:00");
-INSERT INTO `ORDERS` (`C_id`,`I_ssn`,`OrderAmount`,`BuyTime`) VALUES ("orci.Donec@nibhAliquam.org","1688010155499",4,"2017-08-28 00:28:08");
-INSERT INTO `ORDERS` (`C_id`,`I_ssn`,`OrderAmount`,`BuyTime`) VALUES ("orci.Donec@nibhAliquam.org","1671110922799",5,"2016-12-01 02:15:05");
+INSERT INTO `ORDERS` (`C_id`,`I_ssn`,`OrderAmount`,`BuyTime`) VALUES ("orci.Donec@nibhAliquam.org","1000027953165",6,"2016-01-11 02:58:57");
+INSERT INTO `ORDERS` (`C_id`,`I_ssn`,`OrderAmount`,`BuyTime`) VALUES ("orci.Donec@nibhAliquam.org","1000028764714",1,"2016-09-21 00:08:46");
+INSERT INTO `ORDERS` (`C_id`,`I_ssn`,`OrderAmount`,`BuyTime`) VALUES ("orci.Donec@nibhAliquam.org","1000028266381",8,"2016-08-09 08:37:46");
+INSERT INTO `ORDERS` (`C_id`,`I_ssn`,`OrderAmount`,`BuyTime`) VALUES ("orci.Donec@nibhAliquam.org","1000021060172",4,"2018-01-13 12:32:01");
+INSERT INTO `ORDERS` (`C_id`,`I_ssn`,`OrderAmount`,`BuyTime`) VALUES ("orci.Donec@nibhAliquam.org","1000005553945",2,"2017-07-10 07:03:00");
+INSERT INTO `ORDERS` (`C_id`,`I_ssn`,`OrderAmount`,`BuyTime`) VALUES ("orci.Donec@nibhAliquam.org","1000028286599",4,"2017-08-28 00:28:08");
+INSERT INTO `ORDERS` (`C_id`,`I_ssn`,`OrderAmount`,`BuyTime`) VALUES ("orci.Donec@nibhAliquam.org","0000007691302",5,"2016-12-01 02:15:05");
 
-INSERT INTO `ORDERS` (`C_id`,`I_ssn`,`OrderAmount`,`BuyTime`) VALUES ("a.sollicitudin.orci@placeratCrasdictum.ca","1697072916699",10,"2016-11-08 02:47:22");
-INSERT INTO `ORDERS` (`C_id`,`I_ssn`,`OrderAmount`,`BuyTime`) VALUES ("a.sollicitudin.orci@placeratCrasdictum.ca","1669082821799",6,"2017-05-10 02:08:00");
-INSERT INTO `ORDERS` (`C_id`,`I_ssn`,`OrderAmount`,`BuyTime`) VALUES ("a.sollicitudin.orci@placeratCrasdictum.ca","1625060476299",2,"2016-04-11 18:45:37");
-INSERT INTO `ORDERS` (`C_id`,`I_ssn`,`OrderAmount`,`BuyTime`) VALUES ("a.sollicitudin.orci@placeratCrasdictum.ca","1696010962499",10,"2018-03-28 22:32:18");
-INSERT INTO `ORDERS` (`C_id`,`I_ssn`,`OrderAmount`,`BuyTime`) VALUES ("a.sollicitudin.orci@placeratCrasdictum.ca","1661081739599",4,"2016-02-06 08:43:49");
-INSERT INTO `ORDERS` (`C_id`,`I_ssn`,`OrderAmount`,`BuyTime`) VALUES ("a.sollicitudin.orci@placeratCrasdictum.ca","1688101463999",4,"2018-08-23 19:07:28");
-INSERT INTO `ORDERS` (`C_id`,`I_ssn`,`OrderAmount`,`BuyTime`) VALUES ("a.sollicitudin.orci@placeratCrasdictum.ca","1678090723499",3,"2017-04-03 06:24:09");
+INSERT INTO `ORDERS` (`C_id`,`I_ssn`,`OrderAmount`,`BuyTime`) VALUES ("a.sollicitudin.orci@placeratCrasdictum.ca","1000028764714",10,"2016-11-08 02:47:22");
+INSERT INTO `ORDERS` (`C_id`,`I_ssn`,`OrderAmount`,`BuyTime`) VALUES ("a.sollicitudin.orci@placeratCrasdictum.ca","1000028266381",6,"2017-05-10 02:08:00");
+INSERT INTO `ORDERS` (`C_id`,`I_ssn`,`OrderAmount`,`BuyTime`) VALUES ("a.sollicitudin.orci@placeratCrasdictum.ca","1000027953165",2,"2016-04-11 18:45:37");
+INSERT INTO `ORDERS` (`C_id`,`I_ssn`,`OrderAmount`,`BuyTime`) VALUES ("a.sollicitudin.orci@placeratCrasdictum.ca","1000020939463",10,"2018-03-28 22:32:18");
+INSERT INTO `ORDERS` (`C_id`,`I_ssn`,`OrderAmount`,`BuyTime`) VALUES ("a.sollicitudin.orci@placeratCrasdictum.ca","1000021060172",4,"2016-02-06 08:43:49");
+INSERT INTO `ORDERS` (`C_id`,`I_ssn`,`OrderAmount`,`BuyTime`) VALUES ("a.sollicitudin.orci@placeratCrasdictum.ca","1000005553945",4,"2018-08-23 19:07:28");
+INSERT INTO `ORDERS` (`C_id`,`I_ssn`,`OrderAmount`,`BuyTime`) VALUES ("a.sollicitudin.orci@placeratCrasdictum.ca","0000007691302",3,"2017-04-03 06:24:09");
 
-INSERT INTO `ORDERS` (`C_id`,`I_ssn`,`OrderAmount`,`BuyTime`) VALUES ("Praesent.luctus.Curabitur@milacinia.org","1670080993999",1,"2016-02-14 02:42:08");
-INSERT INTO `ORDERS` (`C_id`,`I_ssn`,`OrderAmount`,`BuyTime`) VALUES ("Praesent.luctus.Curabitur@milacinia.org","1659090752599",6,"2017-10-17 00:38:05");
-INSERT INTO `ORDERS` (`C_id`,`I_ssn`,`OrderAmount`,`BuyTime`) VALUES ("Praesent.luctus.Curabitur@milacinia.org","1681122048499",9,"2017-12-09 11:09:11");
-INSERT INTO `ORDERS` (`C_id`,`I_ssn`,`OrderAmount`,`BuyTime`) VALUES ("Praesent.luctus.Curabitur@milacinia.org","1658033086299",7,"2018-02-11 06:46:43");
-INSERT INTO `ORDERS` (`C_id`,`I_ssn`,`OrderAmount`,`BuyTime`) VALUES ("Praesent.luctus.Curabitur@milacinia.org","1684062908199",9,"2018-03-29 12:46:20");
-INSERT INTO `ORDERS` (`C_id`,`I_ssn`,`OrderAmount`,`BuyTime`) VALUES ("Praesent.luctus.Curabitur@milacinia.org","1628112350999",7,"2017-08-13 06:32:56");
-INSERT INTO `ORDERS` (`C_id`,`I_ssn`,`OrderAmount`,`BuyTime`) VALUES ("Praesent.luctus.Curabitur@milacinia.org","1694092500899",5,"2017-11-03 20:54:16");
-INSERT INTO `ORDERS` (`C_id`,`I_ssn`,`OrderAmount`,`BuyTime`) VALUES ("Praesent.luctus.Curabitur@milacinia.org","1645021277599",7,"2017-09-13 17:35:49");
-INSERT INTO `ORDERS` (`C_id`,`I_ssn`,`OrderAmount`,`BuyTime`) VALUES ("Praesent.luctus.Curabitur@milacinia.org","1642112510799",7,"2017-03-08 16:07:13");
+INSERT INTO `ORDERS` (`C_id`,`I_ssn`,`OrderAmount`,`BuyTime`) VALUES ("Praesent.luctus.Curabitur@milacinia.org","1000029004078",1,"2016-02-14 02:42:08");
+INSERT INTO `ORDERS` (`C_id`,`I_ssn`,`OrderAmount`,`BuyTime`) VALUES ("Praesent.luctus.Curabitur@milacinia.org","1000027953165",6,"2017-10-17 00:38:05");
+INSERT INTO `ORDERS` (`C_id`,`I_ssn`,`OrderAmount`,`BuyTime`) VALUES ("Praesent.luctus.Curabitur@milacinia.org","1000028266381",9,"2017-12-09 11:09:11");
+INSERT INTO `ORDERS` (`C_id`,`I_ssn`,`OrderAmount`,`BuyTime`) VALUES ("Praesent.luctus.Curabitur@milacinia.org","1000020939463",7,"2018-02-11 06:46:43");
+INSERT INTO `ORDERS` (`C_id`,`I_ssn`,`OrderAmount`,`BuyTime`) VALUES ("Praesent.luctus.Curabitur@milacinia.org","1000005553945",9,"2018-03-29 12:46:20");
+INSERT INTO `ORDERS` (`C_id`,`I_ssn`,`OrderAmount`,`BuyTime`) VALUES ("Praesent.luctus.Curabitur@milacinia.org","1000025197143",7,"2017-08-13 06:32:56");
+INSERT INTO `ORDERS` (`C_id`,`I_ssn`,`OrderAmount`,`BuyTime`) VALUES ("Praesent.luctus.Curabitur@milacinia.org","1000029496997",5,"2017-11-03 20:54:16");
+INSERT INTO `ORDERS` (`C_id`,`I_ssn`,`OrderAmount`,`BuyTime`) VALUES ("Praesent.luctus.Curabitur@milacinia.org","1000028699843",7,"2017-09-13 17:35:49");
+INSERT INTO `ORDERS` (`C_id`,`I_ssn`,`OrderAmount`,`BuyTime`) VALUES ("Praesent.luctus.Curabitur@milacinia.org","1000028950139",7,"2017-03-08 16:07:13");
 
-INSERT INTO `ORDERS` (`C_id`,`I_ssn`,`OrderAmount`,`BuyTime`) VALUES ("luctus.et@ut.ca","1641050186299",4,"2017-09-12 23:02:22");
-INSERT INTO `ORDERS` (`C_id`,`I_ssn`,`OrderAmount`,`BuyTime`) VALUES ("luctus.et@ut.ca","1654021536199",1,"2017-04-01 05:31:53");
-INSERT INTO `ORDERS` (`C_id`,`I_ssn`,`OrderAmount`,`BuyTime`) VALUES ("luctus.et@ut.ca","1637042272699",5,"2018-01-07 20:47:45");
-INSERT INTO `ORDERS` (`C_id`,`I_ssn`,`OrderAmount`,`BuyTime`) VALUES ("luctus.et@ut.ca","1610100460199",9,"2018-01-15 22:01:53");
-INSERT INTO `ORDERS` (`C_id`,`I_ssn`,`OrderAmount`,`BuyTime`) VALUES ("luctus.et@ut.ca","1613082803899",4,"2017-07-01 17:14:10");
-INSERT INTO `ORDERS` (`C_id`,`I_ssn`,`OrderAmount`,`BuyTime`) VALUES ("luctus.et@ut.ca","1646071643599",8,"2017-01-19 17:14:45");
-INSERT INTO `ORDERS` (`C_id`,`I_ssn`,`OrderAmount`,`BuyTime`) VALUES ("luctus.et@ut.ca","1640011115899",2,"2016-07-09 11:25:47");
-INSERT INTO `ORDERS` (`C_id`,`I_ssn`,`OrderAmount`,`BuyTime`) VALUES ("luctus.et@ut.ca","1622071995999",7,"2018-01-29 16:20:34");
-INSERT INTO `ORDERS` (`C_id`,`I_ssn`,`OrderAmount`,`BuyTime`) VALUES ("luctus.et@ut.ca","1688062449899",4,"2016-05-13 19:25:30");
-INSERT INTO `ORDERS` (`C_id`,`I_ssn`,`OrderAmount`,`BuyTime`) VALUES ("luctus.et@ut.ca","1699010790399",6,"2018-01-02 21:17:03");
-INSERT INTO `ORDERS` (`C_id`,`I_ssn`,`OrderAmount`,`BuyTime`) VALUES ("luctus.et@ut.ca","1639091838599",8,"2016-02-29 15:15:37");
+INSERT INTO `ORDERS` (`C_id`,`I_ssn`,`OrderAmount`,`BuyTime`) VALUES ("luctus.et@ut.ca","1000005553945",4,"2017-09-12 23:02:22");
+INSERT INTO `ORDERS` (`C_id`,`I_ssn`,`OrderAmount`,`BuyTime`) VALUES ("luctus.et@ut.ca","1000028266381",1,"2017-04-01 05:31:53");
+INSERT INTO `ORDERS` (`C_id`,`I_ssn`,`OrderAmount`,`BuyTime`) VALUES ("luctus.et@ut.ca","1000028764714",5,"2018-01-07 20:47:45");
+INSERT INTO `ORDERS` (`C_id`,`I_ssn`,`OrderAmount`,`BuyTime`) VALUES ("luctus.et@ut.ca","1000027953165",9,"2018-01-15 22:01:53");
+INSERT INTO `ORDERS` (`C_id`,`I_ssn`,`OrderAmount`,`BuyTime`) VALUES ("luctus.et@ut.ca","1000025881970",4,"2017-07-01 17:14:10");
+INSERT INTO `ORDERS` (`C_id`,`I_ssn`,`OrderAmount`,`BuyTime`) VALUES ("luctus.et@ut.ca","1000029004078",8,"2017-01-19 17:14:45");
+INSERT INTO `ORDERS` (`C_id`,`I_ssn`,`OrderAmount`,`BuyTime`) VALUES ("luctus.et@ut.ca","1000025197143",2,"2016-07-09 11:25:47");
+INSERT INTO `ORDERS` (`C_id`,`I_ssn`,`OrderAmount`,`BuyTime`) VALUES ("luctus.et@ut.ca","1000029496997",7,"2018-01-29 16:20:34");
+INSERT INTO `ORDERS` (`C_id`,`I_ssn`,`OrderAmount`,`BuyTime`) VALUES ("luctus.et@ut.ca","1000029105032",4,"2016-05-13 19:25:30");
+INSERT INTO `ORDERS` (`C_id`,`I_ssn`,`OrderAmount`,`BuyTime`) VALUES ("luctus.et@ut.ca","1000029105024",6,"2018-01-02 21:17:03");
+INSERT INTO `ORDERS` (`C_id`,`I_ssn`,`OrderAmount`,`BuyTime`) VALUES ("luctus.et@ut.ca","1000021416651",8,"2016-02-29 15:15:37");
 
-INSERT INTO `ORDERS` (`C_id`,`I_ssn`,`OrderAmount`,`BuyTime`) VALUES ("imperdiet@elit.org","1642031356599",6,"2016-05-02 13:15:30");
-INSERT INTO `ORDERS` (`C_id`,`I_ssn`,`OrderAmount`,`BuyTime`) VALUES ("imperdiet@elit.org","1618060945599",5,"2016-08-25 14:44:29");
-INSERT INTO `ORDERS` (`C_id`,`I_ssn`,`OrderAmount`,`BuyTime`) VALUES ("imperdiet@elit.org","1601072310399",1,"2016-04-30 15:39:34");
-INSERT INTO `ORDERS` (`C_id`,`I_ssn`,`OrderAmount`,`BuyTime`) VALUES ("imperdiet@elit.org","1626071508799",2,"2017-09-28 12:15:03");
-INSERT INTO `ORDERS` (`C_id`,`I_ssn`,`OrderAmount`,`BuyTime`) VALUES ("imperdiet@elit.org","1626072871399",3,"2016-01-09 18:03:10");
-INSERT INTO `ORDERS` (`C_id`,`I_ssn`,`OrderAmount`,`BuyTime`) VALUES ("imperdiet@elit.org","1643122365599",7,"2017-06-11 12:50:24");
-INSERT INTO `ORDERS` (`C_id`,`I_ssn`,`OrderAmount`,`BuyTime`) VALUES ("imperdiet@elit.org","1684061905699",1,"2018-04-25 20:28:31");
-INSERT INTO `ORDERS` (`C_id`,`I_ssn`,`OrderAmount`,`BuyTime`) VALUES ("imperdiet@elit.org","1676061886299",4,"2016-08-17 12:47:26");
+INSERT INTO `ORDERS` (`C_id`,`I_ssn`,`OrderAmount`,`BuyTime`) VALUES ("imperdiet@elit.org","1000028764714",6,"2016-05-02 13:15:30");
+INSERT INTO `ORDERS` (`C_id`,`I_ssn`,`OrderAmount`,`BuyTime`) VALUES ("imperdiet@elit.org","1000028266381",5,"2016-08-25 14:44:29");
+INSERT INTO `ORDERS` (`C_id`,`I_ssn`,`OrderAmount`,`BuyTime`) VALUES ("imperdiet@elit.org","1000005553945",1,"2016-04-30 15:39:34");
+INSERT INTO `ORDERS` (`C_id`,`I_ssn`,`OrderAmount`,`BuyTime`) VALUES ("imperdiet@elit.org","1000025032666",2,"2017-09-28 12:15:03");
+INSERT INTO `ORDERS` (`C_id`,`I_ssn`,`OrderAmount`,`BuyTime`) VALUES ("imperdiet@elit.org","1000027953165",3,"2016-01-09 18:03:10");
+INSERT INTO `ORDERS` (`C_id`,`I_ssn`,`OrderAmount`,`BuyTime`) VALUES ("imperdiet@elit.org","1000029127113",7,"2017-06-11 12:50:24");
+INSERT INTO `ORDERS` (`C_id`,`I_ssn`,`OrderAmount`,`BuyTime`) VALUES ("imperdiet@elit.org","1000025881970",1,"2018-04-25 20:28:31");
+INSERT INTO `ORDERS` (`C_id`,`I_ssn`,`OrderAmount`,`BuyTime`) VALUES ("imperdiet@elit.org","1000029004078",4,"2016-08-17 12:47:26");
 
-INSERT INTO `ORDERS` (`C_id`,`I_ssn`,`OrderAmount`,`BuyTime`) VALUES ("ullamcorper@metusIn.co.uk","1649091290999",4,"2016-05-08 11:55:41");
-INSERT INTO `ORDERS` (`C_id`,`I_ssn`,`OrderAmount`,`BuyTime`) VALUES ("ullamcorper@metusIn.co.uk","1692020131399",5,"2017-03-16 19:05:51");
-INSERT INTO `ORDERS` (`C_id`,`I_ssn`,`OrderAmount`,`BuyTime`) VALUES ("ullamcorper@metusIn.co.uk","1649010852299",1,"2017-12-11 17:21:39");
-INSERT INTO `ORDERS` (`C_id`,`I_ssn`,`OrderAmount`,`BuyTime`) VALUES ("ullamcorper@metusIn.co.uk","1668110940499",7,"2018-03-23 00:48:04");
-INSERT INTO `ORDERS` (`C_id`,`I_ssn`,`OrderAmount`,`BuyTime`) VALUES ("ullamcorper@metusIn.co.uk","1685052810799",2,"2016-05-10 18:15:27");
-INSERT INTO `ORDERS` (`C_id`,`I_ssn`,`OrderAmount`,`BuyTime`) VALUES ("ullamcorper@metusIn.co.uk","1637122506399",1,"2018-08-04 04:24:10");
-INSERT INTO `ORDERS` (`C_id`,`I_ssn`,`OrderAmount`,`BuyTime`) VALUES ("ullamcorper@metusIn.co.uk","1604121711599",7,"2017-01-16 06:15:07");
-INSERT INTO `ORDERS` (`C_id`,`I_ssn`,`OrderAmount`,`BuyTime`) VALUES ("ullamcorper@metusIn.co.uk","1667053034499",2,"2018-08-11 03:03:53");
+INSERT INTO `ORDERS` (`C_id`,`I_ssn`,`OrderAmount`,`BuyTime`) VALUES ("ullamcorper@metusIn.co.uk","1000028764714",4,"2016-05-08 11:55:41");
+INSERT INTO `ORDERS` (`C_id`,`I_ssn`,`OrderAmount`,`BuyTime`) VALUES ("ullamcorper@metusIn.co.uk","1000027953165",5,"2017-03-16 19:05:51");
+INSERT INTO `ORDERS` (`C_id`,`I_ssn`,`OrderAmount`,`BuyTime`) VALUES ("ullamcorper@metusIn.co.uk","1000028266381",1,"2017-12-11 17:21:39");
+INSERT INTO `ORDERS` (`C_id`,`I_ssn`,`OrderAmount`,`BuyTime`) VALUES ("ullamcorper@metusIn.co.uk","1000005553945",7,"2018-03-23 00:48:04");
+INSERT INTO `ORDERS` (`C_id`,`I_ssn`,`OrderAmount`,`BuyTime`) VALUES ("ullamcorper@metusIn.co.uk","1000028935441",2,"2016-05-10 18:15:27");
+INSERT INTO `ORDERS` (`C_id`,`I_ssn`,`OrderAmount`,`BuyTime`) VALUES ("ullamcorper@metusIn.co.uk","1000027532832",1,"2018-08-04 04:24:10");
+INSERT INTO `ORDERS` (`C_id`,`I_ssn`,`OrderAmount`,`BuyTime`) VALUES ("ullamcorper@metusIn.co.uk","1000025032666",7,"2017-01-16 06:15:07");
+INSERT INTO `ORDERS` (`C_id`,`I_ssn`,`OrderAmount`,`BuyTime`) VALUES ("ullamcorper@metusIn.co.uk","1000029127113",2,"2018-08-11 03:03:53");
 
-INSERT INTO `ORDERS` (`C_id`,`I_ssn`,`OrderAmount`,`BuyTime`) VALUES ("nulla.ante@Vivamusnonlorem.ca","1657123027299",4,"2016-09-10 00:49:10");
+INSERT INTO `ORDERS` (`C_id`,`I_ssn`,`OrderAmount`,`BuyTime`) VALUES ("nulla.ante@Vivamusnonlorem.ca","1000027953165",4,"2016-09-10 00:49:10");
 
-INSERT INTO `ORDERS` (`C_id`,`I_ssn`,`OrderAmount`,`BuyTime`) VALUES ("imperdiet.nec.leo@Ut.co.uk","1601091814899",2,"2017-10-17 20:41:17");
-INSERT INTO `ORDERS` (`C_id`,`I_ssn`,`OrderAmount`,`BuyTime`) VALUES ("imperdiet.nec.leo@Ut.co.uk","1689052101799",8,"2018-08-08 10:21:36");
+INSERT INTO `ORDERS` (`C_id`,`I_ssn`,`OrderAmount`,`BuyTime`) VALUES ("imperdiet.nec.leo@Ut.co.uk","1000027953165",2,"2017-10-17 20:41:17");
+INSERT INTO `ORDERS` (`C_id`,`I_ssn`,`OrderAmount`,`BuyTime`) VALUES ("imperdiet.nec.leo@Ut.co.uk","1000028764714",8,"2018-08-08 10:21:36");
 
-INSERT INTO `ORDERS` (`C_id`,`I_ssn`,`OrderAmount`,`BuyTime`) VALUES ("interdum.feugiat@nisisem.com","1604061152799",5,"2017-06-28 17:55:17");
-INSERT INTO `ORDERS` (`C_id`,`I_ssn`,`OrderAmount`,`BuyTime`) VALUES ("interdum.feugiat@nisisem.com","1654081937299",6,"2018-04-06 14:24:03");
-INSERT INTO `ORDERS` (`C_id`,`I_ssn`,`OrderAmount`,`BuyTime`) VALUES ("interdum.feugiat@nisisem.com","1640101531899",5,"2018-07-24 02:40:42");
+INSERT INTO `ORDERS` (`C_id`,`I_ssn`,`OrderAmount`,`BuyTime`) VALUES ("interdum.feugiat@nisisem.com","1000027953165",5,"2017-06-28 17:55:17");
+INSERT INTO `ORDERS` (`C_id`,`I_ssn`,`OrderAmount`,`BuyTime`) VALUES ("interdum.feugiat@nisisem.com","1000028266381",6,"2018-04-06 14:24:03");
+INSERT INTO `ORDERS` (`C_id`,`I_ssn`,`OrderAmount`,`BuyTime`) VALUES ("interdum.feugiat@nisisem.com","1000028764714",5,"2018-07-24 02:40:42");
 
-INSERT INTO `ORDERS` (`C_id`,`I_ssn`,`OrderAmount`,`BuyTime`) VALUES ("gravida@liberoDonecconsectetuer.co.uk","1620030571499",8,"2016-04-21 22:42:08");
-INSERT INTO `ORDERS` (`C_id`,`I_ssn`,`OrderAmount`,`BuyTime`) VALUES ("gravida@liberoDonecconsectetuer.co.uk","1684050915899",4,"2016-02-05 15:44:06");
-INSERT INTO `ORDERS` (`C_id`,`I_ssn`,`OrderAmount`,`BuyTime`) VALUES ("gravida@liberoDonecconsectetuer.co.uk","1605081004099",4,"2016-05-30 18:30:47");
+INSERT INTO `ORDERS` (`C_id`,`I_ssn`,`OrderAmount`,`BuyTime`) VALUES ("gravida@liberoDonecconsectetuer.co.uk","1000028266381",8,"2016-04-21 22:42:08");
+INSERT INTO `ORDERS` (`C_id`,`I_ssn`,`OrderAmount`,`BuyTime`) VALUES ("gravida@liberoDonecconsectetuer.co.uk","1000020939463",4,"2016-02-05 15:44:06");
+INSERT INTO `ORDERS` (`C_id`,`I_ssn`,`OrderAmount`,`BuyTime`) VALUES ("gravida@liberoDonecconsectetuer.co.uk","1000027953165",4,"2016-05-30 18:30:47");
 
-INSERT INTO `ORDERS` (`C_id`,`I_ssn`,`OrderAmount`,`BuyTime`) VALUES ("velit.Aliquam@mieleifendegestas.com","1655061536499",10,"2017-05-17 14:52:23");
-INSERT INTO `ORDERS` (`C_id`,`I_ssn`,`OrderAmount`,`BuyTime`) VALUES ("velit.Aliquam@mieleifendegestas.com","1665072378799",10,"2017-10-28 10:12:43");
-INSERT INTO `ORDERS` (`C_id`,`I_ssn`,`OrderAmount`,`BuyTime`) VALUES ("velit.Aliquam@mieleifendegestas.com","1627072490499",1,"2017-09-03 20:30:04");
+INSERT INTO `ORDERS` (`C_id`,`I_ssn`,`OrderAmount`,`BuyTime`) VALUES ("velit.Aliquam@mieleifendegestas.com","1000028266381",10,"2017-05-17 14:52:23");
+INSERT INTO `ORDERS` (`C_id`,`I_ssn`,`OrderAmount`,`BuyTime`) VALUES ("velit.Aliquam@mieleifendegestas.com","1000020939463",10,"2017-10-28 10:12:43");
+INSERT INTO `ORDERS` (`C_id`,`I_ssn`,`OrderAmount`,`BuyTime`) VALUES ("velit.Aliquam@mieleifendegestas.com","1000005553945",1,"2017-09-03 20:30:04");
 
-INSERT INTO `ORDERS` (`C_id`,`I_ssn`,`OrderAmount`,`BuyTime`) VALUES ("vel.turpis@ipsumSuspendissenon.com","1605051136299",4,"2017-07-04 05:03:08");
-INSERT INTO `ORDERS` (`C_id`,`I_ssn`,`OrderAmount`,`BuyTime`) VALUES ("vel.turpis@ipsumSuspendissenon.com","1605051136299",6,"2017-09-27 11:58:31");
+INSERT INTO `ORDERS` (`C_id`,`I_ssn`,`OrderAmount`,`BuyTime`) VALUES ("vel.turpis@ipsumSuspendissenon.com","1000028266381",4,"2017-07-04 05:03:08");
+INSERT INTO `ORDERS` (`C_id`,`I_ssn`,`OrderAmount`,`BuyTime`) VALUES ("vel.turpis@ipsumSuspendissenon.com","1000020939463",6,"2017-09-27 11:58:31");
 
-INSERT INTO `ORDERS` (`C_id`,`I_ssn`,`OrderAmount`,`BuyTime`) VALUES ("quam.Curabitur.vel@at.net","1684011892999",10,"2016-07-17 03:06:26");
+INSERT INTO `ORDERS` (`C_id`,`I_ssn`,`OrderAmount`,`BuyTime`) VALUES ("quam.Curabitur.vel@at.net","1000028764714",10,"2016-07-17 03:06:26");
 
-INSERT INTO `ORDERS` (`C_id`,`I_ssn`,`OrderAmount`,`BuyTime`) VALUES ("risus.Nunc@scelerisque.com","1603041056499",2,"2018-06-04 02:28:58");
-INSERT INTO `ORDERS` (`C_id`,`I_ssn`,`OrderAmount`,`BuyTime`) VALUES ("risus.Nunc@scelerisque.com","1641070958499",3,"2018-02-03 18:27:06");
+INSERT INTO `ORDERS` (`C_id`,`I_ssn`,`OrderAmount`,`BuyTime`) VALUES ("risus.Nunc@scelerisque.com","1000005553945",2,"2018-06-04 02:28:58");
+INSERT INTO `ORDERS` (`C_id`,`I_ssn`,`OrderAmount`,`BuyTime`) VALUES ("risus.Nunc@scelerisque.com","1000028764714",3,"2018-02-03 18:27:06");
 
-INSERT INTO `ORDERS` (`C_id`,`I_ssn`,`OrderAmount`,`BuyTime`) VALUES ("leo.elementum.sem@parturientmontes.co.uk","1640110477399",6,"2016-12-08 10:33:16");
-INSERT INTO `ORDERS` (`C_id`,`I_ssn`,`OrderAmount`,`BuyTime`) VALUES ("leo.elementum.sem@parturientmontes.co.uk","1618021004799",2,"2016-06-17 10:18:55");
-INSERT INTO `ORDERS` (`C_id`,`I_ssn`,`OrderAmount`,`BuyTime`) VALUES ("leo.elementum.sem@parturientmontes.co.uk","1661022359799",1,"2017-04-18 13:15:09");
-INSERT INTO `ORDERS` (`C_id`,`I_ssn`,`OrderAmount`,`BuyTime`) VALUES ("leo.elementum.sem@parturientmontes.co.uk","1679011426899",3,"2017-06-16 21:29:47");
+INSERT INTO `ORDERS` (`C_id`,`I_ssn`,`OrderAmount`,`BuyTime`) VALUES ("leo.elementum.sem@parturientmontes.co.uk","1000027953165",6,"2016-12-08 10:33:16");
+INSERT INTO `ORDERS` (`C_id`,`I_ssn`,`OrderAmount`,`BuyTime`) VALUES ("leo.elementum.sem@parturientmontes.co.uk","1000005553945",2,"2016-06-17 10:18:55");
+INSERT INTO `ORDERS` (`C_id`,`I_ssn`,`OrderAmount`,`BuyTime`) VALUES ("leo.elementum.sem@parturientmontes.co.uk","1000023093627",1,"2017-04-18 13:15:09");
+INSERT INTO `ORDERS` (`C_id`,`I_ssn`,`OrderAmount`,`BuyTime`) VALUES ("leo.elementum.sem@parturientmontes.co.uk","1000028935441",3,"2017-06-16 21:29:47");
 
-INSERT INTO `ORDERS` (`C_id`,`I_ssn`,`OrderAmount`,`BuyTime`) VALUES ("molestie@Phasellusfermentumconvallis.net","1641050510999",4,"2017-07-23 01:21:19");
-INSERT INTO `ORDERS` (`C_id`,`I_ssn`,`OrderAmount`,`BuyTime`) VALUES ("molestie@Phasellusfermentumconvallis.net","1662050720199",8,"2018-04-23 13:30:33");
+INSERT INTO `ORDERS` (`C_id`,`I_ssn`,`OrderAmount`,`BuyTime`) VALUES ("molestie@Phasellusfermentumconvallis.net","1000020939463",4,"2017-07-23 01:21:19");
+INSERT INTO `ORDERS` (`C_id`,`I_ssn`,`OrderAmount`,`BuyTime`) VALUES ("molestie@Phasellusfermentumconvallis.net","1000027953165",8,"2018-04-23 13:30:33");
 
-INSERT INTO `ORDERS` (`C_id`,`I_ssn`,`OrderAmount`,`BuyTime`) VALUES ("Suspendisse.ac.metus@nondapibus.org","1616070989499",3,"2016-06-23 06:40:31");
+INSERT INTO `ORDERS` (`C_id`,`I_ssn`,`OrderAmount`,`BuyTime`) VALUES ("Suspendisse.ac.metus@nondapibus.org","1000020939463",3,"2016-06-23 06:40:31");
 
-INSERT INTO `ORDERS` (`C_id`,`I_ssn`,`OrderAmount`,`BuyTime`) VALUES ("nascetur.ridiculus@utquamvel.net","1677020874699",8,"2018-05-03 15:25:28");
-INSERT INTO `ORDERS` (`C_id`,`I_ssn`,`OrderAmount`,`BuyTime`) VALUES ("nascetur.ridiculus@utquamvel.net","1681061033199",4,"2018-06-11 11:03:27");
-INSERT INTO `ORDERS` (`C_id`,`I_ssn`,`OrderAmount`,`BuyTime`) VALUES ("nascetur.ridiculus@utquamvel.net","1624080714599",3,"2018-03-19 21:18:42");
+INSERT INTO `ORDERS` (`C_id`,`I_ssn`,`OrderAmount`,`BuyTime`) VALUES ("nascetur.ridiculus@utquamvel.net","1000020939463",8,"2018-05-03 15:25:28");
+INSERT INTO `ORDERS` (`C_id`,`I_ssn`,`OrderAmount`,`BuyTime`) VALUES ("nascetur.ridiculus@utquamvel.net","1000028266381",4,"2018-06-11 11:03:27");
+INSERT INTO `ORDERS` (`C_id`,`I_ssn`,`OrderAmount`,`BuyTime`) VALUES ("nascetur.ridiculus@utquamvel.net","1000027953165",3,"2018-03-19 21:18:42");
 
-INSERT INTO `ORDERS` (`C_id`,`I_ssn`,`OrderAmount`,`BuyTime`) VALUES ("libero.Integer.in@id.org","1664102945499",7,"2017-02-13 21:57:02");
-INSERT INTO `ORDERS` (`C_id`,`I_ssn`,`OrderAmount`,`BuyTime`) VALUES ("libero.Integer.in@id.org","1677070998399",6,"2017-06-25 16:42:11");
-INSERT INTO `ORDERS` (`C_id`,`I_ssn`,`OrderAmount`,`BuyTime`) VALUES ("libero.Integer.in@id.org","1617060753299",4,"2018-09-06 11:35:17");
-INSERT INTO `ORDERS` (`C_id`,`I_ssn`,`OrderAmount`,`BuyTime`) VALUES ("libero.Integer.in@id.org","1639071488599",6,"2017-06-09 11:35:42");
-INSERT INTO `ORDERS` (`C_id`,`I_ssn`,`OrderAmount`,`BuyTime`) VALUES ("libero.Integer.in@id.org","1673042403699",2,"2018-05-02 03:43:24");
+INSERT INTO `ORDERS` (`C_id`,`I_ssn`,`OrderAmount`,`BuyTime`) VALUES ("libero.Integer.in@id.org","1000020939463",7,"2017-02-13 21:57:02");
+INSERT INTO `ORDERS` (`C_id`,`I_ssn`,`OrderAmount`,`BuyTime`) VALUES ("libero.Integer.in@id.org","1000005553945",6,"2017-06-25 16:42:11");
+INSERT INTO `ORDERS` (`C_id`,`I_ssn`,`OrderAmount`,`BuyTime`) VALUES ("libero.Integer.in@id.org","1000023093627",4,"2018-09-06 11:35:17");
+INSERT INTO `ORDERS` (`C_id`,`I_ssn`,`OrderAmount`,`BuyTime`) VALUES ("libero.Integer.in@id.org","1000028935441",6,"2017-06-09 11:35:42");
+INSERT INTO `ORDERS` (`C_id`,`I_ssn`,`OrderAmount`,`BuyTime`) VALUES ("libero.Integer.in@id.org","1000029127113",2,"2018-05-02 03:43:24");
 
-INSERT INTO `ORDERS` (`C_id`,`I_ssn`,`OrderAmount`,`BuyTime`) VALUES ("ac.tellus@lobortis.net","1671031135499",9,"2017-10-30 12:40:41");
-INSERT INTO `ORDERS` (`C_id`,`I_ssn`,`OrderAmount`,`BuyTime`) VALUES ("ac.tellus@lobortis.net","1605060279599",5,"2016-06-13 19:19:38");
-INSERT INTO `ORDERS` (`C_id`,`I_ssn`,`OrderAmount`,`BuyTime`) VALUES ("ac.tellus@lobortis.net","1641041802499",8,"2016-05-01 21:13:56");
+INSERT INTO `ORDERS` (`C_id`,`I_ssn`,`OrderAmount`,`BuyTime`) VALUES ("ac.tellus@lobortis.net","1000020939463",9,"2017-10-30 12:40:41");
+INSERT INTO `ORDERS` (`C_id`,`I_ssn`,`OrderAmount`,`BuyTime`) VALUES ("ac.tellus@lobortis.net","1000023093627",5,"2016-06-13 19:19:38");
+INSERT INTO `ORDERS` (`C_id`,`I_ssn`,`OrderAmount`,`BuyTime`) VALUES ("ac.tellus@lobortis.net","1000028935441",8,"2016-05-01 21:13:56");
 
-INSERT INTO `ORDERS` (`C_id`,`I_ssn`,`OrderAmount`,`BuyTime`) VALUES ("at.pretium@adipiscingelitAliquam.ca","1647032916899",7,"2016-01-16 13:15:32");
+INSERT INTO `ORDERS` (`C_id`,`I_ssn`,`OrderAmount`,`BuyTime`) VALUES ("at.pretium@adipiscingelitAliquam.ca","1000020939463",7,"2016-01-16 13:15:32");
 
-INSERT INTO `ORDERS` (`C_id`,`I_ssn`,`OrderAmount`,`BuyTime`) VALUES ("feugiat@euturpis.net","1669112385399",4,"2017-06-09 04:04:04");
-INSERT INTO `ORDERS` (`C_id`,`I_ssn`,`OrderAmount`,`BuyTime`) VALUES ("feugiat@euturpis.net","1683120947199",3,"2018-06-14 02:48:25");
-INSERT INTO `ORDERS` (`C_id`,`I_ssn`,`OrderAmount`,`BuyTime`) VALUES ("feugiat@euturpis.net","1655061140099",10,"2018-06-20 18:37:32");
-INSERT INTO `ORDERS` (`C_id`,`I_ssn`,`OrderAmount`,`BuyTime`) VALUES ("feugiat@euturpis.net","1617110458999",7,"2016-04-01 21:41:14");
+INSERT INTO `ORDERS` (`C_id`,`I_ssn`,`OrderAmount`,`BuyTime`) VALUES ("feugiat@euturpis.net","1000020939463",4,"2017-06-09 04:04:04");
+INSERT INTO `ORDERS` (`C_id`,`I_ssn`,`OrderAmount`,`BuyTime`) VALUES ("feugiat@euturpis.net","1000005553945",3,"2018-06-14 02:48:25");
+INSERT INTO `ORDERS` (`C_id`,`I_ssn`,`OrderAmount`,`BuyTime`) VALUES ("feugiat@euturpis.net","1000027953165",10,"2018-06-20 18:37:32");
+INSERT INTO `ORDERS` (`C_id`,`I_ssn`,`OrderAmount`,`BuyTime`) VALUES ("feugiat@euturpis.net","1000023093627",7,"2016-04-01 21:41:14");
 
-INSERT INTO `ORDERS` (`C_id`,`I_ssn`,`OrderAmount`,`BuyTime`) VALUES ("sit.amet@Quisque.org","1629060894699",9,"2016-07-04 05:17:58");
-INSERT INTO `ORDERS` (`C_id`,`I_ssn`,`OrderAmount`,`BuyTime`) VALUES ("sit.amet@Quisque.org","1658062922399",2,"2016-02-19 01:38:16");
+INSERT INTO `ORDERS` (`C_id`,`I_ssn`,`OrderAmount`,`BuyTime`) VALUES ("sit.amet@Quisque.org","1000027953165",9,"2016-07-04 05:17:58");
+INSERT INTO `ORDERS` (`C_id`,`I_ssn`,`OrderAmount`,`BuyTime`) VALUES ("sit.amet@Quisque.org","0000005410098",2,"2016-02-19 01:38:16");
 
-INSERT INTO `ORDERS` (`C_id`,`I_ssn`,`OrderAmount`,`BuyTime`) VALUES ("ante.dictum.mi@hymenaeos.co.uk","1660011626899",3,"2016-02-03 06:47:17");
-INSERT INTO `ORDERS` (`C_id`,`I_ssn`,`OrderAmount`,`BuyTime`) VALUES ("ante.dictum.mi@hymenaeos.co.uk","1669032892799",5,"2017-08-03 15:08:27");
-INSERT INTO `ORDERS` (`C_id`,`I_ssn`,`OrderAmount`,`BuyTime`) VALUES ("ante.dictum.mi@hymenaeos.co.uk","1687121765599",7,"2016-01-23 21:36:20");
+INSERT INTO `ORDERS` (`C_id`,`I_ssn`,`OrderAmount`,`BuyTime`) VALUES ("ante.dictum.mi@hymenaeos.co.uk","1000027953165",3,"2016-02-03 06:47:17");
+INSERT INTO `ORDERS` (`C_id`,`I_ssn`,`OrderAmount`,`BuyTime`) VALUES ("ante.dictum.mi@hymenaeos.co.uk","1000005553945",5,"2017-08-03 15:08:27");
+INSERT INTO `ORDERS` (`C_id`,`I_ssn`,`OrderAmount`,`BuyTime`) VALUES ("ante.dictum.mi@hymenaeos.co.uk","0000005410098",7,"2016-01-23 21:36:20");
 
-INSERT INTO `ORDERS` (`C_id`,`I_ssn`,`OrderAmount`,`BuyTime`) VALUES ("fringilla.ornare@diamdictum.co.uk","1605082373599",9,"Sep 3, 2017");
-INSERT INTO `ORDERS` (`C_id`,`I_ssn`,`OrderAmount`,`BuyTime`) VALUES ("fringilla.ornare@diamdictum.co.uk","1613052596099",8,"Apr 19, 2017");
+INSERT INTO `ORDERS` (`C_id`,`I_ssn`,`OrderAmount`,`BuyTime`) VALUES ("fringilla.ornare@diamdictum.co.uk","1000005553945",9,"Sep 3, 2017");
+INSERT INTO `ORDERS` (`C_id`,`I_ssn`,`OrderAmount`,`BuyTime`) VALUES ("fringilla.ornare@diamdictum.co.uk","1000020939463",8,"Apr 19, 2017");
 
-INSERT INTO `ORDERS` (`C_id`,`I_ssn`,`OrderAmount`,`BuyTime`) VALUES ("elementum.at@euturpis.org","1688061534599",7,"2018-06-28 06:20:01");
-INSERT INTO `ORDERS` (`C_id`,`I_ssn`,`OrderAmount`,`BuyTime`) VALUES ("elementum.at@euturpis.org","1679112151799",5,"2016-12-02 21:39:59");
-INSERT INTO `ORDERS` (`C_id`,`I_ssn`,`OrderAmount`,`BuyTime`) VALUES ("elementum.at@euturpis.org","1622062653799",6,"2018-03-22 14:05:31");
+INSERT INTO `ORDERS` (`C_id`,`I_ssn`,`OrderAmount`,`BuyTime`) VALUES ("elementum.at@euturpis.org","1000005553945",7,"2018-06-28 06:20:01");
+INSERT INTO `ORDERS` (`C_id`,`I_ssn`,`OrderAmount`,`BuyTime`) VALUES ("elementum.at@euturpis.org","0000005410098",5,"2016-12-02 21:39:59");
+INSERT INTO `ORDERS` (`C_id`,`I_ssn`,`OrderAmount`,`BuyTime`) VALUES ("elementum.at@euturpis.org","1000023093627",6,"2018-03-22 14:05:31");
 
-INSERT INTO `ORDERS` (`C_id`,`I_ssn`,`OrderAmount`,`BuyTime`) VALUES ("sed.leo@mifringillami.com","1603040534599",5,"2017-05-27 00:47:58");
-INSERT INTO `ORDERS` (`C_id`,`I_ssn`,`OrderAmount`,`BuyTime`) VALUES ("sed.leo@mifringillami.com","1669110334499",10,"2016-12-16 05:51:44");
-INSERT INTO `ORDERS` (`C_id`,`I_ssn`,`OrderAmount`,`BuyTime`) VALUES ("sed.leo@mifringillami.com","1679071045299",5,"2016-08-16 22:55:43");
+INSERT INTO `ORDERS` (`C_id`,`I_ssn`,`OrderAmount`,`BuyTime`) VALUES ("sed.leo@mifringillami.com","1000005553945",5,"2017-05-27 00:47:58");
+INSERT INTO `ORDERS` (`C_id`,`I_ssn`,`OrderAmount`,`BuyTime`) VALUES ("sed.leo@mifringillami.com","0000005410098",10,"2016-12-16 05:51:44");
+INSERT INTO `ORDERS` (`C_id`,`I_ssn`,`OrderAmount`,`BuyTime`) VALUES ("sed.leo@mifringillami.com","1000023093627",5,"2016-08-16 22:55:43");
 
-INSERT INTO `ORDERS` (`C_id`,`I_ssn`,`OrderAmount`,`BuyTime`) VALUES ("nunc@mi.com","1644101314199",4,"2016-11-23 03:57:03");
-INSERT INTO `ORDERS` (`C_id`,`I_ssn`,`OrderAmount`,`BuyTime`) VALUES ("nunc@mi.com","1667042268199",6,"2017-06-30 20:55:22");
-INSERT INTO `ORDERS` (`C_id`,`I_ssn`,`OrderAmount`,`BuyTime`) VALUES ("nunc@mi.com","1672033005899",10,"2017-08-25 01:56:28");
-INSERT INTO `ORDERS` (`C_id`,`I_ssn`,`OrderAmount`,`BuyTime`) VALUES ("nunc@mi.com","1628092272399",8,"2017-11-25 13:45:42");
+INSERT INTO `ORDERS` (`C_id`,`I_ssn`,`OrderAmount`,`BuyTime`) VALUES ("nunc@mi.com","1000005553945",4,"2016-11-23 03:57:03");
+INSERT INTO `ORDERS` (`C_id`,`I_ssn`,`OrderAmount`,`BuyTime`) VALUES ("nunc@mi.com","1000029471555",6,"2017-06-30 20:55:22");
+INSERT INTO `ORDERS` (`C_id`,`I_ssn`,`OrderAmount`,`BuyTime`) VALUES ("nunc@mi.com","0000005410098",10,"2017-08-25 01:56:28");
+INSERT INTO `ORDERS` (`C_id`,`I_ssn`,`OrderAmount`,`BuyTime`) VALUES ("nunc@mi.com","1000023093627",8,"2017-11-25 13:45:42");
 
-INSERT INTO `ORDERS` (`C_id`,`I_ssn`,`OrderAmount`,`BuyTime`) VALUES ("eu.tellus.Phasellus@semvitae.org","1697092351899",10,"2016-05-18 12:19:06");
-INSERT INTO `ORDERS` (`C_id`,`I_ssn`,`OrderAmount`,`BuyTime`) VALUES ("eu.tellus.Phasellus@semvitae.org","1605011337599",9,"2018-01-06 01:59:35");
-INSERT INTO `ORDERS` (`C_id`,`I_ssn`,`OrderAmount`,`BuyTime`) VALUES ("eu.tellus.Phasellus@semvitae.org","1634032843299",6,"2016-05-15 08:36:08");
-INSERT INTO `ORDERS` (`C_id`,`I_ssn`,`OrderAmount`,`BuyTime`) VALUES ("eu.tellus.Phasellus@semvitae.org","1617052646599",7,"2016-01-27 06:57:39");
+INSERT INTO `ORDERS` (`C_id`,`I_ssn`,`OrderAmount`,`BuyTime`) VALUES ("eu.tellus.Phasellus@semvitae.org","1000005553945",10,"2016-05-18 12:19:06");
+INSERT INTO `ORDERS` (`C_id`,`I_ssn`,`OrderAmount`,`BuyTime`) VALUES ("eu.tellus.Phasellus@semvitae.org","1000027953165",9,"2018-01-06 01:59:35");
+INSERT INTO `ORDERS` (`C_id`,`I_ssn`,`OrderAmount`,`BuyTime`) VALUES ("eu.tellus.Phasellus@semvitae.org","1000029471555",6,"2016-05-15 08:36:08");
+INSERT INTO `ORDERS` (`C_id`,`I_ssn`,`OrderAmount`,`BuyTime`) VALUES ("eu.tellus.Phasellus@semvitae.org","0000005410098",7,"2016-01-27 06:57:39");
 
-INSERT INTO `ORDERS` (`C_id`,`I_ssn`,`OrderAmount`,`BuyTime`) VALUES ("ante@nonummyacfeugiat.edu","1619110585099",2,"2016-11-30 12:24:18");
-INSERT INTO `ORDERS` (`C_id`,`I_ssn`,`OrderAmount`,`BuyTime`) VALUES ("ante@nonummyacfeugiat.edu","1688010330799",7,"2017-01-06 14:00:09");
+INSERT INTO `ORDERS` (`C_id`,`I_ssn`,`OrderAmount`,`BuyTime`) VALUES ("ante@nonummyacfeugiat.edu","1000005553945",2,"2016-11-30 12:24:18");
+INSERT INTO `ORDERS` (`C_id`,`I_ssn`,`OrderAmount`,`BuyTime`) VALUES ("ante@nonummyacfeugiat.edu","0000005410098",7,"2017-01-06 14:00:09");
 
-INSERT INTO `ORDERS` (`C_id`,`I_ssn`,`OrderAmount`,`BuyTime`) VALUES ("rhoncus@elit.org","1606082147999",6,"2017-06-17 19:31:16");
-INSERT INTO `ORDERS` (`C_id`,`I_ssn`,`OrderAmount`,`BuyTime`) VALUES ("rhoncus@elit.org","1608081187499",8,"2018-09-18 17:14:38");
-INSERT INTO `ORDERS` (`C_id`,`I_ssn`,`OrderAmount`,`BuyTime`) VALUES ("rhoncus@elit.org","1683120523899",5,"2018-06-01 12:51:54");
-INSERT INTO `ORDERS` (`C_id`,`I_ssn`,`OrderAmount`,`BuyTime`) VALUES ("rhoncus@elit.org","1672120146099",10,"2016-06-16 12:22:31");
-INSERT INTO `ORDERS` (`C_id`,`I_ssn`,`OrderAmount`,`BuyTime`) VALUES ("rhoncus@elit.org","1606062163899",9,"2016-02-05 14:40:15");
+INSERT INTO `ORDERS` (`C_id`,`I_ssn`,`OrderAmount`,`BuyTime`) VALUES ("rhoncus@elit.org","1000005553945",6,"2017-06-17 19:31:16");
+INSERT INTO `ORDERS` (`C_id`,`I_ssn`,`OrderAmount`,`BuyTime`) VALUES ("rhoncus@elit.org","1000027953165",8,"2018-09-18 17:14:38");
+INSERT INTO `ORDERS` (`C_id`,`I_ssn`,`OrderAmount`,`BuyTime`) VALUES ("rhoncus@elit.org","1000029471555",5,"2018-06-01 12:51:54");
+INSERT INTO `ORDERS` (`C_id`,`I_ssn`,`OrderAmount`,`BuyTime`) VALUES ("rhoncus@elit.org","0000005410098",10,"2016-06-16 12:22:31");
+INSERT INTO `ORDERS` (`C_id`,`I_ssn`,`OrderAmount`,`BuyTime`) VALUES ("rhoncus@elit.org","1000023093627",9,"2016-02-05 14:40:15");
 
-INSERT INTO `ORDERS` (`C_id`,`I_ssn`,`OrderAmount`,`BuyTime`) VALUES ("pellentesque@velitdui.com","1684070790299",1,"2016-05-31 07:35:37");
-INSERT INTO `ORDERS` (`C_id`,`I_ssn`,`OrderAmount`,`BuyTime`) VALUES ("pellentesque@velitdui.com","1608011884199",10,"2016-06-21 00:45:56");
-INSERT INTO `ORDERS` (`C_id`,`I_ssn`,`OrderAmount`,`BuyTime`) VALUES ("pellentesque@velitdui.com","1677080890199",2,"2017-08-14 04:24:33");
-INSERT INTO `ORDERS` (`C_id`,`I_ssn`,`OrderAmount`,`BuyTime`) VALUES ("pellentesque@velitdui.com","1600090548599",3,"2016-03-30 10:37:28");
-INSERT INTO `ORDERS` (`C_id`,`I_ssn`,`OrderAmount`,`BuyTime`) VALUES ("pellentesque@velitdui.com","1626011144899",5,"2017-08-15 23:10:06");
+INSERT INTO `ORDERS` (`C_id`,`I_ssn`,`OrderAmount`,`BuyTime`) VALUES ("pellentesque@velitdui.com","1000020939463",1,"2016-05-31 07:35:37");
+INSERT INTO `ORDERS` (`C_id`,`I_ssn`,`OrderAmount`,`BuyTime`) VALUES ("pellentesque@velitdui.com","1000005553945",10,"2016-06-21 00:45:56");
+INSERT INTO `ORDERS` (`C_id`,`I_ssn`,`OrderAmount`,`BuyTime`) VALUES ("pellentesque@velitdui.com","1000029471555",2,"2017-08-14 04:24:33");
+INSERT INTO `ORDERS` (`C_id`,`I_ssn`,`OrderAmount`,`BuyTime`) VALUES ("pellentesque@velitdui.com","0000005410098",3,"2016-03-30 10:37:28");
+INSERT INTO `ORDERS` (`C_id`,`I_ssn`,`OrderAmount`,`BuyTime`) VALUES ("pellentesque@velitdui.com","1000023093627",5,"2017-08-15 23:10:06");
 
-INSERT INTO `ORDERS` (`C_id`,`I_ssn`,`OrderAmount`,`BuyTime`) VALUES ("risus.a.ultricies@Proinvel.edu","1683061308199",2,"2017-08-18 15:20:13");
-INSERT INTO `ORDERS` (`C_id`,`I_ssn`,`OrderAmount`,`BuyTime`) VALUES ("risus.a.ultricies@Proinvel.edu","1689052494199",6,"2017-10-24 14:19:45");
+INSERT INTO `ORDERS` (`C_id`,`I_ssn`,`OrderAmount`,`BuyTime`) VALUES ("risus.a.ultricies@Proinvel.edu","1000020939463",2,"2017-08-18 15:20:13");
+INSERT INTO `ORDERS` (`C_id`,`I_ssn`,`OrderAmount`,`BuyTime`) VALUES ("risus.a.ultricies@Proinvel.edu","1000029471555",6,"2017-10-24 14:19:45");
 
-INSERT INTO `ORDERS` (`C_id`,`I_ssn`,`OrderAmount`,`BuyTime`) VALUES ("neque.pellentesque.massa@tristiquealiquet.org","1641122598799",4,"2016-07-08 09:25:07");
-INSERT INTO `ORDERS` (`C_id`,`I_ssn`,`OrderAmount`,`BuyTime`) VALUES ("neque.pellentesque.massa@tristiquealiquet.org","1676022493899",7,"2016-04-01 02:03:21");
+INSERT INTO `ORDERS` (`C_id`,`I_ssn`,`OrderAmount`,`BuyTime`) VALUES ("neque.pellentesque.massa@tristiquealiquet.org","1000029714198",4,"2016-07-08 09:25:07");
+INSERT INTO `ORDERS` (`C_id`,`I_ssn`,`OrderAmount`,`BuyTime`) VALUES ("neque.pellentesque.massa@tristiquealiquet.org","1000029471555",7,"2016-04-01 02:03:21");
 
-INSERT INTO `ORDERS` (`C_id`,`I_ssn`,`OrderAmount`,`BuyTime`) VALUES ("eu@nisidictum.edu","1600052854399",3,"2018-09-23 07:46:47");
-INSERT INTO `ORDERS` (`C_id`,`I_ssn`,`OrderAmount`,`BuyTime`) VALUES ("eu@nisidictum.edu","1695070432999",9,"2016-04-08 17:33:23");
+INSERT INTO `ORDERS` (`C_id`,`I_ssn`,`OrderAmount`,`BuyTime`) VALUES ("eu@nisidictum.edu","1000027953165",3,"2018-09-23 07:46:47");
+INSERT INTO `ORDERS` (`C_id`,`I_ssn`,`OrderAmount`,`BuyTime`) VALUES ("eu@nisidictum.edu","1000029714198",9,"2016-04-08 17:33:23");
 
-INSERT INTO `ORDERS` (`C_id`,`I_ssn`,`OrderAmount`,`BuyTime`) VALUES ("nisl.Quisque@Nullam.org","1630020714099",5,"2017-09-08 16:52:11");
+INSERT INTO `ORDERS` (`C_id`,`I_ssn`,`OrderAmount`,`BuyTime`) VALUES ("nisl.Quisque@Nullam.org","1000027953165",5,"2017-09-08 16:52:11");
 
-INSERT INTO `ORDERS` (`C_id`,`I_ssn`,`OrderAmount`,`BuyTime`) VALUES ("metus.In@Sedauctor.org","1627111765099",8,"2018-03-28 07:31:50");
+INSERT INTO `ORDERS` (`C_id`,`I_ssn`,`OrderAmount`,`BuyTime`) VALUES ("metus.In@Sedauctor.org","1000020939463",8,"2018-03-28 07:31:50");
 
-INSERT INTO `ORDERS` (`C_id`,`I_ssn`,`OrderAmount`,`BuyTime`) VALUES ("vulputate@egetmagna.org","1651123097399",8,"2017-11-24 17:42:55");
-INSERT INTO `ORDERS` (`C_id`,`I_ssn`,`OrderAmount`,`BuyTime`) VALUES ("vulputate@egetmagna.org","1693070999499",2,"2018-07-10 04:34:37");
+INSERT INTO `ORDERS` (`C_id`,`I_ssn`,`OrderAmount`,`BuyTime`) VALUES ("vulputate@egetmagna.org","1000020939463",8,"2017-11-24 17:42:55");
+INSERT INTO `ORDERS` (`C_id`,`I_ssn`,`OrderAmount`,`BuyTime`) VALUES ("vulputate@egetmagna.org","1000027953165",2,"2018-07-10 04:34:37");
 
-INSERT INTO `ORDERS` (`C_id`,`I_ssn`,`OrderAmount`,`BuyTime`) VALUES ("arcu@sempererat.edu","1699031306199",8,"2016-08-01 05:59:06");
-INSERT INTO `ORDERS` (`C_id`,`I_ssn`,`OrderAmount`,`BuyTime`) VALUES ("arcu@sempererat.edu","1611041046599",3,"2017-02-13 21:50:55");
-INSERT INTO `ORDERS` (`C_id`,`I_ssn`,`OrderAmount`,`BuyTime`) VALUES ("arcu@sempererat.edu","1684061840599",2,"2017-03-15 22:52:58");
-INSERT INTO `ORDERS` (`C_id`,`I_ssn`,`OrderAmount`,`BuyTime`) VALUES ("arcu@sempererat.edu","1622100803299",4,"2017-12-23 02:01:36");
-INSERT INTO `ORDERS` (`C_id`,`I_ssn`,`OrderAmount`,`BuyTime`) VALUES ("arcu@sempererat.edu","1627040172099",6,"2016-03-17 22:40:50");
+INSERT INTO `ORDERS` (`C_id`,`I_ssn`,`OrderAmount`,`BuyTime`) VALUES ("arcu@sempererat.edu","1000029471555",8,"2016-08-01 05:59:06");
+INSERT INTO `ORDERS` (`C_id`,`I_ssn`,`OrderAmount`,`BuyTime`) VALUES ("arcu@sempererat.edu","1000027953165",3,"2017-02-13 21:50:55");
+INSERT INTO `ORDERS` (`C_id`,`I_ssn`,`OrderAmount`,`BuyTime`) VALUES ("arcu@sempererat.edu","1000020939463",2,"2017-03-15 22:52:58");
+INSERT INTO `ORDERS` (`C_id`,`I_ssn`,`OrderAmount`,`BuyTime`) VALUES ("arcu@sempererat.edu","1000029724878",4,"2017-12-23 02:01:36");
+INSERT INTO `ORDERS` (`C_id`,`I_ssn`,`OrderAmount`,`BuyTime`) VALUES ("arcu@sempererat.edu","1000029714198",6,"2016-03-17 22:40:50");
 
-INSERT INTO `ORDERS` (`C_id`,`I_ssn`,`OrderAmount`,`BuyTime`) VALUES ("fermentum.risus@liberoatauctor.com","1686042251299",7,"2016-06-04 08:24:14");
-INSERT INTO `ORDERS` (`C_id`,`I_ssn`,`OrderAmount`,`BuyTime`) VALUES ("fermentum.risus@liberoatauctor.com","1671111150299",1,"2018-03-25 09:03:41");
-INSERT INTO `ORDERS` (`C_id`,`I_ssn`,`OrderAmount`,`BuyTime`) VALUES ("dui.in.sodales@ac.com","1669062567399",9,"2016-06-23 14:30:36");
-INSERT INTO `ORDERS` (`C_id`,`I_ssn`,`OrderAmount`,`BuyTime`) VALUES ("dui.in.sodales@ac.com","1651071672799",9,"2017-07-19 23:03:12");
+INSERT INTO `ORDERS` (`C_id`,`I_ssn`,`OrderAmount`,`BuyTime`) VALUES ("fermentum.risus@liberoatauctor.com","1000027953165",7,"2016-06-04 08:24:14");
+INSERT INTO `ORDERS` (`C_id`,`I_ssn`,`OrderAmount`,`BuyTime`) VALUES ("fermentum.risus@liberoatauctor.com","1000020939463",1,"2018-03-25 09:03:41");
+INSERT INTO `ORDERS` (`C_id`,`I_ssn`,`OrderAmount`,`BuyTime`) VALUES ("dui.in.sodales@ac.com","1000029724878",9,"2016-06-23 14:30:36");
+INSERT INTO `ORDERS` (`C_id`,`I_ssn`,`OrderAmount`,`BuyTime`) VALUES ("dui.in.sodales@ac.com","1000029714198",9,"2017-07-19 23:03:12");
