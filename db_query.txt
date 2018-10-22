@@ -1,0 +1,43 @@
+4번(지난 6 개월 동안 가장 많은 주문 횟수를 기록한 Top 3 매장은 어디인가?)
+select R.location, R.ssn as Retailer_ssn , R.orderedtimes
+from retailer R, exists_in E ,orders O
+where E.I_ssn = O.I_ssn and E.R_ssn = R.ssn 
+and date(O.BuyTime) between date(‘2018-10-01’) and date(‘2018-04-01’)
+order by R.orderedtimes desc limit 3;
+
+5번(주문 횟수가 7번 이상인 고객들이 가장 자주 주문한 제품은 무엇인가?)
+select M.name , M.nItems
+from (select I.name , count(*) as nItems
+      from customer C , orders O , item I
+      where C.Ordertimes >= 7 
+      and C.id = O.C_id and O.I_ssn = I.ssn
+      group by I.name) M
+order by m.nItems desc limit 1;
+
+6번(장바구니에 상품이 하나도 없는 고객들을 대상으로 과거 매출 Top 5 는 무엇인가?)
+select T.name , T.Sales
+from (select I.name , I.Price * O.orderAmount as Sales
+      from Item I , Customer C , Shoppingback S , Orders O
+      where S.amount = 0
+      and s.c_id = C.id
+      and O.C_id = C.id
+      and O.I_ssn = I.ssn
+      group by I.name) T
+order by T.Sales desc limit 5;
+
+7번(지난 1 년간, 남성 고객들이 가장 자주 구매한 제품의 카테고리는 무엇인가?)
+select M.class , M.subClass
+from (select Ca.calss , Ca.subclass , count(*) as nItems
+      from Item i , customer C , Orders O, Category Ca
+      where C.sex=‘M’
+      and O.C_id = C.id and O.I_ssn = I.ssn
+      and date(O.BuyTime) between date(‘2018-10-01’) and date(‘2017-10-01’)
+      and I.cat_sub = Ca.subClass
+      group by Ca.class , Ca.subclass) M
+order by M.nItems as desc limit 1;
+
+8번
+
+9번
+
+10번
