@@ -1,4 +1,5 @@
-use shoppingmall;
+create database db_project;
+use db_project;
 
 CREATE TABLE CUSTOMER (
     Id VARCHAR(100) NOT NULL,
@@ -12,7 +13,6 @@ CREATE TABLE CUSTOMER (
     Ordertimes INT UNSIGNED NOT NULL DEFAULT 0,
     PRIMARY KEY (Id)
 );
-
 CREATE TABLE ITEM (
     Amount INT UNSIGNED NOT NULL DEFAULT 0,
     Importer VARCHAR(30),
@@ -82,7 +82,6 @@ CREATE TABLE IS_IN (
     PRIMARY KEY (I_ssn , S_c_id)
 );
 
-
 alter table ITEM add constraint fk_Cat_sub FOREIGN KEY(Cat_sub) references CATEGORY(subClass) on delete cascade;
 
 alter table ITEM add constraint fk_P_ssn FOREIGN KEY(P_ssn) references PRODUCER(Ssn) on delete CASCADE;
@@ -100,7 +99,6 @@ alter table EXISTS_IN add constraint fk_R_Ssn FOREIGN KEY(R_ssn) references RETA
 alter table IS_IN add constraint fk_I_I_Ssn FOREIGN KEY(I_ssn) references ITEM(Ssn) on delete CASCADE;
 
 alter table IS_IN add constraint fk_I_S_c_id FOREIGN KEY(S_c_id) references SHOPPINGBAG(C_id) on delete CASCADE;
-
 
 INSERT INTO `RETAILER` (`Location`,`MgrName`,`MgrPhone`,`Phone`,`Ssn`,`OrderedTimes`) VALUES ("Seoul","Ivor B. Singleton","010-9568-5065","02-877-6046","12806430899",77);
 INSERT INTO `RETAILER` (`Location`,`MgrName`,`MgrPhone`,`Phone`,`Ssn`,`OrderedTimes`) VALUES ("Busan","Barry Y. Fulton","010-4651-6947","051-683-7721","40384067999",18);
@@ -229,15 +227,14 @@ INSERT INTO `SHOPPINGBAG` (`Amount`,`C_id`) VALUES (0,"arcu@sempererat.edu");
 INSERT INTO `SHOPPINGBAG` (`Amount`,`C_id`) VALUES (0,"fermentum.risus@liberoatauctor.com");
 INSERT INTO `SHOPPINGBAG` (`Amount`,`C_id`) VALUES (0,"dui.in.sodales@ac.com");
 
-INSERT INTO `CATEGORY` (`Class`,`SubClass`,`Amount`) VALUES ( "과일/견과", "키위/참다래", 17);
-INSERT INTO `CATEGORY` (`Class`,`SubClass`,`Amount`) VALUES ( "과일/견과" ,"바나나/오렌지/외국과일", 85);
-INSERT INTO `CATEGORY` (`Class`,`SubClass`,`Amount`) VALUES ( "과일/견과" ,"감귤/한라봉", 1768);
+INSERT INTO `CATEGORY` (`Class`,`SubClass`,`Amount`) VALUES ( "fruit/nut", "kiwi/chamdare", 17);
+INSERT INTO `CATEGORY` (`Class`,`SubClass`,`Amount`) VALUES ( "fruit/nut" ,"바나나/오렌지/외국과일", 85);
+INSERT INTO `CATEGORY` (`Class`,`SubClass`,`Amount`) VALUES ( '과일/견과' ,'감귤/한라봉', 1768);
 INSERT INTO `CATEGORY` (`Class`,`SubClass`,`Amount`) VALUES ( "정육/계란류","소고기", 8500);
 INSERT INTO `CATEGORY` (`Class`,`SubClass`,`Amount`) VALUES ("정육/계란류" ,"돼지고기", 8500);
 INSERT INTO `CATEGORY` (`Class`,`SubClass`,`Amount`) VALUES ("정육/계란류" ,"수입육", 8500);
 INSERT INTO `CATEGORY` (`Class`,`SubClass`,`Amount`) VALUES ("수산물/해산물/건어물" ,"오징어/낙지", 8500);
 INSERT INTO `CATEGORY` (`Class`,`SubClass`,`Amount`) VALUES ("수산물/해산물/건어물" ,"전복/굴/조개류", 8500);
-INSERT INTO `CATEGORY` (`Class`,`SubClass`,`Amount`) VALUES ("수산물/해산물/건어물" ,"고등어/갈치/조기/장어", 8500);
 
 INSERT INTO `PRODUCER` (`Ssn`,`Maker`,`MadePlace`) VALUES ("1693121096499","KKMC","NewZealand");
 INSERT INTO `PRODUCER` (`Ssn`,`Maker`,`MadePlace`) VALUES ("1664112142499","제스프리","NewZealand");
@@ -334,7 +331,6 @@ INSERT INTO `ITEM` (`Amount`,`Importer`,`Made_date`,`Ssn`,`Price`,`MadePlace`,`M
 INSERT INTO `ITEM` (`Amount`,`Importer`,`Made_date`,`Ssn`,`Price`,`MadePlace`,`Maker`,`Name`,`Cat_sub`,`Class`,`P_ssn`) VALUES (1700,null,"2018-10-01","1000021416651",38800,"Korea","청산바다","자연산 뿔소라 3kg","전복/굴/조개류","수산물/해산물/건어물","1669040641099");
 INSERT INTO `ITEM` (`Amount`,`Importer`,`Made_date`,`Ssn`,`Price`,`MadePlace`,`Maker`,`Name`,`Cat_sub`,`Class`,`P_ssn`) VALUES (1700,null,"2018-08-16","1000029105034",22900,"Korea","덕이네수산","대합 1kg","전복/굴/조개류","수산물/해산물/건어물","1643041585699");
 INSERT INTO `ITEM` (`Amount`,`Importer`,`Made_date`,`Ssn`,`Price`,`MadePlace`,`Maker`,`Name`,`Cat_sub`,`Class`,`P_ssn`) VALUES (1700,null,"2018-02-11","1000028037662",8500,"Korea","대해수산","통영굴(냉동) 1kg","전복/굴/조개류","수산물/해산물/건어물","1625091882299");
-
 
 
 INSERT INTO `IS_IN` (`I_ssn`,`S_c_id`) VALUES ("1000017646641","dictum.cursus@sitametmassa.co.uk");
@@ -1239,6 +1235,7 @@ INSERT INTO `EXISTS_IN` (`I_ssn`,`R_ssn`,`Amount`) VALUES ("1000021416651","6122
 INSERT INTO `EXISTS_IN` (`I_ssn`,`R_ssn`,`Amount`) VALUES ("1000029105034","61229223599",100);
 INSERT INTO `EXISTS_IN` (`I_ssn`,`R_ssn`,`Amount`) VALUES ("1000028037662","61229223599",100);
 
+
 INSERT INTO `ORDERS` (`C_id`,`I_ssn`,`OrderAmount`,`BuyTime`) VALUES ("dictum.cursus@sitametmassa.co.uk","1000029105034",1,"2016-10-23 17:31:07");
 INSERT INTO `ORDERS` (`C_id`,`I_ssn`,`OrderAmount`,`BuyTime`) VALUES ("dictum.cursus@sitametmassa.co.uk","1000028764714",1,"2018-04-30 22:35:26");
 INSERT INTO `ORDERS` (`C_id`,`I_ssn`,`OrderAmount`,`BuyTime`) VALUES ("dictum.cursus@sitametmassa.co.uk","1000028266381",10,"2017-07-09 08:58:17");
@@ -1506,28 +1503,40 @@ INSERT INTO `ORDERS` (`C_id`,`I_ssn`,`OrderAmount`,`BuyTime`) VALUES ("fermentum
 INSERT INTO `ORDERS` (`C_id`,`I_ssn`,`OrderAmount`,`BuyTime`) VALUES ("dui.in.sodales@ac.com","1000029724878",9,"2016-06-23 14:30:36");
 INSERT INTO `ORDERS` (`C_id`,`I_ssn`,`OrderAmount`,`BuyTime`) VALUES ("dui.in.sodales@ac.com","1000029714198",9,"2017-07-19 23:03:12");
 
+
 /*1번*/
 SELECT COUNT(*)
 FROM ITEM
 WHERE Amount  <= 20 ;
 
-/*2번*/
+/*2번(현재 가입한 고객의 수는 몇 명인가?)*/
 SELECT COUNT(*)
 FROM CUSTOMER;
 
-/*3번*/
-SELECT Id as Customer_ID
+/*3번(주문을 7번 이상 진행한 고객은 누구인가?)*/
+SELECT id as Customer_id
 FROM CUSTOMER
 WHERE Ordertimes>=7;
 
-/*4번*/
-select R.location, R.ssn as Retailer_ssn , R.orderedtimes
-from retailer R, exists_in E ,orders O
-where E.I_ssn = O.I_ssn and E.R_ssn = R.ssn 
-and date(O.BuyTime) between date(‘2018-10-01’) and date(‘2018-04-01’)
-order by R.orderedtimes desc limit 3;
+/*4번(지난 6 개월 동안 가장 많은 주문 횟수를 기록한 Top 3 매장은 어디인가?)*/
+select distinct R.location, R.ssn as Retailer_ssn , R.orderedtimes
+from retailer R, exists_in E ,orders O , item I
+where E.I_ssn = O.I_ssn
+and e.i_ssn = i.ssn
+and E.R_ssn = R.ssn
+and O.BuyTime <= '2018-10-01' and O.BuyTime >= '2018-10-01' - interval 6 month
+order by R.orderedtimes desc;
 
-/*5번*/
+select R.ssn , count(*) as numRetail
+from retailer R , exists_in E , orders O
+where E.I_ssn = O.I_ssn
+and E.R_ssn = R.ssn
+and O.BuyTime <= '2018-10-01' and O.BuyTime >= '2018-10-01' - interval 6 month
+group by R.ssn 
+order by numRetail desc;
+
+
+/*5번(주문 횟수가 7번 이상인 고객들이 가장 자주 주문한 제품은 무엇인가?)*/
 select M.name , M.nItems
 from (select I.name , count(*) as nItems
       from customer C , orders O , item I
@@ -1536,27 +1545,43 @@ from (select I.name , count(*) as nItems
       group by I.name) M
 order by m.nItems desc limit 1;
 
-/*6번*/
-select T.name , T.Sales
-from (select I.name , I.Price * O.orderAmount as Sales
-      from Item I , Customer C , Shoppingback S , Orders O
+/*6번(장바구니에 상품이 하나도 없는 고객들을 대상으로 과거 매출 Top 5 는 무엇인가?)*/
+select distinct I.name , I.price * O.orderAmount as sales
+from (select distinct I.name
+      from Item I , Customer C , Shoppingbag S , Orders O
       where S.amount = 0
       and s.c_id = C.id
       and O.C_id = C.id
-      and O.I_ssn = I.ssn
-      group by I.name) T
-order by T.Sales desc limit 5;
+      and O.I_ssn = I.ssn) T,item I,orders O
+where T.name = I.name and O.i_ssn=I.ssn
+order by sales desc;
 
-/*7번*/
+select distinct I.name
+      from Item I , Customer C , Shoppingbag S , Orders O
+      where S.amount = 0
+      and s.c_id = C.id
+      and O.C_id = C.id
+      and O.I_ssn = I.ssn;
+/*7번(지난 1 년간, 남성 고객들이 가장 자주 구매한 제품의 카테고리는 무엇인가?)*/
 select M.class , M.subClass
 from (select Ca.class , Ca.subclass , count(*) as nItems
       from Item i , customer C , Orders O, Category Ca
-      where C.sex=‘M’
+      where C.sex='F'
       and O.C_id = C.id and O.I_ssn = I.ssn
-      and date(O.BuyTime) between date(‘2018-10-01’) and date(‘2017-10-01’)
+      and O.BuyTime <='2018-10-01' and o.buytime >='2017-10-01'
       and I.cat_sub = Ca.subClass
       group by Ca.class , Ca.subclass) M
-order by M.nItems  desc limit 1;
+order by M.nItems desc limit 1;
+
+/*9번(현재 장바구니에 담긴 모든 물품이 주문된다고 하였을 때, 전체 재고가 모자란 제품은 무엇인가?)*/
+select T.name
+from (select i.name , count(*) as nItems
+	  from shoppingbag s, item i, is_in , customer c
+      where is_in.I_ssn = i.ssn and is_in.s_c_id = s.c_id
+      and s.c_id = c.id
+      group by i.name) T , item I
+where I.amount < T.nItems
+and T.name = i.name;
 
 
 
