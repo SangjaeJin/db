@@ -1516,7 +1516,7 @@ SELECT COUNT(*)
 FROM CUSTOMER;
 
 /*3번*/
-SELECT Name
+SELECT Id as Customer_ID
 FROM CUSTOMER
 WHERE Ordertimes>=7;
 
