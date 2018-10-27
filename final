@@ -1239,7 +1239,6 @@ INSERT INTO `EXISTS_IN` (`I_ssn`,`R_ssn`,`Amount`) VALUES ("1000021416651","6122
 INSERT INTO `EXISTS_IN` (`I_ssn`,`R_ssn`,`Amount`) VALUES ("1000029105034","61229223599",100);
 INSERT INTO `EXISTS_IN` (`I_ssn`,`R_ssn`,`Amount`) VALUES ("1000028037662","61229223599",100);
 
-
 INSERT INTO `ORDERS` (`C_id`,`I_ssn`,`OrderAmount`,`BuyTime`) VALUES ("dictum.cursus@sitametmassa.co.uk","1000029105034",1,"2016-10-23 17:31:07");
 INSERT INTO `ORDERS` (`C_id`,`I_ssn`,`OrderAmount`,`BuyTime`) VALUES ("dictum.cursus@sitametmassa.co.uk","1000028764714",1,"2018-04-30 22:35:26");
 INSERT INTO `ORDERS` (`C_id`,`I_ssn`,`OrderAmount`,`BuyTime`) VALUES ("dictum.cursus@sitametmassa.co.uk","1000028266381",10,"2017-07-09 08:58:17");
@@ -1444,8 +1443,8 @@ INSERT INTO `ORDERS` (`C_id`,`I_ssn`,`OrderAmount`,`BuyTime`) VALUES ("ante.dict
 INSERT INTO `ORDERS` (`C_id`,`I_ssn`,`OrderAmount`,`BuyTime`) VALUES ("ante.dictum.mi@hymenaeos.co.uk","1000005553945",5,"2017-08-03 15:08:27");
 INSERT INTO `ORDERS` (`C_id`,`I_ssn`,`OrderAmount`,`BuyTime`) VALUES ("ante.dictum.mi@hymenaeos.co.uk","0000005410098",7,"2016-01-23 21:36:20");
 
-INSERT INTO `ORDERS` (`C_id`,`I_ssn`,`OrderAmount`,`BuyTime`) VALUES ("fringilla.ornare@diamdictum.co.uk","1000005553945",9,"Sep 3, 2017");
-INSERT INTO `ORDERS` (`C_id`,`I_ssn`,`OrderAmount`,`BuyTime`) VALUES ("fringilla.ornare@diamdictum.co.uk","1000020939463",8,"Apr 19, 2017");
+INSERT INTO `ORDERS` (`C_id`,`I_ssn`,`OrderAmount`,`BuyTime`) VALUES ("fringilla.ornare@diamdictum.co.uk","1000005553945",9,"2017-04-28 07:31:50");
+INSERT INTO `ORDERS` (`C_id`,`I_ssn`,`OrderAmount`,`BuyTime`) VALUES ("fringilla.ornare@diamdictum.co.uk","1000020939463",8,"2016-03-28 07:31:50");
 
 INSERT INTO `ORDERS` (`C_id`,`I_ssn`,`OrderAmount`,`BuyTime`) VALUES ("elementum.at@euturpis.org","1000005553945",7,"2018-06-28 06:20:01");
 INSERT INTO `ORDERS` (`C_id`,`I_ssn`,`OrderAmount`,`BuyTime`) VALUES ("elementum.at@euturpis.org","0000005410098",5,"2016-12-02 21:39:59");
