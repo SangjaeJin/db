@@ -388,9 +388,9 @@ INSERT INTO `IS_IN` (`I_ssn`,`S_c_id`) VALUES ("1000028309028","eu.arcu.Morbi@se
 INSERT INTO `IS_IN` (`I_ssn`,`S_c_id`) VALUES ("1000028160226","eu.arcu.Morbi@sem.org");
 INSERT INTO `IS_IN` (`I_ssn`,`S_c_id`) VALUES ("1000027953165","eu.arcu.Morbi@sem.org");
 
-INSERT INTO `IS_IN` (`I_ssn`,`S_c_id`) VALUES ("1000017646641","a.sollicitudin.orci@placeratCrasdictum.ca");   
-INSERT INTO `IS_IN` (`I_ssn`,`S_c_id`) VALUES ("1000017646641","Praesent.luctus.Curabitur@milacinia.org");
-INSERT INTO `IS_IN` (`I_ssn`,`S_c_id`) VALUES ("1000017646641","luctus.et@ut.ca");
+INSERT INTO `IS_IN` (`I_ssn`,`S_c_id`) VALUES ("0000005410098","a.sollicitudin.orci@placeratCrasdictum.ca");
+INSERT INTO `IS_IN` (`I_ssn`,`S_c_id`) VALUES ("1000023093627","Praesent.luctus.Curabitur@milacinia.org");
+INSERT INTO `IS_IN` (`I_ssn`,`S_c_id`) VALUES ("1000028935441","luctus.et@ut.ca");
 INSERT INTO `IS_IN` (`I_ssn`,`S_c_id`) VALUES ("1000017646641","imperdiet@elit.org");
 INSERT INTO `IS_IN` (`I_ssn`,`S_c_id`) VALUES ("1000017646641","ullamcorper@metusIn.co.uk");
 INSERT INTO `IS_IN` (`I_ssn`,`S_c_id`) VALUES ("1000017646641","nulla.ante@Vivamusnonlorem.ca");
@@ -1527,12 +1527,12 @@ and E.R_ssn = R.ssn
 and O.BuyTime <= '2018-10-01' and O.BuyTime >= '2018-10-01' - interval 6 month
 order by R.orderedtimes desc;
 
-select R.ssn , count(*) as numRetail
+select E.R_ssn, count(*) as numRetail
 from retailer R , exists_in E , orders O
 where E.I_ssn = O.I_ssn
 and E.R_ssn = R.ssn
 and O.BuyTime <= '2018-10-01' and O.BuyTime >= '2018-10-01' - interval 6 month
-group by R.ssn 
+group by E.R_ssn
 order by numRetail desc;
 
 
@@ -1546,22 +1546,16 @@ from (select I.name , count(*) as nItems
 order by m.nItems desc limit 1;
 
 /*6번(장바구니에 상품이 하나도 없는 고객들을 대상으로 과거 매출 Top 5 는 무엇인가?)*/
-select distinct I.name , I.price * O.orderAmount as sales
-from (select distinct I.name
+select t.name , sum(sales) as sale
+from (select I.name , i.price * o.orderAmount as sales
       from Item I , Customer C , Shoppingbag S , Orders O
       where S.amount = 0
       and s.c_id = C.id
       and O.C_id = C.id
-      and O.I_ssn = I.ssn) T,item I,orders O
-where T.name = I.name and O.i_ssn=I.ssn
-order by sales desc;
+      and O.I_ssn = I.ssn) t
+group by t.name
+order by sale desc limit 5;
 
-select distinct I.name
-      from Item I , Customer C , Shoppingbag S , Orders O
-      where S.amount = 0
-      and s.c_id = C.id
-      and O.C_id = C.id
-      and O.I_ssn = I.ssn;
 /*7번(지난 1 년간, 남성 고객들이 가장 자주 구매한 제품의 카테고리는 무엇인가?)*/
 select M.class , M.subClass
 from (select Ca.class , Ca.subclass , count(*) as nItems
@@ -1573,6 +1567,34 @@ from (select Ca.class , Ca.subclass , count(*) as nItems
       group by Ca.class , Ca.subclass) M
 order by M.nItems desc limit 1;
 
+/*8번(현재 20 대가 가장 많은 수를 구매한 제품은 무엇이며, 그 제품과 함께 구매한 제품의 빈도 수의 Top 5 는 무엇인가?)*/
+select I.name , I.ssn , count(*) as nums
+from item I , orders O , customer C
+where O.C_id = C.id and C.age >=20 and C.age <30
+and O.I_ssn = I.ssn
+group by I.name, I.ssn
+order by nums desc limit 1;
+
+create view bestSale as
+select I.name , I.ssn , count(*) as nums
+from item I , orders O , customer C
+where O.C_id = C.id and C.age >=20 and C.age <30
+and O.I_ssn = I.ssn
+group by I.name, I.ssn
+order by nums desc limit 1;
+
+select I.name , I.ssn , count(*) as nums
+from item I , Orders O , bestSale BS
+where I.ssn = O.I_ssn
+and I.name <> BS.name
+and O.buyTime in (select O.buyTime 
+				  from Item I , orders O
+				  where o.I_ssn = I.ssn
+				  and O.I_ssn in ( select ssn
+				                   from bestSale))
+group by I.name , I.ssn
+order by nums desc limit 5;
+
 /*9번(현재 장바구니에 담긴 모든 물품이 주문된다고 하였을 때, 전체 재고가 모자란 제품은 무엇인가?)*/
 select T.name
 from (select i.name , count(*) as nItems
@@ -1583,5 +1605,27 @@ from (select i.name , count(*) as nItems
 where I.amount < T.nItems
 and T.name = i.name;
 
+/*10번(현재까지 가장 높은 매출을 낸 제품을 장바구니에 담고 있는 고객의 정보와, 
+그 제품의 같은 카테고리 (대분류, 소분류가 모두 같은)의 제품들을 담고 있는 고객의 정보를 출력하라)*/
+create view bestSaleItem as
+select T.ssn , sum(sales) as sale
+from (select I.ssn , I.price * O.orderamount as sales
+From Orders O , Item I
+Where o.I_ssn = I.ssn) T
+group by T.ssn
+order by sale desc limit 1;
 
+select C.id , C.password , C.Address , C.phone , C.Sex , C.Age , C.job
+from bestSaleItem BS , customer C , is_in N
+where BS.ssn = N.I_ssn and N.S_C_id = C.id;
 
+select distinct C.id , C.password , C.Address , C.phone , C.Sex , C.Age , C.job
+from customer C , is_in N , item I 
+where N.S_c_id = C.id 
+and N.I_ssn = I.ssn
+and (I.class,I.cat_sub) IN (select I.class , I.cat_sub
+			    from Item I
+                            where I.ssn in (select BSI.ssn
+					    from bestSaleItem BSI
+					    )
+			    );
