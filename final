@@ -1617,9 +1617,9 @@ select distinct C.id , C.password , C.Address , C.phone , C.Sex , C.Age , C.job
 from customer C , is_in N , item I 
 where N.S_c_id = C.id 
 and N.I_ssn = I.ssn
-and (I.class,I.cat_sub) IN (select I.class , I.cat_sub
-			    from Item I
-                            where I.ssn in (select BSI.ssn
-					    from bestSaleItem BSI
-					    )
-			    );
+and I.cat_sub IN (select I.cat_sub
+		  from Item I
+                  where I.ssn in (select BSI.ssn
+				  from bestSaleItem BSI
+				  )
+		  );
