@@ -227,14 +227,15 @@ INSERT INTO `SHOPPINGBAG` (`Amount`,`C_id`) VALUES (0,"arcu@sempererat.edu");
 INSERT INTO `SHOPPINGBAG` (`Amount`,`C_id`) VALUES (0,"fermentum.risus@liberoatauctor.com");
 INSERT INTO `SHOPPINGBAG` (`Amount`,`C_id`) VALUES (0,"dui.in.sodales@ac.com");
 
-INSERT INTO `CATEGORY` (`Class`,`SubClass`,`Amount`) VALUES ( "fruit/nut", "kiwi/chamdare", 17);
-INSERT INTO `CATEGORY` (`Class`,`SubClass`,`Amount`) VALUES ( "fruit/nut" ,"바나나/오렌지/외국과일", 85);
+INSERT INTO `CATEGORY` (`Class`,`SubClass`,`Amount`) VALUES ( "과일/견과", "키위/참다래", 17);
+INSERT INTO `CATEGORY` (`Class`,`SubClass`,`Amount`) VALUES ( "과일/견과" ,"바나나/오렌지/외국과일", 85);
 INSERT INTO `CATEGORY` (`Class`,`SubClass`,`Amount`) VALUES ( '과일/견과' ,'감귤/한라봉', 1768);
 INSERT INTO `CATEGORY` (`Class`,`SubClass`,`Amount`) VALUES ( "정육/계란류","소고기", 8500);
 INSERT INTO `CATEGORY` (`Class`,`SubClass`,`Amount`) VALUES ("정육/계란류" ,"돼지고기", 8500);
 INSERT INTO `CATEGORY` (`Class`,`SubClass`,`Amount`) VALUES ("정육/계란류" ,"수입육", 8500);
 INSERT INTO `CATEGORY` (`Class`,`SubClass`,`Amount`) VALUES ("수산물/해산물/건어물" ,"오징어/낙지", 8500);
 INSERT INTO `CATEGORY` (`Class`,`SubClass`,`Amount`) VALUES ("수산물/해산물/건어물" ,"전복/굴/조개류", 8500);
+INSERT INTO `CATEGORY` (`Class`,`SubClass`,`Amount`) VALUES ("수산물/해산물/건어물" ,"고등어/갈치/조기/장어", 8500);
 
 INSERT INTO `PRODUCER` (`Ssn`,`Maker`,`MadePlace`) VALUES ("1693121096499","KKMC","NewZealand");
 INSERT INTO `PRODUCER` (`Ssn`,`Maker`,`MadePlace`) VALUES ("1664112142499","제스프리","NewZealand");
