@@ -1520,21 +1520,14 @@ FROM CUSTOMER
 WHERE Ordertimes>=7;
 
 /*4번(지난 6 개월 동안 가장 많은 주문 횟수를 기록한 Top 3 매장은 어디인가?)*/
-select distinct R.location, R.ssn as Retailer_ssn , R.orderedtimes
-from retailer R, exists_in E ,orders O , item I
-where E.I_ssn = O.I_ssn
-and e.i_ssn = i.ssn
+select E.R_ssn as R_ssn ,R.location as R_location , count(*) as num
+from retailer R , exists_in E , orders O , Customer C
+where E.I_ssn = O.I_ssn 
+and O.c_id = c.id and R.location = substring_index(C.address ,' ' ,1)
 and E.R_ssn = R.ssn
 and O.BuyTime <= '2018-10-01' and O.BuyTime >= '2018-10-01' - interval 6 month
-order by R.orderedtimes desc;
-
-select E.R_ssn, count(*) as numRetail
-from retailer R , exists_in E , orders O
-where E.I_ssn = O.I_ssn
-and E.R_ssn = R.ssn
-and O.BuyTime <= '2018-10-01' and O.BuyTime >= '2018-10-01' - interval 6 month
-group by E.R_ssn
-order by numRetail desc;
+group by E.R_ssn , R.location
+order by num desc limit 3;
 
 
 /*5번(주문 횟수가 7번 이상인 고객들이 가장 자주 주문한 제품은 무엇인가?)*/
