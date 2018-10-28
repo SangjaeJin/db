@@ -1,3 +1,4 @@
+
 create database db_project;
 use db_project;
 
@@ -156,8 +157,8 @@ INSERT INTO `CUSTOMER` (`Id`,`Password`,`Address`,`Phone`,`Sex`,`Age`,`OrderTime
 INSERT INTO `CUSTOMER` (`Id`,`Password`,`Address`,`Phone`,`Sex`,`Age`,`OrderTimes`) VALUES ("elementum.at@euturpis.org","NCE05NZG9WP","Kyungnam Ap #129-4749 Nostra, Rd.","010-7608-7462","F",17,3);
 INSERT INTO `CUSTOMER` (`Id`,`Password`,`Address`,`Phone`,`Sex`,`Age`,`OrderTimes`) VALUES ("sed.leo@mifringillami.com","CKM78KXY9QS","Incheon 6919 Egestas St.","010-3984-5358","F",36,3);
 INSERT INTO `CUSTOMER` (`Id`,`Password`,`Address`,`Phone`,`Sex`,`Age`,`OrderTimes`) VALUES ("nunc@mi.com","SPR12XDK9FE","Daegu 6321 Sollicitudin Rd.","010-6541-7177","M",44,4);
-INSERT INTO `CUSTOMER` (`Id`,`Password`,`Address`,`Phone`,`Sex`,`Age`,`OrderTimes`) VALUES ("eu.tellus.Phasellus@semvitae.org","Daegu QVL71CIS4YX","Ap #627-9662 Urna. Ave","010-5313-2852","F",26,4);
-INSERT INTO `CUSTOMER` (`Id`,`Password`,`Address`,`Phone`,`Sex`,`Age`,`OrderTimes`) VALUES ("ante@nonummyacfeugiat.edu","Daegu ALK15APS8YI","Ap #429-3248 Mi Rd.","010-1043-2882","F",13,2);
+INSERT INTO `CUSTOMER` (`Id`,`Password`,`Address`,`Phone`,`Sex`,`Age`,`OrderTimes`) VALUES ("eu.tellus.Phasellus@semvitae.org","QVL71CIS4YX","Daegu Ap #627-9662 Urna. Ave","010-5313-2852","F",26,4);
+INSERT INTO `CUSTOMER` (`Id`,`Password`,`Address`,`Phone`,`Sex`,`Age`,`OrderTimes`) VALUES ("ante@nonummyacfeugiat.edu","ALK15APS8YI","Daegu Ap #429-3248 Mi Rd.","010-1043-2882","F",13,2);
 INSERT INTO `CUSTOMER` (`Id`,`Password`,`Address`,`Phone`,`Sex`,`Age`,`OrderTimes`) VALUES ("rhoncus@elit.org","BEH08HJV7AB","Daegu 215-8142 Proin Rd.","010-0989-4482","M",24,5);
 
 INSERT INTO `CUSTOMER` (`Id`,`Password`,`Address`,`Phone`,`Sex`,`Age`,`Job`,`OrderTimes`) VALUES ("pellentesque@velitdui.com","ZCS37PJN5NP","Seoul 1508 Cursus St.","010-0615-8002","F",23,"Computer Engineer",5);
