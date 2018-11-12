@@ -88,7 +88,7 @@ public class ShoppingMallMain {
 				
 				if(choice-1 == CustFunction.SIGNUP.ordinal()) {
 					String id;
-					if(loginState ==true) {
+					if(loginState ==true ||superuserLoginState ==true ) {
 						System.out.println("로그아웃 먼저 하세요");
 						continue;
 					}
@@ -203,7 +203,8 @@ public class ShoppingMallMain {
 				else if(choice-1 ==CustFunction.EDITINFO.ordinal()) {
 					if(loginState == false) 
 						System.out.println("로그인 먼저 하세요\n");
-						
+					else if(superuserLoginState ==true)
+						System.out.println("관리자 계정은 실행할 수 없습니다\n");
 					else {
 						System.out.println("회원정보를 수정합니다. 수정하고 싶지 않은 정보는 그냥 엔터를 누르세요 (ID수정은 불가능합니다)");
 						System.out.println("비밀번호:"); String newPwd= sc.nextLine();
@@ -264,6 +265,8 @@ public class ShoppingMallMain {
 				else if(choice-1 ==CustFunction.EDITPWD.ordinal()) {
 					if(loginState == false) 
 						System.out.println("로그인 먼저 하세요\n");
+					else if(superuserLoginState ==true)
+						System.out.println("관리자 계정은 실행할 수 없습니다.\n");
 					else {
 						System.out.println("비밀번호를 수정합니다. 수정하고 싶지 않으면 그냥 엔터를 누르세요 ");
 						System.out.println("새로운 비밀번호:"); String newPwd= sc.nextLine();
@@ -305,7 +308,7 @@ public class ShoppingMallMain {
 					System.out.println("id:"); String id =sc.nextLine();
 					System.out.println("비밀번호:"); String password =sc.nextLine();
 					
-					if(id.equalsIgnoreCase("super") && password.equalsIgnoreCase("super")) {
+					if(id.equalsIgnoreCase(superuser) && password.equalsIgnoreCase(superuserpwd)) {
 						System.out.println("관리자 계정으로 로그인 되었습니다");
 						superuserLoginState=true;
 					}
@@ -347,7 +350,7 @@ public class ShoppingMallMain {
 			}
 			
 			else if(mainFuncChoice-1 ==MainFunction.ITEM.ordinal()) {
-				System.out.println("1.카테고리 별로 구경 2.아이템 검색. 원하는 기능을 선택하세요");
+				System.out.println("1.카테고리 별로 구경 2.아이템 검색 or 장바구니에 담기. 원하는 기능을 선택하세요");
 				int choice = sc.nextInt();
 				
 				if(choice-1 == ItemFunction.WATCH.ordinal()) {
@@ -376,7 +379,7 @@ public class ShoppingMallMain {
 				}
 				
 				else if (choice-1 ==ItemFunction.SEARCH.ordinal()) {
-					System.out.println("아이템 이름을 입하세요:");
+					System.out.println("아이템 이름을 입력하세요:");
 					String search = sc.nextLine();
 					String ssn=null;
 					String selectQuery=  Item.searchItemQuery(search);
@@ -412,7 +415,10 @@ public class ShoppingMallMain {
 						String ans= sc.nextLine();
 						if(ans.equalsIgnoreCase("n"))
 							break;
-						
+						else if(superuserLoginState ==true){
+							System.out.println("관리자 계정으로 실행할 수 없습니다");
+							break;
+						}
 						else if(ans.equalsIgnoreCase("y")) {
 							if( loginState ==false) {
 								System.out.println("로그인 먼저 하세요");
@@ -477,7 +483,8 @@ public class ShoppingMallMain {
 			else if(mainFuncChoice-1 ==MainFunction.BUY.ordinal()) {
 				if(loginState==false)
 					System.out.println("로그인 먼저 하세요");
-				
+				else if(superuserLoginState ==true)
+					System.out.println("관리자 계정으로 실행할 수 없습니다");
 				else {
 					
 				}
