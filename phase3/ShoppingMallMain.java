@@ -297,7 +297,7 @@ public class ShoppingMallMain {
 				}
 				else if(choice-1 == CustFunction.LOGIN.ordinal()) {
 					
-					if(loginState ==true) {
+					if(loginState ==true || superuserLoginState==true) {
 						System.out.println("이미 로그인 되어 있습니다");
 						continue;
 					}
