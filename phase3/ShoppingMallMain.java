@@ -1,4 +1,5 @@
 import java.io.EOFException;
+import java.io.File;
 import java.io.FileInputStream;
 import java.io.FileOutputStream;
 import java.io.IOException;
@@ -70,7 +71,20 @@ public class ShoppingMallMain {
 		List<ISIN> isinList = new ArrayList<>(); 
 		
 		
-		// TODO Auto-generated method stub
+		try (ObjectInputStream ois =new ObjectInputStream(new FileInputStream("idAndPwds.bin"))){
+			try {
+				idAndPwd =(HashMap)ois.readObject();
+			}
+			catch(EOFException e) {
+				e.printStackTrace();
+				System.exit(1);
+			}
+		}
+		catch(IOException |ClassNotFoundException e) {
+			
+		}
+		
+		
 		while(true) {
 			System.out.println("---- TEAM15 쇼핑몰 ----\n 원하는 기능을 선택하세요\n");
 			System.out.println("1.회원관련");
@@ -197,6 +211,26 @@ public class ShoppingMallMain {
 						e.printStackTrace();
 						System.exit(1);
 					}
+					
+					
+					File f =new File("idAndPwds.bin");
+					if(f.exists())
+						f.delete();
+					
+					try (ObjectOutputStream oos =new ObjectOutputStream(new FileOutputStream("idAndPwds.bin",false))){
+						try {
+							oos.writeObject(idAndPwd);
+						}
+						catch(EOFException e) {
+							e.printStackTrace();
+							System.exit(1);
+						}
+					}
+					catch(IOException  e) {
+						e.printStackTrace();
+						System.exit(1);
+					}
+					
 					System.out.println("로그인 하세요");
 				}
 				
@@ -295,7 +329,25 @@ public class ShoppingMallMain {
 							System.out.println("회원정보 변경 오류");
 							e.printStackTrace();
 							System.exit(1);
-						}					
+						}	
+						
+						File f =new File("idAndPwds.bin");
+						if(f.exists())
+							f.delete();
+						
+						try (ObjectOutputStream oos =new ObjectOutputStream(new FileOutputStream("idAndPwds.bin",false))){
+							try {
+								oos.writeObject(idAndPwd);
+							}
+							catch(EOFException e) {
+								e.printStackTrace();
+								System.exit(1);
+							}
+						}
+						catch(IOException  e) {
+							e.printStackTrace();
+							System.exit(1);
+						}
 					}
 				}
 				else if(choice-1 == CustFunction.LOGIN.ordinal()) {
@@ -438,8 +490,7 @@ public class ShoppingMallMain {
 							ISIN isinObj= new ISIN(currentId, ssn);
 							isinList.add(isinObj);
 							try(ObjectOutputStream  oos = new ObjectOutputStream(new FileOutputStream(currentId+"_isin.bin"))){
-								oos.writeObject(isinObj);
-								
+								oos.writeObject(isinObj);	
 							}
 							
 							catch(IOException e) {
@@ -468,17 +519,14 @@ public class ShoppingMallMain {
 								e.printStackTrace();
 								System.exit(1);
 							}
-		
 							break;
 						}
 						
 						else 
 							System.out.println("y or n 중 하나만 입력하세요");
-						
 					}
 				}
 			}
-			
 			
 			else if(mainFuncChoice-1 ==MainFunction.BUY.ordinal()) {
 				if(loginState==false)
@@ -490,7 +538,6 @@ public class ShoppingMallMain {
 				}
 			}
 			
-			
 			else if(mainFuncChoice-1 ==MainFunction.MANAGER.ordinal()) {
 				if(superuserLoginState==false || loginState==true) 
 					System.out.println("관리자만 사용할 수 있는 기능입니다. 관리자 계정으로 로그인하세요");
@@ -500,14 +547,12 @@ public class ShoppingMallMain {
 				}
 			}
 			
-			
 			else if(mainFuncChoice-1 ==MainFunction.EXIT.ordinal()) {
 				isinList.clear();
 				System.out.println("프로그램을 종료합니다\n");
 				break;
 			}
 		}
-		
 	
 		try {
 			stmt.close();
@@ -516,5 +561,6 @@ public class ShoppingMallMain {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
 		}
+		sc.close();
 	}
 }
