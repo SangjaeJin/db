@@ -271,9 +271,10 @@ public class ShoppingMallMain {
 						System.out.println("관리자 계정은 실행할 수 없습니다\n");
 					else {
 						System.out.println("회원정보를 수정합니다. 수정하고 싶지 않은 정보는 그냥 엔터를 누르세요 (ID수정은 불가능합니다)");
-						System.out.println("비밀번호:"); String newPwd= sc.nextLine();
-						if(newPwd.length()!=0)
-						    idAndCust.get(currentId).setPassword(newPwd);
+						
+//						System.out.println("비밀번호:"); String newPwd= sc.nextLine();
+//						if(newPwd.length()!=0)
+//						    idAndCust.get(currentId).setPassword(newPwd);
 						
 						System.out.println("주소:"); String newAddr =sc.nextLine();
 						if(newAddr.length()!=0)
@@ -305,10 +306,10 @@ public class ShoppingMallMain {
 						    ageNum = Integer.valueOf(newAge);
 						    idAndCust.get(currentId).setAge(newAge);
 					    }
-					    
-					    
+						
+						idAndCust.put(currentId, idAndCust.get(currentId));
+
 					    String updateQuery= idAndCust.get(currentId).getUpdateInfoString(currentId);
-					    
 					    //query
 					    try {
 							int res= stmt.executeUpdate(updateQuery);
