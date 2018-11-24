@@ -84,6 +84,18 @@ public class ShoppingMallMain {
 			
 		}
 		
+		try (ObjectInputStream ois =new ObjectInputStream(new FileInputStream("idAndCusts.bin"))){
+			try {
+				idAndCust =(HashMap)ois.readObject();
+			}
+			catch(EOFException e) {
+				e.printStackTrace();
+				System.exit(1);
+			}
+		}
+		catch(IOException |ClassNotFoundException e) {
+			
+		}
 		
 		while(true) {
 			System.out.println("---- TEAM15 쇼핑몰 ----\n 원하는 기능을 선택하세요\n");
@@ -94,12 +106,12 @@ public class ShoppingMallMain {
 			System.out.println("5.프로그램종료");
 			
 			int mainFuncChoice= sc.nextInt();
-			
+			sc.nextLine();
 			if(mainFuncChoice-1 ==MainFunction.CUSTOMER.ordinal()) {
 				
 				System.out.println("1.회원가입 2.회원정보수정 3.비밀번호수정 4.로그인. 5.로그아웃. 원하는 기능을 선택하세요");
 				int choice = sc.nextInt();
-				
+				sc.nextLine();
 				if(choice-1 == CustFunction.SIGNUP.ordinal()) {
 					String id;
 					if(loginState ==true ||superuserLoginState ==true ) {
@@ -139,7 +151,7 @@ public class ShoppingMallMain {
 						if(yesOrNo.equalsIgnoreCase("n")) {
 							idAndCust.put(id, new Customer(id, password, address, phone));
 							idAndPwd.put(id,password);
-							String signupQuery =  idAndCust.get(id).getShortSighUpString();
+							String signupQuery =  idAndCust.get(id).getShortSignUpString();
 							
 							//query
 							try {
@@ -231,6 +243,24 @@ public class ShoppingMallMain {
 						System.exit(1);
 					}
 					
+					f =new File("idAndCusts.bin");
+					if(f.exists())
+						f.delete();
+					
+					try (ObjectOutputStream oos =new ObjectOutputStream(new FileOutputStream("idAndCusts.bin",false))){
+						try {
+							oos.writeObject(idAndCust);
+						}
+						catch(EOFException e) {
+							e.printStackTrace();
+							System.exit(1);
+						}
+					}
+					catch(IOException  e) {
+						e.printStackTrace();
+						System.exit(1);
+					}
+					
 					System.out.println("로그인 하세요");
 				}
 				
@@ -277,7 +307,7 @@ public class ShoppingMallMain {
 					    }
 					    
 					    
-					    String updateQuery= idAndCust.get(currentId).getUpdateInfoString();
+					    String updateQuery= idAndCust.get(currentId).getUpdateInfoString(currentId);
 					    
 					    //query
 					    try {
@@ -289,6 +319,24 @@ public class ShoppingMallMain {
 						}
 						catch(SQLException e) {
 							System.out.println("회원정보 변경 오류");
+							e.printStackTrace();
+							System.exit(1);
+						}
+					    
+					    File f =new File("idAndCusts.bin");
+						if(f.exists())
+							f.delete();
+						
+						try (ObjectOutputStream oos =new ObjectOutputStream(new FileOutputStream("idAndCusts.bin",false))){
+							try {
+								oos.writeObject(idAndCust);
+							}
+							catch(EOFException e) {
+								e.printStackTrace();
+								System.exit(1);
+							}
+						}
+						catch(IOException  e) {
 							e.printStackTrace();
 							System.exit(1);
 						}
@@ -311,9 +359,12 @@ public class ShoppingMallMain {
 								checkPwd=sc.nextLine();
 							}
 						}
+						
 						idAndPwd.put(currentId, newPwd);
 						idAndCust.get(currentId).setPassword(newPwd);
-						String updatePwdQuery = idAndCust.get(currentId).getUpdatePwdString();
+						idAndCust.put(currentId, idAndCust.get(currentId));
+						
+						String updatePwdQuery = idAndCust.get(currentId).getUpdatePwdString( currentId);
 						
 						//query
 						try {
@@ -326,7 +377,7 @@ public class ShoppingMallMain {
 							}
 						}
 						catch(SQLException e) {
-							System.out.println("회원정보 변경 오류");
+							System.out.println("비밀번호 변경 오류");
 							e.printStackTrace();
 							System.exit(1);
 						}	
@@ -338,6 +389,24 @@ public class ShoppingMallMain {
 						try (ObjectOutputStream oos =new ObjectOutputStream(new FileOutputStream("idAndPwds.bin",false))){
 							try {
 								oos.writeObject(idAndPwd);
+							}
+							catch(EOFException e) {
+								e.printStackTrace();
+								System.exit(1);
+							}
+						}
+						catch(IOException  e) {
+							e.printStackTrace();
+							System.exit(1);
+						}
+						
+						f =new File("idAndCusts.bin");
+						if(f.exists())
+							f.delete();
+						
+						try (ObjectOutputStream oos =new ObjectOutputStream(new FileOutputStream("idAndCusts.bin",false))){
+							try {
+								oos.writeObject(idAndCust);
 							}
 							catch(EOFException e) {
 								e.printStackTrace();
@@ -365,7 +434,7 @@ public class ShoppingMallMain {
 						superuserLoginState=true;
 					}
 					
-					else if( idAndPwd.get(id).equals(password)) {
+					else if( idAndCust.get(id).getPassword().equals(password)) { // idAndPwd.get(id).equals(password)) {
 						loginState= true;
 						currentId=id;
 						try (ObjectInputStream ois =new ObjectInputStream(new FileInputStream(currentId+"_isin.bin"))){
@@ -373,16 +442,17 @@ public class ShoppingMallMain {
 								try {
 									isinList.add((ISIN)ois.readObject());
 								}
-								catch(EOFException e) {
+								catch(IOException e) {
 									
 									System.out.println("로그인 되었습니다\n");
 								}
 							}
 						}
-						catch(IOException |ClassNotFoundException e) {
-							e.printStackTrace();
-							System.out.println("isin 불러오기 실패");
-							System.exit(1);
+						catch(  IOException|ClassNotFoundException e) {
+//							e.printStackTrace();
+//							System.out.println("isin 불러오기 실패");
+//							System.exit(1);
+							System.out.println("로그인 되었습니다\n");
 						}
 					}
 					else 
