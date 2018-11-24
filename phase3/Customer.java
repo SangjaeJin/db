@@ -101,9 +101,10 @@ public class Customer implements Serializable {
 			ageNum= Integer.valueOf(age);
 		
 		if(ageNum ==-1)
-			res="UPDATE CUSTOMER SET Password="+ "\"" +password+ "\"" +", address="+ "\""+address+"\"" +",phone=" +"\""+phone+"\""+",name="+getName()+",job="+getJob()+"sex="+getSex()+"age=null"+" WHERE Id='"+userId+"'";
+			res="UPDATE CUSTOMER SET " +"Address="+ "\""+address+"\"" +",Phone=" +"\""+phone+"\""+",Name="+getName()+",Job="+getJob()+",Sex="+getSex()+",Age=null"+" WHERE Id='"+userId+"'";
+		
 		else
-			res="UPDATE CUSTOMER SET Password="+ "\"" +password+ "\"" +", address="+ "\""+address+"\"" +",phone=" +"\""+phone+"\""+",name="+getName()+",job="+getJob()+"sex="+getSex()+"age="+ageNum+" WHERE Id='"+userId+"'";
+			res="UPDATE CUSTOMER SET " +"Address="+ "\"" + address+"\"" +",Phone=" +"\""+phone+"\""+",Name="+getName()+",Job="+getJob()+",Sex="+getSex()+",Age="+ageNum+" WHERE Id='"+userId+"'";
 				
 		return res;
 	}
