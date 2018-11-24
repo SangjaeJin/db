@@ -104,10 +104,10 @@ public class Customer implements Serializable {
 			ageNum= Integer.valueOf(age);
 		
 		if(ageNum ==-1)
-			res="UPDATE CUSTOMER SET " +"Address="+ "\""+address+"\"" +",Phone=" +"\""+phone+"\""+",Name="+getName()+",Job="+getJob()+",Sex="+getSex()+",Age=null"+" WHERE Id='"+userId+"'";
+			res="UPDATE CUSTOMER SET " +"Address="+ "\""+address+"\"" +",Phone=" +"\""+phone+"\""+",Name="+getName()+",Job="+getJob()+",Sex="+getSex()+",Age=null"+" WHERE Id="+"\""+userId+"\"";
 		
 		else
-			res="UPDATE CUSTOMER SET " +"Address="+ "\"" + address+"\"" +",Phone=" +"\""+phone+"\""+",Name="+getName()+",Job="+getJob()+",Sex="+getSex()+",Age="+ageNum+" WHERE Id='"+userId+"'";
+			res="UPDATE CUSTOMER SET " +"Address="+ "\"" + address+"\"" +",Phone=" +"\""+phone+"\""+",Name="+getName()+",Job="+getJob()+",Sex="+getSex()+",Age="+ageNum+" WHERE Id="+"\""+userId+"\"";
 				
 		return res;
 	}
@@ -132,6 +132,6 @@ public class Customer implements Serializable {
 	}
 	
 	public String getUpdatePwdString(String id) {
-		return "UPDATE CUSTOMER SET Password=" +password +" WHERE Id='"+id+"'";
+		return "UPDATE CUSTOMER SET Password=" +password +" WHERE Id="+"\""+id+"\"";
 	}
 }
