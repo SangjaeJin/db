@@ -450,23 +450,22 @@ public class ShoppingMallMain {
 					else if( idAndCust.get(id).getPassword().equals(password)) { // idAndPwd.get(id).equals(password)) {
 						loginState= true;
 						currentId=id;
+						
+						
 						try (ObjectInputStream ois =new ObjectInputStream(new FileInputStream(currentId+"_isin.bin"))){
-							while(true) {
-								try {
-									isinList.add((ISIN)ois.readObject());
-								}
-								catch(IOException e) {
-									break;
-									//System.out.println("로그인 되었습니다\n");
-								}
+							try {
+								isinList =(List<ISIN>)ois.readObject();
+							}
+							catch(EOFException e) {
+								e.printStackTrace();
+								System.exit(1);
 							}
 						}
-						catch(  IOException|ClassNotFoundException e) {
-//							e.printStackTrace();
-//							System.out.println("isin 불러오기 실패");
-//							System.exit(1);
-							System.out.println("로그인 되었습니다\n");
+						catch(IOException |ClassNotFoundException e) {
+							
 						}
+						
+						System.out.println("로그인 되었습니다\n");
 					}
 					else 
 						System.out.println("아이디 혹은 비밀번호가 잘못되었습니다.\n");
@@ -573,12 +572,21 @@ public class ShoppingMallMain {
 							
 							ISIN isinObj= new ISIN(currentId, ssn);
 							isinList.add(isinObj);
-							try(ObjectOutputStream  oos = new ObjectOutputStream(new FileOutputStream(currentId+"_isin.bin"))){
-								oos.writeObject(isinObj);	
-							}
 							
-							catch(IOException e) {
-								System.out.println("장바구니에 담기 파일 오류");
+							File f =new File(currentId+"_isin.bin");
+							if(f.exists())
+								f.delete();
+							
+							try (ObjectOutputStream oos =new ObjectOutputStream(new FileOutputStream(currentId+"_isin.bin",false))){
+								try {
+									oos.writeObject(isinList);
+								}
+								catch(EOFException e) {
+									e.printStackTrace();
+									System.exit(1);
+								}
+							}
+							catch(IOException  e) {
 								e.printStackTrace();
 								System.exit(1);
 							}
