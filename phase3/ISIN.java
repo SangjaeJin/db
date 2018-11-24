@@ -10,7 +10,7 @@ public class ISIN implements Serializable{
 	}
 	
 	public   String getInsertQuery() {
-		return "INSERT INTO IS_IN VALUES("+ "\""+ c_id+ "\"" +","+ "\""+ i_ssn+"\""+")";
+		return "INSERT INTO IS_IN VALUES("+ "\""+ i_ssn+ "\"" +","+ "\""+ c_id+"\""+")";
 	}
 	
 	public String getSsn() {
