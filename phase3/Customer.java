@@ -1,5 +1,6 @@
+import java.io.Serializable;
 
-public class Customer {
+public class Customer implements Serializable {
 	private String id;
 	private String password;
 	private String address;
@@ -93,23 +94,23 @@ public class Customer {
 			return null;
 	}
 
-	public String getUpdateInfoString() {
+	public String getUpdateInfoString(String userId) {
 		int ageNum=-1;
 		String res;
 		if(getAge()!=null)
 			ageNum= Integer.valueOf(age);
 		
 		if(ageNum ==-1)
-			res="UPDATE CUSTOMER SET Password="+ "\"" +password+ "\"" +", address="+ "\""+address+"\"" +",phone=" +"\""+phone+"\""+",name="+getName()+",job="+getJob()+"sex="+getSex()+"age=null";
+			res="UPDATE CUSTOMER SET Password="+ "\"" +password+ "\"" +", address="+ "\""+address+"\"" +",phone=" +"\""+phone+"\""+",name="+getName()+",job="+getJob()+"sex="+getSex()+"age=null"+" WHERE Id='"+userId+"'";
 		else
-			res="UPDATE CUSTOMER SET Password="+ "\"" +password+ "\"" +", address="+ "\""+address+"\"" +",phone=" +"\""+phone+"\""+",name="+getName()+",job="+getJob()+"sex="+getSex()+"age="+ageNum;
+			res="UPDATE CUSTOMER SET Password="+ "\"" +password+ "\"" +", address="+ "\""+address+"\"" +",phone=" +"\""+phone+"\""+",name="+getName()+",job="+getJob()+"sex="+getSex()+"age="+ageNum+" WHERE Id='"+userId+"'";
 				
 		return res;
 	}
 
 	
-	public String getShortSighUpString() {
-		return "INSERT INTO CUSTOMER VALUES("+ "\"" +id +"\"" +"," +"\""+ password+"\""+ "," + "\""+address+"\"" +","+ "\""+phone+"\")";
+	public String getShortSignUpString() {
+		return "INSERT INTO CUSTOMER(Id,Password,Address,Phone) VALUES("+ "\"" +id +"\"" +"," +"\""+ password+"\""+ "," + "\""+address+"\"" +","+ "\""+phone+"\")";
 	}
 	
 	public String getSignUpString() {
@@ -126,7 +127,7 @@ public class Customer {
 		return res;
 	}
 	
-	public String getUpdatePwdString() {
-		return "UPDATE CUSTOMER SET Password=" +password;
+	public String getUpdatePwdString(String id) {
+		return "UPDATE CUSTOMER SET Password=" +password +" WHERE Id='"+id+"'";
 	}
 }
