@@ -98,7 +98,7 @@ public class ShoppingMallMain {
 		}
 		
 		while(true) {
-			System.out.println("---- TEAM15 쇼핑몰 ----\n 원하는 기능을 선택하세요\n");
+			System.out.println("\n---- TEAM15 쇼핑몰 ----\n 원하는 기능을 선택하세요\n");
 			System.out.println("1.회원관련");
 			System.out.println("2.물품관련");
 			System.out.println("3.구매관련");
@@ -261,6 +261,17 @@ public class ShoppingMallMain {
 						System.exit(1);
 					}
 					
+					String query= Shoppingbag.getCreateBagQuery(id);
+					try {
+						int res= stmt.executeUpdate(query);
+						conn.commit();
+					}
+					catch(SQLException e) {
+						System.out.println("장바구니 생성 오류");
+						e.printStackTrace();
+						System.exit(1);
+					}
+					
 					System.out.println("로그인 하세요");
 				}
 				
@@ -276,6 +287,7 @@ public class ShoppingMallMain {
 //						if(newPwd.length()!=0)
 //						    idAndCust.get(currentId).setPassword(newPwd);
 						
+						System.out.println("현재주소: ");  System.out.println(idAndCust.get(currentId).getAddress()); 
 						System.out.println("주소:"); String newAddr =sc.nextLine();
 						if(newAddr.length()!=0)
 							idAndCust.get(currentId).setAddress(newAddr);
@@ -444,8 +456,8 @@ public class ShoppingMallMain {
 									isinList.add((ISIN)ois.readObject());
 								}
 								catch(IOException e) {
-									
-									System.out.println("로그인 되었습니다\n");
+									break;
+									//System.out.println("로그인 되었습니다\n");
 								}
 							}
 						}
@@ -475,7 +487,7 @@ public class ShoppingMallMain {
 			else if(mainFuncChoice-1 ==MainFunction.ITEM.ordinal()) {
 				System.out.println("1.카테고리 별로 구경 2.아이템 검색 or 장바구니에 담기. 원하는 기능을 선택하세요");
 				int choice = sc.nextInt();
-				
+				sc.nextLine();
 				if(choice-1 == ItemFunction.WATCH.ordinal()) {
 					System.out.println("카테고리를 입력하세요");
 					String category= sc.nextLine();
@@ -489,7 +501,7 @@ public class ShoppingMallMain {
 							int  price = rs.getInt(5);
 							String madePlace =rs.getString(6);
 							String name = rs.getString(8);
-							System.out.println(" 이름= " + name + ",가격 = " + price+",원산지 = "+madePlace+",수량 = "+amount);
+							System.out.println(" 이름:" + name + ",가격:" + price+", 원산지:"+madePlace+" ,수량:"+amount);
 						}
 						conn.commit();
 						
@@ -504,6 +516,7 @@ public class ShoppingMallMain {
 				else if (choice-1 ==ItemFunction.SEARCH.ordinal()) {
 					System.out.println("아이템 이름을 입력하세요:");
 					String search = sc.nextLine();
+					
 					String ssn=null;
 					String selectQuery=  Item.searchItemQuery(search);
 					
@@ -578,7 +591,9 @@ public class ShoppingMallMain {
 							try {
 								int res=stmt.executeUpdate(isinInsertQuery);
 								ResultSet rs=stmt.executeQuery(bagSelectQuery);
-								int amount =rs.getInt(1);
+								int amount=0;
+								while(rs.next())
+									amount =rs.getInt(1);
 								String bagUpdateQuery= Shoppingbag.getUpdateQuery(currentId, amount);
 								res =stmt.executeUpdate(bagUpdateQuery);
 								if(res==1)
