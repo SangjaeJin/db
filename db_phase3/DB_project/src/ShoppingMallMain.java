@@ -934,9 +934,72 @@ public class ShoppingMallMain {
 							System.exit(1);
 						}
 					}
-					else if(choice == ManagerFunction.WATCHPROFIT.ordinal())
+					else if(choice-1 == ManagerFunction.WATCHPROFIT.ordinal())
 					{
+						ResultSet rs;
+						System.out.println("1.전체매출 2.월별매출 3.일별매출 보고싶은 매출을 고르세요");
+						int select = sc.nextInt();
+						sc.nextLine();
+						int sales=0;
 						
+						if(select==1)
+						{
+							System.out.println("전체 매출을 조회합니다.");
+							String getEntireSales = Sales.getEntireSalesQuery();
+							try
+							{
+								rs=stmt.executeQuery(getEntireSales);
+								while(rs.next())
+									sales = rs.getInt(1);
+								conn.commit();
+							}
+							catch(SQLException e)
+							{
+								e.printStackTrace();
+								System.exit(1);
+							}
+							System.out.println("전체 매출:"+sales);
+						}
+						else if(select==2)
+						{
+							System.out.println("월별 매출을 조회합니다.");
+							System.out.println("조회하고 싶은 년월을 입력해주세요 ---> ex) 2017-08 ");
+							String date = sc.nextLine();
+							
+							String getMonthSales = Sales.getMonthSalesQuery(date);
+							try {
+								rs=stmt.executeQuery(getMonthSales);
+								while(rs.next())
+									sales=rs.getInt(1);
+								conn.commit();
+							}
+							catch(SQLException e)
+							{
+								e.printStackTrace();
+								System.exit(1);
+							}
+							System.out.println(date+"월의 매출:"+sales);
+						}
+						else if(select==3)
+						{
+							System.out.println("일별 매출을 조회합니다.");
+							System.out.println("조회하고 싶은 년월일을 입력해주세요 ---> ex) 2018-08-14");
+							String date =sc.nextLine();
+							
+							String getDaySales = Sales.getDaySalesQuery(date);
+							try {
+								rs=stmt.executeQuery(getDaySales);
+								while(rs.next())
+									sales=rs.getInt(1);
+								conn.commit();
+							}
+							catch(SQLException e)
+							{
+								e.printStackTrace();
+								System.exit(1);
+							}
+							System.out.println(date+"일의 매출:"+sales);
+						}
 					}
 					
 				}
