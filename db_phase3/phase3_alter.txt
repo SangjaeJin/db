@@ -1,0 +1,11 @@
+alter table orders drop foreign key fk_O_C_id;
+
+alter table orders drop foreign key fk_O_I_Ssn;
+
+alter table orders drop primary key;
+
+alter table orders add primary key(C_id,I_ssn,BuyTime);
+
+alter table ORDERS add constraint fk_O_C_id FOREIGN KEY(C_id) references CUSTOMER(Id) on delete CASCADE;
+
+alter table ORDERS add constraint fk_O_I_Ssn FOREIGN KEY(I_Ssn) references ITEM(Ssn) on delete CASCADE;
