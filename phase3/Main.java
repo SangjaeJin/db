@@ -220,9 +220,15 @@ public class Main {
 						    if(job.length()==0)
 						    	job=null;
 						    
-						    System.out.println("성별: (M or F)"); String  sex =sc.nextLine();
-						    if(sex.length()==0)
-						    	sex=null;
+						    while(true) {
+							    System.out.println("성별: (M or F)"); String  sex =sc.nextLine();
+							    if(sex.length()==0)
+							    	sex=null;
+							    else if( ! (sex.equalsIgnoreCase("f")||sex.equalsIgnoreCase("m")) ) 
+							    	System.out.println("m or f 만 입력하세요");
+							    else
+							    	break;
+						    }
 //						    char[] sexChar =sex.toCharArray();
 						    
 						    System.out.println("나이:");  String age= sc.nextLine();
