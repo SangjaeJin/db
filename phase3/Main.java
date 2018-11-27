@@ -198,6 +198,9 @@ public class Main {
 							//query
 							try {
 								int res= stmt.executeUpdate(signupQuery);
+								
+								String bagQuery = Shoppingbag.getCreateBagQuery(id);
+								res=stmt.executeUpdate(bagQuery);
 								if(res ==1) {
 									System.out.println("회원가입 되었습니다!\n");
 									conn.commit();
@@ -220,8 +223,9 @@ public class Main {
 						    if(job.length()==0)
 						    	job=null;
 						    
+						    String sex=null;
 						    while(true) {
-							    System.out.println("성별: (M or F)"); String  sex =sc.nextLine();
+							    System.out.println("성별: (M or F)"); sex =sc.nextLine();
 							    if(sex.length()==0)
 							    	sex=null;
 							    else if( ! (sex.equalsIgnoreCase("f")||sex.equalsIgnoreCase("m")) ) 
