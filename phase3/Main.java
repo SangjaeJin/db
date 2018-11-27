@@ -71,7 +71,7 @@ public class Main {
 		HashMap<String, Customer> idAndCust= new HashMap<>();
 		String currentId=null;
 		List<ISIN> isinList = new ArrayList<>(); 
-		
+		List<String> indexStrs=new ArrayList<>();
 		
 //		try (ObjectInputStream ois =new ObjectInputStream(new FileInputStream("idAndPwds.bin"))){
 //			try {
@@ -98,6 +98,30 @@ public class Main {
 //		catch(IOException |ClassNotFoundException e) {
 //			
 //		}
+		indexStrs.add("CREATE INDEX customer_id_pwd_addr_phone ON CUSTOMER(Id,Password,Address,Phone)");
+		indexStrs.add("CREATE INDEX customer_all ON CUSTOMER(Id,Password,Name,Job,Address,Sex,Age)");
+		indexStrs.add("CREATE INDEX customer_editInfo ON CUSTOMER(Password,Name,Job,Address,Sex,Age");
+		indexStrs.add("CREATE INDEX customer_editPwd ON CUSTOMER(Password)");
+		indexStrs.add("CREATE INDEX customer_login ON CUSTOMER(Id,Password)");
+		indexStrs.add("CREATE INDEX item_cat ON ITEM(Cat_ssb)");
+		indexStrs.add("CREATE INDEX item_name ON ITEM(Name)");
+		indexStrs.add("CREATE INDEX item_watch ON ITEM(Name,Price,MadePlace,Amount )");
+		indexStrs.add("CREATE INDEX is_in_all ON IS_IN(I_ssn,S_c_id)");
+		indexStrs.add("CREATE INDEX bag_id ON SHOPPINGBAG(C_id)");
+		indexStrs.add("CREATE INDEX bag_id_amount ON SHOPPINGBAG(C_id,Amount)" );
+		
+		try {
+			int res;
+			for(int i=0;i<indexStrs.size();i++) 
+				res=stmt.executeUpdate(indexStrs.get(i));
+			conn.commit();
+		}
+		
+		catch (SQLException e) {
+			e.printStackTrace();
+			System.exit(1);
+			// TODO: handle exception
+		}
 		
 		try {
 			// Let's execute an SQL statement.
