@@ -9,12 +9,14 @@ public class Customer implements Serializable {
 	private String job;
 	private String sex;
 	private String age;
+	private String orderedTimes;
 	
 	public Customer(String id,String password,String address,String phone) {
 		this.id=id;
 		this.password=password;
 		this.address=address;
 		this.phone=phone;
+
 	}
 	
 	public Customer(String id,String password,String address,String phone,String name,String job,String sex,String age) {
@@ -113,7 +115,7 @@ public class Customer implements Serializable {
 	}
 
 	
-	public String getShortSignUpString() {
+	public static String getShortSignUpString(String id,String password,String address,String phone) {
 		return "INSERT INTO CUSTOMER(Id,Password,Address,Phone) VALUES("+ "\"" +id +"\"" +"," +"\""+ password+"\""+ "," + "\""+address+"\"" +","+ "\""+phone+"\")";
 	}
 	
@@ -131,7 +133,23 @@ public class Customer implements Serializable {
 		return res;
 	}
 	
-	public String getUpdatePwdString(String id) {
-		return "UPDATE CUSTOMER SET Password=" +password +" WHERE Id="+"\""+id+"\"";
+//	public String getUpdatePwdString(String id) {
+//		return "UPDATE CUSTOMER SET Password=" +password +" WHERE Id="+"\""+id+"\"";
+//	}
+	
+	public static String getUpdatePwdString2(String id,String pwd) {
+		return "UPDATE CUSTOMER SET Password=" +"\""+pwd+"\"" +" WHERE Id="+"\""+id+"\"";
 	}
+	
+	public static String getLoginQuery(String id,String pwd) {
+		return "SELECT Id FROM CUSTOMER WHERE Id="+"\""+id+"\""+" AND Password="+"\""+pwd+"\"";
+	}
+	
+	public static String getCheckLoginQuery(String id) {
+		return "SELECT Id FROM CUSTOMER WHERE Id="+"\""+id+"\"";
+	}
+	
+//	public static String getUsersQuery() {
+//		return "SELECT Id,Password,Name,Job,Address,Sex,
+//	}
 }
