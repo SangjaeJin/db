@@ -340,10 +340,12 @@ public class Main {
 						    Customer cus= new Customer(id, password, address, phone, name, job, sex, age);
 						    idAndCust.put(id, cus);
 						    String signupQuery = cus.getSignUpString();
-						    
+						    String bagQuery2= Shoppingbag.getCreateBagQuery(id);
 						    //query
 						    try {
 								int res= stmt.executeUpdate(signupQuery);
+								res=stmt.executeUpdate(bagQuery2);
+								
 								if(res ==1) {
 									System.out.println("회원가입 되었습니다!\n");
 									String recQuery= Main.getRecommandQuery(age, job, sex);
