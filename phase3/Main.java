@@ -25,12 +25,78 @@ enum BuyFunction {BUY, ORDERED}
 enum ManagerFunction{ADD,WATCHZERO,WATCHPROFIT}
 
 public class Main {
-
+	
 	public static String url="jdbc:mysql://localhost:3306/mysql?serverTimezone=Asia/Seoul";
 	public static String user= "root";
-	public static String pwd="jyk135";
+	public static String pwd="123!";
 	public static String superuser ="super" ;
 	public static String superuserpwd="super";
+	
+	
+	public static String getRecommandQuery( String age, String job,String sex) {
+		
+		if(age==null && job==null&&sex==null)
+			return null;
+		else if(age!=null && job!=null && sex!=null)
+			return
+					"select I.name , I.ssn , count(*) as nums"+
+					" from item I , orders O , customer C"+
+					" where O.C_id = C.id and C.Sex="+"\""+sex+ "\""+" AND "+"C.Age>="+Math.floor(Integer.valueOf(age))+" AND C.Age<"+Math.ceil(Integer.valueOf(age))+" AND C.Job="+"\""+job+"\""+
+					" and O.I_ssn = I.ssn"+
+					" group by I.name, I.ssn"+
+					" order by nums desc limit 1";
+		else if(job==null && sex==null)
+			return "select I.name , I.ssn , count(*) as nums"+
+				" from item I , orders O , customer C"+
+				" where O.C_id = C.id and C.age >=" + Math.floor(Integer.valueOf(age))+"+ and C.age <"+Math.ceil(Integer.valueOf(age))+
+				" and O.I_ssn = I.ssn"+
+				" group by I.name, I.ssn"+
+				" order by nums desc limit 1";
+		
+		else if(age==null && sex==null)
+			return "select I.name , I.ssn , count(*) as nums"+
+			" from item I , orders O , customer C"+
+			" where O.C_id = C.id and C.Job="+"\""+job+ "\""+
+			" and O.I_ssn = I.ssn"+
+			" group by I.name, I.ssn"+
+			" order by nums desc limit 1";
+		
+		else if(age==null && job==null)
+			return
+			"select I.name , I.ssn , count(*) as nums"+
+			" from item I , orders O , customer C"+
+			" where O.C_id = C.id and C.Sex="+"\""+sex+ "\""+
+			" and O.I_ssn = I.ssn"+
+			" group by I.name, I.ssn"+
+			" order by nums desc limit 1";
+
+		else if(age ==null)
+			return
+					"select I.name , I.ssn , count(*) as nums"+
+					" from item I , orders O , customer C"+
+					" where O.C_id = C.id and C.Sex="+"\""+sex+ "\""+" AND C.Job="+"\""+job+"\""+
+					" and O.I_ssn = I.ssn"+
+					" group by I.name, I.ssn"+
+					" order by nums desc limit 1";
+		else if(job==null)
+			return
+					"select I.name , I.ssn , count(*) as nums"+
+					" from item I , orders O , customer C"+
+					" where O.C_id = C.id and C.Sex="+"\""+sex+ "\""+" AND "+"C.Age>="+Math.floor(Integer.valueOf(age))+" AND C.Age<"+Math.ceil(Integer.valueOf(age))+
+					" and O.I_ssn = I.ssn"+
+					" group by I.name, I.ssn"+
+					" order by nums desc limit 1";
+		else if(sex ==null)
+			return
+					"select I.name , I.ssn , count(*) as nums"+
+					" from item I , orders O , customer C"+
+					" where O.C_id = C.id and C.Job="+"\""+job+ "\""+" AND "+"C.Age>="+Math.floor(Integer.valueOf(age))+" AND C.Age<"+Math.ceil(Integer.valueOf(age))+
+					" and O.I_ssn = I.ssn"+
+					" group by I.name, I.ssn"+
+					" order by nums desc limit 1";
+		
+		return null;
+	}
 	
 	public static void main(String[] args) {
 		Connection conn=null;
@@ -227,6 +293,7 @@ public class Main {
 								res=stmt.executeUpdate(bagQuery);
 								if(res ==1) {
 									System.out.println("회원가입 되었습니다!\n");
+									System.out.println("추가 정보를 입력하시면 상품을 추천해드려요");
 									conn.commit();
 									break;
 								}
@@ -279,7 +346,16 @@ public class Main {
 								int res= stmt.executeUpdate(signupQuery);
 								if(res ==1) {
 									System.out.println("회원가입 되었습니다!\n");
-									conn.commit();
+									String recQuery= Main.getRecommandQuery(age, job, sex);
+									
+									ResultSet rs = stmt.executeQuery(recQuery);
+									System.out.println("추천상품:\n");
+									while(rs.next()) {
+										// no impedance mismatch in JDBC
+										String itemName 		= rs.getString(1);
+										System.out.println(itemName+"\n");
+									}
+									conn.commit();			
 									break;
 								}
 							}
@@ -411,6 +487,26 @@ public class Main {
 						catch(SQLException e) {
 							System.out.println("회원정보 변경 오류");
 							e.printStackTrace();
+							System.exit(1);
+						}
+					    
+					  
+					    try {
+							// Let's execute an SQL statement.
+							String recQuery = Main.getRecommandQuery(newAge, newJob, newSex);
+							if(recQuery==null)
+								System.out.println("추천상품을 보고 싶으시다면 추가정보를 입력하세요");
+							ResultSet rs = stmt.executeQuery(recQuery);
+							
+							System.out.println("추천상품:");
+							while(rs.next()) {
+								// no impedance mismatch in JDBC
+								String itemName =rs.getString(1);
+								System.out.println(itemName+"\n");
+							}
+							conn.commit();			
+						}catch(SQLException ex2) {
+							System.err.println("sql error = " + ex2.getMessage());
 							System.exit(1);
 						}
 					    
@@ -610,7 +706,7 @@ public class Main {
 							String maker=rs.getString(7);
 							String name = rs.getString(8);
 							String cat_sub= rs.getString(9);
-							String p_ssn =rs.getString(10);
+							String p_ssn =rs.getString(10);        
 							System.out.println(" 이름:" + name + " ,가격:" + price+" ,원산지:"+madePlace+" ,수량:"+amount+" ,수입자:"+importer+" ,제조연원일:"+madeDate+" ,판매자:"+maker+" ,카테고리:"+cat_sub+",판매자등록번호:"+p_ssn );
 						}
 						conn.commit();
