@@ -4,10 +4,10 @@ public class Item {
 		return "SELECT * FROM ITEM WHERE Cat_sub="+"\""+category+"\"";
 	}
 	
-	public static String showIsinItemsQuery(String ssn)
-	{
-		return "SELECT * FROM ITEM WHERE Ssn="+"\""+ssn+"\"";
-	}
+//	public static String showIsinItemsQuery(String ssn)
+//	{
+//		return "SELECT * FROM ITEM WHERE Ssn="+"\""+ssn+"\"";
+//	}
 	public static String getSsnOfItemQuery(String name)
 	{
 		return "SELECT Ssn FROM ITEM WHERE Name="+"\""+name+"\"";
@@ -26,5 +26,9 @@ public class Item {
 	public static String showZeroAmountQuery()
 	{
 		return "SELECT * FROM ITEM WHERE Amount=0";
+	}
+	public static String showIsInItemQuery(String id)
+	{
+		return "SELECT * FROM ITEM WHERE Ssn IN (SELECT I_ssn FROM IS_IN WHERE S_c_id="+"\""+id+"\""+")";
 	}
 }
