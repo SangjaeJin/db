@@ -17,4 +17,8 @@ public class Shoppingbag {
 		amt-=1;
 		return "UPDATE SHOPPINGBAG SET AMOUNT="+amt+" WHERE C_id="+"\""+id+"\"";
 	}
+	
+	public static String selectByID(String id) {
+		return "SELECT C_id FROM SHOPPINGBAG WHERE C_id="+"\""+id+"\"";
+	}
 }
