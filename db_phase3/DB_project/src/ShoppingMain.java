@@ -111,12 +111,14 @@ public class ShoppingMain {
 		indexStrs.add("CREATE INDEX customer_editInfo ON CUSTOMER(Password,Name,Job,Address,Sex,Age)");
 		indexStrs.add("CREATE INDEX customer_editPwd ON CUSTOMER(Password)");
 		indexStrs.add("CREATE INDEX customer_login ON CUSTOMER(Id,Password)");
+		indexStrs.add("CREATE INDEX customer_id ON CUSTOMER(Id)");
 		indexStrs.add("CREATE INDEX item_cat ON ITEM(Cat_sub)");
 		indexStrs.add("CREATE INDEX item_name ON ITEM(Name)");
 		indexStrs.add("CREATE INDEX item_watch ON ITEM(Name,Price,MadePlace,Amount )");
 		indexStrs.add("CREATE INDEX is_in_all ON IS_IN(I_ssn,S_c_id)");
 		indexStrs.add("CREATE INDEX bag_id ON SHOPPINGBAG(C_id)");
 		indexStrs.add("CREATE INDEX bag_id_amount ON SHOPPINGBAG(C_id,Amount)" );
+		indexStrs.add("CREATE INDEX order_id ON ORDER(C_id)");
 		
 		try {										//index 만들었을 경우 코드 주석후 실행하세요
 			for(int i=0;i<indexStrs.size();i++) 
