@@ -134,7 +134,7 @@ public class Main {
 	
 	public static void main(String[] args) {
 		Connection conn=null;
-		Statement stmt=null;
+		Statement stmt=null,stmt2=null;
 		try {
 			Class.forName("com.mysql.cj.jdbc.Driver");
 			
@@ -157,6 +157,7 @@ public class Main {
 		try {
 			conn.setAutoCommit(false);
 			stmt=conn.createStatement();
+			stmt2=conn.createStatement();
 		}
 		
 		catch(SQLException e){
@@ -247,7 +248,7 @@ public class Main {
 				
 				//기존 유저가 쇼핑백이 없을 경우 만드는 쿼
 				bagSelectQuery = Shoppingbag.selectByID(id);
-				rs2= stmt.executeQuery(bagSelectQuery);
+				rs2= stmt2.executeQuery(bagSelectQuery);
 				if(rs2.next()==false) {
 					createBagQuery= Shoppingbag.getCreateBagQuery(id);
 					stmt.executeUpdate(createBagQuery);
