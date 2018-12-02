@@ -82,17 +82,19 @@ public class Customer implements Serializable {
 	}
 	public String getSex() {
 		
-		if(sex!=null) {
-			char[] sexChar= sex.toCharArray();
-			return "\""+ sexChar[0]+"\"";
-		}
-	
+//		if(sex!=null) {
+//			char[] sexChar= sex.toCharArray();
+//			return "\""+ sexChar[0]+"\"";
+//		}
+//	
+		if(sex!=null)
+			return sex;
 		else
 			return null;
 	}
 	public String getAge() {
 		if(age!=null)
-			return "\""+ age+"\"";
+			return age;
 		else
 			return null;
 	}
@@ -104,16 +106,16 @@ public class Customer implements Serializable {
 			ageNum= Integer.valueOf(age);
 		
 		if(ageNum ==-1)
-			res="UPDATE CUSTOMER SET " +"Address="+ "\""+address+"\"" +",Phone=" +"\""+phone+"\""+",Name="+getName()+",Job="+getJob()+",Sex="+getSex()+",Age=null"+" WHERE Id="+"\""+userId+"\"";
+			res="UPDATE CUSTOMER SET " +"Address="+ "\""+address+"\"" +",Phone=" +"\""+phone+"\""+",Name="+getName()+",Job="+getJob()+",Sex="+"\""+getSex()+"\""+",Age=null"+" WHERE Id="+"\""+userId+"\"";
 		
 		else
-			res="UPDATE CUSTOMER SET " +"Address="+ "\"" + address+"\"" +",Phone=" +"\""+phone+"\""+",Name="+getName()+",Job="+getJob()+",Sex="+getSex()+",Age="+ageNum+" WHERE Id="+"\""+userId+"\"";
+			res="UPDATE CUSTOMER SET " +"Address="+ "\"" + address+"\"" +",Phone=" +"\""+phone+"\""+",Name="+getName()+",Job="+getJob()+",Sex="+"\""+getSex()+"\""+",Age="+ageNum+" WHERE Id="+"\""+userId+"\"";
 				
 		return res;
 	}
 
 	
-	public String getShortSignUpString() {
+	public static String getShortSignUpString(String id,String password,String address,String phone) {
 		return "INSERT INTO CUSTOMER(Id,Password,Address,Phone) VALUES("+ "\"" +id +"\"" +"," +"\""+ password+"\""+ "," + "\""+address+"\"" +","+ "\""+phone+"\")";
 	}
 	
@@ -124,14 +126,39 @@ public class Customer implements Serializable {
 			ageNum=Integer.valueOf(age);
 		
 		if(ageNum ==-1)
-			res="INSERT INTO CUSTOMER VALUES("+ "\"" +id +"\"" +"," +"\""+ password+"\""+ "," + "\""+address+"\"" +","+ "\""+phone+"\""+ "," +getName()+","+getJob()+","+getSex()+","+"null)";
+			res="INSERT INTO CUSTOMER(Id,Password,Address,Phone,Name,Job,Sex) VALUES("+ "\"" +id +"\"" +"," +"\""+ password+"\""+ "," + "\""+address+"\"" +","+ "\""+phone+"\""+ "," +getName()+","+getJob()+","+"\""+getSex()+"\""+")";
 		else
-			res="INSERT INTO CUSTOMER VALUES("+ "\"" +id +"\"" +"," +"\""+ password+"\""+ "," + "\""+address+"\"" +","+ "\""+phone+"\""+ "," +getName()+","+getJob()+","+getSex()+","+ageNum+")";
+			res="INSERT INTO CUSTOMER(Id,Password,Address,Phone,Name,Job,Sex,Age) VALUES("+ "\"" +id +"\"" +"," +"\""+ password+"\""+ "," + "\""+address+"\"" +","+ "\""+phone+"\""+ "," +getName()+","+getJob()+","+"\""+getSex()+"\""+","+ageNum+")";
 				
 		return res;
 	}
 	
-	public String getUpdatePwdString(String id) {
-		return "UPDATE CUSTOMER SET Password=" +password +" WHERE Id="+"\""+id+"\"";
+//	public String getUpdatePwdString(String id) {
+//		return "UPDATE CUSTOMER SET Password=" +password +" WHERE Id="+"\""+id+"\"";
+//	}
+	
+	public static String getUpdatePwdString2(String id,String pwd) {
+		return "UPDATE CUSTOMER SET Password=" +"\""+pwd+"\"" +" WHERE Id="+"\""+id+"\"";
+	}
+	
+	public static String getLoginQuery(String id,String pwd) {
+		return "SELECT Id FROM CUSTOMER WHERE Id="+"\""+id+"\""+" AND Password="+"\""+pwd+"\"";
+	}
+	
+	public static String getCheckLoginQuery(String id) {
+		return "SELECT Id FROM CUSTOMER WHERE Id="+"\""+id+"\"";
+	}
+	
+//	public static String getUsersQuery() {
+//		return "SELECT Id,Password,Name,Job,Address,Sex,
+//	}
+	public static String getOrdertimeQuery(String id)
+	{
+		return "SELECT Ordertimes FROM CUSTOMER WHERE Id="+"\""+id+"\"";
+	}
+	public static String getUpdateOrdertimeQuery(String id,int ordertime)
+	{
+		ordertime++;
+		return "UPDATE CUSTOMER SET Ordertimes="+ordertime+" WHERE Id="+"\""+id+"\"";
 	}
 }
