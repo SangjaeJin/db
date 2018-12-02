@@ -33,52 +33,76 @@ public class Main {
 	public static String superuserpwd="super";
 	
 	
-	public static String getRecommandQuery( String age, String job,String sex) {
+//	public static String getRecommandQuery( String age, String job,String sex) {
+//		
+//		if(age==null && job==null&&sex==null)
+//			return null;
+//		else if(age!=null && job!=null && sex!=null)
+//			return
+//					"select I.name , I.ssn , count(*) as nums"+
+//					" from item I , orders O , customer C"+
+//					" where O.C_id = C.id and C.Sex="+"\""+sex+ "\""+" AND "+"C.Age>="+Math.floor(Integer.valueOf(age))+" AND C.Age<"+Math.ceil(Integer.valueOf(age))+" AND C.Job="+"\""+job+"\""+
+//					" and O.I_ssn = I.ssn"+
+//					" group by I.name, I.ssn"+
+//					" order by nums desc limit 1";
+//		else if(job==null && sex==null)
+//			return "select I.name , I.ssn , count(*) as nums"+
+//				" from item I , orders O , customer C"+
+//				" where O.C_id = C.id and C.age >=" + Math.floor(Integer.valueOf(age))+"+ and C.age <"+Math.ceil(Integer.valueOf(age))+
+//				" and O.I_ssn = I.ssn"+
+//				" group by I.name, I.ssn"+
+//				" order by nums desc limit 1";
+//		
+//		else if(age==null && sex==null)
+//			return "select I.name , I.ssn , count(*) as nums"+
+//			" from item I , orders O , customer C"+
+//			" where O.C_id = C.id and C.Job="+"\""+job+ "\""+
+//			" and O.I_ssn = I.ssn"+
+//			" group by I.name, I.ssn"+
+//			" order by nums desc limit 1";
+//		
+//		else if(age==null && job==null)
+//			return
+//			"select I.name , I.ssn , count(*) as nums"+
+//			" from item I , orders O , customer C"+
+//			" where O.C_id = C.id and C.Sex="+"\""+sex+ "\""+
+//			" and O.I_ssn = I.ssn"+
+//			" group by I.name, I.ssn"+
+//			" order by nums desc limit 1";
+//
+//		else if(age ==null)
+//			return
+//					"select I.name , I.ssn , count(*) as nums"+
+//					" from item I , orders O , customer C"+
+//					" where O.C_id = C.id and C.Sex="+"\""+sex+ "\""+" AND C.Job="+"\""+job+"\""+
+//					" and O.I_ssn = I.ssn"+
+//					" group by I.name, I.ssn"+
+//					" order by nums desc limit 1";
+//		else if(job==null)
+//			return
+//					"select I.name , I.ssn , count(*) as nums"+
+//					" from item I , orders O , customer C"+
+//					" where O.C_id = C.id and C.Sex="+"\""+sex+ "\""+" AND "+"C.Age>="+Math.floor(Integer.valueOf(age))+" AND C.Age<"+Math.ceil(Integer.valueOf(age))+
+//					" and O.I_ssn = I.ssn"+
+//					" group by I.name, I.ssn"+
+//					" order by nums desc limit 1";
+//		else if(sex ==null)
+//			return
+//					"select I.name , I.ssn , count(*) as nums"+
+//					" from item I , orders O , customer C"+
+//					" where O.C_id = C.id and C.Job="+"\""+job+ "\""+" AND "+"C.Age>="+Math.floor(Integer.valueOf(age))+" AND C.Age<"+Math.ceil(Integer.valueOf(age))+
+//					" and O.I_ssn = I.ssn"+
+//					" group by I.name, I.ssn"+
+//					" order by nums desc limit 1";
+//		
+//		return null;
+//	}
+	
+	public static String getRecommandQuery( String age, String sex) {
 		
-		if(age==null && job==null&&sex==null)
+		if(age==null &&sex==null)
 			return null;
-		else if(age!=null && job!=null && sex!=null)
-			return
-					"select I.name , I.ssn , count(*) as nums"+
-					" from item I , orders O , customer C"+
-					" where O.C_id = C.id and C.Sex="+"\""+sex+ "\""+" AND "+"C.Age>="+Math.floor(Integer.valueOf(age))+" AND C.Age<"+Math.ceil(Integer.valueOf(age))+" AND C.Job="+"\""+job+"\""+
-					" and O.I_ssn = I.ssn"+
-					" group by I.name, I.ssn"+
-					" order by nums desc limit 1";
-		else if(job==null && sex==null)
-			return "select I.name , I.ssn , count(*) as nums"+
-				" from item I , orders O , customer C"+
-				" where O.C_id = C.id and C.age >=" + Math.floor(Integer.valueOf(age))+"+ and C.age <"+Math.ceil(Integer.valueOf(age))+
-				" and O.I_ssn = I.ssn"+
-				" group by I.name, I.ssn"+
-				" order by nums desc limit 1";
-		
-		else if(age==null && sex==null)
-			return "select I.name , I.ssn , count(*) as nums"+
-			" from item I , orders O , customer C"+
-			" where O.C_id = C.id and C.Job="+"\""+job+ "\""+
-			" and O.I_ssn = I.ssn"+
-			" group by I.name, I.ssn"+
-			" order by nums desc limit 1";
-		
-		else if(age==null && job==null)
-			return
-			"select I.name , I.ssn , count(*) as nums"+
-			" from item I , orders O , customer C"+
-			" where O.C_id = C.id and C.Sex="+"\""+sex+ "\""+
-			" and O.I_ssn = I.ssn"+
-			" group by I.name, I.ssn"+
-			" order by nums desc limit 1";
-
-		else if(age ==null)
-			return
-					"select I.name , I.ssn , count(*) as nums"+
-					" from item I , orders O , customer C"+
-					" where O.C_id = C.id and C.Sex="+"\""+sex+ "\""+" AND C.Job="+"\""+job+"\""+
-					" and O.I_ssn = I.ssn"+
-					" group by I.name, I.ssn"+
-					" order by nums desc limit 1";
-		else if(job==null)
+		else if(age!=null && sex!=null)
 			return
 					"select I.name , I.ssn , count(*) as nums"+
 					" from item I , orders O , customer C"+
@@ -86,11 +110,21 @@ public class Main {
 					" and O.I_ssn = I.ssn"+
 					" group by I.name, I.ssn"+
 					" order by nums desc limit 1";
+		
+		else if(age ==null)
+			return
+					"select I.name , I.ssn , count(*) as nums"+
+					" from item I , orders O , customer C"+
+					" where O.C_id = C.id and C.Sex="+"\""+sex+ "\""+
+					" and O.I_ssn = I.ssn"+
+					" group by I.name, I.ssn"+
+					" order by nums desc limit 1";
+		
 		else if(sex ==null)
 			return
 					"select I.name , I.ssn , count(*) as nums"+
 					" from item I , orders O , customer C"+
-					" where O.C_id = C.id and C.Job="+"\""+job+ "\""+" AND "+"C.Age>="+Math.floor(Integer.valueOf(age))+" AND C.Age<"+Math.ceil(Integer.valueOf(age))+
+					" where O.C_id = C.id and "+ "C.Age>="+Math.floor(Integer.valueOf(age))+" AND C.Age<"+Math.ceil(Integer.valueOf(age))+
 					" and O.I_ssn = I.ssn"+
 					" group by I.name, I.ssn"+
 					" order by nums desc limit 1";
@@ -166,10 +200,10 @@ public class Main {
 //		}
 		indexStrs.add("CREATE INDEX customer_id_pwd_addr_phone ON CUSTOMER(Id,Password,Address,Phone)");
 		indexStrs.add("CREATE INDEX customer_all ON CUSTOMER(Id,Password,Name,Job,Address,Sex,Age)");
-		indexStrs.add("CREATE INDEX customer_editInfo ON CUSTOMER(Password,Name,Job,Address,Sex,Age)");
+		indexStrs.add("CREATE INDEX customer_editInfo ON CUSTOMER(Password,Name,Job,Address,Sex,Age");
 		indexStrs.add("CREATE INDEX customer_editPwd ON CUSTOMER(Password)");
 		indexStrs.add("CREATE INDEX customer_login ON CUSTOMER(Id,Password)");
-		indexStrs.add("CREATE INDEX item_cat ON ITEM(Cat_sub)");
+		indexStrs.add("CREATE INDEX item_cat ON ITEM(Cat_ssb)");
 		indexStrs.add("CREATE INDEX item_name ON ITEM(Name)");
 		indexStrs.add("CREATE INDEX item_watch ON ITEM(Name,Price,MadePlace,Amount )");
 		indexStrs.add("CREATE INDEX is_in_all ON IS_IN(I_ssn,S_c_id)");
@@ -177,18 +211,23 @@ public class Main {
 		indexStrs.add("CREATE INDEX bag_id_amount ON SHOPPINGBAG(C_id,Amount)" );
 		
 		try {
+			int res;
 			for(int i=0;i<indexStrs.size();i++) 
-				stmt.executeUpdate(indexStrs.get(i));
+				res=stmt.executeUpdate(indexStrs.get(i));
 			conn.commit();
 		}
+		
 		catch (SQLException e) {
 			e.printStackTrace();
 			System.exit(1);
+			// TODO: handle exception
 		}
+		
 		
 		try {
 			// Let's execute an SQL statement.
 			String sql = "SELECT * from CUSTOMER";
+			String bagSelectQuery,createBagQuery;
 			ResultSet rs = stmt.executeQuery(sql);
 			while(rs.next()) {
 				// no impedance mismatch in JDBC
@@ -204,6 +243,14 @@ public class Main {
 				int orderedtimes= rs.getInt(9);
 				//System.out.println(id+" "+pwd+" "+name+" "+job+" "+addr+" "+sex+" "+age+" "+phone);
 				idAndCust.put(id,new Customer(id,pwd,addr,phone,name,job,sex,age));
+				
+				//기존 유저가 쇼핑백이 없을 경우 만드는 쿼
+				bagSelectQuery = Shoppingbag.selectByID(id);
+				ResultSet rs2= stmt.executeQuery(bagSelectQuery);
+				if(rs2.next()==false) {
+					createBagQuery= Shoppingbag.getCreateBagQuery(id);
+					stmt.executeUpdate(createBagQuery);
+				}
 			}
 			conn.commit();			
 		}catch(SQLException ex2) {
@@ -345,7 +392,7 @@ public class Main {
 								
 								if(res ==1) {
 									System.out.println("회원가입 되었습니다!\n");
-									String recQuery= Main.getRecommandQuery(age, job, sex);
+									String recQuery= Main.getRecommandQuery(age, sex);
 									
 									ResultSet rs = stmt.executeQuery(recQuery);
 									System.out.println("추천상품:\n");
@@ -492,7 +539,7 @@ public class Main {
 					  
 					    try {
 							// Let's execute an SQL statement.
-							String recQuery = Main.getRecommandQuery(newAge, newJob, newSex);
+							String recQuery = Main.getRecommandQuery(newAge, newSex);
 							if(recQuery==null)
 								System.out.println("추천상품을 보고 싶으시다면 추가정보를 입력하세요");
 							ResultSet rs = stmt.executeQuery(recQuery);
@@ -845,33 +892,7 @@ public class Main {
 					
 					if(choice-1 == BuyFunction.BUY.ordinal())
 					{
-						String AmountQuery=Shoppingbag.getSelectQuery(currentId);
-						int check=0;
-						
-						try {
-							ResultSet rs;
-							rs=stmt.executeQuery(AmountQuery);
-							if(rs.next())
-							{
-								do {
-									check=rs.getInt(1);
-								}while(rs.next());
-							}
-							else
-							{
-								System.out.println("장바구니에 상품이 존재하지 않습니다. 장바구니에 상품을 넣으신 후 이용해주세요.");
-								continue;
-							}
-							conn.commit();
-						}
-						catch(SQLException e)
-						{
-							e.printStackTrace();
-							System.exit(1);
-						}
-					
-
-						if(check==0)
+						if(isinList.size()==0)
 						{
 							System.out.println("장바구니에 상품이 존재하지 않습니다. 장바구니에 상품을 넣으신 후 이용해주세요.");
 							continue;
@@ -880,32 +901,33 @@ public class Main {
 						int i;
 						ResultSet rs;
 						String showIsinItemQuery;
-						
-						showIsinItemQuery = Item.showIsInItemQuery(currentId);
-						try {
-							rs = stmt.executeQuery(showIsinItemQuery);
-							while(rs.next()) {
-								int amount =rs.getInt(1);
-								String importer=rs.getString(2);
-								String madeDate =rs.getString(3);
-								String ssn=rs.getString(4);
-								int  price = rs.getInt(5);
-								String madePlace =rs.getString(6);
-								String maker=rs.getString(7);
-								String name = rs.getString(8);
-								String cat_sub= rs.getString(9);
-								String p_ssn =rs.getString(11);
-								System.out.println(" 이름:" + name + " ,가격:" + price+" ,원산지:"+madePlace+" ,수량:"+amount+" ,수입자:"+importer+" ,제조연원일:"+madeDate+" ,판매자:"+maker+" ,카테고리:"+cat_sub+",판매자등록번호:"+p_ssn );
-							}
-							conn.commit();
-						}
-						catch(SQLException e)
+						for(i=0; i<isinList.size(); i++)
 						{
-							e.printStackTrace();
-							System.exit(1);
-						}
+							showIsinItemQuery = Item.showIsinItemsQuery(isinList.get(i).getSsn());
+							try {
+								rs = stmt.executeQuery(showIsinItemQuery);
+								while(rs.next()) {
+									int amount =rs.getInt(1);
+									String importer=rs.getString(2);
+									String madeDate =rs.getString(3);
+									String ssn=rs.getString(4);
+									int  price = rs.getInt(5);
+									String madePlace =rs.getString(6);
+									String maker=rs.getString(7);
+									String name = rs.getString(8);
+									String cat_sub= rs.getString(9);
+									String p_ssn =rs.getString(11);
+									System.out.println(" 이름:" + name + " ,가격:" + price+" ,원산지:"+madePlace+" ,수량:"+amount+" ,수입자:"+importer+" ,제조연원일:"+madeDate+" ,판매자:"+maker+" ,카테고리:"+cat_sub+",판매자등록번호:"+p_ssn );
+								}
+								conn.commit();
+							}
+							catch(SQLException e)
+							{
+								e.printStackTrace();
+								System.exit(1);
+							}
 							
-		
+						}	
 						sc.nextLine();
 						System.out.println("구매할 상품의 이름을 입력하세요."); String i_name = sc.nextLine();
 						System.out.println("구매할 수량을 입력하세요"); int order_num = sc.nextInt();
@@ -952,32 +974,32 @@ public class Main {
 						}
 						
 						ISIN isinObj = new ISIN(currentId,i_ssn);
-//						for(i=0; i<isinList.size(); i++)
-//						{
-//							if(isinList.get(i).getSsn().equals(i_ssn))
-//							{
-//								isinList.remove(i);
-//								break;
-//							}
-//						}
-//						
-//						File f =new File(currentId+"_isin.bin");
-//						if(f.exists())
-//							f.delete();
-//						
-//						try (ObjectOutputStream oos =new ObjectOutputStream(new FileOutputStream(currentId+"_isin.bin",false))){
-//							try {
-//								oos.writeObject(isinList);
-//							}
-//							catch(EOFException e) {
-//								e.printStackTrace();
-//								System.exit(1);
-//							}
-//						}
-//						catch(IOException  e) {
-//							e.printStackTrace();
-//							System.exit(1);
-//						}
+						for(i=0; i<isinList.size(); i++)
+						{
+							if(isinList.get(i).getSsn().equals(i_ssn))
+							{
+								isinList.remove(i);
+								break;
+							}
+						}
+						
+						File f =new File(currentId+"_isin.bin");
+						if(f.exists())
+							f.delete();
+						
+						try (ObjectOutputStream oos =new ObjectOutputStream(new FileOutputStream(currentId+"_isin.bin",false))){
+							try {
+								oos.writeObject(isinList);
+							}
+							catch(EOFException e) {
+								e.printStackTrace();
+								System.exit(1);
+							}
+						}
+						catch(IOException  e) {
+							e.printStackTrace();
+							System.exit(1);
+						}
 						
 						String bagDeleteQuery = isinObj.getDeleteQuery();
 						String bagSelectQuery = Shoppingbag.getSelectQuery(currentId);
@@ -1001,24 +1023,8 @@ public class Main {
 							int res=stmt.executeUpdate(bagUpdateQuery);
 							if(res==1)
 								System.out.println("구매되었습니다.");
-							
+
 							stmt.executeUpdate(bagDeleteQuery);
-							conn.commit();
-						}
-						catch(SQLException e) {
-							e.printStackTrace();
-							System.exit(1);
-						}
-						String getOrdertimesQuery=Customer.getOrdertimeQuery(currentId);
-						int ordertimes=0;
-						
-						try {
-							rs=stmt.executeQuery(getOrdertimesQuery);
-							while(rs.next()) {
-								ordertimes=rs.getInt(1);
-							}
-							String UpdateOrdertimeQuery=Customer.getUpdateOrdertimeQuery(currentId, ordertimes);
-							stmt.executeUpdate(UpdateOrdertimeQuery);
 							conn.commit();
 						}
 						catch(SQLException e) {
