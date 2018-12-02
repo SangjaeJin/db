@@ -26,6 +26,7 @@ public class ISIN implements Serializable{
 		return "SELECT I_ssn FROM IS_IN WHERE S_c_id="+"\""+id+"\""+" AND I_ssn="+"\""+ssn+"\"";
 	}
 	
+	
 	public static String getInsertISINQuery(String id,String ssn) {
 		return "INSERT INTO IS_IN VALUES("+ "\""+ ssn+ "\"" +","+ "\""+ id+"\""+")";
 	}
