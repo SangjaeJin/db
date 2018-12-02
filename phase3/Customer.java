@@ -84,17 +84,19 @@ public class Customer implements Serializable {
 	}
 	public String getSex() {
 		
-		if(sex!=null) {
-			char[] sexChar= sex.toCharArray();
-			return "\""+ sexChar[0]+"\"";
-		}
-	
+//		if(sex!=null) {
+//			char[] sexChar= sex.toCharArray();
+//			return "\""+ sexChar[0]+"\"";
+//		}
+		if(sex!=null)
+			return sex;
 		else
 			return null;
 	}
 	public String getAge() {
 		if(age!=null)
 			return "\""+ age+"\"";
+			
 		else
 			return null;
 	}
