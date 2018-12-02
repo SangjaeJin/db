@@ -27,6 +27,7 @@ public class Item {
 	{
 		return "UPDATE ITEM SET Amount="+amount+" WHERE Name="+"\""+name+"\"";
 	}
+	
 	public static String showZeroAmountQuery()
 	{
 		return "SELECT * FROM ITEM WHERE Amount=0";
