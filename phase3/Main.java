@@ -400,7 +400,7 @@ public class Main {
 									System.out.println("추천상품:\n");
 									while(rs.next()) {
 										// no impedance mismatch in JDBC
-										String itemName 		= rs.getString(1);
+										String itemName = rs.getString(1);
 										System.out.println(itemName+"\n");
 									}
 									conn.commit();			
