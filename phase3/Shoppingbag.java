@@ -12,6 +12,7 @@ public class Shoppingbag {
 	public static String getCreateBagQuery(String id) {
 		return "INSERT INTO SHOPPINGBAG VALUES(0,"  +"\""+id+"\""+")";
 	}
+	
 	public static String getUpdateAmountQuery(String id,int amt)
 	{
 		amt-=1;
