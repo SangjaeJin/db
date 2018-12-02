@@ -229,6 +229,7 @@ public class Main {
 			String sql = "SELECT * from CUSTOMER";
 			String bagSelectQuery,createBagQuery;
 			ResultSet rs = stmt.executeQuery(sql);
+			ResultSet rs2=null;
 			while(rs.next()) {
 				// no impedance mismatch in JDBC
 				String 	id	= rs.getString(1);
@@ -246,7 +247,7 @@ public class Main {
 				
 				//기존 유저가 쇼핑백이 없을 경우 만드는 쿼
 				bagSelectQuery = Shoppingbag.selectByID(id);
-				ResultSet rs2= stmt.executeQuery(bagSelectQuery);
+				rs2= stmt.executeQuery(bagSelectQuery);
 				if(rs2.next()==false) {
 					createBagQuery= Shoppingbag.getCreateBagQuery(id);
 					stmt.executeUpdate(createBagQuery);
