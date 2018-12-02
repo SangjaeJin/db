@@ -106,12 +106,12 @@ public class Main {
 			return
 					"select I.name , I.ssn , count(*) as nums"+
 					" from item I , orders O , customer C"+
-					" where O.C_id = C.id and C.Sex="+"\""+sex+ "\""+" AND "+"C.Age>=" +  Math.floor(Integer.valueOf(age).intValue())+" AND C.Age<"+Math.ceil(Integer.valueOf(age).intValue())+
+					" where O.C_id = C.id and C.Sex="+"\""+sex+ "\""+" AND "+"C.Age>=" + (Integer.valueOf(age) - Integer.valueOf(age)%10) + " AND C.Age<"+ (Integer.valueOf(age) - Integer.valueOf(age)%10 +9)+
 					" and O.I_ssn = I.ssn"+
 					" group by I.name, I.ssn"+
 					" order by nums desc limit 1";
 		
-		else if(age ==null)
+		else if(age ==null && sex!=null)
 			return
 					"select I.name , I.ssn , count(*) as nums"+
 					" from item I , orders O , customer C"+
@@ -120,11 +120,11 @@ public class Main {
 					" group by I.name, I.ssn"+
 					" order by nums desc limit 1";
 		
-		else if(sex ==null)
+		else if(sex ==null && age!=null)
 			return
 					"select I.name , I.ssn , count(*) as nums"+
 					" from item I , orders O , customer C"+
-					" where O.C_id = C.id and "+ "C.Age>="+Math.floor(Integer.valueOf(age).intValue())+" AND C.Age<"+Math.ceil(Integer.valueOf(age).intValue())+
+					" where O.C_id = C.id and "+ "C.Age>="+(Integer.valueOf(age) - Integer.valueOf(age)%10) + " AND C.Age<"+ (Integer.valueOf(age) - Integer.valueOf(age)%10 +9)+
 					" and O.I_ssn = I.ssn"+
 					" group by I.name, I.ssn"+
 					" order by nums desc limit 1";
