@@ -720,7 +720,7 @@ public class ShoppingMain {
 								String maker=rs.getString(7);
 								String name = rs.getString(8);
 								String cat_sub= rs.getString(9);
-								String p_ssn =rs.getString(11);
+								String p_ssn =rs.getString(10);
 								System.out.println(" 이름:" + name + " ,가격:" + price+" ,원산지:"+madePlace+" ,수량:"+amount+" ,수입자:"+importer+" ,제조연원일:"+madeDate+" ,판매자:"+maker+" ,카테고리:"+cat_sub+",판매자등록번호:"+p_ssn );
 							}
 							conn.commit();
@@ -895,7 +895,7 @@ public class ShoppingMain {
 									String maker=rs.getString(7);
 									String name = rs.getString(8);
 									String cat_sub= rs.getString(9);
-									String p_ssn =rs.getString(11);
+									String p_ssn =rs.getString(10);
 									System.out.println(" 이름:" + name + " ,가격:" + price+" ,원산지:"+madePlace+" ,수량:"+amount+" ,수입자:"+importer+" ,제조연원일:"+madeDate+" ,판매자:"+maker+" ,카테고리:"+cat_sub+",판매자등록번호:"+p_ssn );
 								}while(rs.next());
 							}
@@ -967,7 +967,7 @@ public class ShoppingMain {
 									String maker=rs.getString(7);
 									String name = rs.getString(8);
 									String cat_sub= rs.getString(9);
-									String p_ssn =rs.getString(11);
+									String p_ssn =rs.getString(10);
 									System.out.println(" 이름:" + name + " ,가격:" + price+" ,원산지:"+madePlace+" ,수량:"+amount+" ,수입자:"+importer+" ,제조연원일:"+madeDate+" ,판매자:"+maker+" ,카테고리:"+cat_sub+",판매자등록번호:"+p_ssn );
 								}while(rs.next());
 							}
