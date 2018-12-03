@@ -118,7 +118,7 @@ public class ShoppingMain {
 		indexStrs.add("CREATE INDEX is_in_all ON IS_IN(I_ssn,S_c_id)");
 		indexStrs.add("CREATE INDEX bag_id ON SHOPPINGBAG(C_id)");
 		indexStrs.add("CREATE INDEX bag_id_amount ON SHOPPINGBAG(C_id,Amount)" );
-		indexStrs.add("CREATE INDEX order_id ON ORDER(C_id)");
+		indexStrs.add("CREATE INDEX order_id ON ORDERS(C_id)");
 		
 		try {										//index 만들었을 경우 코드 주석후 실행하세요
 			for(int i=0;i<indexStrs.size();i++) 
